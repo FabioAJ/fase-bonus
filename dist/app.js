@@ -1,46 +1,61 @@
-/* Curadoria estática. Nenhuma chamada de coleta é feita ao abrir esta página. */
-const {opportunities, sources} = window.RADAR;
-const $ = id => document.getElementById(id);
-const esc = text => String(text).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const normalize = value => String(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-let favorites = new Set();
-try { const saved = JSON.parse(localStorage.getItem('radar-games-favorites') || '[]'); if (Array.isArray(saved)) favorites = new Set(saved.filter(id => opportunities.some(o => o.id === id))); } catch {}
-const current = o => ['een','media'].includes(o.id);
-const tone = o => o.decision === 'Explorar' ? 'explore' : o.decision === 'Não priorizar' ? 'skip' : 'watch';
-function showPanel(name){
-  if (!['opportunities','sources','plan'].includes(name)) name='opportunities';
-  document.querySelectorAll('.panel').forEach(p=>p.hidden=p.id!==name);
-  document.querySelectorAll('.tab').forEach(t=>{const active=t.dataset.panel===name;t.classList.toggle('active',active);t.setAttribute('aria-selected',String(active));});
+/* Curadoria estática: abrir a página não executa coleta. */
+const {opportunities,sources}=window.RADAR;
+const $=id=>document.getElementById(id);
+const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm=v=>String(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const topics={een:['Jogos sérios','Educação','P&D','Internacional'],media:['Jogos narrativos','XR / imersão','Internacional'],senai2025:['Jogos sérios','Educação','Capacitação','Simulação'],jornada:['Educação','Engajamento','Desafio corporativo'],opencorp:['Capacitação','Engajamento','Desafio corporativo'],arcade:['Jogos sérios','Educação','Protótipo']};
+const colors={'Jogos sérios':'sage','Educação':'blue','P&D':'violet','Internacional':'gray','Jogos narrativos':'violet','XR / imersão':'teal','Capacitação':'sand','Simulação':'teal','Engajamento':'rose','Desafio corporativo':'sand','Protótipo':'blue'};
+const state={quick:'all',status:'',region:'',decision:'',topics:new Set(),view:'list'};
+let favorites=new Set();
+try{const ids=JSON.parse(localStorage.getItem('radar-games-favorites')||'[]');if(Array.isArray(ids))favorites=new Set(ids.filter(id=>opportunities.some(o=>o.id===id)));const view=localStorage.getItem('radar-games-view');if(['list','grid'].includes(view))state.view=view;}catch{}
+const current=o=>['een','media'].includes(o.id),dcolor=o=>o.decision==='Explorar'?'sage':o.decision==='Não priorizar'?'rose':'sand',scolor=o=>current(o)?'blue':o.status==='Seleção já avançada'?'sand':'gray';
+const priority={een:0,senai2025:1,jornada:2,opencorp:3,media:4,arcade:5};
+const pill=(label,color='gray')=>`<span class="tag tc-${color}"><span class="tag-dot"></span>${esc(label)}</span>`;
+const topicButton=t=>`<button class="tag topic-tag tc-${colors[t]} ${state.topics.has(t)?'selected':''}" data-topic="${esc(t)}" aria-pressed="${state.topics.has(t)}" aria-label="Filtrar por tema: ${esc(t)}"><span class="tag-dot"></span>${esc(t)}</button>`;
+function route(){const panel=location.hash==='#plano'?'plan':location.hash==='#fontes'?'sources':'opportunities';document.querySelectorAll('.panel').forEach(p=>p.hidden=p.id!==panel);document.querySelectorAll('.tab').forEach(b=>{const active=b.dataset.panel===panel;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});}
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>location.hash={plan:'plano',sources:'fontes',opportunities:'oportunidades'}[b.dataset.panel]));window.addEventListener('hashchange',route);route();
+function option(group,value,label,count,color){return `<button class="filter-option ${state[group]===value?'selected':''}" data-group="${group}" data-value="${esc(value)}" aria-pressed="${state[group]===value}"><span>${color?`<i class="dot ${color}"></i>`:''}${esc(label)}</span><span class="option-count">${count}</span></button>`;}
+function renderFilters(){
+ $('quickFilters').innerHTML=option('quick','all','Todas as fichas',6)+option('quick','favorites','★ Favoritos',favorites.size);
+ $('statusFilters').innerHTML=option('status','','Todas',6)+option('status','current','Vigência futura',2,'blue')+option('status','past','Edições passadas / seleção',4,'neutral');
+ $('regionFilters').innerHTML=option('region','','Qualquer território',6)+option('region','Brasil','Brasil',4)+option('region','international','Internacional',2);
+ $('decisionFilters').innerHTML=option('decision','','Todas as avaliações',6)+['Explorar','Monitorar próxima edição','Não priorizar'].map((v,i)=>option('decision',v,v,opportunities.filter(o=>o.decision===v).length,['sage','sand','rose'][i])).join('');
+ $('topicFilters').innerHTML=[...new Set(Object.values(topics).flat())].map(topicButton).join('');
 }
-function route(){showPanel(location.hash==='#plano'?'plan':location.hash==='#fontes'?'sources':'opportunities');}
-document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{location.hash={plan:'plano',sources:'fontes',opportunities:'oportunidades'}[t.dataset.panel];}));
-window.addEventListener('hashchange',route);route();
+function activeItems(){const a=[];if($('search').value.trim())a.push({key:'search',label:'Busca: '+$('search').value.trim()});if(state.quick==='favorites')a.push({key:'quick',label:'Favoritos'});if(state.status)a.push({key:'status',label:state.status==='current'?'Vigência futura':'Edições passadas / seleção'});if(state.region)a.push({key:'region',label:state.region==='Brasil'?'Brasil':'Internacional'});if(state.decision)a.push({key:'decision',label:state.decision});state.topics.forEach(t=>a.push({key:'topic',value:t,label:t}));return a;}
+function renderActive(){const a=activeItems();$('activeFilters').hidden=!a.length;$('activeFilters').innerHTML=a.map(f=>`<button class="active-chip" data-remove="${f.key}" data-value="${esc(f.value||'')}" aria-label="Remover filtro: ${esc(f.label)}">${esc(f.label)} <span aria-hidden="true">×</span></button>`).join('')+(a.length?'<button class="text-button" data-clear>Limpar tudo</button>':'');$('filterBadge').textContent=a.length||'';}
+function filtered(){const q=norm($('search').value),sort=$('sort').value;return opportunities.filter(o=>(!q||norm([o.name,o.org,o.summary,o.type,o.money,...o.requirements,...o.gaps,...topics[o.id]].join(' ')).includes(q))&&(state.quick!=='favorites'||favorites.has(o.id))&&(!state.status||(state.status==='current'?current(o):!current(o)))&&(!state.region||(state.region==='Brasil'?o.region==='Brasil':o.region!=='Brasil'))&&(!state.decision||o.decision===state.decision)&&(!state.topics.size||topics[o.id].some(t=>state.topics.has(t)))).sort((a,b)=>sort==='org'?a.org.localeCompare(b.org,'pt-BR'):sort==='deadline'?(current(a)&&a.deadline?a.deadline:'9999').localeCompare(current(b)&&b.deadline?b.deadline:'9999')||priority[a.id]-priority[b.id]:priority[a.id]-priority[b.id]);}
+function renderCards(){const list=filtered();$('applyFilters').textContent=`Ver ${list.length} ${list.length===1?'resultado':'resultados'}`;$('resultCount').innerHTML=`<strong>${list.length}</strong> de ${opportunities.length} fichas <span>· ${list.filter(current).length} com vigência futura</span>`;$('cards').className=`cards ${state.view}-view`;document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===state.view)));$('cards').innerHTML=list.length?list.map(o=>`<article class="card" aria-labelledby="title-${o.id}">
+ <div class="card-top"><div class="card-badges">${pill(o.status,scolor(o))}${pill(o.type)}</div><button class="fav ${favorites.has(o.id)?'selected':''}" data-favorite="${o.id}" aria-label="${favorites.has(o.id)?'Remover dos':'Adicionar aos'} favoritos: ${esc(o.name)}" aria-pressed="${favorites.has(o.id)}">${favorites.has(o.id)?'★':'☆'}</button></div>
+ <div class="card-content"><div class="card-overview"><p class="org">${esc(o.org)}</p><h2 id="title-${o.id}">${esc(o.name)}</h2><p class="summary">${esc(o.summary)}</p><div class="card-topics">${topics[o.id].map(topicButton).join('')}</div><dl class="facts"><div class="deadline"><dt>Prazo / calendário</dt><dd>${esc(o.dateLabel)}</dd><span>${esc(o.horizon)}</span></div><div><dt>Recursos</dt><dd>${esc(o.money)}</dd></div><div><dt>Território</dt><dd>${esc(o.region)}</dd></div></dl></div><div class="card-requirements"><h3><span aria-hidden="true">☷</span> Requisitos conhecidos <span>${o.requirements.length}</span></h3><ul>${o.requirements.map(r=>`<li>${esc(r)}</li>`).join('')}</ul><div class="missing"><strong>A confirmar</strong><p>${esc(o.gaps[0])}</p></div></div></div>
+ <div class="card-verdict"><span class="verdict-label"><i class="dot ${dcolor(o)}"></i>${esc(o.decision)}</span><p>${esc(o.judgment)}</p></div><div class="card-bottom"><span class="record-date">Pesquisa · 05/11/2026</span><div><button class="details-btn" data-detail="${o.id}">Análise completa</button><a class="source-button" href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">${o.id==='een'?'Ver parceria':'Ver fonte'} ↗</a></div></div></article>`).join(''):'<div class="empty"><span>⌕</span><h2>Nenhuma ficha com esses filtros</h2><p>Tente outro termo ou remova algum filtro.</p><button class="secondary" data-clear>Limpar filtros</button></div>';}
 function render(){
-  const q=normalize($('search').value), status=$('status').value, decision=$('decision').value;
-  const list=opportunities.filter(o=>(!q||normalize([o.name,o.org,o.summary,o.type,...o.requirements].join(' ')).includes(q))&&(!status||(status==='current'?current(o):!current(o)))&&(!decision||o.decision===decision)&&(!$('onlyFav').checked||favorites.has(o.id)));
-  $('resultCount').textContent=`${list.length} de ${opportunities.length} fichas`;
-  $('cards').innerHTML=list.length?list.map(o=>`<article class="card"><div class="card-top"><span class="tag ${tone(o)}">${esc(o.decision)}</span><button class="fav ${favorites.has(o.id)?'selected':''}" data-favorite="${o.id}" aria-label="${favorites.has(o.id)?'Remover dos':'Adicionar aos'} favoritos: ${esc(o.name)}" aria-pressed="${favorites.has(o.id)}">${favorites.has(o.id)?'★':'☆'}</button></div><p class="org">${esc(o.org)}</p><h3>${esc(o.name)}</h3><p class="summary">${esc(o.summary)}</p><div class="facts"><div><span class="fact-label">Situação</span><span class="fact-value">${esc(o.status)}</span></div><div><span class="fact-label">Prazo / calendário</span><span class="fact-value">${esc(o.dateLabel)}</span></div><div><span class="fact-label">Modalidade</span><span class="fact-value">${esc(o.type)}</span></div><div><span class="fact-label">Território</span><span class="fact-value">${esc(o.region)}</span></div></div><div class="verdict"><strong>Vale a pena?</strong>${esc(o.judgment)}</div><div class="card-bottom"><button class="details-btn" data-detail="${o.id}">Ver requisitos e análise ↗</button><small>${o.requirements.length} requisitos mapeados</small></div></article>`).join(''):'<div class="empty">Nenhuma ficha com esses filtros. Ajuste a busca ou desmarque “Só favoritos”.</div>';
+ const el=document.activeElement;
+ const keys=el?.dataset;
+ let restore=null;
+ if(keys?.group)restore=`#filterPanel [data-group="${CSS.escape(keys.group)}"][data-value="${CSS.escape(keys.value)}"]`;
+ else if(keys?.favorite)restore=`[data-favorite="${CSS.escape(keys.favorite)}"]`;
+ else if(keys?.topic)restore=`${el.closest('#filterPanel')?'#filterPanel':'#cards'} [data-topic="${CSS.escape(keys.topic)}"]`;
+ else if(keys?.remove)restore='#search';
+ renderFilters();renderActive();renderCards();
+ if(restore)(document.querySelector(restore)||$('search')).focus({preventScroll:true});
 }
-['search','status','decision','onlyFav'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',render));
-$('cards').addEventListener('click',e=>{
-  const fav=e.target.closest('[data-favorite]');
-  if(fav){const id=fav.dataset.favorite;favorites.has(id)?favorites.delete(id):favorites.add(id);try{localStorage.setItem('radar-games-favorites',JSON.stringify([...favorites]));}catch{toast('Favoritos disponíveis só nesta sessão: armazenamento indisponível.');}render();return;}
-  const btn=e.target.closest('[data-detail]');if(btn)openDetail(btn.dataset.detail);
-});
-function openDetail(id){
-  const o=opportunities.find(item=>item.id===id);if(!o)return;
-  const list=items=>'<ul>'+items.map(i=>'<li>'+esc(i)+'</li>').join('')+'</ul>';
-  $('detailBody').innerHTML=`<span class="tag ${tone(o)}">${esc(o.decision)}</span><h2>${esc(o.name)}</h2><p class="org">${esc(o.org)} · ${esc(o.region)}</p><p>${esc(o.summary)}</p><div class="detail-callout"><p><strong>${esc(o.status)}</strong><br>${esc(o.dateLabel)}. ${esc(o.horizon)}</p></div><h3>Requisitos conhecidos</h3>${list(o.requirements)}<h3>O que falta confirmar</h3>${list(o.gaps)}<h3>Recursos e modalidade</h3><p>${esc(o.money)} · ${esc(o.type)}.</p><h3>Nosso julgamento</h3><p>${esc(o.judgment)}</p><h3>Próximo passo recomendado</h3><p>${esc(o.next)}</p><h3>Evidência e limites da pesquisa</h3><p>${esc(o.evidence)}</p><p class="quality">${esc(o.quality)} · Registro da pesquisa em 05/11/2026. Síntese do levantamento, sujeita ao edital integral e retificações.</p><a class="detail-source" target="_blank" rel="noopener noreferrer" href="${esc(o.url)}">Consultar ${esc(o.source)} ↗</a>`;
-  $('detail').showModal();
-}
-$('closeDetail').addEventListener('click',()=>$('detail').close());
-$('detail').addEventListener('click',e=>{if(e.target===$('detail')){const r=$('detail').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$('detail').close();}});
-$('sourceCards').innerHTML=sources.map(s=>`<article class="source-card"><span class="tag ${s.priority==='Alta'?'explore':'watch'}">Prioridade ${esc(s.priority.toLowerCase())}</span><span class="cadence">Proposta: ${esc(s.cadence.toLowerCase())}</span><h3>${esc(s.name)}</h3><p>${esc(s.scope)}</p><span class="fact-label">Onde coletar</span><span class="fact-value">${esc(s.method)}</span><p class="source-note">${esc(s.note)}</p><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">Abrir fonte ↗</a></article>`).join('');
-let toastTimer;
-function toast(message){$('toast').textContent=message;$('toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,3500);}
+function clear(){state.quick='all';state.status='';state.region='';state.decision='';state.topics.clear();$('search').value='';render();}
+function toggleTopic(t){state.topics.has(t)?state.topics.delete(t):state.topics.add(t);render();}
+$('filterPanel').addEventListener('click',e=>{const f=e.target.closest('[data-group]');if(f){state[f.dataset.group]=f.dataset.value;render();return;}const t=e.target.closest('[data-topic]');if(t)toggleTopic(t.dataset.topic);});
+$('clearFilters').addEventListener('click',clear);
+$('activeFilters').addEventListener('click',e=>{if(e.target.closest('[data-clear]'))return clear();const b=e.target.closest('[data-remove]');if(!b)return;const k=b.dataset.remove;if(k==='topic')state.topics.delete(b.dataset.value);else if(k==='search')$('search').value='';else state[k]=k==='quick'?'all':'';render();});
+$('search').addEventListener('input',()=>{renderActive();renderCards();});$('sort').addEventListener('change',renderCards);
+document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{state.view=b.dataset.view;try{localStorage.setItem('radar-games-view',state.view);}catch{}renderCards();}));
+$('toggleFilters').addEventListener('click',()=>{const open=$('filterPanel').classList.toggle('is-open');$('toggleFilters').setAttribute('aria-expanded',String(open));if(open)$('filterPanel').scrollIntoView({block:'start'});});
+function closeFilters(){$('filterPanel').classList.remove('is-open');$('toggleFilters').setAttribute('aria-expanded','false');document.querySelector('.results-area').scrollIntoView({block:'start'});$('toggleFilters').focus({preventScroll:true});}
+$('closeFilters').addEventListener('click',closeFilters);$('applyFilters').addEventListener('click',closeFilters);
+document.addEventListener('keydown',e=>{if(e.key==='/'&&!e.ctrlKey&&!e.metaKey&&!e.altKey&&!$('opportunities').hidden&&!$('detail').open&&!e.target.closest('input,textarea,select,[contenteditable]')){e.preventDefault();$('search').focus();}});
+$('cards').addEventListener('click',e=>{if(e.target.closest('[data-clear]'))return clear();const t=e.target.closest('[data-topic]');if(t)return toggleTopic(t.dataset.topic);const f=e.target.closest('[data-favorite]');if(f){const id=f.dataset.favorite;favorites.has(id)?favorites.delete(id):favorites.add(id);try{localStorage.setItem('radar-games-favorites',JSON.stringify([...favorites]));}catch{toast('Armazenamento indisponível. Favoritos salvos nesta sessão.');}render();return;}const b=e.target.closest('[data-detail]');if(b)openDetail(b.dataset.detail);});
+function openDetail(id){const o=opportunities.find(o=>o.id===id);if(!o)return;const ul=a=>'<ul>'+a.map(t=>`<li>${esc(t)}</li>`).join('')+'</ul>';$('detailBody').innerHTML=`<div class="card-badges">${pill(o.status,scolor(o))}${pill(o.decision,dcolor(o))}</div><h2 id="detailTitle">${esc(o.name)}</h2><p class="org">${esc(o.org)} · ${esc(o.region)}</p><p>${esc(o.summary)}</p><div class="detail-callout"><strong>${esc(o.dateLabel)}</strong><p>${esc(o.horizon)}</p></div><h3>Recursos e modalidade</h3><p>${esc(o.money)} · ${esc(o.type)}.</p><h3>Requisitos conhecidos</h3>${ul(o.requirements)}<h3>O que falta confirmar</h3>${ul(o.gaps)}<h3>Nosso julgamento</h3><p>${esc(o.judgment)}</p><h3>Próximo passo recomendado</h3><p>${esc(o.next)}</p><h3>Evidência e limites</h3><p>${esc(o.evidence)}</p><p class="quality">${esc(o.quality)} · Pesquisa de 05/11/2026. Sujeita ao edital integral e retificações.</p><a class="detail-source" target="_blank" rel="noopener noreferrer" href="${esc(o.url)}">Consultar ${esc(o.source)} ↗</a>`;$('detail').showModal();}
+$('closeDetail').addEventListener('click',()=>$('detail').close());$('detail').addEventListener('click',e=>{if(e.target===$('detail')){const r=$('detail').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$('detail').close();}});
+$('sourceCards').innerHTML=sources.map(s=>`<article class="source-card">${pill('Prioridade '+s.priority.toLowerCase(),s.priority==='Alta'?'sage':'gray')}<span class="cadence">Proposta: ${esc(s.cadence.toLowerCase())}</span><h3>${esc(s.name)}</h3><p>${esc(s.scope)}</p><span class="fact-label">Onde coletar</span><span class="fact-value">${esc(s.method)}</span><p class="source-note">${esc(s.note)}</p><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">Abrir fonte ↗</a></article>`).join('');
+let toastTimer;function toast(msg){$('toast').textContent=msg;$('toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,3500);}
 $('copyGoal').addEventListener('click',async()=>{try{await navigator.clipboard.writeText($('goalText').textContent);toast('Brief copiado. Nenhum goal foi iniciado.');}catch{toast('Selecione o texto do brief para copiar.');}});
-$('exportBtn').addEventListener('click',()=>{
-  const blob=new Blob([JSON.stringify({research_date:window.RADAR.checked,horizon:window.RADAR.horizon,automatic_collection:false,opportunities:opportunities.map(o=>({...o,favorite:favorites.has(o.id)})),sources},null,2)],{type:'application/json;charset=utf-8'});
-  const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='radar-games-2026-11-05.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('Exportação das seis fichas e oito fontes preparada.');
-});
+$('exportBtn').addEventListener('click',()=>{const blob=new Blob([JSON.stringify({research_date:window.RADAR.checked,horizon:window.RADAR.horizon,automatic_collection:false,opportunities:opportunities.map(o=>({...o,tags:topics[o.id],favorite:favorites.has(o.id)})),sources},null,2)],{type:'application/json;charset=utf-8'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='radar-games-2026-11-05.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('Exportação completa: seis fichas, tags e oito fontes.');});
 render();
