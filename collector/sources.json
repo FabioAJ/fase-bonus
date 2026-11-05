@@ -1,0 +1,230 @@
+[
+  {
+    "id": "bndes",
+    "name": "BNDES Garagem",
+    "url": "https://garagem.bndes.gov.br/inscreva-se/",
+    "scope": "Aceleração de impacto, incluindo pessoa física.",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": [
+      "https://garagem.bndes.gov.br/wp-content/uploads/2026/10/Edital-BNDES-Garagem-%E2%80%93-Negocios-de-Impacto-2026.pdf"
+    ]
+  },
+  {
+    "id": "explorer",
+    "name": "Santander X Explorer",
+    "url": "https://builder.explorerbyx.org/pt",
+    "scope": "Pré-incubação de ideias, sem empresa constituída.",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": []
+  },
+  {
+    "id": "indiefund",
+    "name": "Indie Fund",
+    "url": "https://indie-fund.com/apply",
+    "scope": "Pitch de jogo autoral com protótipo.",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": []
+  },
+  {
+    "id": "xboxdap",
+    "name": "ID@Xbox / DAP",
+    "url": "https://developer.microsoft.com/en-us/games/articles/2025/12/office_hours_recap_jameslewis_121825/",
+    "scope": "Requisitos de pitch e apoio a protótipos.",
+    "priority": "Média",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": []
+  },
+  {
+    "id": "wings",
+    "name": "WINGS",
+    "url": "https://www.wingsfund.me/faqs",
+    "scope": "Jogo comercial e critérios de liderança; exclui serious games.",
+    "priority": "Condicional",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": []
+  },
+  {
+    "id": "gamevestor",
+    "name": "Gamevestor",
+    "url": "https://www.gamevestor.co/en/submit-project",
+    "scope": "Canal de financiamento para PC/console.",
+    "priority": "Condicional",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": []
+  },
+  {
+    "id": "bhtec",
+    "name": "BH-TEC Conexões",
+    "url": "https://bhtec.org.br/2026/10/27/conexoes-abre-inscricoes-para-startups-que-buscam-ganhar-escala-e-conquistar-mercados-confira-edital/",
+    "scope": "Aceleração em MG, com requisitos empresariais.",
+    "priority": "Média",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": [
+      "https://bhtec.org.br/wp-content/uploads/2026/10/Conexoes-Edital-2026.pdf"
+    ]
+  },
+  {
+    "id": "centelhamg",
+    "name": "Centelha MG / FAPEMIG",
+    "url": "https://prd.site.fapemig.br/oportunidades/chamadas-e-editais/programa-centelha-3-programa-nacional-de-apoio-a-geracao-de-empreendimentos-inovadores",
+    "scope": "Novas chamadas para inovação em Minas Gerais.",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": [],
+    "allowed_domains": [
+      "prd.site.fapemig.br",
+      "api.site.fapemig.br"
+    ]
+  },
+  {
+    "id": "centelhago",
+    "name": "Centelha GO / FAPEG",
+    "url": "https://programacentelha.com.br/go/",
+    "scope": "Novas chamadas para inovação em Goiás.",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": []
+  },
+  {
+    "id": "marica",
+    "name": "Maricá / MARÉ",
+    "url": "https://www.marica.rj.gov.br/noticia/marica-apresenta-edital-de-incentivo-a-criacao-de-prototipos-de-jogos-eletronicos/",
+    "scope": "Minuta de games e cronograma definitivo.",
+    "priority": "Complementar",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": []
+  },
+  {
+    "id": "senai",
+    "name": "SENAI · Aliança Educacional",
+    "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/",
+    "scope": "Jogos educacionais, treinamento técnico, simuladores e ambientes imersivos.",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": []
+  },
+  {
+    "id": "aevo",
+    "name": "AEVO Connect",
+    "url": "https://aevo.com.br/connect/",
+    "scope": "Desafios de diversas empresas; filtrar educação, RH, engajamento e simulação.",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": []
+  },
+  {
+    "id": "jornada",
+    "name": "Sebrae · Conexões Corporativas",
+    "url": "https://sementenegocios.com.br/sebraeinovacaoaberta/solucoes/",
+    "scope": "Problemas de empresas e experimentação remunerada.",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": []
+  },
+  {
+    "id": "opencorp",
+    "name": "Sebrae · Open Corp",
+    "url": "https://sebraemulti.com.br/",
+    "scope": "Onboarding, capacitação e engajamento; depende do perfil aceito.",
+    "priority": "Média",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": []
+  },
+  {
+    "id": "petrobras",
+    "name": "Petrobras · Conexões para Inovação",
+    "url": "https://petrobras.com.br/inovacao-e-tecnologia/inovacao-aberta",
+    "scope": "Desafios empresariais; buscar demandas reais de treinamento e simulação.",
+    "priority": "Média",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": []
+  },
+  {
+    "id": "open100",
+    "name": "100 Open Startups",
+    "url": "https://www.openstartups.net/br-pt/challenges/",
+    "scope": "Descoberta de programas e conexões corporativas.",
+    "priority": "Média",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": []
+  },
+  {
+    "id": "enap",
+    "name": "Enap · Desafios",
+    "url": "https://desafios.enap.gov.br/index.php/pt/",
+    "scope": "Jogos para educação e problemas públicos, se o estúdio aceitar governo.",
+    "priority": "Complementar",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": []
+  },
+  {
+    "id": "een",
+    "name": "Enterprise Europe Network",
+    "url": "https://een.ec.europa.eu/partnering-opportunities",
+    "scope": "Parcerias internacionais em jogos e tecnologias educacionais.",
+    "priority": "Complementar",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": []
+  },
+  {
+    "id": "secultgo",
+    "name": "Secult Goiás",
+    "url": "https://goias.gov.br/cultura/",
+    "scope": "Editais culturais e oportunidades para pessoa física em GO.",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": []
+  },
+  {
+    "id": "secultmg",
+    "name": "Secult Minas Gerais",
+    "url": "https://www.secult.mg.gov.br/",
+    "scope": "Editais culturais e oportunidades para pessoa física em MG.",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
+    "documents": []
+  }
+]

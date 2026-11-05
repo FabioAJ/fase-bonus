@@ -1,0 +1,5 @@
+collector/vendor/
+collector/state/
+collector/__pycache__/
+collector/tests/__pycache__/
+*.pyc
