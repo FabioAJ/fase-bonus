@@ -1,6 +1,6 @@
 # Coletor do Radar Games
 
-Coleta manual de fontes públicas de editais, fomento, programas de empreendedorismo e financiamento de jogos. Sem envio de inscrições, mensagens, acordos ou dados pessoais. Perfil de curadoria atual: MG/GO, sem CNPJ.
+Coleta manual de fontes públicas de editais, fomento, programas de empreendedorismo e financiamento de jogos. Sem envio de inscrições, mensagens, acordos ou dados pessoais. Cobertura nacional, com canais internacionais complementares. CNPJ e estado são filtros; não há aba exclusiva por perfil.
 
 ## Executar
 
@@ -33,8 +33,8 @@ Os testes de PDF usam um documento real da coleta e são pulados se ainda não h
 
 ## Arquivos
 
-- `sources.json`: 20 fontes, URLs e anexos de partida. Adicionar um portal aqui amplia a cobertura da próxima execução.
-- `reviewed.json`: fonte de verdade das 16 fichas conferidas e seus requisitos. Alterar esse arquivo para atualizar a curadoria; os JS de dados são gerados.
+- `sources.json`: 33 fontes, URLs e anexos de partida. Adicionar um portal aqui amplia a cobertura da próxima execução.
+- `reviewed.json`: fonte de verdade das 29 fichas conferidas e seus requisitos. Alterar esse arquivo para atualizar a curadoria; os JS de dados são gerados.
 - `state/state.json`: estado por fonte, hashes, tentativas, último sucesso, documentos e datas com contexto.
 - `state/snapshots/`: evidências públicas baixadas; PDFs e HTML preservados por hash.
 - `state/review-queue.json`: links deduplicados a revisar, incluindo documentos e listagens. Não é lista de editais abertos.
@@ -62,6 +62,14 @@ Depois da revisão, executar `--build-only`. Para a versão hospedada, empacotar
 
 ## Estado desta entrega
 
-A coleta foi executada de verdade nas 20 fontes. 17 tiveram sucesso e 3 falharam: Enap (404), EEN (robots indisponível/recusado) e SENAI (timeout). A página mostra essas limitações. Duas fontes repetidas retornaram `unchanged`. Os links foram reindexados para remover navegação genérica e manter documentos/chamadas na fila.
+A coleta foi executada de verdade nas 33 fontes. 29 tiveram sucesso e 4 falharam: Enap (404), EEN (robots indisponível/recusado), SENAI (timeout) e CEPEDI (página requer JavaScript/revisão manual). A página mostra essas limitações. Duas fontes repetidas retornaram `unchanged`. Os links foram reindexados para remover navegação genérica e manter documentos/chamadas na fila.
 
 Não há agendamento ou backend remoto ativo. A recorrência exige escolher um executor compatível com Python, persistir `state`, configurar a publicação dos dados e verificar o primeiro disparo. Não rodar com intervalos agressivos. Descoberta por busca web continua complementar ao scraping das fontes cadastradas; os resultados da pesquisa desta entrega foram revisados antes da inclusão.
+
+## Filtros nacionais
+
+O site oferece 26 estados e o Distrito Federal. Ao escolher uma UF, entram chamadas nacionais e as territorialmente vinculadas à UF; canais internacionais continuam disponíveis sem o filtro de estado. Isso não prova cobertura exaustiva de todos os editais de cada estado.
+
+`requiresCnpjAtApplication` usa true, false ou null. O filtro Sim/Não aplica-se à inscrição; null aparece apenas em Qualquer. Formalização posterior e contratação permanecem na ficha. `territoryScope`, `states` e `territoryLabel` registram abrangência conferida, sem inferir elegibilidade a partir do local do evento.
+
+Validação dos filtros: `node test_filters.cjs` a partir de collector. A pesquisa ampliada adicionou 13 fichas: quatro atuais, quatro anúncios/ciclos em acompanhamento e cinco edições encerradas. Total: 13 atuais, 10 em acompanhamento e 6 encerradas.

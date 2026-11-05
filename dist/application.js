@@ -45,7 +45,11 @@ window.APPLICATIONS = {
     "profileNote": "Busca instituições e estúdios; entrada como equipe sem CNPJ precisa ser confirmada.",
     "reviewedAt": "2026-11-05",
     "priority": 50,
-    "kind": "parceria"
+    "kind": "parceria",
+    "states": [],
+    "territoryScope": "international",
+    "territoryLabel": "Internacional; conferir países elegíveis",
+    "requiresCnpjAtApplication": null
   },
   "media": {
     "category": "current",
@@ -98,7 +102,11 @@ window.APPLICATIONS = {
     "priority": 50,
     "closeDate": "2027-02-02",
     "kind": "edital",
-    "closeAt": "2027-02-02T17:00:00+01:00"
+    "closeAt": "2027-02-02T17:00:00+01:00",
+    "states": [],
+    "territoryScope": "international",
+    "territoryLabel": "Internacional; conferir países elegíveis",
+    "requiresCnpjAtApplication": true
   },
   "senai2025": {
     "category": "watch",
@@ -145,7 +153,11 @@ window.APPLICATIONS = {
     "cnpj": "required",
     "profileNote": "Nova edição não confirmada; regras de empresa/startup precisam ser cumpridas.",
     "reviewedAt": "2026-11-05",
-    "priority": 50
+    "priority": 50,
+    "states": [],
+    "territoryScope": "national",
+    "territoryLabel": "Nacional; conferir requisitos do programa",
+    "requiresCnpjAtApplication": true
   },
   "jornada": {
     "category": "watch",
@@ -194,6 +206,10 @@ window.APPLICATIONS = {
     "reviewedAt": "2026-11-05",
     "priority": 50,
     "kind": "desafio",
+    "states": [],
+    "territoryScope": "national",
+    "territoryLabel": "Nacional; conferir requisitos do programa",
+    "requiresCnpjAtApplication": true,
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -244,6 +260,10 @@ window.APPLICATIONS = {
     "reviewedAt": "2026-11-05",
     "priority": 50,
     "kind": "desafio",
+    "states": [],
+    "territoryScope": "national",
+    "territoryLabel": "Nacional; conferir requisitos do programa",
+    "requiresCnpjAtApplication": true,
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -294,7 +314,11 @@ window.APPLICATIONS = {
     "reviewedAt": "2026-11-05",
     "priority": 50,
     "closeDate": "2026-10-21",
-    "kind": "concurso"
+    "kind": "concurso",
+    "states": [],
+    "territoryScope": "national",
+    "territoryLabel": "Nacional; conferir requisitos do programa",
+    "requiresCnpjAtApplication": false
   },
   "bndes": {
     "category": "current",
@@ -345,6 +369,10 @@ window.APPLICATIONS = {
     "reviewedAt": "2026-11-05",
     "priority": 1,
     "closeAt": "2026-11-30T23:59:00-03:00",
+    "states": [],
+    "territoryScope": "national",
+    "territoryLabel": "Nacional; conferir requisitos do programa",
+    "requiresCnpjAtApplication": false,
     "collectionStatus": "unchanged",
     "lastFetched": "2026-11-05T17:22:53-03:00"
   },
@@ -395,6 +423,10 @@ window.APPLICATIONS = {
     "kind": "formacao",
     "reviewedAt": "2026-11-05",
     "priority": 2,
+    "states": [],
+    "territoryScope": "national",
+    "territoryLabel": "Nacional; conferir requisitos do programa",
+    "requiresCnpjAtApplication": false,
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -446,6 +478,10 @@ window.APPLICATIONS = {
     "kind": "financiamento",
     "reviewedAt": "2026-11-05",
     "priority": 3,
+    "states": [],
+    "territoryScope": "international",
+    "territoryLabel": "Internacional; conferir países elegíveis",
+    "requiresCnpjAtApplication": false,
     "collectionStatus": "unchanged",
     "lastFetched": "2026-11-05T17:22:53-03:00"
   },
@@ -497,6 +533,10 @@ window.APPLICATIONS = {
     "kind": "financiamento",
     "reviewedAt": "2026-11-05",
     "priority": 15,
+    "states": [],
+    "territoryScope": "international",
+    "territoryLabel": "Internacional; conferir países elegíveis",
+    "requiresCnpjAtApplication": null,
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -548,6 +588,10 @@ window.APPLICATIONS = {
     "kind": "financiamento",
     "reviewedAt": "2026-11-05",
     "priority": 30,
+    "states": [],
+    "territoryScope": "international",
+    "territoryLabel": "Internacional; conferir países elegíveis",
+    "requiresCnpjAtApplication": null,
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -599,6 +643,10 @@ window.APPLICATIONS = {
     "kind": "financiamento",
     "reviewedAt": "2026-11-05",
     "priority": 35,
+    "states": [],
+    "territoryScope": "international",
+    "territoryLabel": "Internacional; conferir países elegíveis",
+    "requiresCnpjAtApplication": null,
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -649,6 +697,12 @@ window.APPLICATIONS = {
     "kind": "edital",
     "reviewedAt": "2026-11-05",
     "priority": 60,
+    "states": [
+      "MG"
+    ],
+    "territoryLabel": "Minas Gerais; empresa e maturidade exigidas",
+    "territoryScope": "restricted",
+    "requiresCnpjAtApplication": true,
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -700,6 +754,12 @@ window.APPLICATIONS = {
     "kind": "edital",
     "reviewedAt": "2026-11-05",
     "priority": 20,
+    "states": [
+      "MG"
+    ],
+    "territoryLabel": "Minas Gerais; formalização conforme edital",
+    "territoryScope": "restricted",
+    "requiresCnpjAtApplication": false,
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -751,6 +811,12 @@ window.APPLICATIONS = {
     "kind": "edital",
     "reviewedAt": "2026-11-05",
     "priority": 21,
+    "states": [
+      "GO"
+    ],
+    "territoryLabel": "Goiás; formalização conforme edital",
+    "territoryScope": "restricted",
+    "requiresCnpjAtApplication": false,
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -802,7 +868,703 @@ window.APPLICATIONS = {
     "kind": "edital",
     "reviewedAt": "2026-11-05",
     "priority": 80,
+    "states": [
+      "RJ"
+    ],
+    "territoryLabel": "Maricá/RJ; sede e residência local exigidas",
+    "territoryScope": "restricted",
+    "requiresCnpjAtApplication": true,
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
+  },
+  "globalvoices": {
+    "category": "current",
+    "short": "Global Voices Challenge 2026/27",
+    "host": "Games for Change",
+    "eligibility": "Criadores sub-representados e/ou histórias e conteúdo originais; uso significativo de tecnologias criativas emergentes.",
+    "eligibilityDetail": "Prazo de submissão confirmado nas diretrizes 2026/27; horário não informado.",
+    "deadline": "13 nov 2026",
+    "deadlineDetail": "Prazo de submissão confirmado nas diretrizes 2026/27; horário não informado.",
+    "support": "US$ 15 mil por vencedor",
+    "supportDetail": "Até três vencedores, com mentoria, marketing e apresentação no festival de 2027.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Avaliar os requisitos antes de preparar a proposta",
+    "reason": "",
+    "blockers": [
+      "Não é uma chamada para uma ideia sem histórico.",
+      "Confirmar regras oficiais, países admitidos, horário de fechamento e contratação."
+    ],
+    "deliverables": [
+      {
+        "text": "Formulário em inglês; comprovação de titularidade ou representação dos direitos.",
+        "state": "confirmed"
+      },
+      {
+        "text": "Acesso ao jogo, incluindo cinco cópias para avaliação.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://www.gamesforchange.org/professional_service/26-global-voices-challenge/",
+    "docsUrl": "https://www.gamesforchange.org/global-voices-challenge-2026_guidelines/",
+    "sourceLabel": "Games for Change",
+    "evidenceNote": "Página e diretrizes oficiais 2026/27: datas, qualificações e entrada por indivíduo ou empresa. Não usar o PDF da edição 2025.",
+    "stage": "Concurso de desenvolvimento",
+    "tags": [
+      "Android",
+      "Financiamento",
+      "Impacto social"
+    ],
+    "ready": "Chamada ou canal atual",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "not_required",
+    "profileNote": "",
+    "kind": "edital",
+    "reviewedAt": "2026-11-05",
+    "priority": 5,
+    "territoryScope": "international",
+    "states": [],
+    "territoryLabel": "Internacional; confirmar regras aplicáveis ao Brasil",
+    "closeDate": "2026-11-13",
+    "requiresCnpjAtApplication": false,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T18:04:54-03:00"
+  },
+  "mincintercambio": {
+    "category": "current",
+    "short": "MinC 1/2026 — Intercâmbio audiovisual no exterior",
+    "host": "Ministério da Cultura",
+    "eligibility": "Pessoa física brasileira, maior de 18 anos, com ao menos um ano de atuação comprovada no audiovisual.",
+    "eligibilityDetail": "Fluxo contínuo até 18h de Brasília ou esgotamento dos recursos; confirmar disponibilidade no Mapa.",
+    "deadline": "06 nov 2026, 18h",
+    "deadlineDetail": "Fluxo contínuo até 18h de Brasília ou esgotamento dos recursos; confirmar disponibilidade no Mapa.",
+    "support": "R$ 8 mil a R$ 21 mil",
+    "supportDetail": "Tetos por destino: América do Sul 8 mil; Norte/Central 11 mil; Europa 16 mil; África/Ásia/Oceania 21 mil. Conferir adicionais previstos.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Avaliar os requisitos antes de preparar a proposta",
+    "reason": "",
+    "blockers": [
+      "Sujeito a esgotamento do orçamento antes da data final.",
+      "Não financia a produção do jogo nem cursos/residências."
+    ],
+    "deliverables": [
+      {
+        "text": "Formulário no Mapa da Cultura; currículo e provas datadas de atuação.",
+        "state": "confirmed"
+      },
+      {
+        "text": "Convite ou comprovação de seleção; documentos e declarações do Anexo I.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior",
+    "docsUrl": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/edital-de-intercambio-cultural-minc-no-1-de-8-de-junho-de-2026.pdf",
+    "sourceLabel": "Ministério da Cultura",
+    "evidenceNote": "Edital oficial: itens 3.1.3, 6.1, 7.1 e 10.1–10.3; página atualizada em 27/10/2026.",
+    "stage": "Auxílio para circulação",
+    "tags": [
+      "Internacionalização",
+      "Circulação"
+    ],
+    "ready": "Chamada ou canal atual",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "not_required",
+    "profileNote": "",
+    "kind": "edital",
+    "reviewedAt": "2026-11-05",
+    "priority": 5,
+    "territoryScope": "national",
+    "states": [],
+    "territoryLabel": "Nacional; evento no exterior",
+    "closeDate": "2026-11-06",
+    "closeAt": "2026-11-06T18:00:00-03:00",
+    "requiresCnpjAtApplication": false,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T18:04:54-03:00"
+  },
+  "cepedi": {
+    "category": "current",
+    "short": "CEPEDI 02/2026 — Residência em Games",
+    "host": "CEPEDI",
+    "eligibility": "Pessoas a partir de 16 anos, residentes na Bahia ou em Sergipe.",
+    "eligibilityDetail": "Inscrições de 03/11 a 06/12/2026; aula inaugural prevista para 01/02/2027.",
+    "deadline": "06 dez 2026",
+    "deadlineDetail": "Inscrições de 03/11 a 06/12/2026; aula inaugural prevista para 01/02/2027.",
+    "support": "Formação básica gratuita",
+    "supportDetail": "Bolsas de R$ 300/mês e R$ 2 mil/mês apenas nas fases posteriores previstas, sem concessão automática.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Avaliar os requisitos antes de preparar a proposta",
+    "reason": "",
+    "blockers": [
+      "Formação básica sem bolsa; não é contrato para o estúdio.",
+      "Fases posteriores dependem de seleção interna e desempenho."
+    ],
+    "deliverables": [
+      {
+        "text": "Cadastro e formulário de inscrição no portal.",
+        "state": "confirmed"
+      },
+      {
+        "text": "Comprovações pessoais e de elegibilidade previstas no edital.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://www.residenciagames.cepedi.org.br/",
+    "docsUrl": null,
+    "sourceLabel": "CEPEDI",
+    "evidenceNote": "Cronograma Turma II no portal e notícia oficial CEPEDI de 21/10/2026: https://cepedi.org.br/noticias/capacitacao-gratuita-cepedi-lanca-edital-para-a-segunda-turma-da-residencia-em-games-com-600-vagas-na-formacao-basica",
+    "stage": "Formação e residência",
+    "tags": [
+      "Formação",
+      "BA",
+      "SE"
+    ],
+    "ready": "Chamada ou canal atual",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "not_required",
+    "profileNote": "",
+    "kind": "formacao",
+    "reviewedAt": "2026-11-05",
+    "priority": 5,
+    "territoryScope": "restricted",
+    "states": [
+      "BA",
+      "SE"
+    ],
+    "territoryLabel": "Bahia e Sergipe; vínculo e polo conforme edital",
+    "closeDate": "2026-12-06",
+    "requiresCnpjAtApplication": false,
+    "collectionStatus": "error",
+    "lastFetched": null
+  },
+  "bghresidencia": {
+    "category": "current",
+    "short": "Brasília Game Hub — Residência de empresas",
+    "host": "Brasília Game Hub / Instituto Conecta Brasil",
+    "eligibility": "Atuação comprovada em games e áreas relacionadas.",
+    "eligibilityDetail": "Edital 001/2025 de fluxo contínuo, ainda listado no portal de editais. Residência de seis meses, prorrogável.",
+    "deadline": "Fluxo contínuo, sujeito a vagas",
+    "deadlineDetail": "Edital 001/2025 de fluxo contínuo, ainda listado no portal de editais. Residência de seis meses, prorrogável.",
+    "support": "Coworking gratuito",
+    "supportDetail": "Infraestrutura, salas e conexões; seleção conforme espaço disponível.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Avaliar os requisitos antes de preparar a proposta",
+    "reason": "",
+    "blockers": [
+      "Confirmar disponibilidade de salas.",
+      "Não há repasse financeiro; exige ao menos uma contribuição ao hub por trimestre."
+    ],
+    "deliverables": [
+      {
+        "text": "Portfólio, CNPJ, representante, equipe e contribuição pretendida ao hub.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://brasiliagamehub.org/chamada-publica-1-2025/",
+    "docsUrl": "https://brasiliagamehub.org/wp-content/uploads/2025/08/CHAMADA-PUBLICA-No-001_2025-%E2%80%93-RESIDENCIA-DE-EMPRESAS-NO-BGH.pdf",
+    "sourceLabel": "Brasília Game Hub / Instituto Conecta Brasil",
+    "evidenceNote": "PDF oficial: itens 2, 3, 5 e 6. O requisito documental de CNPJ prevalece no resumo sobre a descrição genérica de coletivos.",
+    "stage": "Residência de estúdios",
+    "tags": [
+      "Incubação",
+      "DF"
+    ],
+    "ready": "Chamada ou canal atual",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "required",
+    "profileNote": "",
+    "kind": "edital",
+    "reviewedAt": "2026-11-05",
+    "priority": 5,
+    "territoryScope": "restricted",
+    "states": [
+      "DF"
+    ],
+    "territoryLabel": "Presencial em Brasília/DF; vínculo local priorizado",
+    "requiresCnpjAtApplication": true,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T18:04:54-03:00"
+  },
+  "centecintercambio": {
+    "category": "watch",
+    "short": "Hub de Games CE — Intercâmbio, ciclo 3",
+    "host": "Instituto CENTEC / Secult Ceará",
+    "eligibility": "Criadores de jogos, pessoas físicas ou jurídicas, atuantes no cenário cearense.",
+    "eligibilityDetail": "Anexo II prevê propostas em 05–09/01/2027. Isso não prova reabertura do credenciamento.",
+    "deadline": "05 a 09 jan 2027, previsão do ciclo",
+    "deadlineDetail": "Anexo II prevê propostas em 05–09/01/2027. Isso não prova reabertura do credenciamento.",
+    "support": "Apoio a intercâmbio; consultar limites",
+    "supportDetail": "Não é verba automática para desenvolvimento; valores e cobertura dependem das regras vigentes.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Acompanhar publicação e atualização das regras",
+    "reason": "",
+    "blockers": [
+      "Não apresentado como inscrição aberta para novos proponentes.",
+      "Documento traz inconsistências de datas e marca “sem valor”; verificar versão vigente e retificações."
+    ],
+    "deliverables": [
+      {
+        "text": "Ficha PF ou PJ e comprovações exigidas no edital.",
+        "state": "confirmed"
+      },
+      {
+        "text": "Proposta de participação em evento compatível.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://www.centec.org.br/wp-content/uploads/2026/03/Edital_Credenciamento_n_002_2026-HUB-DE-JOGOS-INTERCAMBIO.pdf",
+    "docsUrl": null,
+    "sourceLabel": "Instituto CENTEC / Secult Ceará",
+    "evidenceNote": "PDF publicado pelo CENTEC, itens 2.1 e Anexo II. Necessária confirmação de vigência, credenciamento e calendário.",
+    "stage": "Intercâmbio cultural",
+    "tags": [
+      "Circulação",
+      "CE"
+    ],
+    "ready": "Em acompanhamento",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "not_required",
+    "profileNote": "",
+    "kind": "edital",
+    "reviewedAt": "2026-11-05",
+    "priority": 5,
+    "territoryScope": "restricted",
+    "states": [
+      "CE"
+    ],
+    "territoryLabel": "Criadores atuantes no Ceará",
+    "requiresCnpjAtApplication": false,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T18:04:01-03:00"
+  },
+  "bndesdiversidade": {
+    "category": "watch",
+    "short": "BNDES+ Diversidade Cultural — edital anunciado",
+    "host": "BNDES / Instituto Benfeitoria / Sitawi",
+    "eligibility": "Games estão entre as linguagens culturais previstas.",
+    "eligibilityDetail": "Anúncio oficial de 29/10/2026 prevê lançamento em novembro, sem data de candidatura confirmada.",
+    "deadline": "Lançamento previsto em nov 2026",
+    "deadlineDetail": "Anúncio oficial de 29/10/2026 prevê lançamento em novembro, sem data de candidatura confirmada.",
+    "support": "Matchfunding; teto individual a confirmar",
+    "supportDetail": "Orçamentos previstos de R$ 30 mil–240 mil não são o cheque do BNDES. Contrapartida a doações: 2:1 no Norte/Nordeste/Centro-Oeste; 1:1 no Sul/Sudeste.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Acompanhar publicação e atualização das regras",
+    "reason": "",
+    "blockers": [
+      "Anúncio não equivale a edital aberto.",
+      "CNPJ, prazos e limites de aporte por projeto dependem do regulamento."
+    ],
+    "deliverables": [
+      {
+        "text": "Preparar proposta cultural, público e estratégia de mobilização; anexos ainda não publicados.",
+        "state": "unknown"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://agenciadenoticias.bndes.gov.br/noticia/BNDES-aprova-fundo-de-mais-de-R%24-20-milhoes-para-apoiar-mais-de-500-projetos-culturais-em-todo-o-pais",
+    "docsUrl": null,
+    "sourceLabel": "BNDES / Instituto Benfeitoria / Sitawi",
+    "evidenceNote": "Agência BNDES: programa anunciado e games expressamente incluídos. Atualizar com edital quando publicado.",
+    "stage": "Matchfunding cultural",
+    "tags": [
+      "Crowdfunding",
+      "Diversidade",
+      "Financiamento"
+    ],
+    "ready": "Em acompanhamento",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "anuncio",
+    "reviewedAt": "2026-11-05",
+    "priority": 5,
+    "territoryScope": "national",
+    "states": [],
+    "territoryLabel": "Nacional; multiplicador varia por região",
+    "requiresCnpjAtApplication": null,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T18:04:01-03:00"
+  },
+  "rioinvest": {
+    "category": "watch",
+    "short": "Rio Invest Games — lançamento anunciado para 2027",
+    "host": "RioFilme / The Powell Group",
+    "eligibility": "Parceria anunciada para propriedades intelectuais e estúdios cariocas.",
+    "eligibilityDetail": "Acompanhar publicação oficial; anúncio de parceria não define seleção nem valores.",
+    "deadline": "Previsto para 2027, sem mês confirmado",
+    "deadlineDetail": "Acompanhar publicação oficial; anúncio de parceria não define seleção nem valores.",
+    "support": "Valores e condições ainda não publicados",
+    "supportDetail": "",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Acompanhar publicação e atualização das regras",
+    "reason": "",
+    "blockers": [
+      "Sem inscrição confirmada.",
+      "Não há garantia de abertura até março de 2027."
+    ],
+    "deliverables": [
+      {
+        "text": "Preparar pitch e portfólio; lista obrigatória ainda não divulgada.",
+        "state": "unknown"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://riofilme.com.br/noticias/riofilme-e-the-powell-group-firmam-parceria-para-ampliar-investimentos-e-internacionalizacao-de-jogos-cariocas/",
+    "docsUrl": null,
+    "sourceLabel": "RioFilme / The Powell Group",
+    "evidenceNote": "Notícia oficial da RioFilme: previsão de lançamento em 2027 e combinação de recursos públicos e privados.",
+    "stage": "Investimento e publicação",
+    "tags": [
+      "RJ",
+      "Publishing",
+      "Financiamento"
+    ],
+    "ready": "Em acompanhamento",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "anuncio",
+    "reviewedAt": "2026-11-05",
+    "priority": 5,
+    "territoryScope": "restricted",
+    "states": [
+      "RJ"
+    ],
+    "territoryLabel": "Estúdios cariocas; território exato depende do edital",
+    "requiresCnpjAtApplication": null,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T18:04:01-03:00"
+  },
+  "federalgames": {
+    "category": "watch",
+    "short": "Games federais 2027 — medidas anunciadas",
+    "host": "MinC / MCTI / Finep",
+    "eligibility": "Anúncio contempla infraestrutura, produção e comercialização de jogos independentes.",
+    "eligibilityDetail": "Duas iniciativas do MinC previstas para 2027; mês e abertura até março não confirmados.",
+    "deadline": "Sem cronograma de inscrição publicado",
+    "deadlineDetail": "Duas iniciativas do MinC previstas para 2027; mês e abertura até março não confirmados.",
+    "support": "Aporte por projeto ainda não definido",
+    "supportDetail": "",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Acompanhar publicação e atualização das regras",
+    "reason": "",
+    "blockers": [
+      "Não é edital aberto.",
+      "Estimativas de R$ 50 milhões por iniciativa são globais; não são apoio individual."
+    ],
+    "deliverables": [
+      {
+        "text": "Organizar projeto e orçamento; aguardar regulamento e anexos.",
+        "state": "unknown"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://www.gov.br/cultura/pt-br/assuntos/noticias/presidente-lula-regulamenta-marco-legal-dos-jogos-eletronicos-e-anuncia-medidas-de-apoio-ao-setor/",
+    "docsUrl": null,
+    "sourceLabel": "MinC / MCTI / Finep",
+    "evidenceNote": "Anúncio institucional de 14/10/2026, atualizado em 27/10. Medidas previstas não foram convertidas em inscrições no radar.",
+    "stage": "Fomento anunciado",
+    "tags": [
+      "Fomento",
+      "Jogos autorais"
+    ],
+    "ready": "Em acompanhamento",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "anuncio",
+    "reviewedAt": "2026-11-05",
+    "priority": 5,
+    "territoryScope": "national",
+    "states": [],
+    "territoryLabel": "Nacional; elegibilidade depende das chamadas",
+    "requiresCnpjAtApplication": null,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T18:04:01-03:00"
+  },
+  "proacgames": {
+    "category": "closed",
+    "short": "ProAC 05/2026 — Desenvolvimento e publicação de games",
+    "host": "Secretaria da Cultura de São Paulo",
+    "eligibility": "Pessoa jurídica ou MEI cultural com sede há pelo menos dois anos em SP.",
+    "eligibilityDetail": "Página oficial informa prorrogação até 03/08/2026; etapas atuais são de seleção.",
+    "deadline": "Encerrado em 03 ago 2026",
+    "deadlineDetail": "Página oficial informa prorrogação até 03/08/2026; etapas atuais são de seleção.",
+    "support": "R$ 300 mil por projeto",
+    "supportDetail": "Dez projetos em cada uma das duas modalidades na edição consultada.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Edição encerrada; referência para preparação",
+    "reason": "",
+    "blockers": [
+      "Prazo desta edição encerrado; não há nova janela confirmada.",
+      "Sede recente em SP não atende aos dois anos exigidos."
+    ],
+    "deliverables": [
+      {
+        "text": "Projeto e materiais do jogo; orçamento, cronograma e documentação da equipe.",
+        "state": "historical"
+      },
+      {
+        "text": "CNPJ e ato constitutivo; documentação fiscal na habilitação.",
+        "state": "historical"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://www.cultura.sp.gov.br/sec_cultura/Arquivo_de_Editais/Editais_Fomento_Cultsp/Fomento_CultSP_2026/desenvolvimento_ou_finalizacao_e_publicacao_de_jogos_eletronicos_2026/",
+    "docsUrl": null,
+    "sourceLabel": "Secretaria da Cultura de São Paulo",
+    "evidenceNote": "Página oficial do ProAC: prazo prorrogado, valores e requisitos de PJ/MEI. Acesso automatizado pode retornar 403; metadados oficiais indexados conferidos.",
+    "stage": "Fomento cultural",
+    "tags": [
+      "SP",
+      "Fomento",
+      "Protótipo"
+    ],
+    "ready": "Inscrições encerradas",
+    "tone": "gray",
+    "profileFit": "conditional",
+    "cnpj": "required",
+    "profileNote": "",
+    "kind": "edital",
+    "reviewedAt": "2026-11-05",
+    "priority": 5,
+    "territoryScope": "restricted",
+    "states": [
+      "SP"
+    ],
+    "territoryLabel": "São Paulo; sede há pelo menos dois anos",
+    "closeDate": "2026-08-03",
+    "requiresCnpjAtApplication": true,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T18:04:01-03:00"
+  },
+  "pnabrn": {
+    "category": "closed",
+    "short": "PNAB RN 09/2026 — Fomento aos Jogos Eletrônicos",
+    "host": "Secretaria de Estado da Cultura do RN",
+    "eligibility": "Agente cultural maior de 18 anos, residente no RN, com dois anos de atuação comprovada.",
+    "eligibilityDetail": "Cronograma retificado mantém inscrição em 13/02–09/03/2026.",
+    "deadline": "Encerrado em 09 mar 2026",
+    "deadlineDetail": "Cronograma retificado mantém inscrição em 13/02–09/03/2026.",
+    "support": "R$ 10 mil, 15 mil ou 50 mil",
+    "supportDetail": "Edição consultada: protótipo R$ 50 mil; distribuição/apoio R$ 10 mil; formação/pesquisa R$ 15 mil.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Edição encerrada; referência para preparação",
+    "reason": "",
+    "blockers": [
+      "Seleção já em resultados; não aceita nova inscrição.",
+      "Nova edição e seus valores ainda não confirmados."
+    ],
+    "deliverables": [
+      {
+        "text": "Plano de trabalho, orçamento, currículo/portfólio e materiais da categoria.",
+        "state": "historical"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://maiscultura.rn.gov.br/editais/editais/114/",
+    "docsUrl": "https://nyc3.digitaloceanspaces.com/repo/seletar/media/editais/114/09-2026.pdf",
+    "sourceLabel": "Secretaria de Estado da Cultura do RN",
+    "evidenceNote": "Edital, itens 3 e 4; cronograma retificado 02 e resultados no portal oficial.",
+    "stage": "Fomento cultural",
+    "tags": [
+      "RN",
+      "Fomento",
+      "Protótipo"
+    ],
+    "ready": "Inscrições encerradas",
+    "tone": "gray",
+    "profileFit": "conditional",
+    "cnpj": "not_required",
+    "profileNote": "",
+    "kind": "edital",
+    "reviewedAt": "2026-11-05",
+    "priority": 5,
+    "territoryScope": "restricted",
+    "states": [
+      "RN"
+    ],
+    "territoryLabel": "Residente no RN; atuação cultural de dois anos",
+    "closeDate": "2026-03-09",
+    "requiresCnpjAtApplication": false,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T18:04:54-03:00"
+  },
+  "cegames": {
+    "category": "closed",
+    "short": "16º Ceará de Cinema — Modalidade Jogo Eletrônico",
+    "host": "Secult Ceará",
+    "eligibility": "Projetos de jogos eletrônicos da modalidade 5.",
+    "eligibilityDetail": "Página oficial registra encerramento em 30/09/2026; anexos falharam nesta consulta.",
+    "deadline": "Encerrado em 30 set 2026",
+    "deadlineDetail": "Página oficial registra encerramento em 30/09/2026; anexos falharam nesta consulta.",
+    "support": "Consultar Anexo 5",
+    "supportDetail": "",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Edição encerrada; referência para preparação",
+    "reason": "",
+    "blockers": [
+      "Inscrições encerradas.",
+      "Não presumir permissão para PF a partir dos anexos genéricos de outras modalidades."
+    ],
+    "deliverables": [
+      {
+        "text": "Consultar Anexo 5 e plano de ação; materiais específicos ainda a confirmar.",
+        "state": "historical"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://mapacultural.secult.ce.gov.br/oportunidade/8132",
+    "docsUrl": null,
+    "sourceLabel": "Secult Ceará",
+    "evidenceNote": "Mapa Cultural oficial: modalidade, prazo atualizado e anexos publicados. PDFs não recuperados; requisitos pendentes explícitos.",
+    "stage": "Fomento cultural",
+    "tags": [
+      "CE",
+      "Fomento"
+    ],
+    "ready": "Inscrições encerradas",
+    "tone": "gray",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "edital",
+    "reviewedAt": "2026-11-05",
+    "priority": 5,
+    "territoryScope": "restricted",
+    "states": [
+      "CE"
+    ],
+    "territoryLabel": "Ceará; condições de vínculo no regulamento",
+    "closeDate": "2026-09-30",
+    "requiresCnpjAtApplication": null,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T18:04:01-03:00"
+  },
+  "gamepnabba": {
+    "category": "closed",
+    "short": "Game PNAB Bahia — 08/2025, ciclo 2",
+    "host": "Secult Bahia / FUNCEB",
+    "eligibility": "Projetos nas categorias de iniciantes, prototipagem e finalização.",
+    "eligibilityDetail": "Edição 08/2025 com resultados em 2026, sem nova candidatura confirmada.",
+    "deadline": "Encerrado; resultado final em maio 2026",
+    "deadlineDetail": "Edição 08/2025 com resultados em 2026, sem nova candidatura confirmada.",
+    "support": "Conforme categoria; consultar Anexo I",
+    "supportDetail": "",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Edição encerrada; referência para preparação",
+    "reason": "",
+    "blockers": [
+      "Resultado final publicado em 15/05/2026; não é nova chamada de 2026.",
+      "Confirmar CNPJ, residência e limites antes de uma futura edição."
+    ],
+    "deliverables": [
+      {
+        "text": "Proposta, orçamento e demonstração do estágio de desenvolvimento, conforme categoria.",
+        "state": "historical"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://www.bahiapnab.com.br/game-pnab-2",
+    "docsUrl": null,
+    "sourceLabel": "Secult Bahia / FUNCEB",
+    "evidenceNote": "Portal PNAB Bahia e página institucional do ciclo 2; resultados finais de 15/05/2026. Edital acessível em HTML no link /acessibilidade.",
+    "stage": "Fomento cultural",
+    "tags": [
+      "BA",
+      "Fomento",
+      "Protótipo"
+    ],
+    "ready": "Inscrições encerradas",
+    "tone": "gray",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "edital",
+    "reviewedAt": "2026-11-05",
+    "priority": 5,
+    "territoryScope": "restricted",
+    "states": [
+      "BA"
+    ],
+    "territoryLabel": "Bahia; condições completas no edital",
+    "requiresCnpjAtApplication": null,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T18:04:01-03:00"
+  },
+  "petrobrascultural": {
+    "category": "closed",
+    "short": "Petrobras Cultural 2026 — Produção de Games",
+    "host": "Petrobras",
+    "eligibility": "Pessoa jurídica cultural com CNPJ válido e controle brasileiro conforme regras.",
+    "eligibilityDetail": "Inscrições terminaram às 18h de 31/07/2026; acompanhar próximas seleções.",
+    "deadline": "Encerrado em 31 jul 2026",
+    "deadlineDetail": "Inscrições terminaram às 18h de 31/07/2026; acompanhar próximas seleções.",
+    "support": "Valor individual conforme modalidade",
+    "supportDetail": "R$ 270 milhões é o orçamento global de várias modalidades, não valor por jogo.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Edição encerrada; referência para preparação",
+    "reason": "",
+    "blockers": [
+      "Prazo desta seleção encerrado; resultados previstos para novembro.",
+      "Início de execução em 2027 não significa inscrição aberta."
+    ],
+    "deliverables": [
+      {
+        "text": "Proposta de patrocínio e anexos de critérios obrigatórios e contrapartidas.",
+        "state": "historical"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://petrobras.com.br/pt/cultural/selecoes-publicas-culturais",
+    "docsUrl": null,
+    "sourceLabel": "Petrobras",
+    "evidenceNote": "Página de seleções e notícia oficial de 01/07/2026: modalidade Games, elegibilidade e cronograma.",
+    "stage": "Patrocínio cultural",
+    "tags": [
+      "Patrocínio",
+      "Fomento",
+      "Jogos autorais"
+    ],
+    "ready": "Inscrições encerradas",
+    "tone": "gray",
+    "profileFit": "conditional",
+    "cnpj": "required",
+    "profileNote": "",
+    "kind": "edital",
+    "reviewedAt": "2026-11-05",
+    "priority": 5,
+    "territoryScope": "national",
+    "states": [],
+    "territoryLabel": "Nacional",
+    "closeDate": "2026-07-31",
+    "requiresCnpjAtApplication": true,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T18:04:01-03:00"
   }
 };

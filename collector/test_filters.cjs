@@ -1,0 +1,34 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const filters = require('../dist/filters.js');
+const catalog = JSON.parse(fs.readFileSync(path.join(__dirname,'reviewed.json'),'utf8'));
+const apps = catalog.applications;
+assert.equal(filters.states.length,27);
+assert.equal(new Set(filters.states.map(([uf])=>uf)).size,27);
+assert(filters.matchesState(apps.bndes,'AC'),'Chamada nacional deve aparecer em todas as UFs.');
+assert(filters.matchesState(apps.pnabrn,'RN'));
+assert(!filters.matchesState(apps.pnabrn,'MG'),'Chamada restrita não deve vazar para outra UF.');
+assert(filters.matchesState(apps.cepedi,'BA'));
+assert(filters.matchesState(apps.cepedi,'SE'));
+assert(!filters.matchesState(apps.cepedi,'SP'));
+assert(!filters.matchesState(apps.media,'SP'),'Europa não é candidatura de SP.');
+assert(filters.matchesState(apps.media,''));
+assert(filters.matchesCnpj(apps.proacgames,'yes'));
+assert(!filters.matchesCnpj(apps.proacgames,'no'));
+assert(filters.matchesCnpj(apps.bndes,'no'));
+assert(filters.matchesCnpj(apps.centelhamg,'no'),'Formalização posterior deve permanecer explícita, mas não impedir início por PF.');
+assert(filters.matchesCnpj(apps.indiefund,'no'),'Pitch individual confirmado; contrato continua a confirmar na ficha.');
+assert(!filters.matchesCnpj(apps.rioinvest,'yes'));
+assert(!filters.matchesCnpj(apps.rioinvest,'no'),'Desconhecido não equivale a não.');
+assert(filters.matchesCnpj(apps.rioinvest,''));
+const validUFs = new Set(filters.states.map(([uf])=>uf));
+for(const [id,a] of Object.entries(apps)) {
+  assert(['national','restricted','international'].includes(a.territoryScope),id);
+  assert(Array.isArray(a.states),id);
+  assert(a.territoryLabel,id);
+  assert(a.states.every(uf=>validUFs.has(uf)),id);
+  assert([true,false,null].includes(a.requiresCnpjAtApplication),id);
+  if(a.territoryScope==='restricted') assert(a.states.length,id);
+}
+console.log('Filtros: 27 UFs, território nacional/local/internacional e CNPJ sim/não/desconhecido validados.');

@@ -226,5 +226,160 @@
     "cadence": "Manual, sob demanda",
     "note": "Candidatos extraídos entram em revisão; acesso técnico não confirma inscrição aberta.",
     "documents": []
+  },
+  {
+    "id": "globalvoices",
+    "name": "Games for Change",
+    "url": "https://www.gamesforchange.org/professional_service/26-global-voices-challenge/",
+    "scope": "Internacional; confirmar regras aplicáveis ao Brasil · Concurso de desenvolvimento",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": [
+      "https://www.gamesforchange.org/global-voices-challenge-2026_guidelines/"
+    ]
+  },
+  {
+    "id": "mincintercambio",
+    "name": "Ministério da Cultura",
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior",
+    "scope": "Nacional; evento no exterior · Auxílio para circulação",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": [
+      "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/edital-de-intercambio-cultural-minc-no-1-de-8-de-junho-de-2026.pdf"
+    ]
+  },
+  {
+    "id": "cepedi",
+    "name": "CEPEDI",
+    "url": "https://www.residenciagames.cepedi.org.br/",
+    "scope": "Bahia e Sergipe; vínculo e polo conforme edital · Formação e residência",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": []
+  },
+  {
+    "id": "bghresidencia",
+    "name": "Brasília Game Hub / Instituto Conecta Brasil",
+    "url": "https://brasiliagamehub.org/chamada-publica-1-2025/",
+    "scope": "Presencial em Brasília/DF; vínculo local priorizado · Residência de estúdios",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": [
+      "https://brasiliagamehub.org/wp-content/uploads/2025/08/CHAMADA-PUBLICA-No-001_2025-%E2%80%93-RESIDENCIA-DE-EMPRESAS-NO-BGH.pdf"
+    ]
+  },
+  {
+    "id": "centecintercambio",
+    "name": "Instituto CENTEC / Secult Ceará",
+    "url": "https://www.centec.org.br/wp-content/uploads/2026/03/Edital_Credenciamento_n_002_2026-HUB-DE-JOGOS-INTERCAMBIO.pdf",
+    "scope": "Criadores atuantes no Ceará · Intercâmbio cultural",
+    "priority": "Média",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": []
+  },
+  {
+    "id": "bndesdiversidade",
+    "name": "BNDES / Instituto Benfeitoria / Sitawi",
+    "url": "https://agenciadenoticias.bndes.gov.br/noticia/BNDES-aprova-fundo-de-mais-de-R%24-20-milhoes-para-apoiar-mais-de-500-projetos-culturais-em-todo-o-pais",
+    "scope": "Nacional; multiplicador varia por região · Matchfunding cultural",
+    "priority": "Média",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": []
+  },
+  {
+    "id": "rioinvest",
+    "name": "RioFilme / The Powell Group",
+    "url": "https://riofilme.com.br/noticias/riofilme-e-the-powell-group-firmam-parceria-para-ampliar-investimentos-e-internacionalizacao-de-jogos-cariocas/",
+    "scope": "Estúdios cariocas; território exato depende do edital · Investimento e publicação",
+    "priority": "Média",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": []
+  },
+  {
+    "id": "federalgames",
+    "name": "MinC / MCTI / Finep",
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/noticias/presidente-lula-regulamenta-marco-legal-dos-jogos-eletronicos-e-anuncia-medidas-de-apoio-ao-setor/",
+    "scope": "Nacional; elegibilidade depende das chamadas · Fomento anunciado",
+    "priority": "Média",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": []
+  },
+  {
+    "id": "proacgames",
+    "name": "Secretaria da Cultura de São Paulo",
+    "url": "https://www.cultura.sp.gov.br/sec_cultura/Arquivo_de_Editais/Editais_Fomento_Cultsp/Fomento_CultSP_2026/desenvolvimento_ou_finalizacao_e_publicacao_de_jogos_eletronicos_2026/",
+    "scope": "São Paulo; sede há pelo menos dois anos · Fomento cultural",
+    "priority": "Média",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": []
+  },
+  {
+    "id": "pnabrn",
+    "name": "Secretaria de Estado da Cultura do RN",
+    "url": "https://maiscultura.rn.gov.br/editais/editais/114/",
+    "scope": "Residente no RN; atuação cultural de dois anos · Fomento cultural",
+    "priority": "Média",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": [
+      "https://nyc3.digitaloceanspaces.com/repo/seletar/media/editais/114/09-2026.pdf"
+    ],
+    "allowed_domains": [
+      "maiscultura.rn.gov.br",
+      "nyc3.digitaloceanspaces.com"
+    ]
+  },
+  {
+    "id": "cegames",
+    "name": "Secult Ceará",
+    "url": "https://mapacultural.secult.ce.gov.br/oportunidade/8132",
+    "scope": "Ceará; condições de vínculo no regulamento · Fomento cultural",
+    "priority": "Média",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": []
+  },
+  {
+    "id": "gamepnabba",
+    "name": "Secult Bahia / FUNCEB",
+    "url": "https://www.bahiapnab.com.br/game-pnab-2",
+    "scope": "Bahia; condições completas no edital · Fomento cultural",
+    "priority": "Média",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": []
+  },
+  {
+    "id": "petrobrascultural",
+    "name": "Petrobras",
+    "url": "https://petrobras.com.br/pt/cultural/selecoes-publicas-culturais",
+    "scope": "Nacional · Patrocínio cultural",
+    "priority": "Média",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": []
   }
 ]

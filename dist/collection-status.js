@@ -1,12 +1,12 @@
 window.COLLECTION = {
   "mode": "manual",
   "scheduled": false,
-  "lastRun": "2026-11-05T17:22:53-03:00",
-  "sourceCount": 20,
-  "registeredSources": 20,
-  "successCount": 17,
-  "errorCount": 3,
-  "candidateCount": 26,
+  "lastRun": "2026-11-05T18:04:54-03:00",
+  "sourceCount": 33,
+  "registeredSources": 33,
+  "successCount": 29,
+  "errorCount": 4,
+  "candidateCount": 78,
   "sources": [
     {
       "id": "explorer",
@@ -207,6 +207,136 @@ window.COLLECTION = {
       "lastSuccess": null,
       "error": "The read operation timed out",
       "documentCount": 0
+    },
+    {
+      "id": "mincintercambio",
+      "name": "Ministério da Cultura",
+      "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior",
+      "status": "ok",
+      "lastAttempt": "2026-11-05T18:04:54-03:00",
+      "lastSuccess": "2026-11-05T18:04:54-03:00",
+      "error": null,
+      "documentCount": 2
+    },
+    {
+      "id": "cepedi",
+      "name": "CEPEDI",
+      "url": "https://www.residenciagames.cepedi.org.br/",
+      "status": "error",
+      "lastAttempt": "2026-11-05T18:04:01-03:00",
+      "lastSuccess": null,
+      "error": "Página sem conteúdo suficiente; pode exigir JavaScript ou revisão manual",
+      "documentCount": 0
+    },
+    {
+      "id": "globalvoices",
+      "name": "Games for Change",
+      "url": "https://www.gamesforchange.org/professional_service/26-global-voices-challenge/",
+      "status": "ok",
+      "lastAttempt": "2026-11-05T18:04:54-03:00",
+      "lastSuccess": "2026-11-05T18:04:54-03:00",
+      "error": null,
+      "documentCount": 2
+    },
+    {
+      "id": "bghresidencia",
+      "name": "Brasília Game Hub / Instituto Conecta Brasil",
+      "url": "https://brasiliagamehub.org/chamada-publica-1-2025/",
+      "status": "ok",
+      "lastAttempt": "2026-11-05T18:04:54-03:00",
+      "lastSuccess": "2026-11-05T18:04:54-03:00",
+      "error": null,
+      "documentCount": 2
+    },
+    {
+      "id": "bndesdiversidade",
+      "name": "BNDES / Instituto Benfeitoria / Sitawi",
+      "url": "https://agenciadenoticias.bndes.gov.br/noticia/BNDES-aprova-fundo-de-mais-de-R%24-20-milhoes-para-apoiar-mais-de-500-projetos-culturais-em-todo-o-pais",
+      "status": "ok",
+      "lastAttempt": "2026-11-05T18:04:01-03:00",
+      "lastSuccess": "2026-11-05T18:04:01-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "federalgames",
+      "name": "MinC / MCTI / Finep",
+      "url": "https://www.gov.br/cultura/pt-br/assuntos/noticias/presidente-lula-regulamenta-marco-legal-dos-jogos-eletronicos-e-anuncia-medidas-de-apoio-ao-setor/",
+      "status": "ok",
+      "lastAttempt": "2026-11-05T18:04:01-03:00",
+      "lastSuccess": "2026-11-05T18:04:01-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "proacgames",
+      "name": "Secretaria da Cultura de São Paulo",
+      "url": "https://www.cultura.sp.gov.br/sec_cultura/Arquivo_de_Editais/Editais_Fomento_Cultsp/Fomento_CultSP_2026/desenvolvimento_ou_finalizacao_e_publicacao_de_jogos_eletronicos_2026/",
+      "status": "ok",
+      "lastAttempt": "2026-11-05T18:04:01-03:00",
+      "lastSuccess": "2026-11-05T18:04:01-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "rioinvest",
+      "name": "RioFilme / The Powell Group",
+      "url": "https://riofilme.com.br/noticias/riofilme-e-the-powell-group-firmam-parceria-para-ampliar-investimentos-e-internacionalizacao-de-jogos-cariocas/",
+      "status": "ok",
+      "lastAttempt": "2026-11-05T18:04:01-03:00",
+      "lastSuccess": "2026-11-05T18:04:01-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "centecintercambio",
+      "name": "Instituto CENTEC / Secult Ceará",
+      "url": "https://www.centec.org.br/wp-content/uploads/2026/03/Edital_Credenciamento_n_002_2026-HUB-DE-JOGOS-INTERCAMBIO.pdf",
+      "status": "ok",
+      "lastAttempt": "2026-11-05T18:04:01-03:00",
+      "lastSuccess": "2026-11-05T18:04:01-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "pnabrn",
+      "name": "Secretaria de Estado da Cultura do RN",
+      "url": "https://maiscultura.rn.gov.br/editais/editais/114/",
+      "status": "ok",
+      "lastAttempt": "2026-11-05T18:04:54-03:00",
+      "lastSuccess": "2026-11-05T18:04:54-03:00",
+      "error": null,
+      "documentCount": 2
+    },
+    {
+      "id": "cegames",
+      "name": "Secult Ceará",
+      "url": "https://mapacultural.secult.ce.gov.br/oportunidade/8132",
+      "status": "ok",
+      "lastAttempt": "2026-11-05T18:04:01-03:00",
+      "lastSuccess": "2026-11-05T18:04:01-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "gamepnabba",
+      "name": "Secult Bahia / FUNCEB",
+      "url": "https://www.bahiapnab.com.br/game-pnab-2",
+      "status": "ok",
+      "lastAttempt": "2026-11-05T18:04:01-03:00",
+      "lastSuccess": "2026-11-05T18:04:01-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "petrobrascultural",
+      "name": "Petrobras",
+      "url": "https://petrobras.com.br/pt/cultural/selecoes-publicas-culturais",
+      "status": "ok",
+      "lastAttempt": "2026-11-05T18:04:01-03:00",
+      "lastSuccess": "2026-11-05T18:04:01-03:00",
+      "error": null,
+      "documentCount": 1
     }
   ]
 };

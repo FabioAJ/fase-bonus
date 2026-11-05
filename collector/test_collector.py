@@ -64,8 +64,10 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(len(ids),len(set(ids)))
         self.assertEqual(set(ids),set(c['applications']))
         for a in c['applications'].values():
-            for field in ['sourceUrl','deliverables','profileFit','cnpj','profileNote']:
+            for field in ['sourceUrl','deliverables','cnpj','territoryLabel','territoryScope']:
                 self.assertTrue(a.get(field),field)
             self.assertIn(a['cnpj'],{'required','not_required','later','pitch_only','unknown'})
+            self.assertIn(a['requiresCnpjAtApplication'],[True,False,None])
+            self.assertIsInstance(a['states'],list)
 
 if __name__=='__main__': unittest.main()
