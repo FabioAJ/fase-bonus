@@ -1,12 +1,12 @@
 window.COLLECTION = {
   "mode": "manual",
   "scheduled": false,
-  "lastRun": "2026-11-05T18:04:54-03:00",
-  "sourceCount": 33,
-  "registeredSources": 33,
-  "successCount": 29,
-  "errorCount": 4,
-  "candidateCount": 78,
+  "lastRun": "2026-11-05T20:06:32-03:00",
+  "sourceCount": 41,
+  "registeredSources": 41,
+  "successCount": 34,
+  "errorCount": 7,
+  "candidateCount": 99,
   "sources": [
     {
       "id": "explorer",
@@ -335,6 +335,86 @@ window.COLLECTION = {
       "status": "ok",
       "lastAttempt": "2026-11-05T18:04:01-03:00",
       "lastSuccess": "2026-11-05T18:04:01-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "petrobrasradar4",
+      "name": "Petrobras / Conexões para Inovação",
+      "url": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU40000000Lm1IAE/radar-de-solu%C3%A7%C3%B5es-ciclo-4-quarto-trimestre-2026?language=pt_BR",
+      "status": "error",
+      "lastAttempt": "2026-11-05T20:05:49-03:00",
+      "lastSuccess": "2026-11-05T20:04:52-03:00",
+      "error": "Conteúdo esperado da chamada ausente; página pode exigir JavaScript e revisão em navegador",
+      "documentCount": 1
+    },
+    {
+      "id": "enelindividual",
+      "name": "Enel Open Innovability",
+      "url": "https://openinnovability.enel.com/pt/desafios/individual-innovator",
+      "status": "error",
+      "lastAttempt": "2026-11-05T20:04:52-03:00",
+      "lastSuccess": null,
+      "error": "Página com template não renderizado; requer JavaScript e revisão em navegador",
+      "documentCount": 0
+    },
+    {
+      "id": "pipeeducacao",
+      "name": "FAPESP",
+      "url": "https://fapesp.br/18434/chamada-de-propostas-para-o-programa-pipe-jornada-tecnologica-tecnologias-educacionais-fase-1",
+      "status": "ok",
+      "lastAttempt": "2026-11-05T20:04:52-03:00",
+      "lastSuccess": "2026-11-05T20:04:52-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "fiemg2026",
+      "name": "SESI / SENAI / FIEMG",
+      "url": "https://www.fiemg.com.br/editalsesisenai/",
+      "status": "ok",
+      "lastAttempt": "2026-11-05T20:04:52-03:00",
+      "lastSuccess": "2026-11-05T20:04:52-03:00",
+      "error": null,
+      "documentCount": 3
+    },
+    {
+      "id": "inova6",
+      "name": "Bossa Invest / Sebrae e parceiros",
+      "url": "https://inovastartups.com.br/",
+      "status": "ok",
+      "lastAttempt": "2026-11-05T20:04:52-03:00",
+      "lastSuccess": "2026-11-05T20:04:52-03:00",
+      "error": null,
+      "documentCount": 2
+    },
+    {
+      "id": "nestleconnect",
+      "name": "Nestlé / AEVO Connect",
+      "url": "https://nestle.aevoinnovate.net/",
+      "status": "error",
+      "lastAttempt": "2026-11-05T20:06:32-03:00",
+      "lastSuccess": "2026-11-05T20:04:52-03:00",
+      "error": "Página sem conteúdo suficiente; pode exigir JavaScript ou revisão manual",
+      "documentCount": 1
+    },
+    {
+      "id": "heinekengreen",
+      "name": "Heineken / Quintessa",
+      "url": "https://cms2.heineken.com/br/pt/campanhas/green-your-city-lab/",
+      "status": "ok",
+      "lastAttempt": "2026-11-05T20:04:52-03:00",
+      "lastSuccess": "2026-11-05T20:04:52-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "cybersec2026",
+      "name": "CyberSec Games",
+      "url": "https://cybersecgames.com/pages/2026-cybersec-game-challenge",
+      "status": "ok",
+      "lastAttempt": "2026-11-05T20:04:52-03:00",
+      "lastSuccess": "2026-11-05T20:04:52-03:00",
       "error": null,
       "documentCount": 1
     }

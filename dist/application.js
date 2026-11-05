@@ -1566,5 +1566,439 @@ window.APPLICATIONS = {
     "requiresCnpjAtApplication": true,
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T18:04:01-03:00"
+  },
+  "enelindividual": {
+    "category": "current",
+    "short": "Enel — proposta de inovador individual",
+    "host": "Enel Open Innovability",
+    "eligibility": "Cadastro na modalidade Individual e projeto alinhado à estratégia da Enel.",
+    "eligibilityDetail": "Rota individual confirmada no navegador em 05/11/2026. O canal recebe propostas, sem remunerar automaticamente a submissão.",
+    "deadline": "Sempre aberto; sem data final publicada",
+    "deadlineDetail": "Rota individual confirmada no navegador em 05/11/2026. O canal recebe propostas, sem remunerar automaticamente a submissão.",
+    "support": "Parceria a negociar; sem valor garantido",
+    "supportDetail": "Avaliação técnica, econômica e de impacto no negócio. Próximas etapas discutidas somente se houver interesse.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Avaliar os requisitos antes de preparar a proposta",
+    "reason": "",
+    "blockers": [
+      "Não é edital específico de jogos nem promessa de contratação.",
+      "Gamificação para segurança, energia ou sustentabilidade é hipótese de aderência, a avaliar pela Enel.",
+      "Contrato e condições de propriedade intelectual devem ser conferidos antes do envio."
+    ],
+    "deliverables": [
+      {
+        "text": "Descrição clara da solução e até cinco arquivos, total máximo de 25 MB.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://openinnovability.enel.com/pt/desafios/individual-innovator",
+    "docsUrl": null,
+    "sourceLabel": "Enel Open Innovability",
+    "evidenceNote": "Página oficial renderizada: Sempre aberto, registro Individual, limite de arquivos e avaliação pela Enel. Nenhum cadastro, aceite ou proposta foi enviado.",
+    "stage": "Canal contínuo de propostas",
+    "tags": [
+      "Desafio corporativo",
+      "Gamificação",
+      "Jogos sérios",
+      "Treinamento corporativo",
+      "Energia"
+    ],
+    "ready": "Chamada ou canal atual",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "not_required",
+    "profileNote": "Pode iniciar como indivíduo. A contratação e as condições de uso da proposta ainda precisam ser avaliadas.",
+    "kind": "canal",
+    "reviewedAt": "2026-11-05",
+    "priority": 2,
+    "territoryScope": "national",
+    "states": [],
+    "territoryLabel": "Brasil e rede internacional da Enel; aderência à estratégia exigida",
+    "requiresCnpjAtApplication": false,
+    "collectionStatus": "error",
+    "lastFetched": null
+  },
+  "petrobrasradar4": {
+    "category": "current",
+    "short": "Petrobras — Radar de Soluções, ciclo 4/2026",
+    "host": "Petrobras / Conexões para Inovação",
+    "eligibility": "Solução de empresa/startup com pesquisa, desenvolvimento e inovação, vinculada a um portfólio.",
+    "eligibilityDetail": "Status Aberto e prazo de 31/12/2026 confirmados no portal oficial e no formulário público do 4º trimestre.",
+    "deadline": "31 dez 2026",
+    "deadlineDetail": "Status Aberto e prazo de 31/12/2026 confirmados no portal oficial e no formulário público do 4º trimestre.",
+    "support": "Conexão com PD&I; valor não publicado",
+    "supportDetail": "Captura de soluções para aproximação com responsáveis por portfólios; não é repasse já aprovado.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Avaliar os requisitos antes de preparar a proposta",
+    "reason": "",
+    "blockers": [
+      "Não é demanda explícita de um jogo; a aderência de um simulador ou treinamento é inferência a validar.",
+      "Condições para equipe sem CNPJ e eventual contratação ainda não confirmadas.",
+      "Não garante financiamento, piloto pago ou contrato."
+    ],
+    "deliverables": [
+      {
+        "text": "Descrever a solução em até 2.000 caracteres; indicar portfólio, TRL, CRL e testes/validações.",
+        "state": "confirmed"
+      },
+      {
+        "text": "Informar parceiros/clientes e, se possível, link de vídeo, imagens ou arquivos.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU40000000Lm1IAE/radar-de-solu%C3%A7%C3%B5es-ciclo-4-quarto-trimestre-2026?language=pt_BR",
+    "docsUrl": null,
+    "sourceLabel": "Petrobras / Conexões para Inovação",
+    "evidenceNote": "Portal e duas primeiras telas do formulário Microsoft oficial lidos no navegador em 05/11/2026, sem preencher ou enviar dados. Saúde e Segurança consta como opção.",
+    "stage": "Chamada de pré-propostas de PD&I",
+    "tags": [
+      "Desafio corporativo",
+      "Jogos sérios",
+      "Simulação",
+      "Treinamento corporativo",
+      "Segurança do trabalho"
+    ],
+    "ready": "Chamada ou canal atual",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "Canal voltado a startups: não foi possível confirmar participação de equipe sem empresa.",
+    "kind": "chamada",
+    "reviewedAt": "2026-11-05",
+    "priority": 2,
+    "territoryScope": "national",
+    "states": [],
+    "territoryLabel": "Nacional; startups aderentes aos portfólios Petrobras",
+    "closeDate": "2026-12-31",
+    "requiresCnpjAtApplication": null,
+    "collectionStatus": "error",
+    "lastFetched": "2026-11-05T20:04:52-03:00"
+  },
+  "fiemg2026": {
+    "category": "current",
+    "short": "SESI/SENAI MG 01/2026 — Treinamento em realidade virtual",
+    "host": "SESI / SENAI / FIEMG",
+    "eligibility": "Indústria mineira com CNPJ ativo e CNAE industrial ou contribuição ao SESI/SENAI.",
+    "eligibilityDetail": "Errata I de 2026 mantém inscrições de ideias e adia o período de avaliação. Confirmar andamento antes de preparar plano completo.",
+    "deadline": "Ideias contínuas; avaliação do ciclo 2 adiada",
+    "deadlineDetail": "Errata I de 2026 mantém inscrições de ideias e adia o período de avaliação. Confirmar andamento antes de preparar plano completo.",
+    "support": "Recursos executados por SESI/SENAI",
+    "supportDetail": "Teto depende da linha e do regulamento. O orçamento é gerido pelo SESI/SENAI; não equivale a pagamento ao estúdio.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Avaliar os requisitos antes de preparar a proposta",
+    "reason": "",
+    "blockers": [
+      "Estúdio de jogos sozinho não substitui a indústria proponente.",
+      "Errata mantém ideias contínuas, mas adia a avaliação do ciclo 2 sem nova data.",
+      "Não há repasse direto à proponente; contrapartida, código-fonte e propriedade intelectual precisam de análise."
+    ],
+    "deliverables": [
+      {
+        "text": "Cadastro da ideia, Business Model Canvas em PDF, pitch de até dois minutos e CNPJ.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://www.fiemg.com.br/editalsesisenai/",
+    "docsUrl": "https://www.fiemg.com.br/wp-content/uploads/2026/03/EDITAL-SESI-SENAI-01-2026-.pdf",
+    "sourceLabel": "SESI / SENAI / FIEMG",
+    "evidenceNote": "Edital 01/2026: itens 2, 4 e 7. Errata: https://www.fiemg.com.br/wp-content/uploads/2026/05/ERRATA-01-2026-EDITAL-SESI-SENAI.pdf . O desafio específico encerrado em 16/10 não foi confundido com a fase geral de ideias.",
+    "stage": "Cooperação com indústria proponente",
+    "tags": [
+      "Desafio corporativo",
+      "Jogos sérios",
+      "XR / imersão",
+      "Treinamento corporativo",
+      "MG"
+    ],
+    "ready": "Chamada ou canal atual",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "required",
+    "profileNote": "Rota por parceria com uma indústria mineira elegível; o estúdio não é proponente industrial automaticamente.",
+    "kind": "edital",
+    "reviewedAt": "2026-11-05",
+    "priority": 2,
+    "territoryScope": "restricted",
+    "states": [
+      "MG"
+    ],
+    "territoryLabel": "Indústria com matriz ou filial em MG; parceiro técnico opcional",
+    "requiresCnpjAtApplication": true,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T20:04:52-03:00"
+  },
+  "inova6": {
+    "category": "current",
+    "short": "Inova Startups — 6ª edição",
+    "host": "Bossa Invest / Sebrae e parceiros",
+    "eligibility": "Startup já registrada no CNPJ; equipe de ao menos duas pessoas.",
+    "eligibilityDetail": "Pré-seleção até novembro; resultados previstos para fevereiro/2027 e contratação até março/2027.",
+    "deadline": "30 nov 2026",
+    "deadlineDetail": "Pré-seleção até novembro; resultados previstos para fevereiro/2027 e contratação até março/2027.",
+    "support": "Até R$ 800 mil, em duas etapas",
+    "supportDetail": "Até R$ 300 mil na primeira etapa e até R$ 500 mil na segunda, sujeitos à seleção, negociação e contrato.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Avaliar os requisitos antes de preparar a proposta",
+    "reason": "",
+    "blockers": [
+      "Sem CNPJ não atende aos requisitos atuais.",
+      "É investimento conversível em participação societária, não subvenção ou encomenda de jogo.",
+      "Edtech/gamificação é possível aderência geral, sem vaga reservada para games."
+    ],
+    "deliverables": [
+      {
+        "text": "Formulário, Anexo I, documentação societária e dados do negócio e da equipe.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://inovastartups.com.br/",
+    "docsUrl": "https://inovastartups.com.br/edital-inova-6a-edicao.pdf",
+    "sourceLabel": "Bossa Invest / Sebrae e parceiros",
+    "evidenceNote": "Edital da 6ª edição, itens 2.2.1, 3, 5 e 7; requisitos de CNPJ e prazo conferidos diretamente no PDF.",
+    "stage": "Investimento conversível e aceleração",
+    "tags": [
+      "Financiamento",
+      "Edtech",
+      "Gamificação",
+      "Empreendedorismo"
+    ],
+    "ready": "Chamada ou canal atual",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "required",
+    "profileNote": "Exige CNPJ já na candidatura.",
+    "kind": "investimento",
+    "reviewedAt": "2026-11-05",
+    "priority": 6,
+    "territoryScope": "national",
+    "states": [],
+    "territoryLabel": "Nacional; parcela dos recursos reservada ao Sul e SP",
+    "closeDate": "2026-11-30",
+    "requiresCnpjAtApplication": true,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T20:04:52-03:00"
+  },
+  "pipeeducacao": {
+    "category": "current",
+    "short": "PIPE Jornada — Tecnologias Educacionais 2026",
+    "host": "FAPESP",
+    "eligibility": "Pequena empresa em SP, desafio tecnológico, equipe e infraestrutura de pesquisa.",
+    "eligibilityDetail": "Pré-proposta até 12/11/2026; completa apenas para enquadradas até 13/01/2027. Resultado previsto a partir de maio/2027.",
+    "deadline": "12 nov 2026 — pré-proposta",
+    "deadlineDetail": "Pré-proposta até 12/11/2026; completa apenas para enquadradas até 13/01/2027. Resultado previsto a partir de maio/2027.",
+    "support": "Até R$ 500 mil por projeto",
+    "supportDetail": "Teto inclui bolsas previstas na chamada, com exceções de benefícios e infraestrutura indicadas no regulamento.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Avaliar os requisitos antes de preparar a proposta",
+    "reason": "",
+    "blockers": [
+      "Não confundir 13/01/2027, prazo da proposta completa, com nova entrada de pré-propostas.",
+      "Empresa em outro estado deve usar seu cadastro real; constituição e execução em SP seguem as regras.",
+      "Apoia pesquisa com incerteza tecnológica, não simples produção de conteúdo."
+    ],
+    "deliverables": [
+      {
+        "text": "Proposta simplificada no SAGe; pesquisa, orçamento, equipe e documentos exigidos.",
+        "state": "confirmed"
+      },
+      {
+        "text": "Empresa a constituir deverá apresentar abertura e demais documentos no prazo solicitado.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://fapesp.br/18434/chamada-de-propostas-para-o-programa-pipe-jornada-tecnologica-tecnologias-educacionais-fase-1",
+    "docsUrl": null,
+    "sourceLabel": "FAPESP",
+    "evidenceNote": "Fonte FAPESP: itens 1, 4, 6 e 9; item 6 confirma Empresa a constituir. Temas incluem engajamento e simulação profissional. Anexo 1 DOCX lido: ferramentas de gamificação, laboratórios virtuais e XR para treinamento técnico constam expressamente.",
+    "stage": "Pesquisa para inovação em pequena empresa",
+    "tags": [
+      "Fomento",
+      "Edtech",
+      "Gamificação",
+      "Simulação",
+      "SP"
+    ],
+    "ready": "Chamada ou canal atual",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "later",
+    "profileNote": "Pré-proposta pode iniciar sem CNPJ, mas exige futura empresa e execução em São Paulo.",
+    "kind": "edital",
+    "reviewedAt": "2026-11-05",
+    "priority": 2,
+    "territoryScope": "restricted",
+    "states": [
+      "SP"
+    ],
+    "territoryLabel": "Empresa e execução em SP; responsável deve residir no estado durante o projeto",
+    "closeDate": "2026-11-12",
+    "requiresCnpjAtApplication": false,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T20:04:52-03:00"
+  },
+  "nestleconnect": {
+    "category": "watch",
+    "short": "Nestlé — canal de conexão com startups",
+    "host": "Nestlé / AEVO Connect",
+    "eligibility": "Canal institucional convida startups a se conectarem à Nestlé.",
+    "eligibilityDetail": "Oportunidade de prospecção, mantida em acompanhamento. Não foi identificada encomenda atual de jogo nesse canal.",
+    "deadline": "Sem chamada de games confirmada",
+    "deadlineDetail": "Oportunidade de prospecção, mantida em acompanhamento. Não foi identificada encomenda atual de jogo nesse canal.",
+    "support": "Sem remuneração publicada",
+    "supportDetail": "",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Acompanhar publicação e atualização das regras",
+    "reason": "",
+    "blockers": [
+      "Cadastro na rede não é edital nem garantia de piloto.",
+      "CNPJ, maturidade e condições do formulário específico não confirmados."
+    ],
+    "deliverables": [
+      {
+        "text": "Preparar apresentação, protótipo e métricas de resultado; campos obrigatórios não conferidos.",
+        "state": "unknown"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://aevo.com.br/connect/",
+    "docsUrl": null,
+    "sourceLabel": "Nestlé / AEVO Connect",
+    "evidenceNote": "AEVO Connect, seção Conecte-se com a Nestlé, liga a https://nestle.aevoinnovate.net/ . Portal específico depende de aplicação JavaScript.",
+    "stage": "Cadastro para scouting empresarial",
+    "tags": [
+      "Desafio corporativo",
+      "Gamificação",
+      "Treinamento corporativo"
+    ],
+    "ready": "Em acompanhamento",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "prospeccao",
+    "reviewedAt": "2026-11-05",
+    "priority": 6,
+    "territoryScope": "national",
+    "states": [],
+    "territoryLabel": "Canal brasileiro; regras específicas a confirmar",
+    "requiresCnpjAtApplication": null,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T17:18:28-03:00"
+  },
+  "heinekengreen": {
+    "category": "closed",
+    "short": "Heineken — Green Your City Lab 2026",
+    "host": "Heineken / Quintessa",
+    "eligibility": "Negócio operacional com faturamento, constituição jurídica e operação no Brasil.",
+    "eligibilityDetail": "Referência empresarial diretamente ligada a gamificação; não aparece entre inscrições atuais.",
+    "deadline": "Encerrado em setembro de 2026",
+    "deadlineDetail": "Referência empresarial diretamente ligada a gamificação; não aparece entre inscrições atuais.",
+    "support": "Piloto; valor individual a confirmar",
+    "supportDetail": "Condições de teste e eventual contratação dependem do regulamento, sem valor inferido.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Edição encerrada; referência para preparação",
+    "reason": "",
+    "blockers": [
+      "Prazo encerrado; nova edição não confirmada.",
+      "Página apresenta datas de 13 e 20/09; ambas anteriores à pesquisa.",
+      "Não é um concurso de games autorais: precisa resolver comportamento sustentável em eventos."
+    ],
+    "deliverables": [
+      {
+        "text": "Formulário, apresentação da solução e documentação de diligência prevista no regulamento.",
+        "state": "historical"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://cms2.heineken.com/br/pt/campanhas/green-your-city-lab/",
+    "docsUrl": null,
+    "sourceLabel": "Heineken / Quintessa",
+    "evidenceNote": "Página Heineken e link de regulamento via Quintessa: gamificação explícita no desafio Comportamento e inscrições em setembro/2026.",
+    "stage": "Piloto empresarial de sustentabilidade",
+    "tags": [
+      "Desafio corporativo",
+      "Gamificação",
+      "Sustentabilidade",
+      "Engajamento"
+    ],
+    "ready": "Inscrições encerradas",
+    "tone": "gray",
+    "profileFit": "conditional",
+    "cnpj": "required",
+    "profileNote": "",
+    "kind": "edital",
+    "reviewedAt": "2026-11-05",
+    "priority": 6,
+    "territoryScope": "national",
+    "states": [],
+    "territoryLabel": "Operação no Brasil; piloto ligado a festival em SP",
+    "requiresCnpjAtApplication": true,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T20:04:52-03:00"
+  },
+  "cybersec2026": {
+    "category": "closed",
+    "short": "CyberSec Game Challenge 2026",
+    "host": "CyberSec Games",
+    "eligibility": "Conceito original de jogo físico sobre cibersegurança; indivíduos ou equipes.",
+    "eligibilityDetail": "Cronograma oficial: entrega até 09/10, avaliação em outubro e vencedores em 09/11/2026.",
+    "deadline": "Encerrado em 09 out 2026",
+    "deadlineDetail": "Cronograma oficial: entrega até 09/10, avaliação em outubro e vencedores em 09/11/2026.",
+    "support": "Prototipagem/publicação e royalties",
+    "supportDetail": "Apoio à transformação em produto físico e participação em vendas; não há prêmio em dinheiro divulgado.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Edição encerrada; referência para preparação",
+    "reason": "",
+    "blockers": [
+      "Edição encerrada; próxima abertura não anunciada.",
+      "Não serve para projeto exclusivamente digital.",
+      "Vencedor continua responsável por regras, arte e conteúdo; condições de royalties devem ser lidas."
+    ],
+    "deliverables": [
+      {
+        "text": "Conceito, mecânicas/componentes, esboços, justificativa de design e biografia.",
+        "state": "historical"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Consultar oportunidade",
+    "sourceUrl": "https://cybersecgames.com/pages/2026-cybersec-game-challenge",
+    "docsUrl": null,
+    "sourceLabel": "CyberSec Games",
+    "evidenceNote": "Página oficial 2026: calendário, FAQ, formatos, propriedade intelectual e produção.",
+    "stage": "Desafio empresarial de jogo educativo físico",
+    "tags": [
+      "Desafio corporativo",
+      "Jogos sérios",
+      "Cibersegurança",
+      "Jogos de tabuleiro"
+    ],
+    "ready": "Inscrições encerradas",
+    "tone": "gray",
+    "profileFit": "conditional",
+    "cnpj": "not_required",
+    "profileNote": "",
+    "kind": "edital",
+    "reviewedAt": "2026-11-05",
+    "priority": 6,
+    "territoryScope": "international",
+    "states": [],
+    "territoryLabel": "Internacional; participação individual ou equipe",
+    "closeDate": "2026-10-09",
+    "requiresCnpjAtApplication": false,
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-05T20:04:52-03:00"
   }
 };

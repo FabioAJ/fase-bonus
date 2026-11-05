@@ -89,6 +89,8 @@ def parse_document(body, content_type, url):
     parser=PageParser()
     charset=re.search(r'charset=([\w-]+)', content_type)
     parser.feed(body.decode(charset.group(1) if charset else 'utf-8',errors='replace'))
+    if len(re.findall(r'\{\{[^{}]{1,180}\}\}',parser.text))>=5:
+        raise RuntimeError('Página com template não renderizado; requer JavaScript e revisão em navegador')
     if len(parser.text)<60: raise RuntimeError('Página sem conteúdo suficiente; pode exigir JavaScript ou revisão manual')
     return {'title':' '.join(parser.title_parts).strip(), 'text':parser.text[:350000], 'links':parser.links, 'kind':'html'}
 
@@ -185,6 +187,8 @@ def collect_source(source,previous,fetcher,state_dir,max_details,now):
         documents=[]; candidates=[]
         urls=[source['url']]+source.get('documents',[])
         body,ct,final=fetcher.fetch(urls[0]); page=parse_document(body,ct,final)
+        if any(norm(term) not in norm(page['text']) for term in source.get('required_text',[])):
+            raise RuntimeError('Conteúdo esperado da chamada ausente; página pode exigir JavaScript e revisão em navegador')
         links=discovery_links(page,final,set(source.get('allowed_domains',[]))|{urlsplit(final).hostname})
         candidates=links
         # Apenas anexos explicitamente configurados e descoberta limitada de documentos do mesmo portal.

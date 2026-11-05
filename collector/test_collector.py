@@ -33,6 +33,10 @@ class CollectorTests(unittest.TestCase):
         for url in ['http://localhost/x','http://127.0.0.1/x','http://192.168.1.10/x','https://user:pass@example.com/x','file:///secret','https://x.internal/call']:
             self.assertFalse(mod.public_url(url),url)
         self.assertTrue(mod.public_url('https://garagem.bndes.gov.br/inscreva-se/'))
+    def test_unrendered_template_is_not_reported_as_readable_evidence(self):
+        shell=('<main>'+''.join('<p>{{ content.field'+str(i)+' }}</p>' for i in range(8))+'</main>').encode()
+        with self.assertRaisesRegex(RuntimeError,'template'):
+            mod.parse_document(shell,'text/html','https://example.com/')
     def test_pdf_text_is_extracted(self):
         # PDF real obtido do BNDES: evita teste sintético que espelha a implementação.
         snapshots=Path(__file__).parent/'state'/'snapshots'

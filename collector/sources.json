@@ -381,5 +381,102 @@
     "cadence": "Manual, sob demanda",
     "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
     "documents": []
+  },
+  {
+    "id": "enelindividual",
+    "name": "Enel Open Innovability",
+    "url": "https://openinnovability.enel.com/pt/desafios/individual-innovator",
+    "scope": "Brasil e rede internacional da Enel; aderência à estratégia exigida · Canal contínuo de propostas",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": []
+  },
+  {
+    "id": "petrobrasradar4",
+    "name": "Petrobras / Conexões para Inovação",
+    "url": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU40000000Lm1IAE/radar-de-solu%C3%A7%C3%B5es-ciclo-4-quarto-trimestre-2026?language=pt_BR",
+    "scope": "Nacional; startups aderentes aos portfólios Petrobras · Chamada de pré-propostas de PD&I",
+    "priority": "Alta",
+    "method": "Portal JavaScript; verificação editorial no navegador",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": [],
+    "required_text": [
+      "Radar de Soluções",
+      "Ciclo 4"
+    ]
+  },
+  {
+    "id": "fiemg2026",
+    "name": "SESI / SENAI / FIEMG",
+    "url": "https://www.fiemg.com.br/editalsesisenai/",
+    "scope": "Indústria com matriz ou filial em MG; parceiro técnico opcional · Cooperação com indústria proponente",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": [
+      "https://www.fiemg.com.br/wp-content/uploads/2026/05/ERRATA-01-2026-EDITAL-SESI-SENAI.pdf",
+      "https://www.fiemg.com.br/wp-content/uploads/2026/03/EDITAL-SESI-SENAI-01-2026-.pdf"
+    ]
+  },
+  {
+    "id": "inova6",
+    "name": "Bossa Invest / Sebrae e parceiros",
+    "url": "https://inovastartups.com.br/",
+    "scope": "Nacional; parcela dos recursos reservada ao Sul e SP · Investimento conversível e aceleração",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": [
+      "https://inovastartups.com.br/edital-inova-6a-edicao.pdf"
+    ]
+  },
+  {
+    "id": "pipeeducacao",
+    "name": "FAPESP",
+    "url": "https://fapesp.br/18434/chamada-de-propostas-para-o-programa-pipe-jornada-tecnologica-tecnologias-educacionais-fase-1",
+    "scope": "Empresa e execução em SP; responsável deve residir no estado durante o projeto · Pesquisa para inovação em pequena empresa",
+    "priority": "Alta",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": []
+  },
+  {
+    "id": "nestleconnect",
+    "name": "Nestlé / AEVO Connect",
+    "url": "https://nestle.aevoinnovate.net/",
+    "scope": "Canal brasileiro; regras específicas a confirmar · Cadastro para scouting empresarial",
+    "priority": "Média",
+    "method": "Cadastro JavaScript; fonte editorial complementar AEVO Connect",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": []
+  },
+  {
+    "id": "heinekengreen",
+    "name": "Heineken / Quintessa",
+    "url": "https://cms2.heineken.com/br/pt/campanhas/green-your-city-lab/",
+    "scope": "Operação no Brasil; piloto ligado a festival em SP · Piloto empresarial de sustentabilidade",
+    "priority": "Média",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": []
+  },
+  {
+    "id": "cybersec2026",
+    "name": "CyberSec Games",
+    "url": "https://cybersecgames.com/pages/2026-cybersec-game-challenge",
+    "scope": "Internacional; participação individual ou equipe · Desafio empresarial de jogo educativo físico",
+    "priority": "Média",
+    "method": "Página pública e anexos PDF",
+    "cadence": "Manual, sob demanda",
+    "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade.",
+    "documents": []
   }
 ]
