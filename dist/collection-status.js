@@ -1,12 +1,12 @@
 window.COLLECTION = {
   "mode": "manual",
   "scheduled": false,
-  "lastRun": "2026-11-05T20:06:32-03:00",
-  "sourceCount": 41,
-  "registeredSources": 41,
-  "successCount": 34,
-  "errorCount": 7,
-  "candidateCount": 99,
+  "lastRun": "2026-11-06T10:33:23-03:00",
+  "sourceCount": 66,
+  "registeredSources": 66,
+  "successCount": 56,
+  "errorCount": 10,
+  "candidateCount": 265,
   "sources": [
     {
       "id": "explorer",
@@ -415,6 +415,256 @@ window.COLLECTION = {
       "status": "ok",
       "lastAttempt": "2026-11-05T20:04:52-03:00",
       "lastSuccess": "2026-11-05T20:04:52-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "cobstartups2",
+      "name": "Comitê Olímpico do Brasil / Arena Hub",
+      "url": "https://desafiocobdestartups.com.br",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "epicaimegajam",
+      "name": "Epic Games",
+      "url": "https://itch.io/jam/2026-epic-ai-megajam",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "bigfestival2027",
+      "name": "gamescom latam / BIG Festival",
+      "url": "https://latam.gamescom.global/en/big-festival-en/",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "kowloonkepler",
+      "name": "Kepler Interactive",
+      "url": "https://kepler-interactive.com/kowloon",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "epicmegagrants",
+      "name": "Epic Games",
+      "url": "https://www.unrealengine.com/megagrants",
+      "status": "error",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": null,
+      "error": "robots.txt indisponível ou acesso recusado",
+      "documentCount": 0
+    },
+    {
+      "id": "googleplaylatam",
+      "name": "Google Play",
+      "url": "https://google.play/business/programs/indiegames/",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "outersloth",
+      "name": "Innersloth",
+      "url": "https://www.innersloth.com/outersloth",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "gamedevtvfund",
+      "name": "GameDev.tv",
+      "url": "https://gamedev.tv/p/indie-game-dev-fund",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "unityhumanity",
+      "name": "Unity",
+      "url": "https://unity.com/unity-humanity",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "galacompetition",
+      "name": "Serious Games Society",
+      "url": "https://conf.seriousgamessociety.org/competition/",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "brasiltapragame",
+      "name": "Embratur / Abragames",
+      "url": "https://embraturlab.com.br/brasiltapragame/",
+      "status": "error",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": null,
+      "error": "Página sem conteúdo suficiente; pode exigir JavaScript ou revisão manual",
+      "documentCount": 0
+    },
+    {
+      "id": "spcine012026",
+      "name": "Spcine",
+      "url": "https://spcine.com.br/editais-spcine/",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "sebraegames2026",
+      "name": "Sebrae",
+      "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/seu-jogo-esta-pronto-para-ganhar-o-mundo-sebrae-lanca-edital-que-leva-estudios-a-gamescom-2026/",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "sampagames5",
+      "name": "ADE Sampa / Prefeitura de São Paulo",
+      "url": "https://prefeitura.sp.gov.br/web/desenvolvimento/w/prefeitura-de-sp-prorroga-inscri%C3%A7%C3%B5es-para-programa-que-investe-r-52-mil-em-at%C3%A9-25-est%C3%BAdios-de-games",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "facdf2026",
+      "name": "Secretaria de Cultura do DF",
+      "url": "https://sufic.cultura.df.gov.br/edital-fac-ii/2026",
+      "status": "error",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": null,
+      "error": "Acesso não permitido pelo robots.txt",
+      "documentCount": 0
+    },
+    {
+      "id": "igf2027",
+      "name": "Game Developers Conference",
+      "url": "https://igf.com/submission-info/",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "riofilme5",
+      "name": "RioFilme",
+      "url": "https://riofilme.com.br/editais/edital-no-5-desenvolvimento-producao-e-distribuicao-de-jogos-eletronicos/",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "brdelabs2026",
+      "name": "BRDE Labs",
+      "url": "https://www.brdelabs.com.br/desafios-2026/",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "finep",
+      "name": "Finep — Chamadas públicas",
+      "url": "http://www.finep.gov.br/chamadas-publicas",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "sebraegamesportal",
+      "name": "Agência Sebrae — Games",
+      "url": "https://agenciasebrae.com.br/tag/sebrae-games/",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "adesampa",
+      "name": "ADE Sampa / Hub Sampa Games",
+      "url": "https://adesampa.com.br/hubsampagames/",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "gamefchange",
+      "name": "Games for Change — Oportunidades",
+      "url": "https://www.gamesforchange.org/",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "itchjams",
+      "name": "itch.io — Próximos game jams",
+      "url": "https://itch.io/jams/upcoming",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "medialearning",
+      "name": "Media & Learning — Concursos",
+      "url": "https://media-and-learning.eu/type/competitions/serious-game-award-competition",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
+      "error": null,
+      "documentCount": 1
+    },
+    {
+      "id": "fapesc",
+      "name": "FAPESC",
+      "url": "https://fapesc.sc.gov.br/",
+      "status": "ok",
+      "lastAttempt": "2026-11-06T10:33:23-03:00",
+      "lastSuccess": "2026-11-06T10:33:23-03:00",
       "error": null,
       "documentCount": 1
     }

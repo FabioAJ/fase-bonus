@@ -1,5 +1,5 @@
 window.RADAR = {
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "horizon": "2027-03-31",
   "opportunities": [
     {
@@ -1034,7 +1034,8 @@ window.RADAR = {
       ],
       "gaps": [
         "Não é edital aberto.",
-        "Estimativas de R$ 50 milhões por iniciativa são globais; não são apoio individual."
+        "Estimativas de R$ 50 milhões por iniciativa são globais; não são apoio individual.",
+        "Chamada Finep de R$ 200 milhões para startups de jogos e soluções digitais é proposta do MCTI; edital sem data confirmada em 06/11/2026."
       ],
       "judgment": "Duas iniciativas do MinC previstas para 2027; mês e abertura até março não confirmados.",
       "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
@@ -1134,6 +1135,543 @@ window.RADAR = {
       "evidence": "Página Heineken e link de regulamento via Quintessa: gamificação explícita no desafio Comportamento e inscrições em setembro/2026.",
       "quality": "Fonte oficial; consultar regras completas e retificações",
       "verified": "2026-11-05"
+    },
+    {
+      "id": "bigfestival2027",
+      "name": "BIG Festival 2027 — competição de jogos independentes",
+      "org": "gamescom latam / BIG Festival",
+      "region": "Brasil",
+      "type": "Festival e premiação",
+      "status": "Chamada ou canal atual",
+      "decision": "Avaliar os requisitos antes de preparar a proposta",
+      "fit": "Potencial",
+      "deadline": "2027-01-15",
+      "dateLabel": "15 jan 2027, 23h59 de Brasília",
+      "horizon": "Inscrição gratuita até 15/01/2027, às 21h59 EST. Em anos anteriores o prazo já foi prorrogado, mas isso não está confirmado para 2027.",
+      "money": "Premiação e vitrine; sem dinheiro anunciado",
+      "summary": "Inscrição gratuita até 15/01/2027, às 21h59 EST. Em anos anteriores o prazo já foi prorrogado, mas isso não está confirmado para 2027.",
+      "requirements": [
+        "Desenvolvedores independentes do mundo todo, incluindo estúdios brasileiros.",
+        "Categorias: arte, casual, gameplay, infantil, multiplayer, narrativa, som, estudante, inovação, melhor jogo do Brasil e da América Latina, além do WINGS Award."
+      ],
+      "gaps": [
+        "O comunicado não anuncia prêmio em dinheiro.",
+        "Condições de CNPJ e regulamento completo não conferidos.",
+        "Jogos selecionados precisam avaliar custos de ida ao evento, em 22 a 25/04/2027."
+      ],
+      "judgment": "Inscrição gratuita até 15/01/2027, às 21h59 EST. Em anos anteriores o prazo já foi prorrogado, mas isso não está confirmado para 2027.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://latam.gamescom.global/en/big-festival-en/",
+      "source": "gamescom latam / BIG Festival",
+      "evidence": "Comunicado oficial da gamescom latam 2027: https://www.gamespress.com/gamescom-latam-2027-opens-call-for-speakers-alongside-BIG-Festivals-fr",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
+    },
+    {
+      "id": "cobstartups2",
+      "name": "Desafio COB de Startups — 2ª edição",
+      "org": "Comitê Olímpico do Brasil / Arena Hub",
+      "region": "Brasil",
+      "type": "Desafio de inovação aberta",
+      "status": "Chamada ou canal atual",
+      "decision": "Avaliar os requisitos antes de preparar a proposta",
+      "fit": "Potencial",
+      "deadline": "2027-01-10",
+      "dateLabel": "10 jan 2027",
+      "horizon": "Inscrições até 10/01/2027. Na 1ª edição, as três campeãs dividiram R$ 100 mil; o valor da nova edição será anunciado ao longo da competição.",
+      "money": "Prêmios a anunciar",
+      "summary": "Inscrições até 10/01/2027. Na 1ª edição, as três campeãs dividiram R$ 100 mil; o valor da nova edição será anunciado ao longo da competição.",
+      "requirements": [
+        "Startups formalmente constituídas no Brasil, em qualquer estágio, da ideação à escala.",
+        "Tese 7 expressa: E-sports, Gamification e Experiências Digitais. Tese 1: engajamento de fãs e experiência do usuário."
+      ],
+      "gaps": [
+        "Valor da premiação da 2ª edição ainda não informado.",
+        "Jogo precisa servir a uma tese ligada ao esporte, não é chamada de jogo autoral.",
+        "Sem CNPJ a equipe não atende à condição de startup constituída."
+      ],
+      "judgment": "Inscrições até 10/01/2027. Na 1ª edição, as três campeãs dividiram R$ 100 mil; o valor da nova edição será anunciado ao longo da competição.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://desafiocobdestartups.com.br",
+      "source": "Comitê Olímpico do Brasil / Arena Hub",
+      "evidence": "Notícia oficial do COB sobre a 2ª edição, com as 11 teses. A página do desafio carrega por aplicação, então regulamento e cronograma não foram lidos.",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
+    },
+    {
+      "id": "epicaimegajam",
+      "name": "2026 Epic AI MegaJam",
+      "org": "Epic Games",
+      "region": "Internacional",
+      "type": "Game jam com prêmios",
+      "status": "Chamada ou canal atual",
+      "decision": "Avaliar os requisitos antes de preparar a proposta",
+      "fit": "Potencial",
+      "deadline": "2026-11-15",
+      "dateLabel": "12 a 15 nov 2026",
+      "horizon": "O jam acontece de 12 a 15/11/2026. Cada equipe escolhe Unreal Engine ou UEFN, nunca os dois.",
+      "money": "Prêmios em dinheiro e bolsas de até US$ 50 mil",
+      "summary": "O jam acontece de 12 a 15/11/2026. Cada equipe escolhe Unreal Engine ou UEFN, nunca os dois.",
+      "requirements": [
+        "Equipes de até cinco pessoas criando jogo jogável em Unreal Engine ou UEFN, durante o evento.",
+        "Uso de IA é opcional, segundo a organização. A participação on-line é avaliada da mesma forma que a presencial."
+      ],
+      "gaps": [
+        "Não comece o jogo antes de 12/11; o tema é revelado em 11/11.",
+        "Elegibilidade por país e idade não foi confirmada nas regras oficiais; conferir se o Brasil é admitido.",
+        "Fontes divergem sobre o total de prêmios (US$ 50 mil a US$ 65 mil)."
+      ],
+      "judgment": "O jam acontece de 12 a 15/11/2026. Cada equipe escolhe Unreal Engine ou UEFN, nunca os dois.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://itch.io/jam/2026-epic-ai-megajam",
+      "source": "Epic Games",
+      "evidence": "Anúncio oficial no fórum da Unreal Engine: https://forums.unrealengine.com/t/vibe-your-way-to-50k-the-2026-epic-ai-megajam-is-coming/2843973 . As regras oficiais não foram lidas.",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
+    },
+    {
+      "id": "outersloth",
+      "name": "Outersloth — fundo de jogos independentes",
+      "org": "Innersloth",
+      "region": "Internacional",
+      "type": "Financiamento com recoup e receita",
+      "status": "Chamada ou canal atual",
+      "decision": "Avaliar os requisitos antes de preparar a proposta",
+      "fit": "Potencial",
+      "deadline": null,
+      "dateLabel": "Pitch contínuo, sem data-limite",
+      "horizon": "Fundo não publica o jogo nem fica com a propriedade intelectual; o contrato completo é público na página.",
+      "money": "US$ 50 mil a US$ 2 milhões, faixa usual",
+      "summary": "Fundo não publica o jogo nem fica com a propriedade intelectual; o contrato completo é público na página.",
+      "requirements": [
+        "Jogos premium para PC, console ou mobile, ainda não lançados. Early Access não é considerado.",
+        "Sem restrição de gênero. Não aceita blockchain, web3 ou jogos gerados por IA."
+      ],
+      "gaps": [
+        "Não é subvenção: há recuperação do investimento e divisão de receita.",
+        "Propostas enviadas por e-mail são apagadas.",
+        "Equipe pequena, então a resposta pode demorar."
+      ],
+      "judgment": "Fundo não publica o jogo nem fica com a propriedade intelectual; o contrato completo é público na página.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://www.innersloth.com/outersloth",
+      "source": "Innersloth",
+      "evidence": "Página oficial da Outersloth conferida em 06/11/2026.",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
+    },
+    {
+      "id": "kowloonkepler",
+      "name": "Kepler Interactive / Kowloon Nights — pitch de jogos",
+      "org": "Kepler Interactive",
+      "region": "Internacional",
+      "type": "Financiamento de projetos",
+      "status": "Chamada ou canal atual",
+      "decision": "Avaliar os requisitos antes de preparar a proposta",
+      "fit": "Potencial",
+      "deadline": null,
+      "dateLabel": "Pitch contínuo, sem data-limite",
+      "horizon": "A Kowloon Nights hoje redireciona para a Kepler Interactive, que mantém o formulário de pitch aberto.",
+      "money": "Valores não informados",
+      "summary": "A Kowloon Nights hoje redireciona para a Kepler Interactive, que mantém o formulário de pitch aberto.",
+      "requirements": [
+        "Foco em projetos premium para PC e console; aberto a pitches de AR/VR e mobile-first.",
+        "Não aceita blockchain, NFT ou advergaming."
+      ],
+      "gaps": [
+        "Termos de financiamento e valores não aparecem na página.",
+        "Espera-se demonstrar capacidade de conduzir o desenvolvimento até o lançamento."
+      ],
+      "judgment": "A Kowloon Nights hoje redireciona para a Kepler Interactive, que mantém o formulário de pitch aberto.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://kepler-interactive.com/kowloon",
+      "source": "Kepler Interactive",
+      "evidence": "Página oficial conferida em 06/11/2026. Modelo de retorno inferido por ser financiamento privado; confirmar no contrato.",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
+    },
+    {
+      "id": "googleplaylatam",
+      "name": "Google Play Indie Games Fund — América Latina",
+      "org": "Google Play",
+      "region": "Internacional",
+      "type": "Fundo sem participação societária",
+      "status": "Em acompanhamento",
+      "decision": "Acompanhar publicação e atualização das regras",
+      "fit": "Potencial",
+      "deadline": null,
+      "dateLabel": "Rodada 2026 sem prazo confirmado",
+      "horizon": "Rodada de 2025 anunciada em 08/10/2025. Em 06/11/2026 não foi encontrada rodada latino-americana aberta nem lista de 2026.",
+      "money": "US$ 150 mil a US$ 200 mil na rodada 2025",
+      "summary": "Rodada de 2025 anunciada em 08/10/2025. Em 06/11/2026 não foi encontrada rodada latino-americana aberta nem lista de 2026.",
+      "requirements": [
+        "Estúdios pequenos na América Latina; em 2025, até 50 funcionários e jogo já lançado.",
+        "Em 2025, os jogos selecionados precisavam ser compatíveis com o Google Play Pass."
+      ],
+      "gaps": [
+        "O link de cadastro atual aponta para o fundo da África, então a abertura para a América Latina não está confirmada.",
+        "Regras de 2025 podem mudar."
+      ],
+      "judgment": "Rodada de 2025 anunciada em 08/10/2025. Em 06/11/2026 não foi encontrada rodada latino-americana aberta nem lista de 2026.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://google.play/business/programs/indiegames/",
+      "source": "Google Play",
+      "evidence": "Página do programa e anúncios oficiais de 2025 no blog do Google.",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
+    },
+    {
+      "id": "epicmegagrants",
+      "name": "Epic MegaGrants",
+      "org": "Epic Games",
+      "region": "Internacional",
+      "type": "Bolsa em ciclos",
+      "status": "Em acompanhamento",
+      "decision": "Acompanhar publicação e atualização das regras",
+      "fit": "Potencial",
+      "deadline": null,
+      "dateLabel": "Ciclo 2 de 2026 encerrado; 2027 sem data oficial",
+      "horizon": "Desde 2025 o programa funciona em duas janelas por ano. A última janela localizada terminou em setembro de 2026.",
+      "money": "US$ 5 mil a US$ 75 mil, faixa usual",
+      "summary": "Desde 2025 o programa funciona em duas janelas por ano. A última janela localizada terminou em setembro de 2026.",
+      "requirements": [
+        "Projetos em Unreal Engine 5 ou UEFN, ou contribuições ao ecossistema de código aberto."
+      ],
+      "gaps": [
+        "Datas de março e setembro de 2027 são estimativas de terceiros, não confirmadas pela Epic.",
+        "A página oficial bloqueou a leitura automática; confirmar no navegador."
+      ],
+      "judgment": "Desde 2025 o programa funciona em duas janelas por ano. A última janela localizada terminou em setembro de 2026.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://www.unrealengine.com/megagrants",
+      "source": "Epic Games",
+      "evidence": "Resumo de fontes secundárias sobre o programa; página oficial retornou HTTP 403 à leitura automática.",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
+    },
+    {
+      "id": "unityhumanity",
+      "name": "Unity for Humanity Grant",
+      "org": "Unity",
+      "region": "Internacional",
+      "type": "Bolsa para projetos de impacto",
+      "status": "Em acompanhamento",
+      "decision": "Acompanhar publicação e atualização das regras",
+      "fit": "Potencial",
+      "deadline": null,
+      "dateLabel": "Reabre em 2027, sem data publicada",
+      "horizon": "A página oficial informa que as candidaturas reabrem em 2027.",
+      "money": "Valor da edição de 2027 a confirmar",
+      "summary": "A página oficial informa que as candidaturas reabrem em 2027.",
+      "requirements": [
+        "Candidatura por entidade legal (estúdio, ONG etc.); não concede a pessoa física.",
+        "Avaliação pesa visão e impacto mensurável, alinhado aos Objetivos de Desenvolvimento Sustentável da ONU."
+      ],
+      "gaps": [
+        "A rodada de 2026 encerrou em 20/02/2026 e o programa não concede prorrogações.",
+        "Projeto já contemplado não recebe de novo; um projeto novo pode se candidatar."
+      ],
+      "judgment": "A página oficial informa que as candidaturas reabrem em 2027.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://unity.com/unity-humanity",
+      "source": "Unity",
+      "evidence": "Página e FAQ oficiais da Unity for Humanity, consultados por busca em 06/11/2026.",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
+    },
+    {
+      "id": "gamedevtvfund",
+      "name": "GameDev.tv Indie Game Dev Fund",
+      "org": "GameDev.tv",
+      "region": "Internacional",
+      "type": "Patrocínio de pequeno valor",
+      "status": "Em acompanhamento",
+      "decision": "Acompanhar publicação e atualização das regras",
+      "fit": "Potencial",
+      "deadline": null,
+      "dateLabel": "Fechado; próxima rodada prevista para o fim de 2026",
+      "horizon": "A página diz que as inscrições estão fechadas e prevê a próxima rodada para o 3º ou 4º trimestre de 2026, sem data exata.",
+      "money": "US$ 500 por projeto na 1ª rodada",
+      "summary": "A página diz que as inscrições estão fechadas e prevê a próxima rodada para o 3º ou 4º trimestre de 2026, sem data exata.",
+      "requirements": [
+        "Desenvolvedor independente ou equipe pequena, com protótipo jogável ou trabalho em andamento.",
+        "Disposição para compartilhar os bastidores com a comunidade."
+      ],
+      "gaps": [
+        "Valores das próximas rodadas não informados.",
+        "Ler os termos do fundo antes de enviar."
+      ],
+      "judgment": "A página diz que as inscrições estão fechadas e prevê a próxima rodada para o 3º ou 4º trimestre de 2026, sem data exata.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://gamedev.tv/p/indie-game-dev-fund",
+      "source": "GameDev.tv",
+      "evidence": "Página oficial conferida em 06/11/2026.",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
+    },
+    {
+      "id": "galacompetition",
+      "name": "GALA Serious Games Competition",
+      "org": "Serious Games Society",
+      "region": "Internacional",
+      "type": "Concurso de jogos sérios",
+      "status": "Em acompanhamento",
+      "decision": "Acompanhar publicação e atualização das regras",
+      "fit": "Potencial",
+      "deadline": null,
+      "dateLabel": "Edição seguinte sem data publicada",
+      "horizon": "Chamada costuma sair em meados do ano. É mais vitrine e rede de pesquisa em jogos sérios do que fonte de receita.",
+      "money": "Prêmio simbólico; € 300 só para estudantes finalistas",
+      "summary": "Chamada costuma sair em meados do ano. É mais vitrine e rede de pesquisa em jogos sérios do que fonte de receita.",
+      "requirements": [
+        "Jogos sérios nas categorias Academy, Business (estúdio profissional) e Student (até mestrado)."
+      ],
+      "gaps": [
+        "Na edição de 2025, a chamada fechou em agosto, sem prorrogação.",
+        "Participar da conferência tem custos próprios."
+      ],
+      "judgment": "Chamada costuma sair em meados do ano. É mais vitrine e rede de pesquisa em jogos sérios do que fonte de receita.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://conf.seriousgamessociety.org/competition/",
+      "source": "Serious Games Society",
+      "evidence": "Página oficial da competição conferida em 06/11/2026.",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
+    },
+    {
+      "id": "brasiltapragame",
+      "name": "Prêmio Brasil Tá Pra Game — 3ª edição",
+      "org": "Embratur / Abragames",
+      "region": "Brasil",
+      "type": "Concurso com prêmio em dinheiro",
+      "status": "Inscrições encerradas",
+      "decision": "Edição encerrada; referência para preparar a próxima",
+      "fit": "Potencial",
+      "deadline": "2026-02-09",
+      "dateLabel": "Encerrado em 09 fev 2026",
+      "horizon": "Três edições já realizadas. A de 2026 abriu no início do ano, então vale observar janeiro de 2027.",
+      "money": "R$ 70 mil, R$ 50 mil e R$ 40 mil",
+      "summary": "Três edições já realizadas. A de 2026 abriu no início do ano, então vale observar janeiro de 2027.",
+      "requirements": [
+        "Estúdios, desenvolvedores independentes e profissionais do setor de jogos.",
+        "Jogos que valorizam destinos turísticos brasileiros."
+      ],
+      "gaps": [
+        "Quarta edição não confirmada.",
+        "CNPJ não confirmado na fonte consultada."
+      ],
+      "judgment": "Três edições já realizadas. A de 2026 abriu no início do ano, então vale observar janeiro de 2027.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://embraturlab.com.br/brasiltapragame/",
+      "source": "Embratur / Abragames",
+      "evidence": "Notícia de 30/01/2026 do Brasilturis. A página oficial bloqueou a leitura automática.",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
+    },
+    {
+      "id": "spcine012026",
+      "name": "Spcine 01/2026 — Produção e finalização de games",
+      "org": "Spcine",
+      "region": "Brasil",
+      "type": "Fomento audiovisual",
+      "status": "Inscrições encerradas",
+      "decision": "Edição encerrada; referência para preparar a próxima",
+      "fit": "Potencial",
+      "deadline": "2026-08-13",
+      "dateLabel": "Encerrado em 13 ago 2026",
+      "horizon": "Referência de valor e de cronograma para a próxima edição: abertura em julho, encerramento em agosto.",
+      "money": "R$ 400 mil por projeto",
+      "summary": "Referência de valor e de cronograma para a próxima edição: abertura em julho, encerramento em agosto.",
+      "requirements": [
+        "Cinco projetos para PC e mobile, com R$ 2 milhões no total."
+      ],
+      "gaps": [
+        "Edição em fase final de seleção; nova abertura não anunciada.",
+        "A Incubadora de Games 02/2026 (R$ 1 milhão) contrata uma única proponente, que conduz a incubação de seis desenvolvedores."
+      ],
+      "judgment": "Referência de valor e de cronograma para a próxima edição: abertura em julho, encerramento em agosto.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://spcine.com.br/editais-spcine/",
+      "source": "Spcine",
+      "evidence": "Página de editais da Spcine conferida em 06/11/2026.",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
+    },
+    {
+      "id": "riofilme5",
+      "name": "RioFilme 5 — Desenvolvimento, produção e distribuição de jogos",
+      "org": "RioFilme",
+      "region": "Brasil",
+      "type": "Fomento audiovisual",
+      "status": "Inscrições encerradas",
+      "decision": "Edição encerrada; referência para preparar a próxima",
+      "fit": "Potencial",
+      "deadline": null,
+      "dateLabel": "Encerrado; seleção divulgada em out 2026",
+      "horizon": "Cronograma mostra seleção em 19/10/2026. Referência para o próximo ciclo municipal.",
+      "money": "Até R$ 1,5 milhão no total, para 13 propostas",
+      "summary": "Cronograma mostra seleção em 19/10/2026. Referência para o próximo ciclo municipal.",
+      "requirements": [
+        "Treze propostas em três linhas de ação, com duas faixas de investimento."
+      ],
+      "gaps": [
+        "Valor por projeto e tipo de proponente não confirmados nesta leitura.",
+        "Datas de inscrição não estão rotuladas na página: constam 06/07 e 02/08/2026; fontes secundárias citam 13/08."
+      ],
+      "judgment": "Cronograma mostra seleção em 19/10/2026. Referência para o próximo ciclo municipal.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://riofilme.com.br/editais/edital-no-5-desenvolvimento-producao-e-distribuicao-de-jogos-eletronicos/",
+      "source": "RioFilme",
+      "evidence": "Página oficial do edital conferida em 06/11/2026.",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
+    },
+    {
+      "id": "sampagames5",
+      "name": "Sampa Games — 5ª edição",
+      "org": "ADE Sampa / Prefeitura de São Paulo",
+      "region": "Brasil",
+      "type": "Aceleração com aporte",
+      "status": "Inscrições encerradas",
+      "decision": "Edição encerrada; referência para preparar a próxima",
+      "fit": "Potencial",
+      "deadline": "2026-06-11",
+      "dateLabel": "Encerrado em 11 jun 2026",
+      "horizon": "Até 25 negócios selecionados, seis meses de programa. Dinheiro pode cobrir equipamentos, marketing, serviços e softwares.",
+      "money": "Até R$ 52 mil por projeto",
+      "summary": "Até 25 negócios selecionados, seis meses de programa. Dinheiro pode cobrir equipamentos, marketing, serviços e softwares.",
+      "requirements": [
+        "Estúdios independentes em operação, em fase de validação de mercado.",
+        "Jogos digitais, analógicos com tecnologia integrada e experiências de realidade virtual ou aumentada."
+      ],
+      "gaps": [
+        "Programa em andamento desde setembro; nova edição não anunciada.",
+        "A página não informa se o aporte é reembolsável."
+      ],
+      "judgment": "Até 25 negócios selecionados, seis meses de programa. Dinheiro pode cobrir equipamentos, marketing, serviços e softwares.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://prefeitura.sp.gov.br/web/desenvolvimento/w/prefeitura-de-sp-prorroga-inscri%C3%A7%C3%B5es-para-programa-que-investe-r-52-mil-em-at%C3%A9-25-est%C3%BAdios-de-games",
+      "source": "ADE Sampa / Prefeitura de São Paulo",
+      "evidence": "Páginas da Prefeitura de São Paulo sobre abertura e prorrogação.",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
+    },
+    {
+      "id": "sebraegames2026",
+      "name": "Sebrae Games 2026 — Vitrine e missão à Gamescom",
+      "org": "Sebrae",
+      "region": "Brasil",
+      "type": "Seleção de estúdios",
+      "status": "Inscrições encerradas",
+      "decision": "Edição encerrada; referência para preparar a próxima",
+      "fit": "Potencial",
+      "deadline": "2026-05-05",
+      "dateLabel": "Encerrado em 05 mai 2026",
+      "horizon": "Top 15 entra na vitrine e recebe selo nacional; os cinco melhores vão à missão à Gamescom.",
+      "money": "Vitrine e missão à Gamescom; sem dinheiro direto",
+      "summary": "Top 15 entra na vitrine e recebe selo nacional; os cinco melhores vão à missão à Gamescom.",
+      "requirements": [
+        "MEI, ME ou EPP com CNPJ ativo, sede no Brasil e de 12 meses a 20 anos de existência.",
+        "Jogo digital próprio em desenvolvimento, com build jogável estável; não vale trabalho sob encomenda.",
+        "Mínimo de seis horas em soluções do Sebrae."
+      ],
+      "gaps": [
+        "Edição de 2027 não confirmada; o Plano Nacional Sebrae Games vai até 2027."
+      ],
+      "judgment": "Top 15 entra na vitrine e recebe selo nacional; os cinco melhores vão à missão à Gamescom.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/seu-jogo-esta-pronto-para-ganhar-o-mundo-sebrae-lanca-edital-que-leva-estudios-a-gamescom-2026/",
+      "source": "Sebrae",
+      "evidence": "Agência Sebrae: datas, benefícios e requisitos do edital.",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
+    },
+    {
+      "id": "facdf2026",
+      "name": "FAC II Audiovisual DF 16/2026 — Jogos digitais",
+      "org": "Secretaria de Cultura do DF",
+      "region": "Brasil",
+      "type": "Fomento cultural",
+      "status": "Inscrições encerradas",
+      "decision": "Edição encerrada; referência para preparar a próxima",
+      "fit": "Potencial",
+      "deadline": "2026-10-07",
+      "dateLabel": "Encerrado em 07 out 2026",
+      "horizon": "Referência para o próximo ciclo do Fundo de Apoio à Cultura do DF.",
+      "money": "Valor por projeto nos anexos",
+      "summary": "Referência para o próximo ciclo do Fundo de Apoio à Cultura do DF.",
+      "requirements": [
+        "Linha de desenvolvimento de jogos digitais dentro de R$ 9 milhões para o audiovisual."
+      ],
+      "gaps": [
+        "Inscrições encerradas.",
+        "Página mostra modelos para PF e PJ, mas a regra de proponente não foi confirmada."
+      ],
+      "judgment": "Referência para o próximo ciclo do Fundo de Apoio à Cultura do DF.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://sufic.cultura.df.gov.br/edital-fac-ii/2026",
+      "source": "Secretaria de Cultura do DF",
+      "evidence": "Página da Sufic atualizada em 23/09/2026.",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
+    },
+    {
+      "id": "brdelabs2026",
+      "name": "BRDE Labs 2026 — Desafios de empresas do Sul",
+      "org": "BRDE Labs",
+      "region": "Brasil",
+      "type": "Inovação aberta corporativa",
+      "status": "Inscrições encerradas",
+      "decision": "Edição encerrada; referência para preparar a próxima",
+      "fit": "Potencial",
+      "deadline": "2026-09-04",
+      "dateLabel": "Encerrado em 04 set 2026",
+      "horizon": "Vale como modelo do tipo de desafio em que um jogo de treinamento cabe. Edição de 2027 não confirmada.",
+      "money": "Sem pagamento garantido",
+      "summary": "Vale como modelo do tipo de desafio em que um jogo de treinamento cabe. Edição de 2027 não confirmada.",
+      "requirements": [
+        "Startups com CNPJ de pelo menos seis meses; empresas tradicionais com solução inovadora também podem entrar.",
+        "Desafio 13, da Magnetron: capacitação técnica digital com conteúdos lúdicos para mecânicos de moto."
+      ],
+      "gaps": [
+        "Gamificação não é citada de forma expressa; aderência a validar.",
+        "Prova de conceito depende do interesse da empresa e não há financiamento garantido."
+      ],
+      "judgment": "Vale como modelo do tipo de desafio em que um jogo de treinamento cabe. Edição de 2027 não confirmada.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://www.brdelabs.com.br/desafios-2026/",
+      "source": "BRDE Labs",
+      "evidence": "Página oficial Desafios 2026: lista de 18 desafios e FAQ.",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
+    },
+    {
+      "id": "igf2027",
+      "name": "Independent Games Festival 2027",
+      "org": "Game Developers Conference",
+      "region": "Internacional",
+      "type": "Festival e premiação",
+      "status": "Inscrições encerradas",
+      "decision": "Edição encerrada; referência para preparar a próxima",
+      "fit": "Potencial",
+      "deadline": "2026-09-13",
+      "dateLabel": "Encerrado em 13 set 2026",
+      "horizon": "Um dos poucos casos com taxa de inscrição confirmada. Isenção para quem precisa de ajuda deve ser pedida antes do prazo.",
+      "money": "Valores de prêmio não informados",
+      "summary": "Um dos poucos casos com taxa de inscrição confirmada. Isenção para quem precisa de ajuda deve ser pedida antes do prazo.",
+      "requirements": [
+        "Desenvolvedores independentes; jogos lançados podem entrar. Demo deve estar quase completa."
+      ],
+      "gaps": [
+        "Finalistas saem em janeiro de 2027; a próxima janela de inscrição deve abrir em meados de 2027, sem confirmação."
+      ],
+      "judgment": "Um dos poucos casos com taxa de inscrição confirmada. Isenção para quem precisa de ajuda deve ser pedida antes do prazo.",
+      "next": "Ler a fonte e os anexos antes de iniciar a candidatura.",
+      "url": "https://igf.com/submission-info/",
+      "source": "Game Developers Conference",
+      "evidence": "Página oficial de submissão conferida em 06/11/2026.",
+      "quality": "Consultar regras completas e retificações na fonte",
+      "verified": "2026-11-06"
     }
   ],
   "sources": [
@@ -1542,6 +2080,256 @@ window.RADAR = {
       "name": "CyberSec Games",
       "url": "https://cybersecgames.com/pages/2026-cybersec-game-challenge",
       "scope": "Internacional; participação individual ou equipe · Desafio empresarial de jogo educativo físico",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "bigfestival2027",
+      "name": "gamescom latam / BIG Festival",
+      "url": "https://latam.gamescom.global/en/big-festival-en/",
+      "scope": "Desenvolvedores independentes do Brasil e do exterior; evento em São Paulo · Festival e premiação",
+      "priority": "Alta",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "cobstartups2",
+      "name": "Comitê Olímpico do Brasil / Arena Hub",
+      "url": "https://desafiocobdestartups.com.br",
+      "scope": "Startups formalmente constituídas no Brasil · Desafio de inovação aberta",
+      "priority": "Alta",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "epicaimegajam",
+      "name": "Epic Games",
+      "url": "https://itch.io/jam/2026-epic-ai-megajam",
+      "scope": "Internacional; on-line, em comunidades locais ou presencial em São Francisco; países restritos nas regras oficiais · Game jam com prêmios",
+      "priority": "Alta",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "outersloth",
+      "name": "Innersloth",
+      "url": "https://www.innersloth.com/outersloth",
+      "scope": "Internacional; regiões não restringidas na página · Financiamento com recoup e receita",
+      "priority": "Alta",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "kowloonkepler",
+      "name": "Kepler Interactive",
+      "url": "https://kepler-interactive.com/kowloon",
+      "scope": "Regiões não informadas na página · Financiamento de projetos",
+      "priority": "Alta",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "googleplaylatam",
+      "name": "Google Play",
+      "url": "https://google.play/business/programs/indiegames/",
+      "scope": "Estúdios pequenos sediados na América Latina · Fundo sem participação societária",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "epicmegagrants",
+      "name": "Epic Games",
+      "url": "https://www.unrealengine.com/megagrants",
+      "scope": "Internacional; projetos em Unreal Engine, UEFN ou código aberto · Bolsa em ciclos",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "unityhumanity",
+      "name": "Unity",
+      "url": "https://unity.com/unity-humanity",
+      "scope": "Internacional; exige entidade legal · Bolsa para projetos de impacto",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "gamedevtvfund",
+      "name": "GameDev.tv",
+      "url": "https://gamedev.tv/p/indie-game-dev-fund",
+      "scope": "Desenvolvedores independentes; regras de país nos termos · Patrocínio de pequeno valor",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "galacompetition",
+      "name": "Serious Games Society",
+      "url": "https://conf.seriousgamessociety.org/competition/",
+      "scope": "Internacional; categorias acadêmica, empresa e estudante · Concurso de jogos sérios",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "brasiltapragame",
+      "name": "Embratur / Abragames",
+      "url": "https://embraturlab.com.br/brasiltapragame/",
+      "scope": "Nacional; estúdios, desenvolvedores independentes e profissionais · Concurso com prêmio em dinheiro",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "spcine012026",
+      "name": "Spcine",
+      "url": "https://spcine.com.br/editais-spcine/",
+      "scope": "Município de São Paulo; conferir regra de sede · Fomento audiovisual",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "riofilme5",
+      "name": "RioFilme",
+      "url": "https://riofilme.com.br/editais/edital-no-5-desenvolvimento-producao-e-distribuicao-de-jogos-eletronicos/",
+      "scope": "Município do Rio de Janeiro; conferir regra de sede · Fomento audiovisual",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "sampagames5",
+      "name": "ADE Sampa / Prefeitura de São Paulo",
+      "url": "https://prefeitura.sp.gov.br/web/desenvolvimento/w/prefeitura-de-sp-prorroga-inscri%C3%A7%C3%B5es-para-programa-que-investe-r-52-mil-em-at%C3%A9-25-est%C3%BAdios-de-games",
+      "scope": "Estúdios da cidade de São Paulo; conferir regra de sede · Aceleração com aporte",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "sebraegames2026",
+      "name": "Sebrae",
+      "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/seu-jogo-esta-pronto-para-ganhar-o-mundo-sebrae-lanca-edital-que-leva-estudios-a-gamescom-2026/",
+      "scope": "Nacional; empresa com sede no Brasil · Seleção de estúdios",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "facdf2026",
+      "name": "Secretaria de Cultura do DF",
+      "url": "https://sufic.cultura.df.gov.br/edital-fac-ii/2026",
+      "scope": "Distrito Federal; territórios conforme anexos · Fomento cultural",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "brdelabs2026",
+      "name": "BRDE Labs",
+      "url": "https://www.brdelabs.com.br/desafios-2026/",
+      "scope": "Qualquer região; empresas-âncora do Paraná · Inovação aberta corporativa",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "igf2027",
+      "name": "Game Developers Conference",
+      "url": "https://igf.com/submission-info/",
+      "scope": "Internacional, com países restritos · Festival e premiação",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "finep",
+      "name": "Finep — Chamadas públicas",
+      "url": "http://www.finep.gov.br/chamadas-publicas",
+      "scope": "Nacional · Chamada de R$ 200 milhões para startups de jogos anunciada",
+      "priority": "Alta",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "fapesc",
+      "name": "FAPESC",
+      "url": "https://fapesc.sc.gov.br/",
+      "scope": "Santa Catarina · Já teve o edital START-SC Games (2024)",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "sebraegamesportal",
+      "name": "Agência Sebrae — Games",
+      "url": "https://agenciasebrae.com.br/tag/sebrae-games/",
+      "scope": "Nacional · Plano Nacional Sebrae Games até 2027",
+      "priority": "Alta",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "adesampa",
+      "name": "ADE Sampa / Hub Sampa Games",
+      "url": "https://adesampa.com.br/hubsampagames/",
+      "scope": "São Paulo · Aceleração e formação",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "gamefchange",
+      "name": "Games for Change — Oportunidades",
+      "url": "https://www.gamesforchange.org/",
+      "scope": "Internacional · Jogos de impacto",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "medialearning",
+      "name": "Media & Learning — Concursos",
+      "url": "https://media-and-learning.eu/type/competitions/serious-game-award-competition",
+      "scope": "Internacional · Prêmio de jogos sérios",
+      "priority": "Média",
+      "method": "Página pública e anexos PDF",
+      "cadence": "Manual, sob demanda",
+      "note": "Fonte cadastrada para coleta; leitura técnica não confirma inscrição ou elegibilidade."
+    },
+    {
+      "id": "itchjams",
+      "name": "itch.io — Próximos game jams",
+      "url": "https://itch.io/jams/upcoming",
+      "scope": "Internacional · Jams, inclusive com prêmio",
       "priority": "Média",
       "method": "Página pública e anexos PDF",
       "cadence": "Manual, sob demanda",

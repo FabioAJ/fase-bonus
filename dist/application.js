@@ -49,7 +49,17 @@ window.APPLICATIONS = {
     "states": [],
     "territoryScope": "international",
     "territoryLabel": "Internacional; conferir países elegíveis",
-    "requiresCnpjAtApplication": null
+    "requiresCnpjAtApplication": null,
+    "pays": "none",
+    "oppType": "programa",
+    "gameFocus": [
+      "serio"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "parceria"
+    ]
   },
   "media": {
     "category": "current",
@@ -106,7 +116,17 @@ window.APPLICATIONS = {
     "states": [],
     "territoryScope": "international",
     "territoryLabel": "Internacional; conferir países elegíveis",
-    "requiresCnpjAtApplication": true
+    "requiresCnpjAtApplication": true,
+    "pays": "cash",
+    "oppType": "edital",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "fomento"
+    ]
   },
   "senai2025": {
     "category": "watch",
@@ -157,7 +177,17 @@ window.APPLICATIONS = {
     "states": [],
     "territoryScope": "national",
     "territoryLabel": "Nacional; conferir requisitos do programa",
-    "requiresCnpjAtApplication": true
+    "requiresCnpjAtApplication": true,
+    "pays": "unknown",
+    "oppType": "empresa",
+    "gameFocus": [
+      "serio"
+    ],
+    "explicitGames": false,
+    "entryFee": null,
+    "modality": [
+      "fomento"
+    ]
   },
   "jornada": {
     "category": "watch",
@@ -210,6 +240,17 @@ window.APPLICATIONS = {
     "territoryScope": "national",
     "territoryLabel": "Nacional; conferir requisitos do programa",
     "requiresCnpjAtApplication": true,
+    "pays": "cash",
+    "oppType": "empresa",
+    "gameFocus": [
+      "gamificacao",
+      "serio"
+    ],
+    "explicitGames": false,
+    "entryFee": null,
+    "modality": [
+      "poc"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -264,6 +305,16 @@ window.APPLICATIONS = {
     "territoryScope": "national",
     "territoryLabel": "Nacional; conferir requisitos do programa",
     "requiresCnpjAtApplication": true,
+    "pays": "cash",
+    "oppType": "empresa",
+    "gameFocus": [
+      "gamificacao"
+    ],
+    "explicitGames": false,
+    "entryFee": null,
+    "modality": [
+      "poc"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -318,7 +369,17 @@ window.APPLICATIONS = {
     "states": [],
     "territoryScope": "national",
     "territoryLabel": "Nacional; conferir requisitos do programa",
-    "requiresCnpjAtApplication": false
+    "requiresCnpjAtApplication": false,
+    "pays": "none",
+    "oppType": "concurso",
+    "gameFocus": [
+      "serio"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "premio"
+    ]
   },
   "bndes": {
     "category": "current",
@@ -373,6 +434,17 @@ window.APPLICATIONS = {
     "territoryScope": "national",
     "territoryLabel": "Nacional; conferir requisitos do programa",
     "requiresCnpjAtApplication": false,
+    "pays": "none",
+    "oppType": "programa",
+    "gameFocus": [
+      "geral",
+      "serio"
+    ],
+    "explicitGames": false,
+    "entryFee": null,
+    "modality": [
+      "aceleracao"
+    ],
     "collectionStatus": "unchanged",
     "lastFetched": "2026-11-05T17:22:53-03:00"
   },
@@ -427,6 +499,16 @@ window.APPLICATIONS = {
     "territoryScope": "national",
     "territoryLabel": "Nacional; conferir requisitos do programa",
     "requiresCnpjAtApplication": false,
+    "pays": "none",
+    "oppType": "programa",
+    "gameFocus": [
+      "geral"
+    ],
+    "explicitGames": false,
+    "entryFee": null,
+    "modality": [
+      "formacao"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -482,6 +564,16 @@ window.APPLICATIONS = {
     "territoryScope": "international",
     "territoryLabel": "Internacional; conferir países elegíveis",
     "requiresCnpjAtApplication": false,
+    "pays": "investment",
+    "oppType": "fundo",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "receita"
+    ],
     "collectionStatus": "unchanged",
     "lastFetched": "2026-11-05T17:22:53-03:00"
   },
@@ -537,6 +629,16 @@ window.APPLICATIONS = {
     "territoryScope": "international",
     "territoryLabel": "Internacional; conferir países elegíveis",
     "requiresCnpjAtApplication": null,
+    "pays": "unknown",
+    "oppType": "fundo",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "financiamento"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -592,6 +694,16 @@ window.APPLICATIONS = {
     "territoryScope": "international",
     "territoryLabel": "Internacional; conferir países elegíveis",
     "requiresCnpjAtApplication": null,
+    "pays": "investment",
+    "oppType": "fundo",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "receita"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -647,6 +759,16 @@ window.APPLICATIONS = {
     "territoryScope": "international",
     "territoryLabel": "Internacional; conferir países elegíveis",
     "requiresCnpjAtApplication": null,
+    "pays": "investment",
+    "oppType": "fundo",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "receita"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -703,6 +825,16 @@ window.APPLICATIONS = {
     "territoryLabel": "Minas Gerais; empresa e maturidade exigidas",
     "territoryScope": "restricted",
     "requiresCnpjAtApplication": true,
+    "pays": "none",
+    "oppType": "programa",
+    "gameFocus": [
+      "geral"
+    ],
+    "explicitGames": false,
+    "entryFee": null,
+    "modality": [
+      "aceleracao"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -760,6 +892,16 @@ window.APPLICATIONS = {
     "territoryLabel": "Minas Gerais; formalização conforme edital",
     "territoryScope": "restricted",
     "requiresCnpjAtApplication": false,
+    "pays": "cash",
+    "oppType": "edital",
+    "gameFocus": [
+      "geral"
+    ],
+    "explicitGames": false,
+    "entryFee": null,
+    "modality": [
+      "subvencao"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -817,6 +959,16 @@ window.APPLICATIONS = {
     "territoryLabel": "Goiás; formalização conforme edital",
     "territoryScope": "restricted",
     "requiresCnpjAtApplication": false,
+    "pays": "cash",
+    "oppType": "edital",
+    "gameFocus": [
+      "geral"
+    ],
+    "explicitGames": false,
+    "entryFee": null,
+    "modality": [
+      "subvencao"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -874,6 +1026,16 @@ window.APPLICATIONS = {
     "territoryLabel": "Maricá/RJ; sede e residência local exigidas",
     "territoryScope": "restricted",
     "requiresCnpjAtApplication": true,
+    "pays": "cash",
+    "oppType": "edital",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "fomento"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -929,6 +1091,16 @@ window.APPLICATIONS = {
     "territoryLabel": "Internacional; confirmar regras aplicáveis ao Brasil",
     "closeDate": "2026-11-13",
     "requiresCnpjAtApplication": false,
+    "pays": "cash",
+    "oppType": "concurso",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "premio"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T18:04:54-03:00"
   },
@@ -984,6 +1156,16 @@ window.APPLICATIONS = {
     "closeDate": "2026-11-06",
     "closeAt": "2026-11-06T18:00:00-03:00",
     "requiresCnpjAtApplication": false,
+    "pays": "cash",
+    "oppType": "edital",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "auxilio"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T18:04:54-03:00"
   },
@@ -1042,6 +1224,16 @@ window.APPLICATIONS = {
     "territoryLabel": "Bahia e Sergipe; vínculo e polo conforme edital",
     "closeDate": "2026-12-06",
     "requiresCnpjAtApplication": false,
+    "pays": "none",
+    "oppType": "programa",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "formacao"
+    ],
     "collectionStatus": "error",
     "lastFetched": null
   },
@@ -1093,6 +1285,16 @@ window.APPLICATIONS = {
     ],
     "territoryLabel": "Presencial em Brasília/DF; vínculo local priorizado",
     "requiresCnpjAtApplication": true,
+    "pays": "none",
+    "oppType": "programa",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "estrutura"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T18:04:54-03:00"
   },
@@ -1148,6 +1350,16 @@ window.APPLICATIONS = {
     ],
     "territoryLabel": "Criadores atuantes no Ceará",
     "requiresCnpjAtApplication": false,
+    "pays": "unknown",
+    "oppType": "edital",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "auxilio"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T18:04:01-03:00"
   },
@@ -1198,6 +1410,16 @@ window.APPLICATIONS = {
     "states": [],
     "territoryLabel": "Nacional; multiplicador varia por região",
     "requiresCnpjAtApplication": null,
+    "pays": "cash",
+    "oppType": "edital",
+    "gameFocus": [
+      "geral"
+    ],
+    "explicitGames": false,
+    "entryFee": null,
+    "modality": [
+      "matchfunding"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T18:04:01-03:00"
   },
@@ -1250,6 +1472,16 @@ window.APPLICATIONS = {
     ],
     "territoryLabel": "Estúdios cariocas; território exato depende do edital",
     "requiresCnpjAtApplication": null,
+    "pays": "investment",
+    "oppType": "fundo",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "investimento"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T18:04:01-03:00"
   },
@@ -1262,13 +1494,14 @@ window.APPLICATIONS = {
     "deadline": "Sem cronograma de inscrição publicado",
     "deadlineDetail": "Duas iniciativas do MinC previstas para 2027; mês e abertura até março não confirmados.",
     "support": "Aporte por projeto ainda não definido",
-    "supportDetail": "",
+    "supportDetail": "Pacote de 14/10/2026 cita chamada Finep de R$ 200 milhões, crédito FSA e incentivo fiscal. São valores globais e dependem de regulamento.",
     "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
     "verdict": "Acompanhar publicação e atualização das regras",
     "reason": "",
     "blockers": [
       "Não é edital aberto.",
-      "Estimativas de R$ 50 milhões por iniciativa são globais; não são apoio individual."
+      "Estimativas de R$ 50 milhões por iniciativa são globais; não são apoio individual.",
+      "Chamada Finep de R$ 200 milhões para startups de jogos e soluções digitais é proposta do MCTI; edital sem data confirmada em 06/11/2026."
     ],
     "deliverables": [
       {
@@ -1293,12 +1526,23 @@ window.APPLICATIONS = {
     "cnpj": "unknown",
     "profileNote": "",
     "kind": "anuncio",
-    "reviewedAt": "2026-11-05",
+    "reviewedAt": "2026-11-06",
     "priority": 5,
     "territoryScope": "national",
     "states": [],
     "territoryLabel": "Nacional; elegibilidade depende das chamadas",
     "requiresCnpjAtApplication": null,
+    "pays": "unknown",
+    "oppType": "edital",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "fomento",
+      "incentivo"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T18:04:01-03:00"
   },
@@ -1356,6 +1600,16 @@ window.APPLICATIONS = {
     "territoryLabel": "São Paulo; sede há pelo menos dois anos",
     "closeDate": "2026-08-03",
     "requiresCnpjAtApplication": true,
+    "pays": "cash",
+    "oppType": "edital",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "fomento"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T18:04:01-03:00"
   },
@@ -1409,6 +1663,16 @@ window.APPLICATIONS = {
     "territoryLabel": "Residente no RN; atuação cultural de dois anos",
     "closeDate": "2026-03-09",
     "requiresCnpjAtApplication": false,
+    "pays": "cash",
+    "oppType": "edital",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "fomento"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T18:04:54-03:00"
   },
@@ -1461,6 +1725,16 @@ window.APPLICATIONS = {
     "territoryLabel": "Ceará; condições de vínculo no regulamento",
     "closeDate": "2026-09-30",
     "requiresCnpjAtApplication": null,
+    "pays": "cash",
+    "oppType": "edital",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "fomento"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T18:04:01-03:00"
   },
@@ -1513,6 +1787,16 @@ window.APPLICATIONS = {
     ],
     "territoryLabel": "Bahia; condições completas no edital",
     "requiresCnpjAtApplication": null,
+    "pays": "cash",
+    "oppType": "edital",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "fomento"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T18:04:01-03:00"
   },
@@ -1564,6 +1848,16 @@ window.APPLICATIONS = {
     "territoryLabel": "Nacional",
     "closeDate": "2026-07-31",
     "requiresCnpjAtApplication": true,
+    "pays": "cash",
+    "oppType": "edital",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "patrocinio"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T18:04:01-03:00"
   },
@@ -1617,6 +1911,17 @@ window.APPLICATIONS = {
     "states": [],
     "territoryLabel": "Brasil e rede internacional da Enel; aderência à estratégia exigida",
     "requiresCnpjAtApplication": false,
+    "pays": "unknown",
+    "oppType": "empresa",
+    "gameFocus": [
+      "gamificacao",
+      "serio"
+    ],
+    "explicitGames": false,
+    "entryFee": null,
+    "modality": [
+      "parceria"
+    ],
     "collectionStatus": "error",
     "lastFetched": null
   },
@@ -1675,6 +1980,16 @@ window.APPLICATIONS = {
     "territoryLabel": "Nacional; startups aderentes aos portfólios Petrobras",
     "closeDate": "2026-12-31",
     "requiresCnpjAtApplication": null,
+    "pays": "unknown",
+    "oppType": "empresa",
+    "gameFocus": [
+      "serio"
+    ],
+    "explicitGames": false,
+    "entryFee": null,
+    "modality": [
+      "pdi"
+    ],
     "collectionStatus": "error",
     "lastFetched": "2026-11-05T20:04:52-03:00"
   },
@@ -1730,6 +2045,16 @@ window.APPLICATIONS = {
     ],
     "territoryLabel": "Indústria com matriz ou filial em MG; parceiro técnico opcional",
     "requiresCnpjAtApplication": true,
+    "pays": "none",
+    "oppType": "empresa",
+    "gameFocus": [
+      "serio"
+    ],
+    "explicitGames": false,
+    "entryFee": null,
+    "modality": [
+      "pdi"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T20:04:52-03:00"
   },
@@ -1783,6 +2108,17 @@ window.APPLICATIONS = {
     "territoryLabel": "Nacional; parcela dos recursos reservada ao Sul e SP",
     "closeDate": "2026-11-30",
     "requiresCnpjAtApplication": true,
+    "pays": "investment",
+    "oppType": "fundo",
+    "gameFocus": [
+      "gamificacao",
+      "geral"
+    ],
+    "explicitGames": false,
+    "entryFee": null,
+    "modality": [
+      "conversivel"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T20:04:52-03:00"
   },
@@ -1843,6 +2179,17 @@ window.APPLICATIONS = {
     "territoryLabel": "Empresa e execução em SP; responsável deve residir no estado durante o projeto",
     "closeDate": "2026-11-12",
     "requiresCnpjAtApplication": false,
+    "pays": "cash",
+    "oppType": "edital",
+    "gameFocus": [
+      "serio",
+      "gamificacao"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "pdi"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T20:04:52-03:00"
   },
@@ -1893,6 +2240,16 @@ window.APPLICATIONS = {
     "states": [],
     "territoryLabel": "Canal brasileiro; regras específicas a confirmar",
     "requiresCnpjAtApplication": null,
+    "pays": "unknown",
+    "oppType": "empresa",
+    "gameFocus": [
+      "gamificacao"
+    ],
+    "explicitGames": false,
+    "entryFee": null,
+    "modality": [
+      "parceria"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T17:18:28-03:00"
   },
@@ -1945,6 +2302,16 @@ window.APPLICATIONS = {
     "states": [],
     "territoryLabel": "Operação no Brasil; piloto ligado a festival em SP",
     "requiresCnpjAtApplication": true,
+    "pays": "unknown",
+    "oppType": "empresa",
+    "gameFocus": [
+      "gamificacao"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "poc"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T20:04:52-03:00"
   },
@@ -1998,7 +2365,1150 @@ window.APPLICATIONS = {
     "territoryLabel": "Internacional; participação individual ou equipe",
     "closeDate": "2026-10-09",
     "requiresCnpjAtApplication": false,
+    "pays": "unknown",
+    "oppType": "empresa",
+    "gameFocus": [
+      "serio"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "royalties"
+    ],
     "collectionStatus": "ok",
     "lastFetched": "2026-11-05T20:04:52-03:00"
+  },
+  "bigfestival2027": {
+    "category": "current",
+    "short": "BIG Festival 2027 — competição de jogos independentes",
+    "host": "gamescom latam / BIG Festival",
+    "eligibility": "Desenvolvedores independentes do mundo todo, incluindo estúdios brasileiros.",
+    "eligibilityDetail": "Inscrição gratuita até 15/01/2027, às 21h59 EST. Em anos anteriores o prazo já foi prorrogado, mas isso não está confirmado para 2027.",
+    "deadline": "15 jan 2027, 23h59 de Brasília",
+    "deadlineDetail": "Inscrição gratuita até 15/01/2027, às 21h59 EST. Em anos anteriores o prazo já foi prorrogado, mas isso não está confirmado para 2027.",
+    "support": "Premiação e vitrine; sem dinheiro anunciado",
+    "supportDetail": "Visibilidade, premiação e exposição ao público e ao mercado na gamescom latam.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Avaliar os requisitos antes de preparar a proposta",
+    "reason": "",
+    "blockers": [
+      "O comunicado não anuncia prêmio em dinheiro.",
+      "Condições de CNPJ e regulamento completo não conferidos.",
+      "Jogos selecionados precisam avaliar custos de ida ao evento, em 22 a 25/04/2027."
+    ],
+    "deliverables": [
+      {
+        "text": "Inscrição do jogo no site do festival; materiais conforme o regulamento da edição.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://latam.gamescom.global/en/big-festival-en/",
+    "docsUrl": null,
+    "sourceLabel": "gamescom latam / BIG Festival",
+    "evidenceNote": "Comunicado oficial da gamescom latam 2027: https://www.gamespress.com/gamescom-latam-2027-opens-call-for-speakers-alongside-BIG-Festivals-fr",
+    "stage": "Festival e premiação",
+    "tags": [
+      "Jogos autorais",
+      "Visibilidade",
+      "Festival"
+    ],
+    "ready": "Chamada ou canal atual",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "concurso",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "national",
+    "states": [],
+    "territoryLabel": "Desenvolvedores independentes do Brasil e do exterior; evento em São Paulo",
+    "requiresCnpjAtApplication": null,
+    "pays": "none",
+    "oppType": "concurso",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": "free",
+    "closeDate": "2027-01-15",
+    "closeAt": "2027-01-15T21:59:00-05:00",
+    "modality": [
+      "vitrine"
+    ],
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-06T10:33:23-03:00"
+  },
+  "cobstartups2": {
+    "category": "current",
+    "short": "Desafio COB de Startups — 2ª edição",
+    "host": "Comitê Olímpico do Brasil / Arena Hub",
+    "eligibility": "Startups formalmente constituídas no Brasil, em qualquer estágio, da ideação à escala.",
+    "eligibilityDetail": "Inscrições até 10/01/2027. Na 1ª edição, as três campeãs dividiram R$ 100 mil; o valor da nova edição será anunciado ao longo da competição.",
+    "deadline": "10 jan 2027",
+    "deadlineDetail": "Inscrições até 10/01/2027. Na 1ª edição, as três campeãs dividiram R$ 100 mil; o valor da nova edição será anunciado ao longo da competição.",
+    "support": "Prêmios a anunciar",
+    "supportDetail": "1ª edição: R$ 100 mil divididos entre três campeãs. Todas as inscritas ganham perfil visível a confederações, marcas e investidores.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Avaliar os requisitos antes de preparar a proposta",
+    "reason": "",
+    "blockers": [
+      "Valor da premiação da 2ª edição ainda não informado.",
+      "Jogo precisa servir a uma tese ligada ao esporte, não é chamada de jogo autoral.",
+      "Sem CNPJ a equipe não atende à condição de startup constituída."
+    ],
+    "deliverables": [
+      {
+        "text": "Inscrição na plataforma Arena Hub Intelligence; conferir regulamento e cronograma no site do desafio.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://desafiocobdestartups.com.br",
+    "docsUrl": null,
+    "sourceLabel": "Comitê Olímpico do Brasil / Arena Hub",
+    "evidenceNote": "Notícia oficial do COB sobre a 2ª edição, com as 11 teses. A página do desafio carrega por aplicação, então regulamento e cronograma não foram lidos.",
+    "stage": "Desafio de inovação aberta",
+    "tags": [
+      "Desafio corporativo",
+      "Gamificação",
+      "Engajamento",
+      "Esporte"
+    ],
+    "ready": "Chamada ou canal atual",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "required",
+    "profileNote": "",
+    "kind": "desafio",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "national",
+    "states": [],
+    "territoryLabel": "Startups formalmente constituídas no Brasil",
+    "requiresCnpjAtApplication": true,
+    "pays": "unknown",
+    "oppType": "empresa",
+    "gameFocus": [
+      "gamificacao"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "closeDate": "2027-01-10",
+    "modality": [
+      "premio"
+    ],
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-06T10:33:23-03:00"
+  },
+  "epicaimegajam": {
+    "category": "current",
+    "short": "2026 Epic AI MegaJam",
+    "host": "Epic Games",
+    "eligibility": "Equipes de até cinco pessoas criando jogo jogável em Unreal Engine ou UEFN, durante o evento.",
+    "eligibilityDetail": "O jam acontece de 12 a 15/11/2026. Cada equipe escolhe Unreal Engine ou UEFN, nunca os dois.",
+    "deadline": "12 a 15 nov 2026",
+    "deadlineDetail": "O jam acontece de 12 a 15/11/2026. Cada equipe escolhe Unreal Engine ou UEFN, nunca os dois.",
+    "support": "Prêmios em dinheiro e bolsas de até US$ 50 mil",
+    "supportDetail": "Prêmios em dinheiro por categoria e bolsas de continuidade de até US$ 50 mil para projetos de destaque.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Avaliar os requisitos antes de preparar a proposta",
+    "reason": "",
+    "blockers": [
+      "Não comece o jogo antes de 12/11; o tema é revelado em 11/11.",
+      "Elegibilidade por país e idade não foi confirmada nas regras oficiais; conferir se o Brasil é admitido.",
+      "Fontes divergem sobre o total de prêmios (US$ 50 mil a US$ 65 mil)."
+    ],
+    "deliverables": [
+      {
+        "text": "Inscrição pela página do jam no itch.io; ler as regras oficiais antes de enviar.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://itch.io/jam/2026-epic-ai-megajam",
+    "docsUrl": null,
+    "sourceLabel": "Epic Games",
+    "evidenceNote": "Anúncio oficial no fórum da Unreal Engine: https://forums.unrealengine.com/t/vibe-your-way-to-50k-the-2026-epic-ai-megajam-is-coming/2843973 . As regras oficiais não foram lidas.",
+    "stage": "Game jam com prêmios",
+    "tags": [
+      "Jogos autorais",
+      "Game jam",
+      "Prêmio",
+      "Unreal"
+    ],
+    "ready": "Chamada ou canal atual",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "concurso",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "international",
+    "states": [],
+    "territoryLabel": "Internacional; on-line, em comunidades locais ou presencial em São Francisco; países restritos nas regras oficiais",
+    "requiresCnpjAtApplication": null,
+    "pays": "cash",
+    "oppType": "concurso",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "closeDate": "2026-11-15",
+    "modality": [
+      "premio"
+    ],
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-06T10:33:23-03:00"
+  },
+  "outersloth": {
+    "category": "current",
+    "short": "Outersloth — fundo de jogos independentes",
+    "host": "Innersloth",
+    "eligibility": "Jogos premium para PC, console ou mobile, ainda não lançados. Early Access não é considerado.",
+    "eligibilityDetail": "Fundo não publica o jogo nem fica com a propriedade intelectual; o contrato completo é público na página.",
+    "deadline": "Pitch contínuo, sem data-limite",
+    "deadlineDetail": "Fundo não publica o jogo nem fica com a propriedade intelectual; o contrato completo é público na página.",
+    "support": "US$ 50 mil a US$ 2 milhões, faixa usual",
+    "supportDetail": "Faixa usual, sem valor garantido; a página aceita pitches fora dela. Apoio limitado a conselhos e apresentações.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Avaliar os requisitos antes de preparar a proposta",
+    "reason": "",
+    "blockers": [
+      "Não é subvenção: há recuperação do investimento e divisão de receita.",
+      "Propostas enviadas por e-mail são apagadas.",
+      "Equipe pequena, então a resposta pode demorar."
+    ],
+    "deliverables": [
+      {
+        "text": "Pitch deck pelo formulário oficial com orçamento, cronograma, nome do estúdio e nome do jogo. Build ou demo é opcional.",
+        "state": "confirmed"
+      },
+      {
+        "text": "Ajudam: redes sociais, trabalhos anteriores, pesquisa de mercado, press kit e trailer.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://www.innersloth.com/outersloth",
+    "docsUrl": null,
+    "sourceLabel": "Innersloth",
+    "evidenceNote": "Página oficial da Outersloth conferida em 06/11/2026.",
+    "stage": "Financiamento com recoup e receita",
+    "tags": [
+      "Jogos autorais",
+      "Financiamento",
+      "PC"
+    ],
+    "ready": "Chamada ou canal atual",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "financiamento",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "international",
+    "states": [],
+    "territoryLabel": "Internacional; regiões não restringidas na página",
+    "requiresCnpjAtApplication": null,
+    "pays": "investment",
+    "oppType": "fundo",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "receita"
+    ],
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-06T10:33:23-03:00"
+  },
+  "kowloonkepler": {
+    "category": "current",
+    "short": "Kepler Interactive / Kowloon Nights — pitch de jogos",
+    "host": "Kepler Interactive",
+    "eligibility": "Foco em projetos premium para PC e console; aberto a pitches de AR/VR e mobile-first.",
+    "eligibilityDetail": "A Kowloon Nights hoje redireciona para a Kepler Interactive, que mantém o formulário de pitch aberto.",
+    "deadline": "Pitch contínuo, sem data-limite",
+    "deadlineDetail": "A Kowloon Nights hoje redireciona para a Kepler Interactive, que mantém o formulário de pitch aberto.",
+    "support": "Valores não informados",
+    "supportDetail": "",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Avaliar os requisitos antes de preparar a proposta",
+    "reason": "",
+    "blockers": [
+      "Termos de financiamento e valores não aparecem na página.",
+      "Espera-se demonstrar capacidade de conduzir o desenvolvimento até o lançamento."
+    ],
+    "deliverables": [
+      {
+        "text": "Formulário de pitch. Prioridade indicada: demo, depois vídeo, arte conceitual e texto.",
+        "state": "confirmed"
+      },
+      {
+        "text": "Deck conciso; detalhes em documento de game design separado.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://kepler-interactive.com/kowloon",
+    "docsUrl": null,
+    "sourceLabel": "Kepler Interactive",
+    "evidenceNote": "Página oficial conferida em 06/11/2026. Modelo de retorno inferido por ser financiamento privado; confirmar no contrato.",
+    "stage": "Financiamento de projetos",
+    "tags": [
+      "Jogos autorais",
+      "Financiamento",
+      "PC",
+      "XR / imersão"
+    ],
+    "ready": "Chamada ou canal atual",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "financiamento",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "international",
+    "states": [],
+    "territoryLabel": "Regiões não informadas na página",
+    "requiresCnpjAtApplication": null,
+    "pays": "investment",
+    "oppType": "fundo",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "financiamento"
+    ],
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-06T10:33:23-03:00"
+  },
+  "googleplaylatam": {
+    "category": "watch",
+    "short": "Google Play Indie Games Fund — América Latina",
+    "host": "Google Play",
+    "eligibility": "Estúdios pequenos na América Latina; em 2025, até 50 funcionários e jogo já lançado.",
+    "eligibilityDetail": "Rodada de 2025 anunciada em 08/10/2025. Em 06/11/2026 não foi encontrada rodada latino-americana aberta nem lista de 2026.",
+    "deadline": "Rodada 2026 sem prazo confirmado",
+    "deadlineDetail": "Rodada de 2025 anunciada em 08/10/2025. Em 06/11/2026 não foi encontrada rodada latino-americana aberta nem lista de 2026.",
+    "support": "US$ 150 mil a US$ 200 mil na rodada 2025",
+    "supportDetail": "Dinheiro sem ceder participação, além de apoio do Google Play. US$ 2 milhões divididos entre dez estúdios em 2025.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Acompanhar publicação e atualização das regras",
+    "reason": "",
+    "blockers": [
+      "O link de cadastro atual aponta para o fundo da África, então a abertura para a América Latina não está confirmada.",
+      "Regras de 2025 podem mudar."
+    ],
+    "deliverables": [
+      {
+        "text": "Formulário de interesse na página oficial; requisitos da nova rodada a confirmar.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://google.play/business/programs/indiegames/",
+    "docsUrl": null,
+    "sourceLabel": "Google Play",
+    "evidenceNote": "Página do programa e anúncios oficiais de 2025 no blog do Google.",
+    "stage": "Fundo sem participação societária",
+    "tags": [
+      "Jogos autorais",
+      "Financiamento",
+      "Android"
+    ],
+    "ready": "Em acompanhamento",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "financiamento",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "international",
+    "states": [],
+    "territoryLabel": "Estúdios pequenos sediados na América Latina",
+    "requiresCnpjAtApplication": null,
+    "pays": "cash",
+    "oppType": "fundo",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "bolsa"
+    ],
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-06T10:33:23-03:00"
+  },
+  "epicmegagrants": {
+    "category": "watch",
+    "short": "Epic MegaGrants",
+    "host": "Epic Games",
+    "eligibility": "Projetos em Unreal Engine 5 ou UEFN, ou contribuições ao ecossistema de código aberto.",
+    "eligibilityDetail": "Desde 2025 o programa funciona em duas janelas por ano. A última janela localizada terminou em setembro de 2026.",
+    "deadline": "Ciclo 2 de 2026 encerrado; 2027 sem data oficial",
+    "deadlineDetail": "Desde 2025 o programa funciona em duas janelas por ano. A última janela localizada terminou em setembro de 2026.",
+    "support": "US$ 5 mil a US$ 75 mil, faixa usual",
+    "supportDetail": "Projetos excepcionais podem chegar a US$ 150 mil, segundo listagens. Valor não é garantido.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Acompanhar publicação e atualização das regras",
+    "reason": "",
+    "blockers": [
+      "Datas de março e setembro de 2027 são estimativas de terceiros, não confirmadas pela Epic.",
+      "A página oficial bloqueou a leitura automática; confirmar no navegador."
+    ],
+    "deliverables": [
+      {
+        "text": "Submissão no ciclo aberto; conferir requisitos na página oficial.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://www.unrealengine.com/megagrants",
+    "docsUrl": null,
+    "sourceLabel": "Epic Games",
+    "evidenceNote": "Resumo de fontes secundárias sobre o programa; página oficial retornou HTTP 403 à leitura automática.",
+    "stage": "Bolsa em ciclos",
+    "tags": [
+      "Jogos autorais",
+      "Financiamento",
+      "Unreal"
+    ],
+    "ready": "Em acompanhamento",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "financiamento",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "international",
+    "states": [],
+    "territoryLabel": "Internacional; projetos em Unreal Engine, UEFN ou código aberto",
+    "requiresCnpjAtApplication": null,
+    "pays": "cash",
+    "oppType": "fundo",
+    "gameFocus": [
+      "autoral",
+      "serio"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "bolsa"
+    ],
+    "collectionStatus": "error",
+    "lastFetched": null
+  },
+  "unityhumanity": {
+    "category": "watch",
+    "short": "Unity for Humanity Grant",
+    "host": "Unity",
+    "eligibility": "Candidatura por entidade legal (estúdio, ONG etc.); não concede a pessoa física.",
+    "eligibilityDetail": "A página oficial informa que as candidaturas reabrem em 2027.",
+    "deadline": "Reabre em 2027, sem data publicada",
+    "deadlineDetail": "A página oficial informa que as candidaturas reabrem em 2027.",
+    "support": "Valor da edição de 2027 a confirmar",
+    "supportDetail": "",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Acompanhar publicação e atualização das regras",
+    "reason": "",
+    "blockers": [
+      "A rodada de 2026 encerrou em 20/02/2026 e o programa não concede prorrogações.",
+      "Projeto já contemplado não recebe de novo; um projeto novo pode se candidatar."
+    ],
+    "deliverables": [
+      {
+        "text": "Pré-cadastro na página para receber o aviso da próxima rodada.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://unity.com/unity-humanity",
+    "docsUrl": null,
+    "sourceLabel": "Unity",
+    "evidenceNote": "Página e FAQ oficiais da Unity for Humanity, consultados por busca em 06/11/2026.",
+    "stage": "Bolsa para projetos de impacto",
+    "tags": [
+      "Jogos sérios",
+      "Impacto social",
+      "Financiamento"
+    ],
+    "ready": "Em acompanhamento",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "required",
+    "profileNote": "",
+    "kind": "financiamento",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "international",
+    "states": [],
+    "territoryLabel": "Internacional; exige entidade legal",
+    "requiresCnpjAtApplication": true,
+    "pays": "cash",
+    "oppType": "fundo",
+    "gameFocus": [
+      "serio"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "bolsa"
+    ],
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-06T10:33:23-03:00"
+  },
+  "gamedevtvfund": {
+    "category": "watch",
+    "short": "GameDev.tv Indie Game Dev Fund",
+    "host": "GameDev.tv",
+    "eligibility": "Desenvolvedor independente ou equipe pequena, com protótipo jogável ou trabalho em andamento.",
+    "eligibilityDetail": "A página diz que as inscrições estão fechadas e prevê a próxima rodada para o 3º ou 4º trimestre de 2026, sem data exata.",
+    "deadline": "Fechado; próxima rodada prevista para o fim de 2026",
+    "deadlineDetail": "A página diz que as inscrições estão fechadas e prevê a próxima rodada para o 3º ou 4º trimestre de 2026, sem data exata.",
+    "support": "US$ 500 por projeto na 1ª rodada",
+    "supportDetail": "Cinco patrocínios de US$ 500 na rodada do 1º trimestre de 2026.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Acompanhar publicação e atualização das regras",
+    "reason": "",
+    "blockers": [
+      "Valores das próximas rodadas não informados.",
+      "Ler os termos do fundo antes de enviar."
+    ],
+    "deliverables": [
+      {
+        "text": "Formulário curto, vídeo de gameplay e plano de uso do dinheiro.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://gamedev.tv/p/indie-game-dev-fund",
+    "docsUrl": null,
+    "sourceLabel": "GameDev.tv",
+    "evidenceNote": "Página oficial conferida em 06/11/2026.",
+    "stage": "Patrocínio de pequeno valor",
+    "tags": [
+      "Jogos autorais",
+      "Financiamento",
+      "Protótipo"
+    ],
+    "ready": "Em acompanhamento",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "financiamento",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "international",
+    "states": [],
+    "territoryLabel": "Desenvolvedores independentes; regras de país nos termos",
+    "requiresCnpjAtApplication": null,
+    "pays": "cash",
+    "oppType": "fundo",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "patrocinio"
+    ],
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-06T10:33:23-03:00"
+  },
+  "galacompetition": {
+    "category": "watch",
+    "short": "GALA Serious Games Competition",
+    "host": "Serious Games Society",
+    "eligibility": "Jogos sérios nas categorias Academy, Business (estúdio profissional) e Student (até mestrado).",
+    "eligibilityDetail": "Chamada costuma sair em meados do ano. É mais vitrine e rede de pesquisa em jogos sérios do que fonte de receita.",
+    "deadline": "Edição seguinte sem data publicada",
+    "deadlineDetail": "Chamada costuma sair em meados do ano. É mais vitrine e rede de pesquisa em jogos sérios do que fonte de receita.",
+    "support": "Prêmio simbólico; € 300 só para estudantes finalistas",
+    "supportDetail": "Edição 2025: estudantes finalistas receberam ingresso e € 300 de auxílio de viagem. Não há outro prêmio em dinheiro na página.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Acompanhar publicação e atualização das regras",
+    "reason": "",
+    "blockers": [
+      "Na edição de 2025, a chamada fechou em agosto, sem prorrogação.",
+      "Participar da conferência tem custos próprios."
+    ],
+    "deliverables": [
+      {
+        "text": "Submissão conforme a chamada do ano; ler o regulamento da edição.",
+        "state": "confirmed"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://conf.seriousgamessociety.org/competition/",
+    "docsUrl": null,
+    "sourceLabel": "Serious Games Society",
+    "evidenceNote": "Página oficial da competição conferida em 06/11/2026.",
+    "stage": "Concurso de jogos sérios",
+    "tags": [
+      "Jogos sérios",
+      "Educação",
+      "Visibilidade"
+    ],
+    "ready": "Em acompanhamento",
+    "tone": "amber",
+    "profileFit": "conditional",
+    "cnpj": "not_required",
+    "profileNote": "",
+    "kind": "concurso",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "international",
+    "states": [],
+    "territoryLabel": "Internacional; categorias acadêmica, empresa e estudante",
+    "requiresCnpjAtApplication": false,
+    "pays": "none",
+    "oppType": "concurso",
+    "gameFocus": [
+      "serio"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "vitrine"
+    ],
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-06T10:33:23-03:00"
+  },
+  "brasiltapragame": {
+    "category": "closed",
+    "short": "Prêmio Brasil Tá Pra Game — 3ª edição",
+    "host": "Embratur / Abragames",
+    "eligibility": "Estúdios, desenvolvedores independentes e profissionais do setor de jogos.",
+    "eligibilityDetail": "Três edições já realizadas. A de 2026 abriu no início do ano, então vale observar janeiro de 2027.",
+    "deadline": "Encerrado em 09 fev 2026",
+    "deadlineDetail": "Três edições já realizadas. A de 2026 abriu no início do ano, então vale observar janeiro de 2027.",
+    "support": "R$ 70 mil, R$ 50 mil e R$ 40 mil",
+    "supportDetail": "Prêmios para os três primeiros colocados, somando R$ 160 mil.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Edição encerrada; referência para preparar a próxima",
+    "reason": "",
+    "blockers": [
+      "Quarta edição não confirmada.",
+      "CNPJ não confirmado na fonte consultada."
+    ],
+    "deliverables": [
+      {
+        "text": "Inscrição gratuita exclusivamente na plataforma do prêmio.",
+        "state": "historical"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://embraturlab.com.br/brasiltapragame/",
+    "docsUrl": null,
+    "sourceLabel": "Embratur / Abragames",
+    "evidenceNote": "Notícia de 30/01/2026 do Brasilturis. A página oficial bloqueou a leitura automática.",
+    "stage": "Concurso com prêmio em dinheiro",
+    "tags": [
+      "Jogos sérios",
+      "Turismo",
+      "Prêmio"
+    ],
+    "ready": "Inscrições encerradas",
+    "tone": "gray",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "concurso",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "national",
+    "states": [],
+    "territoryLabel": "Nacional; estúdios, desenvolvedores independentes e profissionais",
+    "requiresCnpjAtApplication": null,
+    "pays": "cash",
+    "oppType": "concurso",
+    "gameFocus": [
+      "serio",
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": "free",
+    "closeDate": "2026-02-09",
+    "modality": [
+      "premio"
+    ],
+    "collectionStatus": "error",
+    "lastFetched": null
+  },
+  "spcine012026": {
+    "category": "closed",
+    "short": "Spcine 01/2026 — Produção e finalização de games",
+    "host": "Spcine",
+    "eligibility": "Cinco projetos para PC e mobile, com R$ 2 milhões no total.",
+    "eligibilityDetail": "Referência de valor e de cronograma para a próxima edição: abertura em julho, encerramento em agosto.",
+    "deadline": "Encerrado em 13 ago 2026",
+    "deadlineDetail": "Referência de valor e de cronograma para a próxima edição: abertura em julho, encerramento em agosto.",
+    "support": "R$ 400 mil por projeto",
+    "supportDetail": "R$ 2 milhões divididos entre cinco projetos.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Edição encerrada; referência para preparar a próxima",
+    "reason": "",
+    "blockers": [
+      "Edição em fase final de seleção; nova abertura não anunciada.",
+      "A Incubadora de Games 02/2026 (R$ 1 milhão) contrata uma única proponente, que conduz a incubação de seis desenvolvedores."
+    ],
+    "deliverables": [
+      {
+        "text": "Edital retificado e anexos na página da Spcine.",
+        "state": "historical"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://spcine.com.br/editais-spcine/",
+    "docsUrl": "https://spcine.com.br/wp-content/uploads/2026/08/00-Edital-Games_vf-rev1-RETIFICADO0708_3617-1.pdf",
+    "sourceLabel": "Spcine",
+    "evidenceNote": "Página de editais da Spcine conferida em 06/11/2026.",
+    "stage": "Fomento audiovisual",
+    "tags": [
+      "Jogos autorais",
+      "Fomento",
+      "SP"
+    ],
+    "ready": "Inscrições encerradas",
+    "tone": "gray",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "edital",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "restricted",
+    "states": [
+      "SP"
+    ],
+    "territoryLabel": "Município de São Paulo; conferir regra de sede",
+    "requiresCnpjAtApplication": null,
+    "pays": "cash",
+    "oppType": "edital",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "closeDate": "2026-08-13",
+    "modality": [
+      "fomento"
+    ],
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-06T10:33:23-03:00"
+  },
+  "riofilme5": {
+    "category": "closed",
+    "short": "RioFilme 5 — Desenvolvimento, produção e distribuição de jogos",
+    "host": "RioFilme",
+    "eligibility": "Treze propostas em três linhas de ação, com duas faixas de investimento.",
+    "eligibilityDetail": "Cronograma mostra seleção em 19/10/2026. Referência para o próximo ciclo municipal.",
+    "deadline": "Encerrado; seleção divulgada em out 2026",
+    "deadlineDetail": "Cronograma mostra seleção em 19/10/2026. Referência para o próximo ciclo municipal.",
+    "support": "Até R$ 1,5 milhão no total, para 13 propostas",
+    "supportDetail": "",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Edição encerrada; referência para preparar a próxima",
+    "reason": "",
+    "blockers": [
+      "Valor por projeto e tipo de proponente não confirmados nesta leitura.",
+      "Datas de inscrição não estão rotuladas na página: constam 06/07 e 02/08/2026; fontes secundárias citam 13/08."
+    ],
+    "deliverables": [
+      {
+        "text": "Edital e Anexo II na página da RioFilme.",
+        "state": "historical"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://riofilme.com.br/editais/edital-no-5-desenvolvimento-producao-e-distribuicao-de-jogos-eletronicos/",
+    "docsUrl": null,
+    "sourceLabel": "RioFilme",
+    "evidenceNote": "Página oficial do edital conferida em 06/11/2026.",
+    "stage": "Fomento audiovisual",
+    "tags": [
+      "Jogos autorais",
+      "Fomento",
+      "RJ"
+    ],
+    "ready": "Inscrições encerradas",
+    "tone": "gray",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "edital",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "restricted",
+    "states": [
+      "RJ"
+    ],
+    "territoryLabel": "Município do Rio de Janeiro; conferir regra de sede",
+    "requiresCnpjAtApplication": null,
+    "pays": "cash",
+    "oppType": "edital",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "modality": [
+      "fomento"
+    ],
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-06T10:33:23-03:00"
+  },
+  "sampagames5": {
+    "category": "closed",
+    "short": "Sampa Games — 5ª edição",
+    "host": "ADE Sampa / Prefeitura de São Paulo",
+    "eligibility": "Estúdios independentes em operação, em fase de validação de mercado.",
+    "eligibilityDetail": "Até 25 negócios selecionados, seis meses de programa. Dinheiro pode cobrir equipamentos, marketing, serviços e softwares.",
+    "deadline": "Encerrado em 11 jun 2026",
+    "deadlineDetail": "Até 25 negócios selecionados, seis meses de programa. Dinheiro pode cobrir equipamentos, marketing, serviços e softwares.",
+    "support": "Até R$ 52 mil por projeto",
+    "supportDetail": "",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Edição encerrada; referência para preparar a próxima",
+    "reason": "",
+    "blockers": [
+      "Programa em andamento desde setembro; nova edição não anunciada.",
+      "A página não informa se o aporte é reembolsável."
+    ],
+    "deliverables": [
+      {
+        "text": "Inscrição gratuita no site da ADE Sampa.",
+        "state": "historical"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://prefeitura.sp.gov.br/web/desenvolvimento/w/prefeitura-de-sp-prorroga-inscri%C3%A7%C3%B5es-para-programa-que-investe-r-52-mil-em-at%C3%A9-25-est%C3%BAdios-de-games",
+    "docsUrl": null,
+    "sourceLabel": "ADE Sampa / Prefeitura de São Paulo",
+    "evidenceNote": "Páginas da Prefeitura de São Paulo sobre abertura e prorrogação.",
+    "stage": "Aceleração com aporte",
+    "tags": [
+      "Jogos autorais",
+      "Empreendedorismo",
+      "SP"
+    ],
+    "ready": "Inscrições encerradas",
+    "tone": "gray",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "formacao",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "restricted",
+    "states": [
+      "SP"
+    ],
+    "territoryLabel": "Estúdios da cidade de São Paulo; conferir regra de sede",
+    "requiresCnpjAtApplication": null,
+    "pays": "cash",
+    "oppType": "programa",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": "free",
+    "closeDate": "2026-06-11",
+    "modality": [
+      "aceleracao"
+    ],
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-06T10:33:23-03:00"
+  },
+  "sebraegames2026": {
+    "category": "closed",
+    "short": "Sebrae Games 2026 — Vitrine e missão à Gamescom",
+    "host": "Sebrae",
+    "eligibility": "MEI, ME ou EPP com CNPJ ativo, sede no Brasil e de 12 meses a 20 anos de existência.",
+    "eligibilityDetail": "Top 15 entra na vitrine e recebe selo nacional; os cinco melhores vão à missão à Gamescom.",
+    "deadline": "Encerrado em 05 mai 2026",
+    "deadlineDetail": "Top 15 entra na vitrine e recebe selo nacional; os cinco melhores vão à missão à Gamescom.",
+    "support": "Vitrine e missão à Gamescom; sem dinheiro direto",
+    "supportDetail": "Benefício é de visibilidade e missão internacional, sem repasse em dinheiro citado.",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Edição encerrada; referência para preparar a próxima",
+    "reason": "",
+    "blockers": [
+      "Edição de 2027 não confirmada; o Plano Nacional Sebrae Games vai até 2027."
+    ],
+    "deliverables": [
+      {
+        "text": "Build para PC, Web ou Mobile; um projeto por CNPJ.",
+        "state": "historical"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://agenciasebrae.com.br/inovacao-e-tecnologia/seu-jogo-esta-pronto-para-ganhar-o-mundo-sebrae-lanca-edital-que-leva-estudios-a-gamescom-2026/",
+    "docsUrl": null,
+    "sourceLabel": "Sebrae",
+    "evidenceNote": "Agência Sebrae: datas, benefícios e requisitos do edital.",
+    "stage": "Seleção de estúdios",
+    "tags": [
+      "Jogos autorais",
+      "Internacionalização",
+      "Visibilidade"
+    ],
+    "ready": "Inscrições encerradas",
+    "tone": "gray",
+    "profileFit": "conditional",
+    "cnpj": "required",
+    "profileNote": "",
+    "kind": "formacao",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "national",
+    "states": [],
+    "territoryLabel": "Nacional; empresa com sede no Brasil",
+    "requiresCnpjAtApplication": true,
+    "pays": "none",
+    "oppType": "programa",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "closeDate": "2026-05-05",
+    "modality": [
+      "vitrine"
+    ],
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-06T10:33:23-03:00"
+  },
+  "facdf2026": {
+    "category": "closed",
+    "short": "FAC II Audiovisual DF 16/2026 — Jogos digitais",
+    "host": "Secretaria de Cultura do DF",
+    "eligibility": "Linha de desenvolvimento de jogos digitais dentro de R$ 9 milhões para o audiovisual.",
+    "eligibilityDetail": "Referência para o próximo ciclo do Fundo de Apoio à Cultura do DF.",
+    "deadline": "Encerrado em 07 out 2026",
+    "deadlineDetail": "Referência para o próximo ciclo do Fundo de Apoio à Cultura do DF.",
+    "support": "Valor por projeto nos anexos",
+    "supportDetail": "",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Edição encerrada; referência para preparar a próxima",
+    "reason": "",
+    "blockers": [
+      "Inscrições encerradas.",
+      "Página mostra modelos para PF e PJ, mas a regra de proponente não foi confirmada."
+    ],
+    "deliverables": [
+      {
+        "text": "Formulário eletrônico da Sufic e anexos do edital.",
+        "state": "historical"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://sufic.cultura.df.gov.br/edital-fac-ii/2026",
+    "docsUrl": null,
+    "sourceLabel": "Secretaria de Cultura do DF",
+    "evidenceNote": "Página da Sufic atualizada em 23/09/2026.",
+    "stage": "Fomento cultural",
+    "tags": [
+      "Jogos autorais",
+      "Fomento",
+      "DF"
+    ],
+    "ready": "Inscrições encerradas",
+    "tone": "gray",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "edital",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "restricted",
+    "states": [
+      "DF"
+    ],
+    "territoryLabel": "Distrito Federal; territórios conforme anexos",
+    "requiresCnpjAtApplication": null,
+    "pays": "cash",
+    "oppType": "edital",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": null,
+    "closeDate": "2026-10-07",
+    "modality": [
+      "fomento"
+    ],
+    "collectionStatus": "error",
+    "lastFetched": null
+  },
+  "brdelabs2026": {
+    "category": "closed",
+    "short": "BRDE Labs 2026 — Desafios de empresas do Sul",
+    "host": "BRDE Labs",
+    "eligibility": "Startups com CNPJ de pelo menos seis meses; empresas tradicionais com solução inovadora também podem entrar.",
+    "eligibilityDetail": "Vale como modelo do tipo de desafio em que um jogo de treinamento cabe. Edição de 2027 não confirmada.",
+    "deadline": "Encerrado em 04 set 2026",
+    "deadlineDetail": "Vale como modelo do tipo de desafio em que um jogo de treinamento cabe. Edição de 2027 não confirmada.",
+    "support": "Sem pagamento garantido",
+    "supportDetail": "",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Edição encerrada; referência para preparar a próxima",
+    "reason": "",
+    "blockers": [
+      "Gamificação não é citada de forma expressa; aderência a validar.",
+      "Prova de conceito depende do interesse da empresa e não há financiamento garantido."
+    ],
+    "deliverables": [
+      {
+        "text": "Inscrição on-line; programa de cerca de quatro meses, totalmente remoto.",
+        "state": "historical"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://www.brdelabs.com.br/desafios-2026/",
+    "docsUrl": null,
+    "sourceLabel": "BRDE Labs",
+    "evidenceNote": "Página oficial Desafios 2026: lista de 18 desafios e FAQ.",
+    "stage": "Inovação aberta corporativa",
+    "tags": [
+      "Desafio corporativo",
+      "Treinamento corporativo",
+      "Educação"
+    ],
+    "ready": "Inscrições encerradas",
+    "tone": "gray",
+    "profileFit": "conditional",
+    "cnpj": "required",
+    "profileNote": "",
+    "kind": "desafio",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "national",
+    "states": [],
+    "territoryLabel": "Qualquer região; empresas-âncora do Paraná",
+    "requiresCnpjAtApplication": true,
+    "pays": "none",
+    "oppType": "empresa",
+    "gameFocus": [
+      "gamificacao",
+      "serio"
+    ],
+    "explicitGames": false,
+    "entryFee": null,
+    "closeDate": "2026-09-04",
+    "modality": [
+      "aceleracao"
+    ],
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-06T10:33:23-03:00"
+  },
+  "igf2027": {
+    "category": "closed",
+    "short": "Independent Games Festival 2027",
+    "host": "Game Developers Conference",
+    "eligibility": "Desenvolvedores independentes; jogos lançados podem entrar. Demo deve estar quase completa.",
+    "eligibilityDetail": "Um dos poucos casos com taxa de inscrição confirmada. Isenção para quem precisa de ajuda deve ser pedida antes do prazo.",
+    "deadline": "Encerrado em 13 set 2026",
+    "deadlineDetail": "Um dos poucos casos com taxa de inscrição confirmada. Isenção para quem precisa de ajuda deve ser pedida antes do prazo.",
+    "support": "Valores de prêmio não informados",
+    "supportDetail": "",
+    "cost": "Conforme regulamento; conferir obrigações e despesas não cobertas.",
+    "verdict": "Edição encerrada; referência para preparar a próxima",
+    "reason": "",
+    "blockers": [
+      "Finalistas saem em janeiro de 2027; a próxima janela de inscrição deve abrir em meados de 2027, sem confirmação."
+    ],
+    "deliverables": [
+      {
+        "text": "Inscrição on-line com taxa de US$ 75 (US$ 25 para estudantes); há pedido de isenção.",
+        "state": "historical"
+      }
+    ],
+    "how": "Consultar regulamento, anexos e disponibilidade no canal oficial.",
+    "action": "Abrir fonte oficial",
+    "sourceUrl": "https://igf.com/submission-info/",
+    "docsUrl": null,
+    "sourceLabel": "Game Developers Conference",
+    "evidenceNote": "Página oficial de submissão conferida em 06/11/2026.",
+    "stage": "Festival e premiação",
+    "tags": [
+      "Jogos autorais",
+      "Visibilidade",
+      "Festival"
+    ],
+    "ready": "Inscrições encerradas",
+    "tone": "gray",
+    "profileFit": "conditional",
+    "cnpj": "unknown",
+    "profileNote": "",
+    "kind": "concurso",
+    "reviewedAt": "2026-11-06",
+    "addedAt": "2026-11-06",
+    "priority": 5,
+    "territoryScope": "international",
+    "states": [],
+    "territoryLabel": "Internacional, com países restritos",
+    "requiresCnpjAtApplication": null,
+    "pays": "unknown",
+    "oppType": "concurso",
+    "gameFocus": [
+      "autoral"
+    ],
+    "explicitGames": true,
+    "entryFee": "paid",
+    "closeDate": "2026-09-13",
+    "modality": [
+      "vitrine"
+    ],
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-06T10:33:23-03:00"
   }
 };

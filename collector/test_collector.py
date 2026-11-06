@@ -14,6 +14,11 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(found[0]['possible_roles'],['inscricao'])
         self.assertEqual(found[1]['possible_roles'],['execucao'])
         self.assertTrue(all(d['requires_review'] for d in found))
+    def test_discovery_keeps_game_calls_and_drops_noise(self):
+        for text in ['Edital de fomento ao desenvolvimento de jogos digitais','Chamada pública para jogos eletrônicos','Pregão para plataforma gamificada de gamificação escolar','Concurso de games independentes']:
+            self.assertTrue(mod.is_game_call(text),text)
+        for text in ['Edital dos jogos escolares municipais','Registro de preços de kits de laboratório, incluindo jogos digitais em edital','Aquisição de jogos digitais para a biblioteca','Festival de games neste sábado','Loteria e edital de jogos eletrônicos']:
+            self.assertFalse(mod.is_game_call(text),text)
     def test_failure_retains_last_good_evidence(self):
         old={'status':'ok','last_success':'2026-11-05','documents':[{'hash':'good'}],'candidates':[{'url':'https://example.com/a'}]}
         result=mod.merge_result(old,{'status':'error','last_attempt':'2026-11-06','error':'timeout'})

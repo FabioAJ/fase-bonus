@@ -1,16 +1,16 @@
-# Radar Games
+# Fase Bônus
 
-Pesquisa nacional de oportunidades para jogos, jogos serios e gamificacao. Horizonte: 31/03/2027. Curadoria conferida em 05/11/2026.
+Antigo Radar Games. Editais públicos, desafios de empresas, fundos e concursos para jogos comerciais, jogos sérios e gamificação. Horizonte: 31/03/2027. Curadoria conferida em 06/11/2026.
 
-37 fichas: 18 chamadas/canais atuais, 11 em acompanhamento e 8 encerradas. 41 fontes com URLs distintas. Essas contagens nao significam inscricoes elegiveis ou contratos garantidos.
+55 fichas: 23 chamadas/canais atuais, 16 em acompanhamento e 16 encerradas. 66 fontes com URLs distintas. Essas contagens não significam inscrições elegíveis ou contratos garantidos.
 
-Fichas independentes, busca, territorio, 26 estados e DF, tema, favoritos e CNPJ obrigatorio na inscricao em Qualquer/Sim/Nao. Condicoes desconhecidas so aparecem em Qualquer. A UF inclui chamadas nacionais e as restritas aquela UF. Nao ha aba por perfil.
+Filtros: busca com sinônimos, Paga? (`pays`: dinheiro, investimento, não paga, a confirmar), modalidade (`modality`: fomento, incentivo fiscal, prêmio etc.), tipo de oportunidade (`oppType`), tipo de jogo (`gameFocus`), CNPJ na inscrição, território, 26 estados e DF, tema, aderência explícita (`explicitGames`), favoritos e prazo em 30 dias. Valor desconhecido só aparece em Qualquer ou quando se escolhe "a confirmar". A busca fica na URL e pode ser compartilhada.
 
-Fonte de verdade: collector/reviewed.json. Os arquivos dist/data.js, dist/application.js e dist/collection-status.js sao gerados pelo coletor. Interface em dist/index.html, dist/app.js, dist/style.css e dist/filters.js.
+Fonte de verdade: collector/reviewed.json. Os arquivos dist/data.js, dist/application.js, dist/collection-status.js e dist/discoveries.js são gerados pelo coletor. Interface em dist/index.html, dist/app.js, dist/style.css, dist/filters.js e dist/searches.js (buscas prontas da aba Buscar mais).
 
-Coletor manual: python collector/radar_collect.py. Para gerar apenas curadoria: python collector/radar_collect.py --build-only. Guia em collector/README.md.
+Coletor manual: python collector/radar_collect.py. Só curadoria: --build-only. Descoberta no PNCP e no Querido Diário: --discover (os achados vão apenas para revisão). Guia em collector/README.md.
 
-Coleta: 34 fontes com leitura concluida e 7 com limitacao. Enel e Petrobras foram conferidas no navegador; isso nao remove a falha do coletor HTTP. 99 links de documentos/listagens/possiveis chamadas aguardam revisao, sem promocao automatica a inscricao disponivel.
+Coleta: 56 fontes com leitura concluída e 10 com limitação. 265 links de documentos/listagens/possíveis chamadas aguardam revisão, sem promoção automática a inscrição disponível.
 
 Sem agendamento, backend remoto ou publicacao automatica apos o comando local. Favoritos usam localStorage. Exportacao JSON inclui fichas, fontes e favoritos. O radar nao envia propostas, mensagens, cadastros ou aceites.
 

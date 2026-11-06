@@ -15,9 +15,16 @@ import unicodedata
 
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / 'vendor'))
-UA = 'RadarGamesResearch/1.0'
+UA = 'FaseBonusResearch/1.0'
 BR = timezone(timedelta(hours=-3), 'America/Sao_Paulo')
 MAX_BYTES = 8 * 1024 * 1024
+DISCOVERY_TERMS = ['edital','chamada','desafio','retifica','cronograma','apply','pitch','inscri','submission','grant','funding','oportunidade','financi',
+                   'games','jogos','gamific','serious','premio','concurso','convocatoria','open call','challenge','jam','fomento','aceleracao','bolsa']
+# Busca por palavra-chave em bases públicas nacionais: o resultado só vai para revisão humana.
+GAME_TERMS = ['"jogos digitais"','"jogo digital"','"jogos eletrônicos"','"jogo eletrônico"','gamificação','"jogo educativo"','"jogos educativos"','"serious game"','"jogos sérios"']
+GAME_RE = re.compile(r'jogos?\s+(digita|eletronic|educativ|serio)|gamific|serious game|desenvolvimento de (jogo|game)|\bgames?\b')
+CALL_RE = re.compile(r'edital|chamamento|chamada publica|concurso|premiac|selecao de projetos|credenciamento|licitac|contratac|pregao')
+NOISE_RE = re.compile(r'jogos? (escolar|de azar|de mesa|de futebol|de tabuleiro para|recreativ|pedagogic)|jogos estudantis|jogos abertos|jogos municipais|loteria|kits? de|brinquedo|academia|material esportivo|uniforme|materia(l|is) (pedagogic|didatic|escolar)|recursos didaticos|laboratorio de matematica|aquisicao de programa')
 DOMAIN_LOCKS: dict[str, threading.Lock] = {}
 GUARD = threading.Lock()
 
@@ -119,7 +126,7 @@ def discovery_links(page, base, allowed_domains):
         if not public_url(url) or urlsplit(url).hostname not in allowed_domains: continue
         if url==canonical(base): continue
         n=norm(link['text']+' '+urlsplit(url).path)
-        if not any(w in n for w in ['edital','chamada','desafio','retifica','cronograma','apply','pitch','inscri','submission','grant','funding','oportunidade','financi']): continue
+        if not any(w in n for w in DISCOVERY_TERMS): continue
         if any(w in n for w in ['login','logout','wp-login','privacy','politica-de-privacidade','/tag/','/category/']): continue
         unique.setdefault(url,{'url':url,'label':link['text'][:180] or urlsplit(url).path,'requires_review':True,'kind':'document' if urlsplit(url).path.lower().endswith('.pdf') else 'candidate_or_listing'})
     return list(unique.values())[:60]
@@ -213,6 +220,65 @@ def collect_source(source,previous,fetcher,state_dir,max_details,now):
     except Exception as e:
         return merge_result(previous,{**attempted,'status':'error','error':str(e)[:220]})
 
+def is_game_call(text):
+    """Separa chamada ligada a jogos de ruído como jogos escolares ou compra de kits."""
+    n=norm(text)
+    return bool(GAME_RE.search(n)) and bool(CALL_RE.search(n)) and not NOISE_RE.search(n)
+
+class PublicRedirect(HTTPRedirectHandler):
+    """As APIs de descoberta redirecionam entre subdomínios; só o destino público é exigido."""
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        if not public_url(newurl): raise ValueError('Redirecionamento para destino não público recusado')
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+def api_json(url,attempts=5,timeout=40):
+    last=None
+    for attempt in range(attempts):
+        try:
+            with build_opener(PublicRedirect()).open(Request(url,headers={'User-Agent':UA,'Accept':'application/json'}),timeout=timeout) as r:
+                return json.loads(r.read(MAX_BYTES))
+        except (OSError,ValueError) as e:
+            last=e;time.sleep(1.5+attempt)
+    raise RuntimeError(str(last)[:160])
+
+def discover_pncp(terms,sleep=1.5):
+    """Portal Nacional de Contratações Públicas: editais recebendo proposta."""
+    found={};errors=[]
+    for term in terms:
+        url='https://pncp.gov.br/api/search/?'+urlencode({'q':term,'tipos_documento':'edital','status':'recebendo_proposta','ordenacao':'-data','pagina':1,'tam_pagina':30})
+        try: items=api_json(url).get('items',[])
+        except RuntimeError as e:
+            errors.append(f'PNCP {term}: {e}');continue
+        for i in items:
+            text=f"{i.get('title','')} {i.get('description','')}"
+            if not is_game_call(text) or not i.get('item_url'): continue
+            link='https://pncp.gov.br/app/editais'+i['item_url'].removeprefix('/compras')
+            found[link]={'url':link,'source':'PNCP','title':(i.get('title') or 'Edital')[:160],'excerpt':(i.get('description') or '')[:320],'org':i.get('orgao_nome'),'uf':i.get('uf'),'date':(i.get('data_fim_vigencia') or '')[:10],'dateLabel':'Propostas até','term':term,'requires_review':True}
+        time.sleep(sleep)
+    return list(found.values()),errors
+
+def discover_diarios(terms,since,sleep=1.5):
+    """Querido Diário: diários oficiais municipais com menção a jogos e a edital."""
+    found={};errors=[]
+    for term in terms:
+        url='https://queridodiario.ok.org.br/api/gazettes?'+urlencode({'querystring':term,'published_since':since,'size':30,'excerpt_size':500,'number_of_excerpts':1,'sort_by':'descending_date'})
+        try: gazettes=api_json(url).get('gazettes',[])
+        except RuntimeError as e:
+            errors.append(f'Querido Diário {term}: {e}');continue
+        for g in gazettes:
+            excerpt=' '.join((g.get('excerpts') or [''])[0].split())
+            if not is_game_call(excerpt) or not g.get('url'): continue
+            found[g['url']]={'url':g['url'],'source':'Querido Diário','title':f"Diário oficial de {g.get('territory_name')}",'excerpt':excerpt[:320],'org':g.get('territory_name'),'uf':g.get('state_code'),'date':g.get('date'),'dateLabel':'Publicado em','term':term,'requires_review':True}
+        time.sleep(sleep)
+    return list(found.values()),errors
+
+def discover(now):
+    since=(datetime.fromisoformat(now)-timedelta(days=60)).date().isoformat()
+    pncp,pncp_errors=discover_pncp(GAME_TERMS)
+    diarios,diario_errors=discover_diarios(GAME_TERMS,since)
+    items=sorted(pncp,key=lambda x:x['date'] or '')+sorted(diarios,key=lambda x:x['date'] or '',reverse=True)
+    return {'lastRun':now,'since':since,'terms':GAME_TERMS,'items':items,'errors':pncp_errors+diario_errors}
+
 def build_site(reviewed_path, state, dist, now):
     catalog=json.loads(reviewed_path.read_text(encoding='utf-8'))
     radar=catalog['radar']; apps=catalog['applications']
@@ -237,6 +303,8 @@ def build_site(reviewed_path, state, dist, now):
             tmp=target.with_suffix('.tmp');tmp.write_text(encoded,encoding='utf-8');tmp.replace(target)
     report={'mode':'manual','scheduled':False,'lastRun':state.get('last_run'),'sourceCount':len(radar['sources']),'registeredSources':len(state.get('sources',{})), 'successCount':sum(s['status'] in {'ok','unchanged','cached'} for s in state.get('sources',{}).values()),'errorCount':sum(s['status'] in {'error','partial'} for s in state.get('sources',{}).values()),'candidateCount':len({canonical(c['url']) for s in state.get('sources',{}).values() for c in s.get('candidates',[])}),'sources':[{'id':s['id'],'name':s['name'],'url':s['url'],'status':s['status'],'lastAttempt':s.get('last_attempt'),'lastSuccess':s.get('last_success'),'error':s.get('error'),'documentCount':sum('hash' in d for d in s.get('documents',[]))} for s in state.get('sources',{}).values()]}
     (dist/'collection-status.js').write_text('window.COLLECTION = '+json.dumps(report,ensure_ascii=False,indent=2)+';\n',encoding='utf-8')
+    discoveries=state.get('discoveries') or {'lastRun':None,'items':[],'errors':[],'terms':GAME_TERMS}
+    (dist/'discoveries.js').write_text('window.DISCOVERIES = '+json.dumps(discoveries,ensure_ascii=False,indent=2)+';\n',encoding='utf-8')
     return report
 
 def main():
@@ -246,6 +314,7 @@ def main():
     p.add_argument('--max-details',type=int,default=1)
     p.add_argument('--workers',type=int,default=3)
     p.add_argument('--build-only',action='store_true',help='Gera o site a partir da curadoria; não acessa a rede')
+    p.add_argument('--discover',action='store_true',help='Procura editais de jogos no PNCP e no Querido Diário; os achados vão apenas para revisão')
     p.add_argument('--state-dir',type=Path,default=ROOT/'state')
     args=p.parse_args()
     sources=json.loads((ROOT/'sources.json').read_text(encoding='utf-8'))
@@ -258,7 +327,15 @@ def main():
     state_path=args.state_dir/'state.json'
     state=json.loads(state_path.read_text(encoding='utf-8')) if state_path.exists() else {'sources':{}}
     now=datetime.now(BR).isoformat(timespec='seconds')
-    if not args.build_only:
+    if args.discover:
+        previous=state.get('discoveries') or {}
+        result=discover(now)
+        # Base fora do ar não apaga o que já tinha sido encontrado.
+        if not result['items'] and result['errors'] and previous.get('items'):
+            result={**previous,'errors':result['errors']}
+        state['discoveries']=result;atomic_json(state_path,state)
+        print(f"descoberta: {len(result['items'])} achados; {len(result['errors'])} consultas com falha",flush=True)
+    elif not args.build_only:
         fetcher=Fetcher()
         with ThreadPoolExecutor(max_workers=max(1,min(args.workers,4))) as pool:
             jobs={pool.submit(collect_source,s,state['sources'].get(s['id']),fetcher,args.state_dir,max(0,min(args.max_details,3)),now):s for s in sources}

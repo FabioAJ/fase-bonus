@@ -31,10 +31,18 @@ python -m unittest discover -s . -p "test_*.py" -v
 
 Os testes de PDF usam um documento real da coleta e são pulados se ainda não houver PDF em `state/snapshots`. Os demais testes não acessam a rede. O ambiente restrito do Codex no Windows pode exigir execução autorizada fora do sandbox para a rede, leitura das dependências e temporários.
 
+Procurar editais de jogos em bases nacionais, por palavra-chave (PNCP e Querido Diário):
+
+```powershell
+python radar_collect.py --discover
+```
+
+Os achados aparecem na aba Buscar mais como itens a revisar e nunca viram ficha sozinhos. Base fora do ar não apaga os achados anteriores. Os termos ficam em `GAME_TERMS`, e os filtros de ruído em `GAME_RE`, `CALL_RE` e `NOISE_RE`, no `radar_collect.py`.
+
 ## Arquivos
 
-- `sources.json`: 41 fontes, URLs e anexos de partida. Adicionar um portal aqui amplia a cobertura da próxima execução.
-- `reviewed.json`: fonte de verdade das 37 fichas conferidas e seus requisitos. Alterar esse arquivo para atualizar a curadoria; os JS de dados são gerados.
+- `sources.json`: 66 fontes, URLs e anexos de partida. Adicionar um portal aqui amplia a cobertura da próxima execução.
+- `reviewed.json`: fonte de verdade das 55 fichas conferidas e seus requisitos. Toda ficha precisa de `pays`, `modality`, `oppType`, `gameFocus` e `explicitGames`. Alterar esse arquivo para atualizar a curadoria; os JS de dados são gerados.
 - `state/state.json`: estado por fonte, hashes, tentativas, último sucesso, documentos e datas com contexto.
 - `state/snapshots/`: evidências públicas baixadas; PDFs e HTML preservados por hash.
 - `state/review-queue.json`: links deduplicados a revisar, incluindo documentos e listagens. Não é lista de editais abertos.
