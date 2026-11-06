@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="style.css?v=8">
+<link rel="stylesheet" href="style.css?v=9">
 <script src="data.js?v=8" defer></script>
 <script src="application.js?v=8" defer></script>
 <script src="collection-status.js" defer></script>
@@ -20,7 +20,7 @@
 <script src="searches.js" defer></script>
 <script src="lib/jspdf.umd.min.js" defer></script>
 <script src="pdf-export.js" defer></script>
-<script src="app.js?v=8" defer></script>
+<script src="app.js?v=9" defer></script>
 </head>
 <body>
 <a class="skip" href="#content">Pular para o conteúdo</a>
@@ -40,15 +40,16 @@
 <main id="content">
 <section id="opportunities" class="panel">
   <div class="hero">
-    <h1>Editais e desafios para jogos</h1>
-    <p>Editais públicos, desafios de empresas, fundos e concursos para jogos comerciais, jogos sérios e gamificação.</p>
-    <dl class="stats" id="stats"></dl>
+    <div class="hero-main">
+      <h1>Editais e desafios para jogos</h1>
+      <p>Editais públicos, desafios de empresas, fundos e concursos para jogos comerciais, jogos sérios e gamificação.</p>
+      <dl class="stats" id="stats"></dl>
+    </div>
+    <section class="upcoming" aria-labelledby="upcomingTitle">
+      <h2 id="upcomingTitle">Próximos prazos</h2>
+      <ol id="upcoming"></ol>
+    </section>
   </div>
-
-  <section class="upcoming" aria-labelledby="upcomingTitle">
-    <h2 id="upcomingTitle">Próximos prazos</h2>
-    <ol id="upcoming"></ol>
-  </section>
 
   <div class="finder">
     <label class="search">
@@ -64,11 +65,10 @@
       <label class="field"><span>Tipo de jogo</span><select id="gameFocus"></select></label>
       <label class="field"><span>Exige CNPJ na inscrição?</span><select id="cnpj"><option value="">Qualquer</option><option value="no">Não exige</option><option value="yes">Exige</option></select></label>
       <label class="field"><span>Território</span><select id="region"><option value="">Todos</option><option value="Brasil">Brasil</option><option value="international">Internacional</option></select></label>
-      <label class="field"><span>Estado</span><select id="uf"></select></label>
+      <label class="field" title="Inclui as chamadas nacionais e as restritas ao estado escolhido"><span>Estado</span><select id="uf"></select></label>
       <label class="field"><span>Tema</span><select id="topic"></select></label>
       <label class="check"><input type="checkbox" id="explicit"><span>Só o que cita jogos ou gamificação</span></label>
     </div>
-    <p class="filter-note">O estado inclui chamadas nacionais e as restritas a ele. “A confirmar” só aparece quando o filtro está em Qualquer ou quando você o escolhe.</p>
   </div>
 
   <div class="scope-bar">

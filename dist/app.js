@@ -159,9 +159,10 @@ function renderStats() {
   const next = dated[0] && F.daysUntil(apps[dated[0].id]);
   const paid = open.filter(o => apps[o.id].pays === 'cash').length;
   $('stats').innerHTML = `<div><dt>Abertas agora</dt><dd>${open.length}</dd></div><div><dt>Pagam em dinheiro</dt><dd>${paid}</dd></div><div><dt>Próximo prazo</dt><dd>${next === undefined ? 'Nenhum' : next === 0 ? 'Hoje' : `${next} ${next === 1 ? 'dia' : 'dias'}`}</dd></div>`;
-  $('upcoming').innerHTML = dated.slice(0, 6).map(o => {
-    const a = apps[o.id];
-    return `<li><button data-jump="${esc(o.id)}" title="${esc(a.short)}"><span class="up-date">${esc(brDate(a.closeDate).slice(0, 5))}</span><span class="up-name">${esc(a.short)}</span></button></li>`;
+  $('upcoming').innerHTML = dated.slice(0, 5).map(o => {
+    const a = apps[o.id], days = F.daysUntil(a);
+    const left = days === 0 ? 'hoje' : days === 1 ? 'amanhã' : `${days} dias`;
+    return `<li><button data-jump="${esc(o.id)}" title="${esc(a.short)}"><span class="up-date">${esc(brDate(a.closeDate).slice(0, 5))}</span><span class="up-name">${esc(a.short)}</span><span class="up-left ${days <= 7 ? 'urgent' : days <= 30 ? 'soon' : ''}">${left}</span></button></li>`;
   }).join('');
   $('headerMeta').textContent = `Pesquisa de ${brDate(window.RADAR.checked)}`;
 }
