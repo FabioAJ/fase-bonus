@@ -324,7 +324,7 @@ function renderSources() {
   const health = window.COLLECTION || {sources: []};
   const time = t => t ? new Date(t).toLocaleString('pt-BR', {timeZone: 'America/Sao_Paulo'}) : 'Ainda não executada';
   const label = {ok: 'Consulta concluída', unchanged: 'Sem alteração de conteúdo', cached: 'Consulta em cache', error: 'Falha de acesso', partial: 'Coleta parcial'};
-  $('collectionSummary').innerHTML = `<strong>${health.successCount || 0} de ${sources.length} fontes lidas com sucesso</strong><p>Última coleta: ${esc(time(health.lastRun))}. ${health.errorCount || 0} com falha. ${health.candidateCount || 0} links aguardam revisão e não são inscrições confirmadas. A coleta é manual: não há agendamento ativo.</p>`;
+  $('collectionSummary').innerHTML = `<strong>${health.successCount || 0} de ${sources.length} fontes lidas com sucesso</strong><p>Última coleta: ${esc(time(health.lastRun))}. ${health.errorCount || 0} com falha. ${health.candidateCount || 0} links aguardam revisão e não são inscrições confirmadas. A coleta roda sozinha toda segunda-feira, e o que ela encontra só vira ficha depois de revisado.</p>`;
   $('sourceCards').innerHTML = sources.map(s => {
     const h = health.sources?.find(x => x.id === s.id);
     const tone = !h ? 'pending' : ['error', 'partial'].includes(h.status) ? 'error' : 'ok';
@@ -420,7 +420,7 @@ $('exportPdf').addEventListener('click', async () => {
   }
 });
 $('exportBtn').addEventListener('click', () => {
-  const data = {research_date: window.RADAR.checked, horizon: window.RADAR.horizon, automatic_collection: false, collection: window.COLLECTION, discoveries: window.DISCOVERIES, opportunities: opportunities.map(o => ({...o, application: apps[o.id], favorite: favorites.has(o.id)})), sources};
+  const data = {research_date: window.RADAR.checked, horizon: window.RADAR.horizon, automatic_collection: true, collection: window.COLLECTION, discoveries: window.DISCOVERIES, opportunities: opportunities.map(o => ({...o, application: apps[o.id], favorite: favorites.has(o.id)})), sources};
   save(new Blob([JSON.stringify(data, null, 2)], {type: 'application/json;charset=utf-8'}), 'fase-bonus-pesquisa.json');
   toast('Pesquisa exportada em JSON.');
 });

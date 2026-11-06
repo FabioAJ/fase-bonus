@@ -48,7 +48,7 @@ Os achados aparecem na aba Buscar mais como itens a revisar e nunca viram ficha 
 - `state/review-queue.json`: links deduplicados a revisar, incluindo documentos e listagens. Não é lista de editais abertos.
 - `../dist/data.js`, `application.js`, `collection-status.js`: dados publicados na página.
 
-O estado e as bibliotecas instaladas são ignorados pelo Git. O pacote de entrega não inclui snapshots ou dependências; usar o comando de instalação acima.
+`state/state.json` e `state/review-queue.json` ficam no Git, para a coleta semanal continuar de onde parou. Os snapshots e as bibliotecas instaladas são ignorados; usar o comando de instalação acima.
 
 ## O que a coleta faz
 
@@ -66,13 +66,13 @@ Consultar a fonte original e registrar no `reviewed.json`: prazo de candidatura 
 
 Para a aba atual, `category` pode ser `current`, `watch` ou `closed`. Financiamento privado ou formação não são chamados de contrato ou subvenção. Usar `closeDate` (ISO) e, quando conhecido, `closeAt` (ISO com fuso). Não inferir uma data de inscrição a partir da execução ou da publicação do resultado.
 
-Depois da revisão, executar `--build-only`. Para a versão hospedada, empacotar e publicar no mesmo projeto Sites; executar o coletor local **não publica sozinho na nuvem**. A cópia local pode ser aberta com `python -m http.server 8765 --directory ../dist`.
+Depois da revisão, executar `--build-only`, fazer commit e push na `main`: o GitHub publica o site. A cópia local pode ser aberta com `python -m http.server 8765 --directory ../dist`.
 
 ## Estado desta entrega
 
-A coleta foi executada nas 41 fontes distintas: 34 com leitura concluída e 7 com limitação (Enap, EEN, SENAI, CEPEDI, Enel, Petrobras Radar e cadastro Nestlé). A página mostra os motivos. Enel e Petrobras foram verificadas editorialmente no navegador; essa verificação não remove a falha técnica. Há 99 links na fila, sem promoção automática a oportunidades.
+A aba Fontes mostra quantas fontes foram lidas, as falhas e os motivos. Nada vira ficha sem revisão.
 
-Não há agendamento ou backend remoto ativo. A recorrência exige escolher um executor compatível com Python, persistir `state`, configurar a publicação dos dados e verificar o primeiro disparo. Não rodar com intervalos agressivos. Descoberta por busca web continua complementar ao scraping das fontes cadastradas; os resultados da pesquisa desta entrega foram revisados antes da inclusão.
+A coleta roda toda segunda-feira pelo GitHub Actions (`.github/workflows/coleta.yml`), que grava o estado no repositório e dispara a publicação. O resumo de cada rodada fica na aba Actions. Não rodar com intervalos agressivos: o coletor respeita `robots.txt`, e alguns portais podem recusar os servidores do GitHub. Falha numa fonte preserva o último dado bom. A pesquisa na web continua complementar ao que o coletor lê.
 
 ## Filtros nacionais
 

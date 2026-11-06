@@ -1,0 +1,2659 @@
+[
+  {
+    "candidate_id": "f3248938c29ac7f9",
+    "source_ids": [
+      "bndes"
+    ],
+    "url": "https://garagem.bndes.gov.br/formulario",
+    "label": "Acesse o formulário de inscrição",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "6a37a3ecea74cf37",
+    "source_ids": [
+      "bndes"
+    ],
+    "url": "https://garagem.bndes.gov.br/wp-content/uploads/2026/10/Edital-BNDES-Garagem-–-Negocios-de-Impacto-2026.pdf",
+    "label": "Abrir o edital",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "14494b3ba3877ded",
+    "source_ids": [
+      "indiefund"
+    ],
+    "url": "https://indie-fund.com/articles/How-to-Pitch-Your-Game-to-Indie-Fund-or-just-about-anyone",
+    "label": "check out our earlier blog post describing some of the elements that make a great application great",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "2f9ddc05406bf1b0",
+    "source_ids": [
+      "centelhamg"
+    ],
+    "url": "https://api.site.fapemig.br/wp-content/uploads/Chamada-e-termo-de-outorga.pdf",
+    "label": "CHAMADA 010/2026 CENTELHA 3 - Programa Nacional de Apoio à Geração de Empreendimentos Inovadores Documento Geral Publicado em 28/05/2026 • PDF • 291 KB",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "24ab3e8ec3b240d4",
+    "source_ids": [
+      "centelhamg"
+    ],
+    "url": "https://api.site.fapemig.br/wp-content/uploads/2026-08-18__178__12527__publicacao-prorrogacao__fqwZ8LkA.pdf",
+    "label": "1ª Prorrogação de Cronograma Documento Geral Publicado em 18/08/2026 • PDF • 1.6 MB",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "b1f4997fa2140c60",
+    "source_ids": [
+      "centelhamg"
+    ],
+    "url": "https://api.site.fapemig.br/wp-content/uploads/2026-09-18__178__12699__2a-prorrogacao__uBDmKbIk.pdf",
+    "label": "2ª Prorrogação de Cronograma Documento Geral Publicado em 18/09/2026 • PDF • 1.3 MB",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "0f73a0f319787c70",
+    "source_ids": [
+      "centelhamg"
+    ],
+    "url": "https://api.site.fapemig.br/wp-content/uploads/2026-10-08__178__12811__10-cronograma-3a-prorrogacao__3Uy7naHW.pdf",
+    "label": "3ª Prorrogação de Cronograma - em vigor Documento Geral Publicado em 08/10/2026 • PDF • 540 KB",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "de2d87a5ed06a97d",
+    "source_ids": [
+      "centelhamg"
+    ],
+    "url": "https://api.site.fapemig.br/wp-content/uploads/2026-10-23__178__12912__lista-final-da-fase-1-centelha-3-mg__vdOL2CYc.pdf",
+    "label": "Resultado final das Ideias Inovadoras selecionadas na Fase 1 - Retificado Documento Geral Publicado em 23/10/2026 • PDF • 464 KB",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "d618a9dfc23cc9be",
+    "source_ids": [
+      "bhtec"
+    ],
+    "url": "https://bhtec.org.br/wp-content/uploads/2026/10/Conexoes-Edital-2026.pdf",
+    "label": "edital e seus anexos",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "16a8356100ae3a58",
+    "source_ids": [
+      "bhtec"
+    ],
+    "url": "https://bhtec.org.br/wp-content/uploads/2026/10/Conexoes-Termos-Edital-2026-Editavel.docx",
+    "label": "termos de compromisso e de adesão e consentimento",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "b80ece87ab7dad9c",
+    "source_ids": [
+      "bhtec"
+    ],
+    "url": "https://bhtec.org.br/2024/09/04/transicao-energetica-reforca-vanguarda-brasileira-e-oportunidades-revolucao-na-propria-economia/",
+    "label": "Transição energética reforça vanguarda brasileira e oportunidades: ‘Revolução na própria economia’",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "45094ecae2792ded",
+    "source_ids": [
+      "jornada"
+    ],
+    "url": "https://sementenegocios.com.br/sebraeinovacaoaberta/wp-content/uploads/2026/11/LISTA-DE-SELECIONADAS-Sebrae-Conexoes-Corporativas-Jornada-de-Inovacao-Aberta-.pdf",
+    "label": "As inscrições foram encerradas. Confira a lista de soluções aprovadas.",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "9f8e9da51dff831c",
+    "source_ids": [
+      "opencorp"
+    ],
+    "url": "https://sebraemulti.com.br/wp-content/uploads/2025/08/PUB-DI-01_2025_Edital-de-Desafio-de-Inovacao-Rev_1-Manifesto.pdf",
+    "label": "ACESSE O EDITAL",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "6fc25e6e2faec155",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/financial",
+    "label": "/br-pt/challenges/financial",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "c876a0ed575cfd4b",
+    "source_ids": [
+      "secultgo"
+    ],
+    "url": "https://goias.gov.br/cultura/arranjosregionais/",
+    "label": "Edital Arranjos Regionais FSA",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "bfccdb15e0837937",
+    "source_ids": [
+      "secultgo"
+    ],
+    "url": "https://goias.gov.br/cultura/pnab/edital-2026-pnab/",
+    "label": "Edital Natal do Bem",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "016ddfcfcba17e1a",
+    "source_ids": [
+      "secultgo"
+    ],
+    "url": "https://goias.gov.br/cultura/inscricoes-para-edital-ocupa-goias-mitsp-2027-comecam-nesta-quarta-feira-4-11/",
+    "label": "/cultura/inscricoes-para-edital-ocupa-goias-mitsp-2027-comecam-nesta-quarta-feira-4-11/",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "4405ee2652cd32b0",
+    "source_ids": [
+      "secultmg"
+    ],
+    "url": "https://www.secult.mg.gov.br/documentos/lei-paulo-gustavo-lpg/relacao-de-propostas-inscritas-por-edital-lpg",
+    "label": "Relatório de Inscritos",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "0a514dec50d88548",
+    "source_ids": [
+      "secultmg"
+    ],
+    "url": "https://www.secult.mg.gov.br/documentos/plataforma-de-inscricoes-lab",
+    "label": "Plataforma de Inscrições da LAB",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "31197b28e9a3a7fe",
+    "source_ids": [
+      "secultmg"
+    ],
+    "url": "https://www.secult.mg.gov.br/editais/editais-pnab/cronograma-pnab",
+    "label": "Cronograma",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "efca92998b8b163e",
+    "source_ids": [
+      "secultmg"
+    ],
+    "url": "https://www.secult.mg.gov.br/editais/editais-02-ao-11/novo-cronograma-lpg",
+    "label": "Cronograma",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "9f17a358ba755111",
+    "source_ids": [
+      "secultmg"
+    ],
+    "url": "https://www.secult.mg.gov.br/turismo/edital-reviva-turismo",
+    "label": "Reviva Turismo",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "f06f730fa018e12e",
+    "source_ids": [
+      "secultmg"
+    ],
+    "url": "https://www.secult.mg.gov.br/noticias-artigos/8877-secretaria-de-estado-de-cultura-e-turismo-abre-inscricoes-para-os-auloes-do-turismo-do-2-semestre-de-2026",
+    "label": "Notícias    Secretaria de Estado de Cultura e Turismo abre inscrições para os Aulões do Turismo do 2º semestre de 2026     03 Novembro 2026   Iniciativa retorna em novembro com foc",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "e2da61bbe02c6c03",
+    "source_ids": [
+      "secultmg"
+    ],
+    "url": "https://www.secult.mg.gov.br/noticias-artigos/8875-turismo-mineiro-em-expansao-governo-de-minas-mira-novos-mercados-no-btm-2026",
+    "label": "Notícias    Turismo mineiro em expansão: Governo de Minas mira novos mercados no BTM 2026     22 Outubro 2026   Com destinos estratégicos, experiências autênticas e a força da Cozi",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "bff4694bdedb4641",
+    "source_ids": [
+      "secultmg"
+    ],
+    "url": "https://www.secult.mg.gov.br/noticias-artigos/8874-governo-de-minas-destinara-r-8-milhoes-a-edital-inedito-para-o-jequitinhonha",
+    "label": "Notícias    Governo de Minas destinará R$ 8 milhões a edital inédito para o Jequitinhonha     21 Outubro 2026   Pela primeira vez, a Secult-MG lançará um edital exclusivo para a re",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "138734006d47cd81",
+    "source_ids": [
+      "secultmg"
+    ],
+    "url": "https://www.secult.mg.gov.br/noticias-artigos/8872-dia-das-criancas-reune-programacao-especial-em-espacos-culturais-e-parques-de-minas",
+    "label": "Notícias    Dia das Crianças reúne programação especial em espaços culturais e parques de Minas     10 Outubro 2026   Equipamentos culturais e parques estaduais oferecem diversas a",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "6417bad8331bebfd",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior",
+    "label": "Compartilhe por LinkedIn",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "985d505b2975a951",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/edital-de-intercambio-cultural-minc-no-1-de-8-de-junho-de-2026.pdf",
+    "label": "Edital de Intercâmbio Cultural Minc nº 1, de 8 de Junho de 2026",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "a91809d5d65fc053",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/edital",
+    "label": "Edital de Intercâmbio Cultural Minc nº 1, de 8 de Junho de 2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "8a463ebd54e2773c",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/extrato-de-publicacao_resultados-recursos-2a-reuniao-de-enquadramento-e-qualificacao.pdf",
+    "label": "Extrato de Publicação – Resultado da Análise dos Recursos da 2ª Reunião de Enquadramento e Qualificação – Edital de Intercâmbio Cultural MinC nº 1/2026",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "406338feb5552c2b",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/publicacao-dou_resultado-recursos-2a-reuniao-de-qualificacao.pdf",
+    "label": "Publicação no DOU – Resultado da Análise dos Recursos da 2ª Reunião de Enquadramento e Qualificação – Edital de Intercâmbio Cultural MinC nº 1/2026",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "92b90912e4a55239",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/resultado_recursos_2_reuniao_de_qualificacao.pdf",
+    "label": "Resultado da Análise dos Recursos da 2ª Reunião de Enquadramento e Qualificação – Edital de Intercâmbio Cultural MinC nº 1/2026",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "c7125d95485f804b",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/SEI_3013534_Extrato.pdf",
+    "label": "Extrato de Publicação Resultado Preliminar da 1ª Reunião de Enquadramento e Qualificação",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "f1ee09a1222049ac",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/DOU_EditalIntercmbioCultural_CirculaoAudiovisual_Publicaoresultadopreliminar.pdf",
+    "label": "Resultado Preliminar da 1ª Reunião de Enquadramento e Qualificação",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "0386d4a77ef21ec5",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/Resultado_Preliminar_1__Reuniao_de_qualificacao_Intercambio_2026_Atualizado22.07_Site.pdf",
+    "label": "Resultado Preliminar da 1ª Reunião de Enquadramento e Qualificação",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "73d0522c93749e11",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/Extrato_publicao_Resultado_Analise_Recursos.pdf",
+    "label": "Extrato de Publicação – Resultado da Análise dos Recursos da 1ª Reunião de Enquadramento e Qualificação – Edital de Intercâmbio Cultural MinC nº 1/2026",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "0d77e13a868b31b2",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/resultado-analise-de-recursos_-edital-minc-no-1-de-8-de-junho-de-2026-dou-imprensa-nacional.pdf",
+    "label": "Publicação no DOU – Resultado da Análise dos Recursos da 1ª Reunião de Enquadramento e Qualificação – Edital de Intercâmbio Cultural MinC nº 1/2026",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "3250181be07ed510",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/resultado_recursos_1__reuniao_de_qualificacao.pdf",
+    "label": "Resultado da Análise dos Recursos da 1ª Reunião de Enquadramento e Qualificação – Edital de Intercâmbio Cultural MinC nº 1/2026",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "aa6c4656233d6ee9",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/PublicaoDOU_ResultadosContrarrazes_ResultadoFinal1reunio_ResultadoPreliminar2reunio.pdf",
+    "label": "Publicação no DOU – Resultado da Análise das Contrarrazões apresentadas ao resultado da análise dos recursos interpostos contra o Resultado Preliminar da 1ª Reunião de Enquadrament",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "9dd293d7034213f8",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/Resultado__Contrarrazoes_e_Resultado_Final_1__Reuniao.pdf",
+    "label": "Resultado da Análise das Contrarrazões apresentadas ao resultado da análise dos recursos interpostos contra o Resultado Preliminar da 1ª Reunião de Enquadramento e Qualificação, Re",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "e6e65f7fc9bd815f",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/Resultado__Preliminar_2__Reuniao1.pdf",
+    "label": "Resultado Preliminar da 2ª Reunião de Enquadramento e Qualificação do Edital de Intercâmbio Cultural MinC nº 1/2026",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "2bfdbaa3ad5bb319",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/PublicaoDOU_N184terafeira29desetembrode2026.pdf",
+    "label": "Publicação no DOU - Nº 184, terça-feira, 29 de setembro de 2026 - Resultado Final da 2ª Reunião de Enquadramento e Qualificação; Relação de propostas desistentes e arquivadas; Rela",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "f0bd1b4a6814e70b",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/RESULTADOSEDITALDEINTERCMBIOCULTURAL_CIRCULAOEPARTICIPAOAUDIOVISUALNOEXTERIOR.pdf",
+    "label": "Resultado Final da 2ª Reunião de Enquadramento e Qualificação; Relação de propostas desistentes e arquivadas; Relação de propostas convocação do cadastro reserva",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "2ad80bf9f03d9d77",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/publicacao-dou-no-203-terca-feira-27-de-outubro-de-2026.pdf",
+    "label": "Publicação no Diário Oficial da União: suplementação dos recursos financeiros do Edital, relação de propostas desistentes e inabilitadas e convocação de novas propostas do cadastro",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "0e71a6b9a89c9c56",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/resultado_chamamento_suplentes_suplementacao.pdf",
+    "label": "Resultados do Edital de Intercâmbio Cultural MinC nº 1/2026 – Circulação e Participação Audiovisual no Exterior:",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "a1255efde087a1f3",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/anexo-i-documentacao",
+    "label": "ANEXO I – DOCUMENTAÇÃO",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "a25083333bd1fbae",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/anexo-vi-declaracao-de-agencia-e-conta-bancaria",
+    "label": "ANEXO VI - DECLARAÇÃO DE AGÊNCIA E CONTA BANCÁRIA",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "fab24e066e4f1cbe",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/anexo-ii-autodeclaracao-etnico-racial",
+    "label": "ANEXO II - AUTODECLARAÇÃO ETNICO RACIAL",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "0d4e053ca2ceb006",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/anexo-vii-modelo-de-recurso-a-comissao-de-heteroidentificacao",
+    "label": "ANEXO VII - MODELO DE RECURSO A COMISSÃO DE HETEROIDENTIFICAÇÃO",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "e342867d44d7eb3a",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/anexo-iii-declaracao-de-pessoa-com-deficiencia-pcd",
+    "label": "ANEXO III - DECLARAÇÃO DE PESSOA COM DEFICIÊNCIA  PCD",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "0c319411b83bf8f1",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/anexo-viii-declaracao-de-residencia",
+    "label": "ANEXO VIII - DECLARAÇÃO DE RESIDÊNCIA",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "a40cf1f3ba4a8764",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/anexo-iv-relatorio-de-execucao-da-acao",
+    "label": "ANEXO IV - RELATÓRIO DE EXECUÇÃO DA AÇÃO",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "411b88e7501f047c",
+    "source_ids": [
+      "mincintercambio"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior/anexo-v-termo-de-execucao-cultural",
+    "label": "ANEXO V - TERMO DE EXECUÇÃO CULTURAL",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "2a0d8458c45898d5",
+    "source_ids": [
+      "bghresidencia"
+    ],
+    "url": "https://brasiliagamehub.org/wp-content/uploads/2025/08/CHAMADA-PUBLICA-No-001_2025-–-RESIDENCIA-DE-EMPRESAS-NO-BGH.pdf",
+    "label": "Download",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "abb75e0a924efa97",
+    "source_ids": [
+      "bndesdiversidade"
+    ],
+    "url": "https://agenciadenoticias.bndes.gov.br/noticia/BNDES-anuncia-filmes-e-festivais-selecionados-no-Edital-de-Cinema-2026/",
+    "label": "BNDES anuncia filmes e festivais selecionados no Edital de Cinema 2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "3fd66fa13355c48c",
+    "source_ids": [
+      "bndesdiversidade"
+    ],
+    "url": "https://agenciadenoticias.bndes.gov.br/noticia/BNDES-divulga-resultado-da-fase-eliminatoria-do-edital-Restaura-Rio-Doce-iniciativa-de-R$-61875-milhoes/",
+    "label": "Socioambiental  BNDES divulga resultado da fase eliminatória do edital Restaura Rio Doce, iniciativa de R$ 618,75 milhões  3 min",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "d32d959d117b3210",
+    "source_ids": [
+      "pnabrn"
+    ],
+    "url": "https://nyc3.digitaloceanspaces.com/repo/seletar/media/editais/114/09-2026.pdf",
+    "label": "EDITAL DE FOMENTO AOS JOGOS ELETRÔNICOS",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "73f5e4083a1861ce",
+    "source_ids": [
+      "pnabrn"
+    ],
+    "url": "https://nyc3.digitaloceanspaces.com/repo/seletar/media/editais/114/CARTILHA_EDITAL_09_2026_FOMENTO_A_JOGOS_ELETRONICOS.pdf",
+    "label": "CARTILHA EDITAL FOMENTO A JOGOS ELETRÔNICOS",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "bba38256697d58f4",
+    "source_ids": [
+      "pnabrn"
+    ],
+    "url": "https://nyc3.digitaloceanspaces.com/repo/seletar/media/editais/114/CRONOGRAMA_RETIFICADO_DO_BLOCO_III.pdf",
+    "label": "Cronograma Retificado",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "660ad6111a4ad265",
+    "source_ids": [
+      "pnabrn"
+    ],
+    "url": "https://nyc3.digitaloceanspaces.com/repo/seletar/media/editais/114/CRONOGRAMA_RETIFICADO_DO_BLOCO_III_-_SEGUNDA_ALTERA%C3%87%C3%83O.pdf",
+    "label": "Cronograma Retificado 02",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "b52ae702814d1df2",
+    "source_ids": [
+      "pnabrn"
+    ],
+    "url": "https://nyc3.digitaloceanspaces.com/repo/seletar/media/editais/114/Anexo_09_-_Lista_de_Itens_Financiaveis_pela_PNAB.docx.pdf",
+    "label": "Anexo 09 - Lista de Itens Financiáveis pela PNAB",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "9bd1c07aa7f92c8b",
+    "source_ids": [
+      "cegames"
+    ],
+    "url": "https://mapacultural.secult.ce.gov.br/oportunidade/{{data.entity.registrationRulesFile.url}}",
+    "label": "Baixar o regulamento",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "a1aa018472bfa76e",
+    "source_ids": [
+      "cegames"
+    ],
+    "url": "https://mapacultural.secult.ce.gov.br/suporte/inscricao/{{reg.id}}/",
+    "label": "{{reg.number}}",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "b7b3ebc28a289073",
+    "source_ids": [
+      "cegames"
+    ],
+    "url": "https://mapacultural.secult.ce.gov.br/oportunidade/{{reg.owner.singleUrl}}",
+    "label": "{{reg.owner.name}}",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "dd21d607e3f665db",
+    "source_ids": [
+      "cegames"
+    ],
+    "url": "https://mapacultural.secult.ce.gov.br/oportunidade/{{relation.agent.singleUrl}}",
+    "label": "{{relation.agent.name}}",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "5f3308f83e2c3c1a",
+    "source_ids": [
+      "cegames"
+    ],
+    "url": "https://mapacultural.secult.ce.gov.br/oportunidade/{{seal.singleUrl}}",
+    "label": "{{seal.name}}",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "f9ddc7a1e30f63bf",
+    "source_ids": [
+      "cegames"
+    ],
+    "url": "https://mapacultural.secult.ce.gov.br/files/opportunity/8132/edital-16-edital-ceara-de-cinema-e-audiovisual-contrapartida-arranjos-regionais.pdf",
+    "label": "16º EDITAL CEARÁ DE CINEMA E AUDIOVISUAL",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "b4c05cdb110e7f02",
+    "source_ids": [
+      "cegames"
+    ],
+    "url": "https://mapacultural.secult.ce.gov.br/files/opportunity/8132/inscritos-16-edital-ceara-de-cinema-e-audiovisual-modalidade-5-jogo-eletronico.pdf",
+    "label": "Inscritos - 16º Edital Ceará de Cinema e Audiovisual - Modalidade 5 - Jogo Eletrônico",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "f236ced9455ff0c9",
+    "source_ids": [
+      "cegames"
+    ],
+    "url": "https://mapacultural.secult.ce.gov.br/files/opportunity/8132/1-termo-aditivo-16-edital-ceara-de-cinema-e-audiovisual-pdf.pdf",
+    "label": "1º TERMO ADITIVO AO 16º EDITAL CEARÁ DE CINEMA E AUDIOVISUAL – CURTAS, ROTEIRO, DIFUSÃO E JOGOS",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "39ab55596b194903",
+    "source_ids": [
+      "cegames"
+    ],
+    "url": "https://mapacultural.secult.ce.gov.br/files/opportunity/8132/16-edital-ceara-de-cinema-e-audiovisual.pdf",
+    "label": "Cronograma - 16º Edital Ceará de Cinema e Audiovisual",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "52c739640b0daa1c",
+    "source_ids": [
+      "gamepnabba"
+    ],
+    "url": "https://www.bahiapnab.com.br/game-pnab-2/inscricao",
+    "label": "/game-pnab-2/inscricao",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "5b8a3d372bb4aff9",
+    "source_ids": [
+      "gamepnabba"
+    ],
+    "url": "https://www.bahiapnab.com.br/lerarquivo/dXBsb2FkL2VkaXRhbF9kb2N1bWVudG8vNjgvZWRpdGFsLTY4LWRvY3VtZW50by0xMTM2LnBkZg==/RURJVEFM",
+    "label": "Baixar Edital em PDF",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "93daa77548e9a763",
+    "source_ids": [
+      "gamepnabba"
+    ],
+    "url": "https://www.bahiapnab.com.br/game-pnab-2/acessibilidade",
+    "label": "Edital Acessível",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "fe2d256fe0419606",
+    "source_ids": [
+      "petrobrascultural"
+    ],
+    "url": "https://petrobras.com.br/documents/2677942/10915971/Projetos+selecionados+-+Multiplas+Express%C3%B5es.pdf/0d933016-4df0-8e4a-c240-3d5330138fda?download=true&t=1701431665000&version=1.0",
+    "label": "Resultado da Chamada Múltiplas Expressões",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "e2813c006606f00c",
+    "source_ids": [
+      "petrobrascultural"
+    ],
+    "url": "https://petrobras.com.br/documents/2677942/10915971/Projetos+selecionados+Feiras+e+A%C3%A7%C3%B5es+Liter%C3%A1rias.pdf/ca2efdcf-d49e-020d-c14e-a27572992046?download=true&t=1701431668000&version=1.0",
+    "label": "Resultado da Chamada Feiras e Ações Literárias",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "0d3ba8cf83420641",
+    "source_ids": [
+      "petrobrascultural"
+    ],
+    "url": "https://petrobras.com.br/documents/2677942/10915971/Projetos+selecionados+-+Anima%C3%A7%C3%A3o.pdf/cd1b2c58-2a82-8176-7348-a3cd9e6baaaa?download=true&t=1701431663000&version=1.0",
+    "label": "Resultado da Chamada Animação Infantil",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "ed3cc8fb5b41f107",
+    "source_ids": [
+      "petrobrascultural"
+    ],
+    "url": "https://petrobras.com.br/documents/2677942/10915971/Resultado+projetos+selecionados+Artes+C%C3%AAnicas.pdf/e11472c8-229e-d95c-4747-232167c65931?download=true&t=1701431670000&version=1.0",
+    "label": "Resultado da Chamada Artes Cênicas para Crianças",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "2be6baa67f10badf",
+    "source_ids": [
+      "petrobrascultural"
+    ],
+    "url": "https://petrobras.com.br/documents/2677942/10915971/Chamada+de+musica-+Regulamento+e+Selecionados.zip/d881aece-ae1d-ab4e-dfcf-751186903f75?download=true&t=1701431661000&version=1.0",
+    "label": "Resultado e Regulamento da Chamada de Música",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "9fd0c4c24a6fd1f0",
+    "source_ids": [
+      "pipeeducacao"
+    ],
+    "url": "https://fapesp.br/6/estrategias-de-fomento-a-pesquisa",
+    "label": "Financiamento à pesquisa",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "c847158bcf7c91e6",
+    "source_ids": [
+      "pipeeducacao"
+    ],
+    "url": "https://fapesp.br/2185/chamadas-de-propostas-2026",
+    "label": "Chamadas de Propostas",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "f04caa7d0f01823f",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2026/09/Segundo_Desafio_Inovacao_HUB_Saude_Corporativa.pdf",
+    "label": "Clique aqui e saiba mais",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "b6db073cb84286d6",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2026/08/Modelo_Padrao_-Pitch_Day-PPT.pptx",
+    "label": "/wp-content/uploads/2026/08/Modelo_Padrao_-Pitch_Day-PPT.pptx",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "f283fdebc9ea1abd",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2026/08/02-ERRATA-EDITAL-SESI-SENAI-desafio-saude.pdf",
+    "label": "/wp-content/uploads/2026/08/02-ERRATA-EDITAL-SESI-SENAI-desafio-saude.pdf",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "6d1f18f0790e3b84",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2026/09/Resultado-01-Desafio-Saude-Corporativa-1.pdf",
+    "label": "Resultado Desafio 01 Saúde",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "297c5a51483eff5b",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2026/10/PROJETOS-QUALIFICADOS-DESAFIO-02-INOVACAO-SAUDE-CORPORATIVA.pdf",
+    "label": "Desafio 02 Inovação em Saúde Corporativa",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "93909a06d80bec85",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2026/11/PROJETO-APROVADO-DESAFIO-02-INOVACAO-SAUDE-CORPORATIVA.pdf",
+    "label": "Resultado Desafio 2 Saúde",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "66a26bf5b9dcb24a",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2025/01/EDITALSESI-SENAI-01-2025.pdf",
+    "label": "Baixar",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "9aad300b2f61f644",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2025/03/ERRATA-EDITAL-SESI-SENAI-01-2025.pdf",
+    "label": "Baixar",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "4c5c298ea8a9ebe5",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2025/05/ERRATA-EDITAL-SESI-SENAI-02-2025.pdf",
+    "label": "Baixar",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "8083432d1e806755",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2025/06/3a-ERRATA-EDITAL-SESI-SENAI-01-2025.pdf",
+    "label": "ERRATA EDITAL SESI SENAI 03-2025",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "bcb137a7ea1b8a28",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2025/07/4o-ERRATA-EDITAL-SESI-SENAI-01-2025.pdf",
+    "label": "Baixar",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "2699577a1dbc684b",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2025/08/5o-ERRATA-EDITAL-SESI-SENAI-01-2025.pdf",
+    "label": "Baixar",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "612e8d8239c4f74a",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2026/03/EDITAL-SESI-SENAI-01-2026-.pdf",
+    "label": "Baixar",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "93a02ae9a21b495d",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2026/05/ERRATA-01-2026-EDITAL-SESI-SENAI.pdf",
+    "label": "Baixar",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "cdb7c41e30abc3d5",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2026/06/Edital_Desafio_Inovacao_01_HUB_Saude_Corporativa-e-Anexos.pdf",
+    "label": "Baixar",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "e3a7ba3973cec7a6",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2026/06/Ficha-de-Inscricao.docx",
+    "label": "Baixar",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "8f2cd9dbd14aba1a",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2024/04/Edital-SESI-Inova-2024.pdf",
+    "label": "Baixar",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "7725fd0025a4a3d1",
+    "source_ids": [
+      "fiemg2026"
+    ],
+    "url": "https://www.fiemg.com.br/wp-content/uploads/2024/04/FICHA-DE-INSCRICAO-IDEIA.docx",
+    "label": "Baixar",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "2a681cb93b2a6875",
+    "source_ids": [
+      "inova6"
+    ],
+    "url": "https://inovastartups.com.br/edital-inova-6a-edicao.pdf",
+    "label": "Leia o edital",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "76f37daa53f1f10a",
+    "source_ids": [
+      "epicaimegajam",
+      "itchjams"
+    ],
+    "url": "https://itch.io/games",
+    "label": "Browse Games",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "8196b359d9e61a5f",
+    "source_ids": [
+      "epicaimegajam",
+      "itchjams"
+    ],
+    "url": "https://itch.io/jams",
+    "label": "Game Jams",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "1aeb275c54828426",
+    "source_ids": [
+      "epicaimegajam",
+      "itchjams"
+    ],
+    "url": "https://itch.io/games/store",
+    "label": "Indie game store",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "3913d324560b84e8",
+    "source_ids": [
+      "epicaimegajam",
+      "itchjams"
+    ],
+    "url": "https://itch.io/games/free",
+    "label": "Free games",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "4e2c1ba4b25de4f3",
+    "source_ids": [
+      "epicaimegajam",
+      "itchjams"
+    ],
+    "url": "https://itch.io/games/fun",
+    "label": "Fun games",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "4cd3b8140c292fd2",
+    "source_ids": [
+      "epicaimegajam",
+      "itchjams"
+    ],
+    "url": "https://itch.io/games/tag-horror",
+    "label": "Horror games",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "6426ae5e322821a4",
+    "source_ids": [
+      "gamedevtvfund"
+    ],
+    "url": "https://gamedev.tv/bundles/game-jam-bundle",
+    "label": "Support the Fund!",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "67ce7a4695418510",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/2026/10/01_SPCINE_Apoio-a-Producao-de-Games_Resultado-Preliminar_Classificacao_Final.pdf",
+    "label": "Resultado Preliminar - Classificação final",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "23c55e45dbf0a86b",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/2026/08/Edital-01_2026_SPCINE_-Apoio-a-Producao-e-FInaizacao-de-Games_Resultado-verificacao-documental.pdf",
+    "label": "LINK PARA RESULTADO",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "6f945b52cbd84511",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/2026/08/00-Edital-Games_vf-rev1-RETIFICADO0708_3617-1.pdf",
+    "label": "EDITAL RETIFICADO",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "81fdd2f7d48b9b08",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/2026/08/Anexos-Edital-01_2026_SPCINE-Apoio-a-producao-e-finalizacao-de-games-1.zip",
+    "label": "ANEXOS",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "6a4bf4792e1e3abf",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/2026/10/02_SPCINE_Incubadora-de-Games_Resultado-Preliminar_Classificacao_Final.pdf",
+    "label": "Resultado Preliminar - Classificação final",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "49fc9c6f6792752d",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/2026/08/Edital-02_2026_SPCINE_Incubadora-de-Games-2026_RESULTADO-Verificacao-Documental.pdf",
+    "label": "LINK PARA RESULTADO",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "0f69522609a2fe5d",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/2026/07/Edital-02_2026_SPCINE-Incubadora-de-Games-2026-1.pdf",
+    "label": "EDITAL",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "619cd7eeacef384a",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/2026/07/Anexos-Edital-02_2026_SPCINE-Incubadora-de-Games-2026.zip",
+    "label": "ANEXOS",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "bea0bd2339e001cb",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/2026/08/Resultado-Quirino-Lab.pdf",
+    "label": "Resultado - Chamada Pública Quirino Lab",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "2e02cc54deede81c",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/2026/07/2026.07_Convocatoria-Quirino-Lab-e-Spcine.pdf",
+    "label": "EDITAL",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "92adfedcdfded8ec",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/2026/09/EDITAL-15_2025_SPCINE-Classificacao-4-Modulos.pdf",
+    "label": "LISTA DE AMPLA CONCORRÊNCIA",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "8d7af86edc19deaf",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/EDITAL-15_2025-RESULTADO_FASE_01.pdf",
+    "label": "CLIQUE PARA FAZER O DOWNLOAD DOS RESULTADOS",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "29027b818e720032",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/00_EDITAL-15_2025-GAP_Versao-final-RETIFICADO-1.pdf",
+    "label": "EDITAL",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "8e4c4a48b0f85411",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/EDITAL_15_2025.zip",
+    "label": "ANEXOS",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "93b1408a1e5bc41b",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/EDITAL-13_2025-RESULTADO_FASE_01.pdf",
+    "label": "CLIQUE PARA BAIXAR O RESULTADO DA PRIMEIRA FASE",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "ee49026f3f9cd7ea",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/00_EDITAL_13_2025-Nucleos_RETIFICADO.pdf",
+    "label": "EDITAL",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "8c989f0410c7a6bd",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/EDITAL-13_2015_ANEXOS.zip",
+    "label": "ANEXOS",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "13e33e30f2eb80d4",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/EDITAL-10-2025_LISTA-GERAL-E-LISTA-RESERVADA.pdf",
+    "label": "Lista ampla concorrência/reserva;",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "c2eb5c309a6de6fa",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/EDITAL-10-2025_CONTEMPLADOS_E_SUPLENTES.pdf",
+    "label": "Lista contemplados/suplentes/desclassificados;",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "edfa463d5c781ec7",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/EDITAL-10-2025_COMPOSICAO-DE-NOTAS-CRITERIOS.pdf",
+    "label": "Lista composição de notas.",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "f9acbf4de4c0e1e0",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/00_EDITAL-10_2025-Distribuicao_Versao-Final_RETIFICADO.pdf",
+    "label": "EDITAL",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "9bf82584755f80cb",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/EDITAL-10-2025_ANEXOS-2.zip",
+    "label": "ANEXOS",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "ba6f3eeba1d023bb",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/00_Edital-09.2025_Chamamento-publico-para-composicao-de-subcomissao-tecnica-para-licitacao-de-comunicacao.pdf",
+    "label": "EDITAL",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "69ecc01966f6ed2c",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/Edital-00-SPCINE-NFVF.pdf",
+    "label": "EDITAL",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "19de16af1270417a",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/ANEXO-1-FICHA-DE-INSCRICAO.xlsx",
+    "label": "ANEXO 1  |",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "22774fc958c7c656",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/Anexo-10-Minuta-de-Contrato_Edital-08.2025_MFVF.docx",
+    "label": "ANEXO 10",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "40ffdf259e1af3e9",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/SEI__PLANILHA_AVALIACAO_COMISSAO___EDITAL_08_2025.pdf",
+    "label": "PLANILHA DE AVALIAÇÃO DA COMISSÃO",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "cae3639946964359",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/COMPOSICAO-DAS-NOTAS-EDITAL-04-2024.pdf",
+    "label": "COMPOSIÇÃO DAS NOTAS",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "e6168363f7135cd9",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/LISTA-GERAL-E-RESERVAS-EDITAL-04_2024.pdf",
+    "label": "LISTA GERAL E  LISTA DAS RESERVAS",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "05790e013c97ef6c",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/LISTA-CONTEMPLADOS-E-SUPLENTES-EDITAL-04_2024.pdf",
+    "label": "LISTA DE CONTEMPLADOS E SUPLENTES",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "ccd979bd0dbc213b",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/00_EDITAL_04.2024_FINALIZACAO_LONGAS-METRAGENS-1.pdf",
+    "label": "EDITAL",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "b81dbf368e139ef0",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/01_ANEXO_edital.04.2024_Ficha_de_Inscricao.xlsx",
+    "label": "ANEXO 1",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "f8c403440ca345fc",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/02_ANEXO_edital.04.2024_planilha_orcamentaria_modelo_ancine.xlsx",
+    "label": "ANEXO 2",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "c035a79fef074b97",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/03_ANEXO_edital.04.2024_Declaracao-de-Sede.docx",
+    "label": "ANEXO 3",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "aba972c7b22b27a2",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/04_ANEXO_edital.04.2024_Declaracao-de-adimplencia.docx",
+    "label": "ANEXO 4",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "349c24d3832365f0",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/05_ANEXO_edital.04.2024_Declaracao-de-termino-das-filmagens.docx",
+    "label": "ANEXO 5",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "22564f2522ca52cf",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/06_ANEXO_edital.04.2024_declaracao_quadro_societario.docx",
+    "label": "ANEXO 6",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "5b735b837c018850",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/07_ANEXO_-_edital.04.2024_-_declaracao_quadro_societario_indigena.docx",
+    "label": "ANEXO 7",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "486db8dc08322081",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/08_ANEXO_edital.04.2024_declaracao_diretor.docx",
+    "label": "ANEXO 8",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "30f385f0701063e2",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/09_ANEXO_-_edital.04.2024_-_declaracao_diretor_indigena.docx",
+    "label": "ANEXO 9",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "28d93f680755ff77",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/10_ANEXO_-_edital.04.2024_-_declaracao_nome_social.docx",
+    "label": "ANEXO 10",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "86039a7182445e81",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/11_ANEXO_-_edital.04.2024_-_formulario_de_apresentacao_de_recurso.docx",
+    "label": "ANEXO 11",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "0ea5f46a238ba10f",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/12_ANEXO_-_edital.04.2024_-_documentos_para_contratacao_com_a_spcine.pdf",
+    "label": "ANEXO 12",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "c7539c8e86e91b88",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/13_ANEXO_-_edital.04.2024_-_relatorio_execucao_parcial.docx",
+    "label": "ANEXO 13",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "2667516499a87fab",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/14_ANEXO_edital.04.2024_DECLARACAO-DE-COMPROMETIMENTO-EM-SOLICITAR-ALTERACAO-NA-ANCINE.docx",
+    "label": "ANEXO 14",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "94696791b9ea3e26",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/15_ANEXO_edital.04.2024_RECOMENDACOES-TECNICAS-PARA-ACESSIBILIDADE-E-DEPOSITO-LEGAL.pdf",
+    "label": "ANEXO 15",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "cee71ef3ed179738",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/16_ANEXO_edital.04.2024_ESPECIFICACOES-TECNICAS-SPCINE-PLAY.pdf",
+    "label": "ANEXO 16",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "21d0c63c0d77039b",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/17_ANEXO_edital.04.2024_minuta-do-contrato-spcine.docx",
+    "label": "ANEXO 17",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "038f0f53a60a2aeb",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/00_edital_no_02.2024_incubadora_indigena_v_final.pdf",
+    "label": "EDITAL",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "a343ad48ffb54d22",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/01_anexo_-_edital.02.2024_-_ficha_de_inscricao.xlsx",
+    "label": "ANEXO 1",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "1e86ee14877a3195",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/02_anexo_-_edital.02.2024_programa_de_formacao.pdf",
+    "label": "ANEXO 2",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "1ad4f6371f92cff8",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/03_anexo_-_edital.02.2024_-_declaracao_de_adimplencia.docx",
+    "label": "ANEXO 3",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "e68adb2d18aec8d2",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/04_anexo_-_edital.02.2024_-_declaracao_responsavel_criador.docx",
+    "label": "ANEXO 4",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "9f45cdcc883726df",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/05_anexo_-_edital.02.2024_-_declaracao_responsavel_criador_indigena.docx",
+    "label": "ANEXO 5",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "de565aa834c0388f",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/06_anexo_-_edital.02.2024_-_declaracao_nome_social.docx",
+    "label": "ANEXO 6",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "56eea4078987c73d",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/07_anexo_-_edital.02.2024_-_terras_indigenas.pdf",
+    "label": "ANEXO 7",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "333962920365d719",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/08_anexo_-_edital.02.2024_-_formulario_de_apresentacao_de_recurso.docx",
+    "label": "ANEXO 8",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "5cac38c4249fabe9",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/09_anexo_-_edital.02.2024_-_documentos_para_contratacao_com_a_spcine.pdf",
+    "label": "ANEXO 9",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "bf7e93af3d23bcf6",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/10_anexo_-_edital.02.2024_-_declaracao_de_sede_no_municipio_de_SP.docx",
+    "label": "ANEXO 10",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "52a718b741e01dcd",
+    "source_ids": [
+      "spcine012026"
+    ],
+    "url": "https://spcine.com.br/wp-content/uploads/11_anexo_-_edital.02.2024_-_relatorio_execucao_parcial.docx",
+    "label": "ANEXO 11",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "7bc139eca362002d",
+    "source_ids": [
+      "sebraegames2026"
+    ],
+    "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/programas-de-aceleracao-de-startups-incentivam-inovacao-e-desenvolvimento-no-pais/",
+    "label": "Programas de aceleração de startups incentivam inovação e desenvolvimento no país",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "57229a477e40824c",
+    "source_ids": [
+      "sebraegames2026",
+      "sebraegamesportal"
+    ],
+    "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/com-alivio-tributario-e-expectativa-de-novos-cnaes-marco-legal-dos-games-e-regulamentado-no-brasil/",
+    "label": "Com alívio tributário e expectativa de novos CNAEs, Marco Legal dos Games é regulamentado no Brasil",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "27141e6bdb66d80d",
+    "source_ids": [
+      "sebraegames2026"
+    ],
+    "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startups-brasileiras-lideram-inscricoes-na-competicao-internacional-929-challenge/",
+    "label": "Startups brasileiras lideram inscrições na competição internacional 929 Challenge",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "bb6a70f6511c909a",
+    "source_ids": [
+      "sebraegames2026"
+    ],
+    "url": "https://agenciasebrae.com.br/cultura-empreendedora/cursos-online-e-gratuitos-para-empreender-no-mundo-dos-games/",
+    "label": "Cursos online e gratuitos para empreender no mundo dos games",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "e0ced669994b1081",
+    "source_ids": [
+      "sebraegames2026"
+    ],
+    "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/startup-de-gamificacao-quer-se-tornar-referencia-global-com-apoio-do-sebrae/",
+    "label": "Startup de gamificação quer se tornar referência global com apoio do Sebrae",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "1221fe162823199a",
+    "source_ids": [
+      "sampagames5"
+    ],
+    "url": "https://prefeitura.sp.gov.br/web/desenvolvimento/w/cursos/qualificacao/609",
+    "label": "Programa Bolsa Trabalho",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "7cc956e9d6f08f92",
+    "source_ids": [
+      "sampagames5"
+    ],
+    "url": "https://prefeitura.sp.gov.br/web/desenvolvimento/w/prefeitura-de-sp-prorroga-inscrições-para-programa-que-investe-r-52-mil-em-até-25-estúdios-de-games",
+    "label": "/web/desenvolvimento/w/prefeitura-de-sp-prorroga-inscrições-para-programa-que-investe-r-52-mil-em-até-25-estúdios-de-games",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "d2235e2ebab1df78",
+    "source_ids": [
+      "riofilme5"
+    ],
+    "url": "https://riofilme.com.br/wp-content/uploads/2026/07/SELECAO-EDITAL-No-5-JOGOS-1.pdf",
+    "label": "SELEÇÃO – 19 de outubro de 2026",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "09b3418d9991beb3",
+    "source_ids": [
+      "riofilme5"
+    ],
+    "url": "https://riofilme.com.br/wp-content/uploads/2026/07/EDITAL-5-JOGOS-CLASSIFICACAO-APOS-RECURSO.pdf",
+    "label": "CLASSIFICAÇÃO DEFINITIVA – 30 de setembro de 2026",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "275c047a3d0b3a4c",
+    "source_ids": [
+      "riofilme5"
+    ],
+    "url": "https://riofilme.com.br/wp-content/uploads/2026/07/EDITAL-5-JOGOS-CLASSIFICACAO-PRELIMINAR.pdf",
+    "label": "CLASSIFICAÇÃO PRELIMINAR – 23 de setembro de 2026",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "271c8dc7451fa64f",
+    "source_ids": [
+      "riofilme5"
+    ],
+    "url": "https://riofilme.com.br/wp-content/uploads/2026/07/VALIDACAODEFINITVA_EDITAL5.pdf",
+    "label": "VALIDAÇÃO DAS INSCRIÇÕES – DEFINITIVA – 14 de agosto de 2026",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "d718feac6e41eaf7",
+    "source_ids": [
+      "riofilme5"
+    ],
+    "url": "https://riofilme.com.br/wp-content/uploads/2026/07/VALIDACAOPRELIMINAR_EDITAL5.pdf",
+    "label": "VALIDAÇÃO DAS INSCRIÇÕES – PRELIMINAR – 07 de agosto de 2026",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "f93dca5477d7c3f2",
+    "source_ids": [
+      "riofilme5"
+    ],
+    "url": "https://riofilme.com.br/wp-content/uploads/2026/07/EDITAL_5_JOGOS-2.pdf",
+    "label": "EDITAL Nº 5 – DESENVOLVIMENTO, PRODUÇÃO E DISTRIBUIÇÃO DE JOGOS ELETRÔNICOS – Retificação nº 2, de 09 de julho de 2026",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "e33f2c48cc58902e",
+    "source_ids": [
+      "riofilme5"
+    ],
+    "url": "https://riofilme.com.br/wp-content/uploads/2026/07/EDITAL_5_JOGOS-1.pdf",
+    "label": "EDITAL Nº 5 – DESENVOLVIMENTO, PRODUÇÃO E DISTRIBUIÇÃO DE JOGOS ELETRÔNICOS",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "a51b99780b856cbd",
+    "source_ids": [
+      "riofilme5"
+    ],
+    "url": "https://riofilme.com.br/wp-content/uploads/2026/07/ANEXO-III_PROPOSTA.pdf",
+    "label": "ANEXO III – INFORMAÇÕES E DOCUMENTOS QUE COMPÕEM A INSCRIÇÃO DA PROPOSTA",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "5c8fdd8deae8c7da",
+    "source_ids": [
+      "riofilme5"
+    ],
+    "url": "https://riofilme.com.br/wp-content/uploads/2026/07/ANEXO-IV_ORCAMENTO-E-CRONOGRAMA-PRODUCAO-E-DESENVOLVIMENTO-4.xlsx",
+    "label": "ANEXO IV – MODELO DE PLANILHA ORÇAMENTÁRIA E CRONOGRAMA (PRODUÇÃO DE JOGO ELETRÔNICO E DESENVOLVIMENTO DE PROTÓTIPO JOGÁVEL) – Retificação nº1, de 08 de julho de 2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "f485ca756034bdab",
+    "source_ids": [
+      "riofilme5"
+    ],
+    "url": "https://riofilme.com.br/wp-content/uploads/2026/07/ANEXO-IV_ORCAMENTO-E-CRONOGRAMA-PRODUCAO-E-DESENVOLVIMENTO-3.xlsx",
+    "label": "ANEXO IV – MODELO DE PLANILHA ORÇAMENTÁRIA E CRONOGRAMA (PRODUÇÃO DE JOGO ELETRÔNICO E DESENVOLVIMENTO DE PROTÓTIPO JOGÁVEL)",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "9eeaa611b568e9ae",
+    "source_ids": [
+      "riofilme5"
+    ],
+    "url": "https://riofilme.com.br/wp-content/uploads/2026/07/ANEXO-V_ORCAMENTO-E-CRONOGRAMA_DISTRIBUICAO-2.xlsx",
+    "label": "ANEXO V – MODELO DE PLANILHA ORÇAMENTÁRIA E CRONOGRAMA (DISTRIBUIÇÃO DE JOGO ELETRÔNICO)",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "397d47d46d5394fc",
+    "source_ids": [
+      "riofilme5"
+    ],
+    "url": "https://riofilme.com.br/wp-content/uploads/2026/07/ANEXO-XI_CONTRATO_COPRODUCAOJOGOS.pdf",
+    "label": "ANEXO XI – MINUTA DO CONTRATO DE COPRODUÇÃO DE JOGOS ELETRÔNICOS",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "1c33a07e07f71f08",
+    "source_ids": [
+      "riofilme5"
+    ],
+    "url": "https://riofilme.com.br/wp-content/uploads/2026/07/ANEXO-XIII_CONTRATO_DISTRIBUICAOJOGOS.pdf",
+    "label": "ANEXO XIII – MINUTA DO CONTRATO DE INVESTIMENTO EM DISTRIBUIÇÃO DE JOGO ELETRÔNICO",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "9ed683a63e2e2f99",
+    "source_ids": [
+      "brdelabs2026"
+    ],
+    "url": "https://www.brdelabs.com.br/wp-content/uploads/2026/07/REGULAMENTO-BRDE-LABS-2026-EDITAL-STARTUPS.pdf",
+    "label": "acesse o edital do programa",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "ce278c9480fe82a3",
+    "source_ids": [
+      "brdelabs2026"
+    ],
+    "url": "https://www.brdelabs.com.br/wp-content/uploads/2026/09/ADITIVO-BRDE-LABS-2026-EDITAL-STARTUPS.pdf",
+    "label": "acesse o termo aditivo",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "de88ef80d2a828dd",
+    "source_ids": [
+      "brdelabs2026"
+    ],
+    "url": "https://www.brdelabs.com.br/wp-content/uploads/2026/08/APETIT-Desafio-BRDE-Labs-PR-2026.pdf",
+    "label": "acesse aqui a apresentação (PDF)",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "8162af34f996651a",
+    "source_ids": [
+      "brdelabs2026"
+    ],
+    "url": "https://www.brdelabs.com.br/wp-content/uploads/2026/08/AVENORTE-Desafio-BRDE-Labs-PR-2026.pdf",
+    "label": "acesse aqui a apresentação (PDF)",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "7cec536a8096cfa8",
+    "source_ids": [
+      "brdelabs2026"
+    ],
+    "url": "https://www.brdelabs.com.br/wp-content/uploads/2026/08/BECKHAUSER-Desafio-BRDE-Labs-PR-2026.pdf",
+    "label": "acesse aqui a apresentação (PDF)",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "99134189184dfaa7",
+    "source_ids": [
+      "brdelabs2026"
+    ],
+    "url": "https://www.brdelabs.com.br/wp-content/uploads/2026/08/INTERTECHNE-Desafio-BRDE-Labs-PR-2026.pdf",
+    "label": "acesse aqui a apresentação (PDF)",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "592cdf4c6202fe4a",
+    "source_ids": [
+      "brdelabs2026"
+    ],
+    "url": "https://www.brdelabs.com.br/wp-content/uploads/2026/08/GRUPO-PLUMA-Desafio-BRDE-Labs-PR-2026.pdf",
+    "label": "acesse aqui a apresentação (PDF)",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "ade32724a09f15aa",
+    "source_ids": [
+      "brdelabs2026"
+    ],
+    "url": "https://www.brdelabs.com.br/wp-content/uploads/2026/08/SYSMEX-Desafio-BRDE-Labs-PR-2026.pdf",
+    "label": "acesse aqui a apresentação (PDF)",
+    "requires_review": true,
+    "kind": "document"
+  },
+  {
+    "candidate_id": "e05379639386ee09",
+    "source_ids": [
+      "sebraegamesportal"
+    ],
+    "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/gamescom-latam-reune-criatividade-empreendedorismo-e-politicas-publicas/",
+    "label": "/inovacao-e-tecnologia/gamescom-latam-reune-criatividade-empreendedorismo-e-politicas-publicas/",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "656d4ac1ead59945",
+    "source_ids": [
+      "sebraegamesportal"
+    ],
+    "url": "https://agenciasebrae.com.br/cultura-empreendedora/maior-feira-de-games-da-america-latina-abre-oportunidades-para-pequenos-negocios-do-setor/",
+    "label": "/cultura-empreendedora/maior-feira-de-games-da-america-latina-abre-oportunidades-para-pequenos-negocios-do-setor/",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "1981ef3c1840338d",
+    "source_ids": [
+      "sebraegamesportal"
+    ],
+    "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/seu-jogo-esta-pronto-para-ganhar-o-mundo-sebrae-lanca-edital-que-leva-estudios-a-gamescom-2026/",
+    "label": "/inovacao-e-tecnologia/seu-jogo-esta-pronto-para-ganhar-o-mundo-sebrae-lanca-edital-que-leva-estudios-a-gamescom-2026/",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "29d3697389a7d47a",
+    "source_ids": [
+      "adesampa"
+    ],
+    "url": "https://adesampa.com.br/hubsampagames/sobre/",
+    "label": "SAIBA MAIS",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "e7b227bb401f978f",
+    "source_ids": [
+      "adesampa"
+    ],
+    "url": "https://adesampa.com.br/hubsampagames/processo-seletivo/",
+    "label": "EDITAL",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "2b8a7bb20445bf5f",
+    "source_ids": [
+      "gamefchange"
+    ],
+    "url": "https://www.gamesforchange.org/2025-impact-report/",
+    "label": "2025 Impact Report  Covering our work throughout 2025, the report documents a year of building infrastructure that works anywhere. Our learning programs, global chapters, and annua",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "019e3c918fc58717",
+    "source_ids": [
+      "gamefchange"
+    ],
+    "url": "https://www.gamesforchange.org/projects-programs/",
+    "label": "Projects & Programs  Games for Change offers a comprehensive suite of professional services, including program design, consulting, and executive production. We work with a range of",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "2289b1784cf214c4",
+    "source_ids": [
+      "gamefchange"
+    ],
+    "url": "https://www.gamesforchange.org/games",
+    "label": "View All",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "1f82a509463d0403",
+    "source_ids": [
+      "gamefchange"
+    ],
+    "url": "https://www.gamesforchange.org/games/concrete-genie/",
+    "label": "Concrete Genie   A heartwarming journey about a bullied teen, escaping his troubles through art.       Tags: Empathy, Grief / Mental Health    Release Date: 10/08/2019  Developer: ",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "ccdbcd4eca0571b9",
+    "source_ids": [
+      "gamefchange"
+    ],
+    "url": "https://www.gamesforchange.org/games/arise-a-simple-story/",
+    "label": "Arise: A Simple Story   A story of joy and sorrow. A simple story.       Tags: Empathy, Grief / Mental Health    Release Date: 12/03/2019  Developer: Piccolo Studio      Learn More",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "43ffd8e6e0dbaa34",
+    "source_ids": [
+      "gamefchange"
+    ],
+    "url": "https://www.gamesforchange.org/games/435/",
+    "label": "A Fold Apart   A puzzle game about a long-distance relationship in a world of folding paper.       Tags: Empathy    Release Date: 04/16/2020  Developer: Lightning Rod Games      Le",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "677e4502c2114da3",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jams/starting-this-week",
+    "label": "Starts This Week",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "2c2a926070ae4484",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jams/starting-this-month",
+    "label": "Starts This Month",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "f1a0beaaf6fe3753",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jams/in-progress",
+    "label": "In Progress",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "2e0e61187b4d4a6c",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jams/past",
+    "label": "Ended",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "1b491d751e3e8bc6",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jams/upcoming/ranked",
+    "label": "Entries Ranked",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "c45966376e3ebf06",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jams/upcoming/unranked",
+    "label": "No Ranking",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "d7807b31206ab56a",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jams/upcoming/featured",
+    "label": "Featured",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "e207552ce51e2b43",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jams/upcoming/with-participants",
+    "label": "Has Participants",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "3814179c63287792",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/docs/creators/game-jams",
+    "label": "Host A Game Jam",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "9053e172f52ca9e9",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jams/upcoming/sort-date",
+    "label": "Starting Soon",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "0cb11287bd262ffe",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jams/upcoming?page=2",
+    "label": "Next",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "e7522f7a09c5140e",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jams/upcoming?page=5",
+    "label": "5",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "f7b24937ba624187",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/2026-epic-ai-megajam",
+    "label": "/jam/2026-epic-ai-megajam",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "4d7f740386e03230",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/gmtk-2027",
+    "label": "/jam/gmtk-2027",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "cbbbf4fc667974a6",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/gdevelop-big-game-jam-10",
+    "label": "/jam/gdevelop-big-game-jam-10",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "1b582b46511d6e44",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/metroidvania-month-34",
+    "label": "/jam/metroidvania-month-34",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "d38cd93603b4d4f2",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/the-mfg-gamblers-jam",
+    "label": "/jam/the-mfg-gamblers-jam",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "f2c3cf0aef3d67c0",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/brackeys-17",
+    "label": "/jam/brackeys-17",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "9f4567b2ce7528f8",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/ostcompjam",
+    "label": "/jam/ostcompjam",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "b501002b50833921",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/godot-wild-jam-99",
+    "label": "/jam/godot-wild-jam-99",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "cdbc03ef1d1f57a0",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/shroomjam-2026",
+    "label": "ShroomJam 2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "7887b7e6caeb09bd",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/pixel-forge-mega-jam",
+    "label": "/jam/pixel-forge-mega-jam",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "bed9d232dcf1bca9",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/4-page-comic-jam-2027",
+    "label": "/jam/4-page-comic-jam-2027",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "c8bc0091ecce72a6",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/the-eye-jam3",
+    "label": "/jam/the-eye-jam3",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "60e9fcaad45a1156",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/yuri-comic-jam-2027",
+    "label": "/jam/yuri-comic-jam-2027",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "f76df6e1872c9506",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/godot-wild-jam-100",
+    "label": "/jam/godot-wild-jam-100",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "549c50b8800e947a",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/gbjam-15",
+    "label": "GBJAM 15",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "1e0a1f9a96e40f5b",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/pizza-jam-pizza-prize-17",
+    "label": "/jam/pizza-jam-pizza-prize-17",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "9a27ec202cf94144",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/spooky-game-jam-26",
+    "label": "/jam/spooky-game-jam-26",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "6dec9210d9c0cf43",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/3x3x3-jam",
+    "label": "/jam/3x3x3-jam",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "2f96e3b50cc3b8fb",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/hand-crafted-jam",
+    "label": "/jam/hand-crafted-jam",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "054c7313e3b72573",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/month-of-horror-3",
+    "label": "/jam/month-of-horror-3",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "60771e2ab14fa86a",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/gamedevtv-holiday-jam-2026",
+    "label": "/jam/gamedevtv-holiday-jam-2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "f8a7e5a7c82ab261",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/gdko-2027-round-1",
+    "label": "/jam/gdko-2027-round-1",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "d3c7af56e7ebf43f",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/grassroots-game-jam-2026",
+    "label": "Grassroots Game Jam 2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "b19cca10045cc43f",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/finishyourgamejam2026",
+    "label": "/jam/finishyourgamejam2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "d754e1fffdc84852",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/touhou-jam-17",
+    "label": "/jam/touhou-jam-17",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "eddcf6d3ee455cea",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/comfy-jam-winter-2027",
+    "label": "/jam/comfy-jam-winter-2027",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "faa5df14bd8496a7",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/winter-vn-jam-2026",
+    "label": "/jam/winter-vn-jam-2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "e98d09307031383f",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/underscore-jam",
+    "label": "/jam/underscore-jam",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "6f8529b0b978594d",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/craftpix-indie-jam-2-2026",
+    "label": "/jam/craftpix-indie-jam-2-2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "1fa1ea8a6431b0e4",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/gamedevjs-2027",
+    "label": "/jam/gamedevjs-2027",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "30cffb57f4daffc7",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/2026-ost-album-jam-reprise",
+    "label": "/jam/2026-ost-album-jam-reprise",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "0064ac5a74b12ca5",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/procjam",
+    "label": "/jam/procjam",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "21f8199f12ae7a25",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/poetry-jam",
+    "label": "/jam/poetry-jam",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "7354ae4d8ebdf4ec",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/raise-2026",
+    "label": "/jam/raise-2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "566477063cf1663c",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/micro-jam-069",
+    "label": "/jam/micro-jam-069",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "f95c3d66f5926534",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/z4597annualgamejam2026",
+    "label": "🎮⚡ Z4597 ANNUAL GAME JAM 2027⚡🎮",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "42370b4d0a60df59",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/z4597annualgamejam2026/results",
+    "label": "View results",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "37dbcfb85ac9add5",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/super-free-ai-game-jam-2",
+    "label": "/jam/super-free-ai-game-jam-2",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "95d06bf2ac948e59",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/liberen-el-parana-gamejam",
+    "label": "/jam/liberen-el-parana-gamejam",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "c15f39bb29b19e11",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/rpg-latam-jam-2026",
+    "label": "/jam/rpg-latam-jam-2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "151f41297b714572",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/uplifting-game-jam-cash-prizes-10",
+    "label": "/jam/uplifting-game-jam-cash-prizes-10",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "314e3b653b9f0b0b",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/glam-jam-iii",
+    "label": "/jam/glam-jam-iii",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "72cee53d4ff22dab",
+    "source_ids": [
+      "fapesc"
+    ],
+    "url": "https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-no-54-2024-programa-inova-talentos-fapesc-e-iel-sc-em-fluxo-continuo/",
+    "label": "/edital-de-chamada-publica-fapesc-no-54-2024-programa-inova-talentos-fapesc-e-iel-sc-em-fluxo-continuo/",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "de1455a4bf35e9f4",
+    "source_ids": [
+      "fapesc"
+    ],
+    "url": "https://fapesc.sc.gov.br/edital-suplementar-de-subvencao-economica-fapesc-n-o-65-2025-programa-horizonte-europa-2026-2027/",
+    "label": "/edital-suplementar-de-subvencao-economica-fapesc-n-o-65-2025-programa-horizonte-europa-2026-2027/",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "f0df0019f180400f",
+    "source_ids": [
+      "fapesc"
+    ],
+    "url": "https://fapesc.sc.gov.br/edital-suplementar-fapesc-n-o-66-2025-programa-horizonte-europa-2026-2027/",
+    "label": "/edital-suplementar-fapesc-n-o-66-2025-programa-horizonte-europa-2026-2027/",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "e5477f669792ef99",
+    "source_ids": [
+      "fapesc"
+    ],
+    "url": "https://fapesc.sc.gov.br/edital-de-chamada-publica-fapesc-cnpq-capes-n-o-55-2026-programa-de-apoio-a-fixacao-de-doutores-no-brasil-profix-cb/",
+    "label": "/edital-de-chamada-publica-fapesc-cnpq-capes-n-o-55-2026-programa-de-apoio-a-fixacao-de-doutores-no-brasil-profix-cb/",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "e46d3081f48389b9",
+    "source_ids": [
+      "fapesc"
+    ],
+    "url": "https://fapesc.sc.gov.br/chamadas-abertas/",
+    "label": "/chamadas-abertas/",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "041e8ef7090ec90a",
+    "source_ids": [
+      "fapesc"
+    ],
+    "url": "https://fapesc.sc.gov.br/chamadas-em-andamento/",
+    "label": "/chamadas-em-andamento/",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  }
+]

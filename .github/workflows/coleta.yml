@@ -1,0 +1,66 @@
+name: Coleta semanal
+
+on:
+  schedule:
+    - cron: '30 9 * * 1' # segunda-feira, 06h30 em Brasília
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: coleta
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar dependências
+        run: python -m pip install --quiet --target collector/vendor -r collector/requirements.txt
+      - name: Ler as fontes cadastradas
+        run: python collector/radar_collect.py --max-details 1 --workers 3
+      - name: Procurar editais no PNCP e no Querido Diário
+        run: python collector/radar_collect.py --discover
+      - name: Validar os dados gerados
+        run: |
+          node collector/test_filters.cjs
+          python -m unittest discover -s collector -p 'test_*.py'
+      - name: Resumo da coleta
+        run: |
+          python - >> "$GITHUB_STEP_SUMMARY" <<'EOF'
+          import json
+          state = json.load(open('collector/state/state.json', encoding='utf-8'))
+          sources = state['sources'].values()
+          failed = [s for s in sources if s['status'] in ('error', 'partial')]
+          items = state.get('discoveries', {}).get('items', [])
+          print(f"**{len(sources) - len(failed)} de {len(sources)} fontes lidas; {len(items)} achados para revisar.**\n")
+          for s in failed:
+              print(f"- Falha em {s['name']}: {s.get('error')}")
+          EOF
+      - name: Salvar e publicar se algo mudou
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add dist collector/state/state.json collector/state/review-queue.json
+          if git diff --cached --quiet; then
+            echo 'Nenhuma mudança.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit --quiet -m 'Atualiza a coleta semanal'
+          git pull --quiet --rebase origin main
+          git push --quiet origin main
+          # Push feito com o token da Action não dispara outros workflows, então a publicação é chamada aqui.
+          gh workflow run pages.yml --ref main

@@ -12,7 +12,7 @@ Coletor manual: python collector/radar_collect.py. Só curadoria: --build-only. 
 
 Coleta: 56 fontes com leitura concluída e 10 com limitação. 265 links de documentos/listagens/possíveis chamadas aguardam revisão, sem promoção automática a inscrição disponível.
 
-Sem agendamento, backend remoto ou publicacao automatica apos o comando local. Favoritos usam localStorage. Exportacao JSON inclui fichas, fontes e favoritos. O radar nao envia propostas, mensagens, cadastros ou aceites.
+No ar em https://fabioaj.github.io/fase-bonus/ . Todo push na main publica dist/ (.github/workflows/pages.yml). A coleta roda toda segunda-feira, 06h30 de Brasília (.github/workflows/coleta.yml), salva o resultado no repositório e publica o site; para rodar na hora, use Run workflow na aba Actions. Fichas só mudam por revisão humana em collector/reviewed.json. Favoritos usam localStorage. Exportacao JSON inclui fichas, fontes e favoritos. O site nao envia propostas, mensagens, cadastros ou aceites.
 
 Previa: python -m http.server 8765 --bind 127.0.0.1 --directory dist
 

@@ -1,6 +1,6 @@
 window.COLLECTION = {
-  "mode": "manual",
-  "scheduled": false,
+  "mode": "semanal",
+  "scheduled": true,
   "lastRun": "2026-11-06T10:33:23-03:00",
   "sourceCount": 66,
   "registeredSources": 66,
