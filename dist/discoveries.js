@@ -1,5 +1,5 @@
 window.DISCOVERIES = {
-  "lastRun": "2026-11-06T10:38:32-03:00",
+  "lastRun": "2026-11-06T11:22:42-03:00",
   "since": "2026-09-07",
   "terms": [
     "\"jogos digitais\"",
@@ -98,6 +98,18 @@ window.DISCOVERIES = {
       "requires_review": true
     },
     {
+      "url": "https://data.queridodiario.ok.org.br/4114005/2026-09-29/0ae8257a81fe6b4a40675162f753b84b165487ac.pdf",
+      "source": "Querido Diário",
+      "title": "Diário oficial de Mamborê",
+      "excerpt": "Licitação 317/2026, de 29/09/2026 AVISO DE LICITAÇÃO PREGÃO ELETRÔNICO N° 101/2026 AVISO DE LICITAÇÃO PROCESSO ADMINISTRATIVO Nº 249/2026 PREGÃO ELETRÔNICO N° 101/2026 CONTRATANTE: Município de Mamborê/Pr OBJETO: AQUISIÇÃO DE JOGOS EDUCATIVOS DESTINADO À SECRETARIA MUNICIPAL DE EDUCAÇÃO DE MAMBORÊ PARA EQUIPE MULTIPROF",
+      "org": "Mamborê",
+      "uf": "PR",
+      "date": "2026-09-29",
+      "dateLabel": "Publicado em",
+      "term": "\"jogos educativos\"",
+      "requires_review": true
+    },
+    {
       "url": "https://data.queridodiario.ok.org.br/3522505/2026-09-25/ba58e9b2952d6b9ae01c02f6b059ae5e26bad3da.pdf",
       "source": "Querido Diário",
       "title": "Diário oficial de Itapevi",
@@ -134,10 +146,5 @@ window.DISCOVERIES = {
       "requires_review": true
     }
   ],
-  "errors": [
-    "PNCP \"jogo educativo\": [WinError 10054] An existing connection was forcibly closed by the remote host",
-    "Querido Diário \"jogos educativos\": HTTP Error 503: Service Unavailable",
-    "Querido Diário \"serious game\": HTTP Error 503: Service Unavailable",
-    "Querido Diário \"jogos sérios\": HTTP Error 503: Service Unavailable"
-  ]
+  "errors": []
 };

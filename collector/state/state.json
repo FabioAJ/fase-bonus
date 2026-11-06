@@ -4,15 +4,15 @@
       "id": "explorer",
       "name": "Santander X Explorer",
       "url": "https://builder.explorerbyx.org/pt",
-      "last_attempt": "2026-11-05T17:18:28-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T17:18:28-03:00",
-      "content_hash": "137cea3d556f43b2576e0067d76fb76342017ddd1626fd8a169cf9ae8a65749e",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "88996563b29d2fb47a5bf58fe47107a22774fade53f1c39b4eca14d0b9789049",
       "documents": [
         {
           "url": "https://builder.explorerbyx.org/pt",
           "final_url": "https://builder.explorerbyx.org/pt",
-          "hash": "bf6ef10694476d67e84ef0c42b2ea1608730eb5870cfac8ef112bcda318c83b1",
+          "hash": "1b3958558e2810da0fa5e16bdaf9668f9d81031b7fee9f134b4571a491f83128",
           "title": "PRINCIPAL - Explorer - Página de destino — Santander X Explorer",
           "kind": "html",
           "dates": [],
@@ -27,15 +27,15 @@
       "id": "xboxdap",
       "name": "ID@Xbox / DAP",
       "url": "https://developer.microsoft.com/en-us/games/articles/2025/12/office_hours_recap_jameslewis_121825/",
-      "last_attempt": "2026-11-05T17:18:28-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T17:18:28-03:00",
-      "content_hash": "6611d5cd30f1828b703870f82de50e86d82c50563c5128dde2fa4ecc67e272ab",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "b74c2581ef939b104b12f40531050c1092b8dd970eb6540a4912a4aca6fa8e93",
       "documents": [
         {
           "url": "https://developer.microsoft.com/en-us/games/articles/2025/12/office_hours_recap_jameslewis_121825/",
           "final_url": "https://developer.microsoft.com/en-us/games/articles/2025/12/office_hours_recap_jameslewis_121825/",
-          "hash": "4de8b218b17fcb310e804b3f0a80a080083545477a1cd2461d39fd22e24f370d",
+          "hash": "4d862cc335334912e9f596cd7e79cf1fc89a733cc82ff8aa57514ae024812641",
           "title": "Office Hours Recap - James Lewis Your Privacy Choices Opt-Out Icon Your Privacy Choices Opt-Out Icon",
           "kind": "html",
           "dates": [],
@@ -43,22 +43,131 @@
           "review_required": true
         }
       ],
-      "candidates": [],
+      "candidates": [
+        {
+          "url": "https://developer.microsoft.com/en-us/games/",
+          "label": "Game Dev",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://developer.microsoft.com/en-us/games/solutions/distribution/",
+          "label": "Distribution",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://developer.microsoft.com/games/publish",
+          "label": "ID@XBOX Publishing",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://developer.microsoft.com/en-us/games/products/project-xcloud/",
+          "label": "XBOX Cloud Gaming",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://developer.microsoft.com/en-us/games/products/",
+          "label": "Products",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://developer.microsoft.com/en-us/games/resources/",
+          "label": "Resources",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://developer.microsoft.com/en-us/games/events/gdc/2026/",
+          "label": "GDC 2026",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://developer.microsoft.com/en-us/games/events/gdc/2025/",
+          "label": "GDC 2025",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://developer.microsoft.com/en-us/games/events/devdays/en-dev-days-2024/",
+          "label": "Xbox Dev Days 2024 (US)",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://developer.microsoft.com/en-us/games/events/devdays/jp-dev-days-2024/",
+          "label": "Xbox Dev Days 2024 (JP)",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://developer.microsoft.com/en-us/games/events/gdc/2024",
+          "label": "GDC 2024",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://developer.microsoft.com/en-us/games/events/gdc/2023",
+          "label": "GDC 2023",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://developer.microsoft.com/en-us/games/events/xfestforeveryone/",
+          "label": "Xfest for Everyone 2022",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://developer.microsoft.com/en-us/games/articles/",
+          "label": "Articles",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://developer.microsoft.com/en-us/games/community/",
+          "label": "Community",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://developer.microsoft.com/games/articles/2023/08/accelerate-your-game-with-the-id-at-xbox-developer-acceleration-program/",
+          "label": "original announcement blog",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://developer.microsoft.com/games/publish/",
+          "label": "ID@Xbox main page",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://developer.microsoft.com/en-us/games/locale",
+          "label": "English (United States)",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        }
+      ],
       "error": null
     },
     "bndes": {
       "id": "bndes",
       "name": "BNDES Garagem",
       "url": "https://garagem.bndes.gov.br/inscreva-se/",
-      "last_attempt": "2026-11-05T17:22:53-03:00",
-      "status": "unchanged",
-      "last_success": "2026-11-05T17:22:53-03:00",
-      "content_hash": "fc1dad09b9cd85138ed1198c7fb9e6aa8644776b92130cb97a43c594521c8ea5",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
+      "status": "ok",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "69396f077a1664d586d09e93539a8c4a0c0171e83ac41fefd25db0432dd89c20",
       "documents": [
         {
           "url": "https://garagem.bndes.gov.br/inscreva-se/",
           "final_url": "https://garagem.bndes.gov.br/inscreva-se/",
-          "hash": "c4adb87dc08352d698da377156c8b2e48f1a908c42198167902e90ec4b4f3ad7",
+          "hash": "308feb02a65f693ecb0a316ba161286c990ff49468c064c8ae60782bcc4eb06c",
           "title": "Inscreva-se no BNDES Garagem – BNDES Garagem",
           "kind": "html",
           "dates": [
@@ -350,15 +459,15 @@
       "id": "wings",
       "name": "WINGS",
       "url": "https://www.wingsfund.me/faqs",
-      "last_attempt": "2026-11-05T17:18:28-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T17:18:28-03:00",
-      "content_hash": "a164a2d7ca9edaa4b31310dfd7b4e2488babddd775089de2ea6ff7f78db61253",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "045133027e57536f7ebbb24e83af5d9a8776567e95a1d592c25ee26e4822e675",
       "documents": [
         {
           "url": "https://www.wingsfund.me/faqs",
           "final_url": "https://www.wingsfund.me/faqs",
-          "hash": "b932845181fe16ada5a63780ffa89fec77d37ae5b312e104b0176972206f54a1",
+          "hash": "057d640b4e5a0cba9788dbcf32e98d7c480ee77f540dd1172c53c05533ab116b",
           "title": "WINGS | FAQs — Wings",
           "kind": "html",
           "dates": [],
@@ -373,9 +482,9 @@
       "id": "indiefund",
       "name": "Indie Fund",
       "url": "https://indie-fund.com/apply",
-      "last_attempt": "2026-11-05T17:22:53-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "unchanged",
-      "last_success": "2026-11-05T17:22:53-03:00",
+      "last_success": "2026-11-06T11:21:11-03:00",
       "content_hash": "1ed3bcb84cb4fee729c92041593123637d79e112a1a15dff271645db70a8c3de",
       "documents": [
         {
@@ -403,15 +512,15 @@
       "id": "gamevestor",
       "name": "Gamevestor",
       "url": "https://www.gamevestor.co/en/submit-project",
-      "last_attempt": "2026-11-05T17:18:28-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T17:18:28-03:00",
-      "content_hash": "6c51546f281126161e1d70e22dc583c98bfd595c57694ad0a1b872dfccde57ae",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "74801cf6af68aa59373e036e63546169757ddf113b22376d11043d19dc939105",
       "documents": [
         {
           "url": "https://www.gamevestor.co/en/submit-project",
           "final_url": "https://www.gamevestor.co/en/submit-project",
-          "hash": "8bc62e3d7ffc668911f76f6189b76860418cb08c4e2432875e7a7ccb50d58635",
+          "hash": "e4786cb6573de9c1946c61715303abdb267b05799c4f16b7560634c85b31b927",
           "title": "submit-project | Gamevestor",
           "kind": "html",
           "dates": [],
@@ -426,9 +535,9 @@
       "id": "centelhago",
       "name": "Centelha GO / FAPEG",
       "url": "https://programacentelha.com.br/go/",
-      "last_attempt": "2026-11-05T17:18:28-03:00",
-      "status": "ok",
-      "last_success": "2026-11-05T17:18:28-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
+      "status": "unchanged",
+      "last_success": "2026-11-06T11:21:11-03:00",
       "content_hash": "6e45a270e45bc012c7adb75447a664ff1883173675c9c4a34ff61ad292d11d8a",
       "documents": [
         {
@@ -518,15 +627,15 @@
       "id": "centelhamg",
       "name": "Centelha MG / FAPEMIG",
       "url": "https://prd.site.fapemig.br/oportunidades/chamadas-e-editais/programa-centelha-3-programa-nacional-de-apoio-a-geracao-de-empreendimentos-inovadores",
-      "last_attempt": "2026-11-05T17:18:28-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T17:18:28-03:00",
-      "content_hash": "bfab04808db820ea1983be00caee6739c3d9e727d94aa161e170162eec5e26c5",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "ed38cb1e6b5520d5633f6159791673c6964bb050b8bffcb93d34dae31c736e0f",
       "documents": [
         {
           "url": "https://prd.site.fapemig.br/oportunidades/chamadas-e-editais/programa-centelha-3-programa-nacional-de-apoio-a-geracao-de-empreendimentos-inovadores",
           "final_url": "https://prd.site.fapemig.br/oportunidades/chamadas-e-editais/programa-centelha-3-programa-nacional-de-apoio-a-geracao-de-empreendimentos-inovadores",
-          "hash": "2332791ba2402393a806f7f72e6489a526bdb2d975b8d27730b84e40bfdcc6d8",
+          "hash": "dd561023a0cf60006c43f20b0548d78ed60e81c3626acdb61211aada778163e4",
           "title": "Programa Centelha 3 - Programa Nacional de Apoio à Geração de Empreendimentos Inovadores",
           "kind": "html",
           "dates": [
@@ -668,13 +777,245 @@
           "review_required": true
         },
         {
-          "url": "https://prd.site.fapemig.br/files/CHAMADA-010%252F2026-CENTELHA-3---Programa-Nacional-de-Apoio-%25C3%25A0-Gera%25C3%25A7%25C3%25A3o-de-Empreendimentos-Inovadores?title=CHAMADA+010%2F2026+CENTELHA+3+-+Programa+Nacional+de+Apoio+%C3%A0+Gera%C3%A7%C3%A3o+de+Empreendimentos+Inovadores&url=https%3A%2F%2Fapi.site.fapemig.br%2Fwp-content%2Fuploads%2FChamada-e-termo-de-outorga.pdf",
-          "final_url": "https://prd.site.fapemig.br/files/CHAMADA-010%252F2026-CENTELHA-3---Programa-Nacional-de-Apoio-%25C3%25A0-Gera%25C3%25A7%25C3%25A3o-de-Empreendimentos-Inovadores?title=CHAMADA+010%2F2026+CENTELHA+3+-+Programa+Nacional+de+Apoio+%C3%A0+Gera%C3%A7%C3%A3o+de+Empreendimentos+Inovadores&url=https%3A%2F%2Fapi.site.fapemig.br%2Fwp-content%2Fuploads%2FChamada-e-termo-de-outorga.pdf",
-          "hash": "c520955a86e2e45670b296c1df13c5d806420fc24a3cc7e3f3fc62fd9b970e2d",
-          "title": "CHAMADA 010/2026 CENTELHA 3 - Programa Nacional de Apoio à Geração de Empreendimentos Inovadores | FAPEMIG",
-          "kind": "html",
-          "dates": [],
-          "cnpj_contexts": [],
+          "url": "https://api.site.fapemig.br/wp-content/uploads/Chamada-e-termo-de-outorga.pdf",
+          "final_url": "https://api.site.fapemig.br/wp-content/uploads/Chamada-e-termo-de-outorga.pdf",
+          "hash": "1614345e228890c87b9db15caf7eb352f125a0e9451a8f3469d0262003e47528",
+          "title": "Chamada-e-termo-de-outorga.pdf",
+          "kind": "pdf",
+          "dates": [
+            {
+              "date": "2026-05-28",
+              "possible_roles": [
+                "inscricao",
+                "resultado"
+              ],
+              "context": "SEI 2070.01.0005998/2024-39 / pg. 10\nAtividades\nDatas/Prazos\nInício\nTérmino\nLançamento da Chamada Pública\n28/05/2026\nFase 1 - Submissão das ideias inovadoras\n28/05/2026\n15/07/2026\nAvaliação e seleção das ideias inovadoras – Fase 1\n16/07/2026\n10/08/2026\nDiv",
+              "requires_review": true
+            },
+            {
+              "date": "2026-05-28",
+              "possible_roles": [
+                "inscricao",
+                "resultado"
+              ],
+              "context": "Datas/Prazos\nInício\nTérmino\nLançamento da Chamada Pública\n28/05/2026\nFase 1 - Submissão das ideias inovadoras\n28/05/2026\n15/07/2026\nAvaliação e seleção das ideias inovadoras – Fase 1\n16/07/2026\n10/08/2026\nDivulgação do resultado preliminar das Ideias\nInovadora",
+              "requires_review": true
+            },
+            {
+              "date": "2026-07-15",
+              "possible_roles": [
+                "inscricao",
+                "resultado"
+              ],
+              "context": "s\nInício\nTérmino\nLançamento da Chamada Pública\n28/05/2026\nFase 1 - Submissão das ideias inovadoras\n28/05/2026\n15/07/2026\nAvaliação e seleção das ideias inovadoras – Fase 1\n16/07/2026\n10/08/2026\nDivulgação do resultado preliminar das Ideias\nInovadoras aprovadas",
+              "requires_review": true
+            },
+            {
+              "date": "2026-07-16",
+              "possible_roles": [
+                "inscricao",
+                "resultado"
+              ],
+              "context": "1 - Submissão das ideias inovadoras\n28/05/2026\n15/07/2026\nAvaliação e seleção das ideias inovadoras – Fase 1\n16/07/2026\n10/08/2026\nDivulgação do resultado preliminar das Ideias\nInovadoras aprovadas – Fase 1\n18/08/2026\nPrazo para Interposição de recursos admin",
+              "requires_review": true
+            },
+            {
+              "date": "2026-08-10",
+              "possible_roles": [
+                "resultado"
+              ],
+              "context": "são das ideias inovadoras\n28/05/2026\n15/07/2026\nAvaliação e seleção das ideias inovadoras – Fase 1\n16/07/2026\n10/08/2026\nDivulgação do resultado preliminar das Ideias\nInovadoras aprovadas – Fase 1\n18/08/2026\nPrazo para Interposição de recursos administrativos",
+              "requires_review": true
+            },
+            {
+              "date": "2026-08-18",
+              "possible_roles": [
+                "resultado"
+              ],
+              "context": "as – Fase 1\n16/07/2026\n10/08/2026\nDivulgação do resultado preliminar das Ideias\nInovadoras aprovadas – Fase 1\n18/08/2026\nPrazo para Interposição de recursos administrativos na\nFase 1\n19/08/2026\n28/08/2026\nDivulgação \ndo resultado final das\n Ideias Inovadoras\ns",
+              "requires_review": true
+            },
+            {
+              "date": "2026-08-19",
+              "possible_roles": [
+                "inscricao",
+                "resultado"
+              ],
+              "context": "Ideias\nInovadoras aprovadas – Fase 1\n18/08/2026\nPrazo para Interposição de recursos administrativos na\nFase 1\n19/08/2026\n28/08/2026\nDivulgação \ndo resultado final das\n Ideias Inovadoras\nselecionadas na Fase 1\n10/09/2026\nFase 2\n - \nSubmissão dos Projetos de \nFo",
+              "requires_review": true
+            },
+            {
+              "date": "2026-08-28",
+              "possible_roles": [
+                "inscricao",
+                "resultado"
+              ],
+              "context": "adoras aprovadas – Fase 1\n18/08/2026\nPrazo para Interposição de recursos administrativos na\nFase 1\n19/08/2026\n28/08/2026\nDivulgação \ndo resultado final das\n Ideias Inovadoras\nselecionadas na Fase 1\n10/09/2026\nFase 2\n - \nSubmissão dos Projetos de \nFomento\n11/09",
+              "requires_review": true
+            },
+            {
+              "date": "2026-09-10",
+              "possible_roles": [
+                "inscricao",
+                "resultado"
+              ],
+              "context": "na\nFase 1\n19/08/2026\n28/08/2026\nDivulgação \ndo resultado final das\n Ideias Inovadoras\nselecionadas na Fase 1\n10/09/2026\nFase 2\n - \nSubmissão dos Projetos de \nFomento\n11/09/2026\n15/10/2026\nAvaliação e seleção\n dos \nProjetos de Fomento \n– Fase 2\n16/10/2026\n11/1",
+              "requires_review": true
+            },
+            {
+              "date": "2026-09-11",
+              "possible_roles": [
+                "inscricao",
+                "resultado"
+              ],
+              "context": "final das\n Ideias Inovadoras\nselecionadas na Fase 1\n10/09/2026\nFase 2\n - \nSubmissão dos Projetos de \nFomento\n11/09/2026\n15/10/2026\nAvaliação e seleção\n dos \nProjetos de Fomento \n– Fase 2\n16/10/2026\n11/11/2026\nDivulgação do resultado \np\nreliminar dos Projetos",
+              "requires_review": true
+            },
+            {
+              "date": "2026-10-15",
+              "possible_roles": [
+                "inscricao",
+                "resultado"
+              ],
+              "context": "Ideias Inovadoras\nselecionadas na Fase 1\n10/09/2026\nFase 2\n - \nSubmissão dos Projetos de \nFomento\n11/09/2026\n15/10/2026\nAvaliação e seleção\n dos \nProjetos de Fomento \n– Fase 2\n16/10/2026\n11/11/2026\nDivulgação do resultado \np\nreliminar dos Projetos de\nFomento",
+              "requires_review": true
+            },
+            {
+              "date": "2026-10-16",
+              "possible_roles": [
+                "resultado"
+              ],
+              "context": "missão dos Projetos de \nFomento\n11/09/2026\n15/10/2026\nAvaliação e seleção\n dos \nProjetos de Fomento \n– Fase 2\n16/10/2026\n11/11/2026\nDivulgação do resultado \np\nreliminar dos Projetos de\nFomento aprovados\n – Fase 2\n12/11/2026\nPrazo para \ni\nnterposição de \nr\necur",
+              "requires_review": true
+            },
+            {
+              "date": "2026-11-11",
+              "possible_roles": [
+                "resultado"
+              ],
+              "context": "Projetos de \nFomento\n11/09/2026\n15/10/2026\nAvaliação e seleção\n dos \nProjetos de Fomento \n– Fase 2\n16/10/2026\n11/11/2026\nDivulgação do resultado \np\nreliminar dos Projetos de\nFomento aprovados\n – Fase 2\n12/11/2026\nPrazo para \ni\nnterposição de \nr\necursos \na\ndmin",
+              "requires_review": true
+            },
+            {
+              "date": "2026-11-12",
+              "possible_roles": [
+                "resultado"
+              ],
+              "context": "Fase 2\n16/10/2026\n11/11/2026\nDivulgação do resultado \np\nreliminar dos Projetos de\nFomento aprovados\n – Fase 2\n12/11/2026\nPrazo para \ni\nnterposição de \nr\necursos \na\ndministrativos na\nFase 2\n13/11/2026\n25/11/2026\nDivulgação do resultado final dos Projetos de\nFom",
+              "requires_review": true
+            },
+            {
+              "date": "2026-11-13",
+              "possible_roles": [
+                "resultado"
+              ],
+              "context": "de\nFomento aprovados\n – Fase 2\n12/11/2026\nPrazo para \ni\nnterposição de \nr\necursos \na\ndministrativos na\nFase 2\n13/11/2026\n25/11/2026\nDivulgação do resultado final dos Projetos de\nFomento aprovados na Fase 2\n15/12/2026\nP\nublicação no \nDiário Oficial do Estado\n15",
+              "requires_review": true
+            },
+            {
+              "date": "2026-11-25",
+              "possible_roles": [
+                "resultado"
+              ],
+              "context": "aprovados\n – Fase 2\n12/11/2026\nPrazo para \ni\nnterposição de \nr\necursos \na\ndministrativos na\nFase 2\n13/11/2026\n25/11/2026\nDivulgação do resultado final dos Projetos de\nFomento aprovados na Fase 2\n15/12/2026\nP\nublicação no \nDiário Oficial do Estado\n15/12/2026\nPr",
+              "requires_review": true
+            },
+            {
+              "date": "2026-12-15",
+              "possible_roles": [
+                "resultado"
+              ],
+              "context": "vos na\nFase 2\n13/11/2026\n25/11/2026\nDivulgação do resultado final dos Projetos de\nFomento aprovados na Fase 2\n15/12/2026\nP\nublicação no \nDiário Oficial do Estado\n15/12/2026\nPrazo para constituição da empresa e\n envio da\ndocumentação para a contratação\n16/12/20",
+              "requires_review": true
+            },
+            {
+              "date": "2026-12-15",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "sultado final dos Projetos de\nFomento aprovados na Fase 2\n15/12/2026\nP\nublicação no \nDiário Oficial do Estado\n15/12/2026\nPrazo para constituição da empresa e\n envio da\ndocumentação para a contratação\n16/12/2026\n15/01/2027\nContratação dos projetos de fomento\n17",
+              "requires_review": true
+            },
+            {
+              "date": "2026-12-16",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "o Oficial do Estado\n15/12/2026\nPrazo para constituição da empresa e\n envio da\ndocumentação para a contratação\n16/12/2026\n15/01/2027\nContratação dos projetos de fomento\n17/01/2027\n16/02/2027\nChamada de Suplentes\n17/01/2027\n17/03/2027\nPrazo para constituição da",
+              "requires_review": true
+            },
+            {
+              "date": "2027-01-15",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "o Estado\n15/12/2026\nPrazo para constituição da empresa e\n envio da\ndocumentação para a contratação\n16/12/2026\n15/01/2027\nContratação dos projetos de fomento\n17/01/2027\n16/02/2027\nChamada de Suplentes\n17/01/2027\n17/03/2027\nPrazo para constituição da empresa e e",
+              "requires_review": true
+            },
+            {
+              "date": "2027-01-17",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "empresa e\n envio da\ndocumentação para a contratação\n16/12/2026\n15/01/2027\nContratação dos projetos de fomento\n17/01/2027\n16/02/2027\nChamada de Suplentes\n17/01/2027\n17/03/2027\nPrazo para constituição da empresa e envio da\ndocumentação para a contratação\nAté 30",
+              "requires_review": true
+            },
+            {
+              "date": "2027-02-16",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "envio da\ndocumentação para a contratação\n16/12/2026\n15/01/2027\nContratação dos projetos de fomento\n17/01/2027\n16/02/2027\nChamada de Suplentes\n17/01/2027\n17/03/2027\nPrazo para constituição da empresa e envio da\ndocumentação para a contratação\nAté 30 dias após a",
+              "requires_review": true
+            },
+            {
+              "date": "2027-01-17",
+              "possible_roles": [
+                "resultado"
+              ],
+              "context": "tratação\n16/12/2026\n15/01/2027\nContratação dos projetos de fomento\n17/01/2027\n16/02/2027\nChamada de Suplentes\n17/01/2027\n17/03/2027\nPrazo para constituição da empresa e envio da\ndocumentação para a contratação\nAté 30 dias após a divulgação\ndo resultado final\nC",
+              "requires_review": true
+            },
+            {
+              "date": "2027-03-17",
+              "possible_roles": [
+                "resultado"
+              ],
+              "context": "/12/2026\n15/01/2027\nContratação dos projetos de fomento\n17/01/2027\n16/02/2027\nChamada de Suplentes\n17/01/2027\n17/03/2027\nPrazo para constituição da empresa e envio da\ndocumentação para a contratação\nAté 30 dias após a divulgação\ndo resultado final\nContratação",
+              "requires_review": true
+            },
+            {
+              "date": "2026-05-27",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "Trabalho\n \nDocumento assinado eletronicamente por \nLuiz Gustavo de Oliveira Lopes Cançado\n, \nDiretor (a)\n, em\n27/05/2026, às 16:23, conforme horário oficial de Brasília, com fundamento no art. 6º, § 1º, do \nDecreto\nnº 47.222, de 26 de julho de 2017\n.\nDocumento",
+              "requires_review": true
+            },
+            {
+              "date": "2026-05-27",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "julho de 2017\n.\nDocumento assinado eletronicamente por \nCarlos Alberto Arruda de Oliveira\n, \nPresidente\n, em\n27/05/2026, às 17:13, conforme horário oficial de Brasília, com fundamento no art. 6º, § 1º, do \nDecreto\nnº 47.222, de 26 de julho de 2017\n.\nA autenti",
+              "requires_review": true
+            }
+          ],
+          "cnpj_contexts": [
+            "a) Pessoa física (coordenador do projeto) que, se aprovada, deverá constituir uma empresa com sede",
+            "de inscrição da Empresa Simples de Inovação (CINOVA), com os dados do cadastro básico e CNPJ",
+            "de pessoa física ou jurídica no âmbito do desenvolvimento da proposta.",
+            "divulgação do resultado final do processo de seleção desta chamada. O proponente sem empresa",
+            "constituída, caso o projeto seja aprovado, deverá formalizar o CNPJ no estado de Minas Gerais e deverá",
+            "d) Serviços de Terceiros Pessoa Física e/ou Jurídica de caráter eventual, locação, instalação,",
+            "14.14 Após assinatura do Termo de Outorga o CNPJ da empresa beneficiária não poderá ser alterado sob",
+            "CEP 31.035- 536, inscrita no CNPJ sob o n.º 21.949.888/0001-83, doravante denominada ",
+            " inscrita no CNPJ sob o n.º ",
+            "[CNPJ DA",
+            "a) dado pessoal como a informação relacionada a pessoa física identificada ou identificável, inclusive",
+            ", como toda e qualquer pessoa física que possua vínculo de qualquer natureza com",
+            "Declaração de Imposto de Renda Pessoa Física (DIRPF), informações bancárias relativas à conta"
+          ],
           "review_required": true
         }
       ],
@@ -716,15 +1057,15 @@
       "id": "marica",
       "name": "Maricá / MARÉ",
       "url": "https://www.marica.rj.gov.br/noticia/marica-apresenta-edital-de-incentivo-a-criacao-de-prototipos-de-jogos-eletronicos/",
-      "last_attempt": "2026-11-05T17:18:28-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T17:18:28-03:00",
-      "content_hash": "ba48201ad95257de0793470894cf202e4daa90e4145cf120d81b60c2835abaa2",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "c03dbc8c15dcbbc986d127cd0fb4f862229eb15e9aa6ca583997ffb2f4a2b5bc",
       "documents": [
         {
           "url": "https://www.marica.rj.gov.br/noticia/marica-apresenta-edital-de-incentivo-a-criacao-de-prototipos-de-jogos-eletronicos/",
           "final_url": "https://www.marica.rj.gov.br/noticia/marica-apresenta-edital-de-incentivo-a-criacao-de-prototipos-de-jogos-eletronicos/",
-          "hash": "820d3d799a0076bbc7d22048be12a781ec1e56e4d65563e0b209ab9a643e525c",
+          "hash": "77ba1880c7f1712977974e67560feb025ac75081b1dead3684b19060de9d7364",
           "title": "Maricá apresenta edital de incentivo à criação de protótipos de jogos eletrônicos - Prefeitura de Maricá",
           "kind": "html",
           "dates": [],
@@ -739,15 +1080,15 @@
       "id": "bhtec",
       "name": "BH-TEC Conexões",
       "url": "https://bhtec.org.br/2026/10/27/conexoes-abre-inscricoes-para-startups-que-buscam-ganhar-escala-e-conquistar-mercados-confira-edital/",
-      "last_attempt": "2026-11-05T17:18:28-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T17:18:28-03:00",
-      "content_hash": "e39b9e3010bde23704eb3217d68893d0f83b302f95de3fb39b7fdb028c16dadb",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "7d1c5a12e25c0f632c1e5a459dfe8ffcfbd0426f6056cdb64369f61ca99821f2",
       "documents": [
         {
           "url": "https://bhtec.org.br/2026/10/27/conexoes-abre-inscricoes-para-startups-que-buscam-ganhar-escala-e-conquistar-mercados-confira-edital/",
           "final_url": "https://bhtec.org.br/2026/10/27/conexoes-abre-inscricoes-para-startups-que-buscam-ganhar-escala-e-conquistar-mercados-confira-edital/",
-          "hash": "7cae7bec9758cece895d1f47c91532f5d18dbfee15fa95e00d448ec34ae5967d",
+          "hash": "fab36eb498fac669bc64bf7e8940e90b3e5b452ae33ae69cb9ad246df2998925",
           "title": "Conexões 2026 abre inscrições para pós-aceleração em Minas",
           "kind": "html",
           "dates": [
@@ -801,8 +1142,20 @@
           "kind": "candidate_or_listing"
         },
         {
-          "url": "https://bhtec.org.br/2024/09/04/transicao-energetica-reforca-vanguarda-brasileira-e-oportunidades-revolucao-na-propria-economia/",
-          "label": "Transição energética reforça vanguarda brasileira e oportunidades: ‘Revolução na própria economia’",
+          "url": "https://bhtec.org.br/2023/11/09/primeiro-programa-de-pos-aceleracao-de-minas-conexoes-bh-tec-chega-ao-fim-de-olho-no-futuro/",
+          "label": "Lançado em 2023",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://bhtec.org.br/2026/09/16/auditoria-independente-reforca-excelencia-do-bh-tec-em-aceleracao-de-negocios-e-inovacao/",
+          "label": "auditoria independente",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://bhtec.org.br/2024/10/31/tcc-lab-amplia-horizontes-e-cria-oportunidades-para-estudantes-em-reta-final-de-curso/",
+          "label": "TCC Lab amplia horizontes e cria oportunidades para estudantes em reta final de curso",
           "requires_review": true,
           "kind": "candidate_or_listing"
         }
@@ -813,15 +1166,15 @@
       "id": "aevo",
       "name": "AEVO Connect",
       "url": "https://aevo.com.br/connect/",
-      "last_attempt": "2026-11-05T17:18:28-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T17:18:28-03:00",
-      "content_hash": "b01b61a28e3cb7f8c39fdf364930e340ab4fd2a36bb947c4b977f9a4a6f561a0",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "8d8c26e6ac1e9531e1ec3bfa8a8a471eb636219d16cc32c7ba0f72cff50fa7b2",
       "documents": [
         {
           "url": "https://aevo.com.br/connect/",
           "final_url": "https://aevo.com.br/connect/",
-          "hash": "43ef2bd58cc5bafbfed71c9da318e5f4aae9480fcc4b1a728313a0bd8676a203",
+          "hash": "8d1f7cb90bef34f313447d9f7adc38abf365593c120e743fbaa13b1704c366c1",
           "title": "AEVO Connect",
           "kind": "html",
           "dates": [],
@@ -829,22 +1182,35 @@
           "review_required": true
         }
       ],
-      "candidates": [],
+      "candidates": [
+        {
+          "url": "https://aevo.com.br/consultoria-cultura-e-engajamento/",
+          "label": "Cultura e Engajamento",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://aevo.com.br/premio-de-intraempreendedorismo/",
+          "label": "Prêmio",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        }
+      ],
       "error": null
     },
     "jornada": {
       "id": "jornada",
       "name": "Sebrae · Conexões Corporativas",
       "url": "https://sementenegocios.com.br/sebraeinovacaoaberta/solucoes/",
-      "last_attempt": "2026-11-05T17:18:28-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T17:18:28-03:00",
-      "content_hash": "7f1e9e9d552f61c1bbf200cb3db4531669d737c4e0511f33ed155fe0d92fac24",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "04f82159e202ec213178089f5926edea08d97abe255d9855720b43d6a6d45663",
       "documents": [
         {
           "url": "https://sementenegocios.com.br/sebraeinovacaoaberta/solucoes/",
           "final_url": "https://sementenegocios.com.br/sebraeinovacaoaberta/solucoes/",
-          "hash": "151031523dd6594bff9ca54b27bdf96fd1e7d4c0d1e591ba4664c7c2fe57591f",
+          "hash": "69fc184155e834ee1b1cdf2bd336dd92dd6a4a8c1cab21561e9f4d31b60c222d",
           "title": "Jornada de inovação aberta Sebrae - Uma jornada para grandes e pequenas empresas atuarem de forma conjunta na busca por melhores resultados.",
           "kind": "html",
           "dates": [
@@ -948,10 +1314,10 @@
           "review_required": true
         },
         {
-          "url": "https://sementenegocios.com.br/sebraeinovacaoaberta/wp-content/uploads/2026/11/LISTA-DE-SELECIONADAS-Sebrae-Conexoes-Corporativas-Jornada-de-Inovacao-Aberta-.pdf",
-          "final_url": "https://sementenegocios.com.br/sebraeinovacaoaberta/wp-content/uploads/2026/11/LISTA-DE-SELECIONADAS-Sebrae-Conexoes-Corporativas-Jornada-de-Inovacao-Aberta-.pdf",
-          "hash": "f54e921cfe8d91cb7987906eb29ffcb43bc87e9c6f18ba116f479a3576eb446b",
-          "title": "LISTA-DE-SELECIONADAS-Sebrae-Conexoes-Corporativas-Jornada-de-Inovacao-Aberta-.pdf",
+          "url": "https://sementenegocios.com.br/sebraeinovacaoaberta/wp-content/uploads/2026/11/LISTA-DE-SELECIONADAS-Sebrae-Conexoes-Corporativas-Jornada-de-Inovacao-Aberta.pdf",
+          "final_url": "https://sementenegocios.com.br/sebraeinovacaoaberta/wp-content/uploads/2026/11/LISTA-DE-SELECIONADAS-Sebrae-Conexoes-Corporativas-Jornada-de-Inovacao-Aberta.pdf",
+          "hash": "0574848abe1100a0128c52f0ac2dfbd3c3aa4b0c2f37d70de9fef081b5208416",
+          "title": "LISTA-DE-SELECIONADAS-Sebrae-Conexoes-Corporativas-Jornada-de-Inovacao-Aberta.pdf",
           "kind": "pdf",
           "dates": [],
           "cnpj_contexts": [],
@@ -960,7 +1326,7 @@
       ],
       "candidates": [
         {
-          "url": "https://sementenegocios.com.br/sebraeinovacaoaberta/wp-content/uploads/2026/11/LISTA-DE-SELECIONADAS-Sebrae-Conexoes-Corporativas-Jornada-de-Inovacao-Aberta-.pdf",
+          "url": "https://sementenegocios.com.br/sebraeinovacaoaberta/wp-content/uploads/2026/11/LISTA-DE-SELECIONADAS-Sebrae-Conexoes-Corporativas-Jornada-de-Inovacao-Aberta.pdf",
           "label": "As inscrições foram encerradas. Confira a lista de soluções aprovadas.",
           "requires_review": true,
           "kind": "document"
@@ -972,15 +1338,15 @@
       "id": "opencorp",
       "name": "Sebrae · Open Corp",
       "url": "https://sebraemulti.com.br/",
-      "last_attempt": "2026-11-05T17:18:28-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T17:18:28-03:00",
-      "content_hash": "82b84c84d40d6584bba1eb0fadd1a4020edf194178c50d008a812d862f1e3a5c",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "76f88c4d29f37af851ce2e3fd61d1455cc65d808c876d5d40d592c2e2cc0c861",
       "documents": [
         {
           "url": "https://sebraemulti.com.br/",
           "final_url": "https://sebraemulti.com.br/",
-          "hash": "8733063a655c8e95a2961f7865179f4dbee887ed8d7fb6bd2e177d4593e70f82",
+          "hash": "c521368c4d537b09cdc8f5790c9c6fbf9cce0b0946649964bc41dd6dda74490d",
           "title": "Sebrae Open Corp – Programa de Inovação Aberta Multiparceiros Sebrae Open Corp – Programa de Inovação Aberta Multiparceiros",
           "kind": "html",
           "dates": [],
@@ -1057,9 +1423,9 @@
       "id": "open100",
       "name": "100 Open Startups",
       "url": "https://www.openstartups.net/br-pt/challenges/",
-      "last_attempt": "2026-11-05T17:18:28-03:00",
-      "status": "ok",
-      "last_success": "2026-11-05T17:18:28-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
+      "status": "unchanged",
+      "last_success": "2026-11-06T11:21:11-03:00",
       "content_hash": "1e6c2c65d672f398ab4c60229a88b95c7e4579b40258675b4680aba43759dec4",
       "documents": [
         {
@@ -1075,8 +1441,122 @@
       ],
       "candidates": [
         {
+          "url": "https://www.openstartups.net/br-pt/challenges/innovativecities",
+          "label": "/br-pt/challenges/innovativecities",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/informationsociety",
+          "label": "/br-pt/challenges/informationsociety",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/healthcareandwellbeing",
+          "label": "/br-pt/challenges/healthcareandwellbeing",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/futureeducation",
+          "label": "/br-pt/challenges/futureeducation",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/industryofthefuture",
+          "label": "/br-pt/challenges/industryofthefuture",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/energy",
+          "label": "/br-pt/challenges/energy",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/electricenergy",
+          "label": "/br-pt/challenges/electricenergy",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/pharmaceuticals",
+          "label": "/br-pt/challenges/pharmaceuticals",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/agribusiness",
+          "label": "/br-pt/challenges/agribusiness",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/wearables",
+          "label": "/br-pt/challenges/wearables",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/publicservice",
+          "label": "/br-pt/challenges/publicservice",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/smallbusiness",
+          "label": "/br-pt/challenges/smallbusiness",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/retail",
+          "label": "/br-pt/challenges/retail",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
           "url": "https://www.openstartups.net/br-pt/challenges/financial",
           "label": "/br-pt/challenges/financial",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/construction",
+          "label": "/br-pt/challenges/construction",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/food",
+          "label": "/br-pt/challenges/food",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/sport",
+          "label": "/br-pt/challenges/sport",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/tourism",
+          "label": "/br-pt/challenges/tourism",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/fashion",
+          "label": "/br-pt/challenges/fashion",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.openstartups.net/br-pt/challenges/platforms",
+          "label": "/br-pt/challenges/platforms",
           "requires_review": true,
           "kind": "candidate_or_listing"
         }
@@ -1087,7 +1567,7 @@
       "id": "enap",
       "name": "Enap · Desafios",
       "url": "https://desafios.enap.gov.br/index.php/pt/",
-      "last_attempt": "2026-11-05T17:18:28-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "error",
       "error": "HTTP Error 404: Not Found"
     },
@@ -1095,7 +1575,7 @@
       "id": "een",
       "name": "Enterprise Europe Network",
       "url": "https://een.ec.europa.eu/partnering-opportunities",
-      "last_attempt": "2026-11-05T17:18:28-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "error",
       "error": "robots.txt indisponível ou acesso recusado"
     },
@@ -1103,15 +1583,15 @@
       "id": "petrobras",
       "name": "Petrobras · Conexões para Inovação",
       "url": "https://petrobras.com.br/inovacao-e-tecnologia/inovacao-aberta",
-      "last_attempt": "2026-11-05T17:18:28-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T17:18:28-03:00",
-      "content_hash": "65be3e859e624cdc16737d97151363b544d649641cf434a8c34aca080695a8ba",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "b7dfab672514eec92781e45f547d3b18ed0714138af81e2cd4db39e8d2a6e342",
       "documents": [
         {
           "url": "https://petrobras.com.br/inovacao-e-tecnologia/inovacao-aberta",
           "final_url": "https://petrobras.com.br/inovacao-e-tecnologia/inovacao-aberta",
-          "hash": "58add7461db3689921328c6e32b1b714245b128e40ffd4d70464b1e36073e832",
+          "hash": "6eecc3b866a737469859f6975fd727228999ea4867055caf3eac1fa817a2e223",
           "title": "Inovação aberta: criamos Conexões para Inovação | Petrobras logo-petro",
           "kind": "html",
           "dates": [],
@@ -1119,22 +1599,29 @@
           "review_required": true
         }
       ],
-      "candidates": [],
+      "candidates": [
+        {
+          "url": "https://petrobras.com.br/quem-somos/concursos",
+          "label": "Concursos",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        }
+      ],
       "error": null
     },
     "secultgo": {
       "id": "secultgo",
       "name": "Secult Goiás",
       "url": "https://goias.gov.br/cultura/",
-      "last_attempt": "2026-11-05T17:18:28-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T17:18:28-03:00",
-      "content_hash": "47c2d2e18f4fcf761754e6f3927f2b13c96b79e47d88806ef3e979dca0395bb4",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "51e633debce7dc5f1f2e9b96edd1fa234e5c799ef96545e8006dc4095df10522",
       "documents": [
         {
           "url": "https://goias.gov.br/cultura/",
           "final_url": "https://goias.gov.br/cultura/",
-          "hash": "b982c5161a1991e9032b076257d935ef18f52545b04828af23007ca689dba824",
+          "hash": "c84cf32186ec416875779911b3652ce86b99558a903cd9367f05d5b80a25793e",
           "title": "Secretaria de Estado da Cultura",
           "kind": "html",
           "dates": [],
@@ -1143,6 +1630,12 @@
         }
       ],
       "candidates": [
+        {
+          "url": "https://goias.gov.br/cultura/termos-de-fomento/",
+          "label": "Termos de Fomento",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
         {
           "url": "https://goias.gov.br/cultura/arranjosregionais/",
           "label": "Edital Arranjos Regionais FSA",
@@ -1168,15 +1661,15 @@
       "id": "secultmg",
       "name": "Secult Minas Gerais",
       "url": "https://www.secult.mg.gov.br/",
-      "last_attempt": "2026-11-05T17:18:28-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T17:18:28-03:00",
-      "content_hash": "ed340043b532abcc6b58a1ea7321cf108d152d3768f89f77544dc2fb26845165",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "37768a0b6febb4b5e0a07a5a6dc1ca027be371bba7f8c504daa9d3dd2cffb456",
       "documents": [
         {
           "url": "https://www.secult.mg.gov.br/",
           "final_url": "https://www.secult.mg.gov.br/",
-          "hash": "fcc53493ab3e98796a997397c60f503f45087af1ddb2ab145bdacc0812dbc8dd",
+          "hash": "ff70c15d1bcfd320d498dbf07af19ab58a2d016a82d1ebcca8fbe5614dac168f",
           "title": "Secretaria de Estado de Cultura e Turismo - SECULT - Home",
           "kind": "html",
           "dates": [],
@@ -1192,8 +1685,20 @@
           "kind": "candidate_or_listing"
         },
         {
+          "url": "https://www.secult.mg.gov.br/documentos/premios",
+          "label": "Prêmios",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
           "url": "https://www.secult.mg.gov.br/documentos/plataforma-de-inscricoes-lab",
           "label": "Plataforma de Inscrições da LAB",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.secult.mg.gov.br/documentos/plataformas/plataforma-digital-fomento-e-incentivo-a-cultura",
+          "label": "Plataforma Digital Fomento e Incentivo à Cultura",
           "requires_review": true,
           "kind": "candidate_or_listing"
         },
@@ -1212,6 +1717,12 @@
         {
           "url": "https://www.secult.mg.gov.br/turismo/edital-reviva-turismo",
           "label": "Reviva Turismo",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.secult.mg.gov.br/documentos-administrativos/termos-de-fomento",
+          "label": "Termos de Fomento",
           "requires_review": true,
           "kind": "candidate_or_listing"
         },
@@ -1246,17 +1757,93 @@
       "id": "senai",
       "name": "SENAI · Aliança Educacional",
       "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/",
-      "last_attempt": "2026-11-05T17:22:53-03:00",
-      "status": "error",
-      "error": "The read operation timed out"
+      "last_attempt": "2026-11-06T11:21:11-03:00",
+      "status": "ok",
+      "error": null,
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "4ea7ffe0456ef44ef996741394354d57063fe49bb9edfcb9ab423e935646a038",
+      "documents": [
+        {
+          "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/",
+          "final_url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/",
+          "hash": "0472b2025ad6620e7d9c863a739b3b5f1767d4f6ce5e0a9d325b13c17c084764",
+          "title": "Plataforma Inovação para a Indústria - Portal da Indústria",
+          "kind": "html",
+          "dates": [],
+          "cnpj_contexts": [],
+          "review_required": true
+        }
+      ],
+      "candidates": [
+        {
+          "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/smart-factory-finep-senai/",
+          "label": "Smart Factory- FINEP (SENAI) 2026   Resultado - Chamada | Smart Factory- FINEP (SENAI) - 1ª Edição - 2026",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/rota-2030-hands-aprendendo-fazendo/",
+          "label": "MOVER Hands-on: Aprendendo Fazendo (SENAI) 2026   Hands-On | Resultado chamada 09 - Final (3º Resultado)",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/chamada-regional-senai/",
+          "label": "Chamada Regional (SENAI)   [SENAI/RJ] CONCURSO DE INOVAÇÃO PARA SOLUÇÕES EM EFICIÊNCIA ENERGÉTICA - (SENAI RJ/ENBPAR) - CHAMADA 3",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/agendatech/",
+          "label": "Agenda.Tech (SENAI)   CHAMADA: AGENDA.TECH MAPEAMENTO DE OPORTUNIDADES E TECNOLOGIAS PARA PARA POWERSHORING NO BRASIL - 2025",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/categoria-chamada-tecnica-sesi-senai-evolucao-da-e/",
+          "label": "Categoria   Categoria: Chamada  Técnica SESI SENAI – Evolução da Estação SESI Saúde Conectada.",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/empreendedorismo-industrial-desafio-instituicao/",
+          "label": "Empreendedorismo Industrial - Desafio Instituição Âncora (SENAI)  Desafios de grandes empresas para criação de soluções por startups",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/saude-conectada-sesi/",
+          "label": "Saúde Conectada (SESI)  Apoiar e financiar o desenvolvimento de soluções inovadoras para operacionalização das linhas de cuidados coordenadas.",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/estudos-e-pesquisas-em-saude-e-seguranca-na-indust/",
+          "label": "Estudos  e Pesquisas em Saúde e Segurança na Indústria (SESI)  Impulsionar e financiar o desenvolvimento de estudos e pesquisas em Saúde Ocupacional Conectada",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/linhas-de-cuidado-na-saude-suplementar-sesi-e-ans-/",
+          "label": "Linhas de Cuidado na Saúde Suplementar SESI e ANS (SESI)  Apoiar e financiar projetos no contexto da operacionalização de linhas de cuidados na saúde suplementar.",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/inova-mes/",
+          "label": "INOVA MES (SESI)  Apoiar e financiar projetos que potencialize o atendimento à missão, à proposta de valor, aos objetivos e aos eixos de atuação do MES.",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        }
+      ]
     },
     "mincintercambio": {
       "id": "mincintercambio",
       "name": "Ministério da Cultura",
       "url": "https://www.gov.br/cultura/pt-br/assuntos/editais/inscricoes-em-andamento/edital-de-intercambio-cultural-circulacao-e-participacao-audiovisual-no-exterior",
-      "last_attempt": "2026-11-05T18:04:54-03:00",
-      "status": "ok",
-      "last_success": "2026-11-05T18:04:54-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
+      "status": "unchanged",
+      "last_success": "2026-11-06T11:21:11-03:00",
       "content_hash": "be59bb7bb15fdca99f2e302495c4a50c7d5e5a4f38999eecf12e4eaed4879bec",
       "documents": [
         {
@@ -1526,7 +2113,7 @@
       "id": "cepedi",
       "name": "CEPEDI",
       "url": "https://www.residenciagames.cepedi.org.br/",
-      "last_attempt": "2026-11-05T18:04:01-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "error",
       "error": "Página sem conteúdo suficiente; pode exigir JavaScript ou revisão manual"
     },
@@ -1534,15 +2121,15 @@
       "id": "globalvoices",
       "name": "Games for Change",
       "url": "https://www.gamesforchange.org/professional_service/26-global-voices-challenge/",
-      "last_attempt": "2026-11-05T18:04:54-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T18:04:54-03:00",
-      "content_hash": "937eaf26eb2d653f5267affa607a736e4230b99d163538bd9d49400c7ed595d6",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "c16b40d28ba056ba3f9a4b3a276d2026f8eb5fa7944abf2b28835328aae2e91a",
       "documents": [
         {
           "url": "https://www.gamesforchange.org/professional_service/26-global-voices-challenge/",
           "final_url": "https://www.gamesforchange.org/professional_service/26-global-voices-challenge/",
-          "hash": "e57b50b291fc9359127087f48fb589c7966da79220e7b3964496aa33e65dae88",
+          "hash": "ffd7bd342f1dba074d00566b1d92f00a004f0c87322ad2b11c920d98ef59f0f1",
           "title": "Global Voices Challenge - Games for Change",
           "kind": "html",
           "dates": [],
@@ -1560,16 +2147,29 @@
           "review_required": true
         }
       ],
-      "candidates": [],
+      "candidates": [
+        {
+          "url": "https://www.gamesforchange.org/global-voices-challenge-2026_guidelines/",
+          "label": "Challenge Guidelines",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://www.gamesforchange.org/cdn-cgi/l/email-protection",
+          "label": "challenges @ gamesforchange.org",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        }
+      ],
       "error": null
     },
     "bghresidencia": {
       "id": "bghresidencia",
       "name": "Brasília Game Hub / Instituto Conecta Brasil",
       "url": "https://brasiliagamehub.org/chamada-publica-1-2025/",
-      "last_attempt": "2026-11-05T18:04:54-03:00",
-      "status": "ok",
-      "last_success": "2026-11-05T18:04:54-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
+      "status": "unchanged",
+      "last_success": "2026-11-06T11:21:11-03:00",
       "content_hash": "ba4fd209d0383fc8084e86e3d932aedc8f9c6dd28c8e17e0093f2fd05b134687",
       "documents": [
         {
@@ -1618,9 +2218,9 @@
       "id": "bndesdiversidade",
       "name": "BNDES / Instituto Benfeitoria / Sitawi",
       "url": "https://agenciadenoticias.bndes.gov.br/noticia/BNDES-aprova-fundo-de-mais-de-R%24-20-milhoes-para-apoiar-mais-de-500-projetos-culturais-em-todo-o-pais",
-      "last_attempt": "2026-11-05T18:04:01-03:00",
-      "status": "ok",
-      "last_success": "2026-11-05T18:04:01-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
+      "status": "unchanged",
+      "last_success": "2026-11-06T11:21:11-03:00",
       "content_hash": "324a49cd0ea064463eee519e179caab076f9b2dbd42d473374d4c8afa83c105b",
       "documents": [
         {
@@ -1671,9 +2271,9 @@
       "id": "federalgames",
       "name": "MinC / MCTI / Finep",
       "url": "https://www.gov.br/cultura/pt-br/assuntos/noticias/presidente-lula-regulamenta-marco-legal-dos-jogos-eletronicos-e-anuncia-medidas-de-apoio-ao-setor/",
-      "last_attempt": "2026-11-05T18:04:01-03:00",
-      "status": "ok",
-      "last_success": "2026-11-05T18:04:01-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
+      "status": "unchanged",
+      "last_success": "2026-11-06T11:21:11-03:00",
       "content_hash": "bbc40126fb5b32f85d6ade230f668db6f9a0804ea979d6a5a4048a29d996ea05",
       "documents": [
         {
@@ -1704,22 +2304,29 @@
           "review_required": true
         }
       ],
-      "candidates": [],
+      "candidates": [
+        {
+          "url": "https://www.gov.br/cultura/pt-br/assuntos/noticias/presidente-lula-regulamenta-marco-legal-dos-jogos-eletronicos-e-anuncia-medidas-de-apoio-ao-setor",
+          "label": "Compartilhe por LinkedIn",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        }
+      ],
       "error": null
     },
     "proacgames": {
       "id": "proacgames",
       "name": "Secretaria da Cultura de São Paulo",
       "url": "https://www.cultura.sp.gov.br/sec_cultura/Arquivo_de_Editais/Editais_Fomento_Cultsp/Fomento_CultSP_2026/desenvolvimento_ou_finalizacao_e_publicacao_de_jogos_eletronicos_2026/",
-      "last_attempt": "2026-11-05T18:04:01-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T18:04:01-03:00",
-      "content_hash": "774ad220ef693ecea88caeef496999f0bcf72e65d7697419b1f935e54acc3e5c",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "5d15ebec0182ac015c50c988692826af856a6907ffe72e70ecc75afd141800ef",
       "documents": [
         {
           "url": "https://www.cultura.sp.gov.br/sec_cultura/Arquivo_de_Editais/Editais_Fomento_Cultsp/Fomento_CultSP_2026/desenvolvimento_ou_finalizacao_e_publicacao_de_jogos_eletronicos_2026/",
           "final_url": "https://www.cultura.sp.gov.br/sec_cultura/Arquivo_de_Editais/Editais_Fomento_Cultsp/Fomento_CultSP_2026/desenvolvimento_ou_finalizacao_e_publicacao_de_jogos_eletronicos_2026/",
-          "hash": "4dcde649f032a94dfbcb6965cd0551a4926b24698054f6bcc89ba93d2c82610a",
+          "hash": "e45b06438ddf6bfd045abda9f04b4ca8db794238f803321143ea7dc4487bf031",
           "title": "",
           "kind": "html",
           "dates": [],
@@ -1734,15 +2341,15 @@
       "id": "rioinvest",
       "name": "RioFilme / The Powell Group",
       "url": "https://riofilme.com.br/noticias/riofilme-e-the-powell-group-firmam-parceria-para-ampliar-investimentos-e-internacionalizacao-de-jogos-cariocas/",
-      "last_attempt": "2026-11-05T18:04:01-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T18:04:01-03:00",
-      "content_hash": "05c7f340825c26f7ffce7a2061e62e882aa1fc33064e27ff13c5cd6a70773cd2",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "2b3d0b23e3e8497e0ffb17bb266c026f4321136a5f5d508ae2383fb567ee8493",
       "documents": [
         {
           "url": "https://riofilme.com.br/noticias/riofilme-e-the-powell-group-firmam-parceria-para-ampliar-investimentos-e-internacionalizacao-de-jogos-cariocas/",
           "final_url": "https://riofilme.com.br/noticias/riofilme-e-the-powell-group-firmam-parceria-para-ampliar-investimentos-e-internacionalizacao-de-jogos-cariocas/",
-          "hash": "af0fc1b979524e1af23ca70e40e38893ff880dcc0e669176b8f7fe89be4e36cf",
+          "hash": "7da29f5d3f10b3ee9d3f601138079655f65e80cab6772ca317008316f9ed4c75",
           "title": "RioFilme e The Powell Group firmam parceria para ampliar investimentos e internacionalização de jogos cariocas - RioFilme",
           "kind": "html",
           "dates": [
@@ -1766,9 +2373,9 @@
       "id": "centecintercambio",
       "name": "Instituto CENTEC / Secult Ceará",
       "url": "https://www.centec.org.br/wp-content/uploads/2026/03/Edital_Credenciamento_n_002_2026-HUB-DE-JOGOS-INTERCAMBIO.pdf",
-      "last_attempt": "2026-11-05T18:04:01-03:00",
-      "status": "ok",
-      "last_success": "2026-11-05T18:04:01-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
+      "status": "unchanged",
+      "last_success": "2026-11-06T11:21:11-03:00",
       "content_hash": "544e52b830c26fcfb8698fb7b7b381aff551337fe498e1dd07678db81fa680d3",
       "documents": [
         {
@@ -1953,9 +2560,9 @@
       "id": "pnabrn",
       "name": "Secretaria de Estado da Cultura do RN",
       "url": "https://maiscultura.rn.gov.br/editais/editais/114/",
-      "last_attempt": "2026-11-05T18:04:54-03:00",
-      "status": "ok",
-      "last_success": "2026-11-05T18:04:54-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
+      "status": "unchanged",
+      "last_success": "2026-11-06T11:21:11-03:00",
       "content_hash": "72a7d7f9bb01ed28c4146fc2f016583f6ab88f1939ddad41fa5e845fcfef2505",
       "documents": [
         {
@@ -2031,8 +2638,8 @@
       "id": "cegames",
       "name": "Secult Ceará",
       "url": "https://mapacultural.secult.ce.gov.br/oportunidade/8132",
-      "last_attempt": "2026-11-05T18:04:01-03:00",
-      "status": "ok",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
+      "status": "error",
       "last_success": "2026-11-05T18:04:01-03:00",
       "content_hash": "3e9627325d758667e60e2ddec16921cb2d64fa917e93448f26fe530b8dd94e70",
       "documents": [
@@ -2120,15 +2727,15 @@
           "kind": "document"
         }
       ],
-      "error": null
+      "error": "Página com template não renderizado; requer JavaScript e revisão em navegador"
     },
     "gamepnabba": {
       "id": "gamepnabba",
       "name": "Secult Bahia / FUNCEB",
       "url": "https://www.bahiapnab.com.br/game-pnab-2",
-      "last_attempt": "2026-11-05T18:04:01-03:00",
-      "status": "ok",
-      "last_success": "2026-11-05T18:04:01-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
+      "status": "unchanged",
+      "last_success": "2026-11-06T11:21:11-03:00",
       "content_hash": "ccbaa63ecf29be3602fc0930c29360c90f2448cd1f037e18ccc086f1d7c35b83",
       "documents": [
         {
@@ -2436,15 +3043,15 @@
       "id": "petrobrascultural",
       "name": "Petrobras",
       "url": "https://petrobras.com.br/pt/cultural/selecoes-publicas-culturais",
-      "last_attempt": "2026-11-05T18:04:01-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T18:04:01-03:00",
-      "content_hash": "294a4d4cdbd172cfa8329a66dd29beb4688c230077b2136a07c8b2e1ae6ef789",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "6c2c93c8886f9356a739bb6e268328d85782593e0bcc46417e6308e196ebc041",
       "documents": [
         {
           "url": "https://petrobras.com.br/pt/cultural/selecoes-publicas-culturais",
           "final_url": "https://petrobras.com.br/pt/cultural/selecoes-publicas-culturais",
-          "hash": "b1d3f361deda19ef6547229ddef008a36282ff262451451976a99c0b580ea561",
+          "hash": "c23a1352dad2944f1701a32f6438dd37376ba1ee43948f320e83b4950b2ad5c9",
           "title": "Seleções Públicas Culturais | Petrobras logo-petro",
           "kind": "html",
           "dates": [
@@ -2493,6 +3100,12 @@
       ],
       "candidates": [
         {
+          "url": "https://petrobras.com.br/pt/quem-somos/concursos",
+          "label": "Concursos",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
           "url": "https://petrobras.com.br/documents/2677942/10915971/Projetos+selecionados+-+Multiplas+Express%C3%B5es.pdf/0d933016-4df0-8e4a-c240-3d5330138fda?download=true&t=1701431665000&version=1.0",
           "label": "Resultado da Chamada Múltiplas Expressões",
           "requires_review": true,
@@ -2529,7 +3142,7 @@
       "id": "petrobrasradar4",
       "name": "Petrobras / Conexões para Inovação",
       "url": "https://conexoes-inovacao.petrobras.com.br/s/desafio/a6zU40000000Lm1IAE/radar-de-solu%C3%A7%C3%B5es-ciclo-4-quarto-trimestre-2026?language=pt_BR",
-      "last_attempt": "2026-11-05T20:05:49-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "error",
       "last_success": "2026-11-05T20:04:52-03:00",
       "content_hash": "22d8d72e1bc76e1a1b842f2b1d886f1c0204786632c8900ccdb79ead32553663",
@@ -2552,7 +3165,7 @@
       "id": "enelindividual",
       "name": "Enel Open Innovability",
       "url": "https://openinnovability.enel.com/pt/desafios/individual-innovator",
-      "last_attempt": "2026-11-05T20:04:52-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "error",
       "error": "Página com template não renderizado; requer JavaScript e revisão em navegador"
     },
@@ -2560,15 +3173,15 @@
       "id": "pipeeducacao",
       "name": "FAPESP",
       "url": "https://fapesp.br/18434/chamada-de-propostas-para-o-programa-pipe-jornada-tecnologica-tecnologias-educacionais-fase-1",
-      "last_attempt": "2026-11-05T20:04:52-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T20:04:52-03:00",
-      "content_hash": "88d1ad3c6357a522a4ba19355207a709f879c1c1e102e86c99a042d63984e561",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "b0b0a1f778084e42972fd9e7d8b67885c08ac894ec9f52b525bccfedf2a42fd1",
       "documents": [
         {
           "url": "https://fapesp.br/18434/chamada-de-propostas-para-o-programa-pipe-jornada-tecnologica-tecnologias-educacionais-fase-1",
           "final_url": "https://fapesp.br/18434/chamada-de-propostas-para-o-programa-pipe-jornada-tecnologica-tecnologias-educacionais-fase-1",
-          "hash": "0ae54362c2edb90183cd60cd6b912994a77ce0c4a3f74829016b7d8c06482122",
+          "hash": "db9d1d77aab27f7a560628ae45fac092eb05a505348d3d396d776c9b3c8e5e79",
           "title": "Chamada de Propostas para o Programa PIPE Jornada Tecnológica Tecnologias Educacionais – Fase 1 Ferramentas de Acessibilidade Aumentar o Texto Diminuir o Texto Escala de Cinza Alto Contraste Contraste Negativo Links Sublinhados Reiniciar",
           "kind": "html",
           "dates": [
@@ -2657,6 +3270,18 @@
           "label": "Chamadas de Propostas",
           "requires_review": true,
           "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://fapesp.br/18434/bolsas/tt",
+          "label": "fapesp.br/bolsas/tt",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://fapesp.br/valores/bolsasnopais",
+          "label": "fapesp.br/valores/bolsasnopais;",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
         }
       ],
       "error": null
@@ -2665,15 +3290,15 @@
       "id": "fiemg2026",
       "name": "SESI / SENAI / FIEMG",
       "url": "https://www.fiemg.com.br/editalsesisenai/",
-      "last_attempt": "2026-11-05T20:04:52-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T20:04:52-03:00",
-      "content_hash": "ccc8eece1795c0b65b71e8e8dabb5e7d7c48dfc47c71e9c10ffb7014ae238ed1",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "e01cf3a675d43b802570e0cbc1c3d0d349d58be606443fb902676132f70cfdcb",
       "documents": [
         {
           "url": "https://www.fiemg.com.br/editalsesisenai/",
           "final_url": "https://www.fiemg.com.br/editalsesisenai/",
-          "hash": "a26811b322be2bc3e398bd3e41da8cf43ee0a7d3edcff1360208c686be39534c",
+          "hash": "d280b4d80c204a5340a1287e3513917e0bf3a8dedcb9fe90e1288f8f5e2b8ce7",
           "title": "EDITAL SESI SENAI - FIEMG",
           "kind": "html",
           "dates": [],
@@ -2808,416 +3433,6 @@
           ],
           "cnpj_contexts": [],
           "review_required": true
-        },
-        {
-          "url": "https://www.fiemg.com.br/wp-content/uploads/2026/03/EDITAL-SESI-SENAI-01-2026-.pdf",
-          "final_url": "https://www.fiemg.com.br/wp-content/uploads/2026/03/EDITAL-SESI-SENAI-01-2026-.pdf",
-          "hash": "feb03078fa6a5e8b7d7f6d831cd389a662f38fe0976b1cac297727f879b69899",
-          "title": "EDITAL-SESI-SENAI-01-2026-.pdf",
-          "kind": "pdf",
-          "dates": [
-            {
-              "date": "2026-03-09",
-              "possible_roles": [
-                "inscricao"
-              ],
-              "context": ". \n \nCiclo 1 – LINHAS INOVAÇÃO E TECNOLOGIA \nEtapa Atividades Início Fim \nFase de Ideias \nSubmissão de ideias 09/03/2026 10/04/2026 \nQualificação de ideias 13/04/2026 22/04/2026 \nDivulgação das ideias qualificadas 24/04/2026 24/04/2026 \nFase de Plano de \nProje",
-              "requires_review": true
-            },
-            {
-              "date": "2026-04-10",
-              "possible_roles": [
-                "inscricao"
-              ],
-              "context": "1 – LINHAS INOVAÇÃO E TECNOLOGIA \nEtapa Atividades Início Fim \nFase de Ideias \nSubmissão de ideias 09/03/2026 10/04/2026 \nQualificação de ideias 13/04/2026 22/04/2026 \nDivulgação das ideias qualificadas 24/04/2026 24/04/2026 \nFase de Plano de \nProjeto \nSubmiss",
-              "requires_review": true
-            },
-            {
-              "date": "2026-04-13",
-              "possible_roles": [
-                "inscricao"
-              ],
-              "context": "tapa Atividades Início Fim \nFase de Ideias \nSubmissão de ideias 09/03/2026 10/04/2026 \nQualificação de ideias 13/04/2026 22/04/2026 \nDivulgação das ideias qualificadas 24/04/2026 24/04/2026 \nFase de Plano de \nProjeto \nSubmissão dos Planos de Projetos 27/04/202",
-              "requires_review": true
-            },
-            {
-              "date": "2026-04-22",
-              "possible_roles": [
-                "inscricao"
-              ],
-              "context": "ades Início Fim \nFase de Ideias \nSubmissão de ideias 09/03/2026 10/04/2026 \nQualificação de ideias 13/04/2026 22/04/2026 \nDivulgação das ideias qualificadas 24/04/2026 24/04/2026 \nFase de Plano de \nProjeto \nSubmissão dos Planos de Projetos 27/04/2026 10/06/202",
-              "requires_review": true
-            },
-            {
-              "date": "2026-04-24",
-              "possible_roles": [
-                "inscricao",
-                "resultado"
-              ],
-              "context": "deias 09/03/2026 10/04/2026 \nQualificação de ideias 13/04/2026 22/04/2026 \nDivulgação das ideias qualificadas 24/04/2026 24/04/2026 \nFase de Plano de \nProjeto \nSubmissão dos Planos de Projetos 27/04/2026 10/06/2026 \nAvaliação dos planos de Projeto e \nseleção 1",
-              "requires_review": true
-            },
-            {
-              "date": "2026-04-24",
-              "possible_roles": [
-                "inscricao",
-                "resultado"
-              ],
-              "context": "/2026 10/04/2026 \nQualificação de ideias 13/04/2026 22/04/2026 \nDivulgação das ideias qualificadas 24/04/2026 24/04/2026 \nFase de Plano de \nProjeto \nSubmissão dos Planos de Projetos 27/04/2026 10/06/2026 \nAvaliação dos planos de Projeto e \nseleção 11/06/2026 2",
-              "requires_review": true
-            },
-            {
-              "date": "2026-04-27",
-              "possible_roles": [
-                "inscricao",
-                "resultado"
-              ],
-              "context": "ão das ideias qualificadas 24/04/2026 24/04/2026 \nFase de Plano de \nProjeto \nSubmissão dos Planos de Projetos 27/04/2026 10/06/2026 \nAvaliação dos planos de Projeto e \nseleção 11/06/2026 24/06/2026 \nDivulgação dos projetos selecionados 26/06/2026 26/06/2026",
-              "requires_review": true
-            },
-            {
-              "date": "2026-06-10",
-              "possible_roles": [
-                "inscricao",
-                "resultado"
-              ],
-              "context": "as qualificadas 24/04/2026 24/04/2026 \nFase de Plano de \nProjeto \nSubmissão dos Planos de Projetos 27/04/2026 10/06/2026 \nAvaliação dos planos de Projeto e \nseleção 11/06/2026 24/06/2026 \nDivulgação dos projetos selecionados 26/06/2026 26/06/2026 \n \n \nContrata",
-              "requires_review": true
-            },
-            {
-              "date": "2026-06-11",
-              "possible_roles": [
-                "inscricao",
-                "resultado"
-              ],
-              "context": "Projeto \nSubmissão dos Planos de Projetos 27/04/2026 10/06/2026 \nAvaliação dos planos de Projeto e \nseleção 11/06/2026 24/06/2026 \nDivulgação dos projetos selecionados 26/06/2026 26/06/2026 \n \n \nContratação Contratação dos projetos 29/06/2026 31/07/2026 \nExe",
-              "requires_review": true
-            },
-            {
-              "date": "2026-06-24",
-              "possible_roles": [
-                "inscricao",
-                "execucao",
-                "resultado"
-              ],
-              "context": "Submissão dos Planos de Projetos 27/04/2026 10/06/2026 \nAvaliação dos planos de Projeto e \nseleção 11/06/2026 24/06/2026 \nDivulgação dos projetos selecionados 26/06/2026 26/06/2026 \n \n \nContratação Contratação dos projetos 29/06/2026 31/07/2026 \nExecução \nDese",
-              "requires_review": true
-            },
-            {
-              "date": "2026-06-26",
-              "possible_roles": [
-                "execucao",
-                "resultado"
-              ],
-              "context": "/2026 \nAvaliação dos planos de Projeto e \nseleção 11/06/2026 24/06/2026 \nDivulgação dos projetos selecionados 26/06/2026 26/06/2026 \n \n \nContratação Contratação dos projetos 29/06/2026 31/07/2026 \nExecução \nDesenvolvimento dos projetos – linha \ninovação 03/08/",
-              "requires_review": true
-            },
-            {
-              "date": "2026-06-26",
-              "possible_roles": [
-                "execucao"
-              ],
-              "context": "iação dos planos de Projeto e \nseleção 11/06/2026 24/06/2026 \nDivulgação dos projetos selecionados 26/06/2026 26/06/2026 \n \n \nContratação Contratação dos projetos 29/06/2026 31/07/2026 \nExecução \nDesenvolvimento dos projetos – linha \ninovação 03/08/2026 03/02/",
-              "requires_review": true
-            },
-            {
-              "date": "2026-06-29",
-              "possible_roles": [
-                "execucao"
-              ],
-              "context": "06/2026 \nDivulgação dos projetos selecionados 26/06/2026 26/06/2026 \n \n \nContratação Contratação dos projetos 29/06/2026 31/07/2026 \nExecução \nDesenvolvimento dos projetos – linha \ninovação 03/08/2026 03/02/2028 \nDesenvolvimento dos projetos – linha \ntecnologi",
-              "requires_review": true
-            },
-            {
-              "date": "2026-07-31",
-              "possible_roles": [
-                "execucao"
-              ],
-              "context": "vulgação dos projetos selecionados 26/06/2026 26/06/2026 \n \n \nContratação Contratação dos projetos 29/06/2026 31/07/2026 \nExecução \nDesenvolvimento dos projetos – linha \ninovação 03/08/2026 03/02/2028 \nDesenvolvimento dos projetos – linha \ntecnologia 03/08/202",
-              "requires_review": true
-            },
-            {
-              "date": "2026-08-03",
-              "possible_roles": [
-                "execucao"
-              ],
-              "context": "ação Contratação dos projetos 29/06/2026 31/07/2026 \nExecução \nDesenvolvimento dos projetos – linha \ninovação 03/08/2026 03/02/2028 \nDesenvolvimento dos projetos – linha \ntecnologia 03/08/2026 03/08/2027 \nEncerramento \nRelatório final – linha inovação 04/02/20",
-              "requires_review": true
-            },
-            {
-              "date": "2028-02-03",
-              "possible_roles": [
-                "execucao"
-              ],
-              "context": "tação dos projetos 29/06/2026 31/07/2026 \nExecução \nDesenvolvimento dos projetos – linha \ninovação 03/08/2026 03/02/2028 \nDesenvolvimento dos projetos – linha \ntecnologia 03/08/2026 03/08/2027 \nEncerramento \nRelatório final – linha inovação 04/02/2028 28/02/20",
-              "requires_review": true
-            },
-            {
-              "date": "2026-08-03",
-              "possible_roles": [
-                "nao_identificado"
-              ],
-              "context": "imento dos projetos – linha \ninovação 03/08/2026 03/02/2028 \nDesenvolvimento dos projetos – linha \ntecnologia 03/08/2026 03/08/2027 \nEncerramento \nRelatório final – linha inovação 04/02/2028 28/02/2028 \nRelatório final – linha tecnologia 04/08/2027 31/08/2027",
-              "requires_review": true
-            },
-            {
-              "date": "2027-08-03",
-              "possible_roles": [
-                "nao_identificado"
-              ],
-              "context": "projetos – linha \ninovação 03/08/2026 03/02/2028 \nDesenvolvimento dos projetos – linha \ntecnologia 03/08/2026 03/08/2027 \nEncerramento \nRelatório final – linha inovação 04/02/2028 28/02/2028 \nRelatório final – linha tecnologia 04/08/2027 31/08/2027 \nPrestação",
-              "requires_review": true
-            },
-            {
-              "date": "2028-02-04",
-              "possible_roles": [
-                "nao_identificado"
-              ],
-              "context": "imento dos projetos – linha \ntecnologia 03/08/2026 03/08/2027 \nEncerramento \nRelatório final – linha inovação 04/02/2028 28/02/2028 \nRelatório final – linha tecnologia 04/08/2027 31/08/2027 \nPrestação de contas – linha inovação 04/02/2028 28/02/2028 \n Prestaçã",
-              "requires_review": true
-            },
-            {
-              "date": "2028-02-28",
-              "possible_roles": [
-                "nao_identificado"
-              ],
-              "context": "projetos – linha \ntecnologia 03/08/2026 03/08/2027 \nEncerramento \nRelatório final – linha inovação 04/02/2028 28/02/2028 \nRelatório final – linha tecnologia 04/08/2027 31/08/2027 \nPrestação de contas – linha inovação 04/02/2028 28/02/2028 \n Prestação de contas",
-              "requires_review": true
-            },
-            {
-              "date": "2027-08-04",
-              "possible_roles": [
-                "nao_identificado"
-              ],
-              "context": "027 \nEncerramento \nRelatório final – linha inovação 04/02/2028 28/02/2028 \nRelatório final – linha tecnologia 04/08/2027 31/08/2027 \nPrestação de contas – linha inovação 04/02/2028 28/02/2028 \n Prestação de contas – linha tecnologia 04/08/2027 31/08/2027 \n \nCi",
-              "requires_review": true
-            },
-            {
-              "date": "2027-08-31",
-              "possible_roles": [
-                "nao_identificado"
-              ],
-              "context": "amento \nRelatório final – linha inovação 04/02/2028 28/02/2028 \nRelatório final – linha tecnologia 04/08/2027 31/08/2027 \nPrestação de contas – linha inovação 04/02/2028 28/02/2028 \n Prestação de contas – linha tecnologia 04/08/2027 31/08/2027 \n \nCiclo 2 – LIN",
-              "requires_review": true
-            },
-            {
-              "date": "2028-02-04",
-              "possible_roles": [
-                "nao_identificado"
-              ],
-              "context": "28 28/02/2028 \nRelatório final – linha tecnologia 04/08/2027 31/08/2027 \nPrestação de contas – linha inovação 04/02/2028 28/02/2028 \n Prestação de contas – linha tecnologia 04/08/2027 31/08/2027 \n \nCiclo 2 – LINHA INOVAÇÃO \nEtapa Atividades Início Fim \nFase de",
-              "requires_review": true
-            },
-            {
-              "date": "2028-02-28",
-              "possible_roles": [
-                "nao_identificado"
-              ],
-              "context": "28 \nRelatório final – linha tecnologia 04/08/2027 31/08/2027 \nPrestação de contas – linha inovação 04/02/2028 28/02/2028 \n Prestação de contas – linha tecnologia 04/08/2027 31/08/2027 \n \nCiclo 2 – LINHA INOVAÇÃO \nEtapa Atividades Início Fim \nFase de Ideias \nSu",
-              "requires_review": true
-            },
-            {
-              "date": "2027-08-04",
-              "possible_roles": [
-                "inscricao"
-              ],
-              "context": "/08/2027 \nPrestação de contas – linha inovação 04/02/2028 28/02/2028 \n Prestação de contas – linha tecnologia 04/08/2027 31/08/2027 \n \nCiclo 2 – LINHA INOVAÇÃO \nEtapa Atividades Início Fim \nFase de Ideias \nSubmissão de ideias 22/06/2026 31/07/2026 \nQualificaçã",
-              "requires_review": true
-            },
-            {
-              "date": "2027-08-31",
-              "possible_roles": [
-                "inscricao"
-              ],
-              "context": "restação de contas – linha inovação 04/02/2028 28/02/2028 \n Prestação de contas – linha tecnologia 04/08/2027 31/08/2027 \n \nCiclo 2 – LINHA INOVAÇÃO \nEtapa Atividades Início Fim \nFase de Ideias \nSubmissão de ideias 22/06/2026 31/07/2026 \nQualificação de ideias",
-              "requires_review": true
-            },
-            {
-              "date": "2026-06-22",
-              "possible_roles": [
-                "inscricao"
-              ],
-              "context": "2027 31/08/2027 \n \nCiclo 2 – LINHA INOVAÇÃO \nEtapa Atividades Início Fim \nFase de Ideias \nSubmissão de ideias 22/06/2026 31/07/2026 \nQualificação de ideias 03/08/2026 12/08/2026 \nDivulgação das ideias qualificadas 14/08/2026 14/08/2026 \nFase de Plano de \nProje",
-              "requires_review": true
-            },
-            {
-              "date": "2026-07-31",
-              "possible_roles": [
-                "inscricao"
-              ],
-              "context": "2027 \n \nCiclo 2 – LINHA INOVAÇÃO \nEtapa Atividades Início Fim \nFase de Ideias \nSubmissão de ideias 22/06/2026 31/07/2026 \nQualificação de ideias 03/08/2026 12/08/2026 \nDivulgação das ideias qualificadas 14/08/2026 14/08/2026 \nFase de Plano de \nProjeto \nSubmiss",
-              "requires_review": true
-            },
-            {
-              "date": "2026-08-03",
-              "possible_roles": [
-                "inscricao"
-              ],
-              "context": "tapa Atividades Início Fim \nFase de Ideias \nSubmissão de ideias 22/06/2026 31/07/2026 \nQualificação de ideias 03/08/2026 12/08/2026 \nDivulgação das ideias qualificadas 14/08/2026 14/08/2026 \nFase de Plano de \nProjeto \nSubmissão dos Planos de Projetos 17/08/202",
-              "requires_review": true
-            },
-            {
-              "date": "2026-08-12",
-              "possible_roles": [
-                "inscricao"
-              ],
-              "context": "ades Início Fim \nFase de Ideias \nSubmissão de ideias 22/06/2026 31/07/2026 \nQualificação de ideias 03/08/2026 12/08/2026 \nDivulgação das ideias qualificadas 14/08/2026 14/08/2026 \nFase de Plano de \nProjeto \nSubmissão dos Planos de Projetos 17/08/2026 25/09/202",
-              "requires_review": true
-            },
-            {
-              "date": "2026-08-14",
-              "possible_roles": [
-                "inscricao",
-                "resultado"
-              ],
-              "context": "deias 22/06/2026 31/07/2026 \nQualificação de ideias 03/08/2026 12/08/2026 \nDivulgação das ideias qualificadas 14/08/2026 14/08/2026 \nFase de Plano de \nProjeto \nSubmissão dos Planos de Projetos 17/08/2026 25/09/2026 \nAvaliação dos planos de Projeto e \nseleção 2",
-              "requires_review": true
-            },
-            {
-              "date": "2026-08-14",
-              "possible_roles": [
-                "inscricao",
-                "resultado"
-              ],
-              "context": "/2026 31/07/2026 \nQualificação de ideias 03/08/2026 12/08/2026 \nDivulgação das ideias qualificadas 14/08/2026 14/08/2026 \nFase de Plano de \nProjeto \nSubmissão dos Planos de Projetos 17/08/2026 25/09/2026 \nAvaliação dos planos de Projeto e \nseleção 28/09/2026 0",
-              "requires_review": true
-            },
-            {
-              "date": "2026-08-17",
-              "possible_roles": [
-                "inscricao",
-                "resultado"
-              ],
-              "context": "ão das ideias qualificadas 14/08/2026 14/08/2026 \nFase de Plano de \nProjeto \nSubmissão dos Planos de Projetos 17/08/2026 25/09/2026 \nAvaliação dos planos de Projeto e \nseleção 28/09/2026 07/10/2026 \nDivulgação dos projetos selecionados 09/10/2026 09/10/2026 \nC",
-              "requires_review": true
-            },
-            {
-              "date": "2026-09-25",
-              "possible_roles": [
-                "inscricao",
-                "resultado"
-              ],
-              "context": "as qualificadas 14/08/2026 14/08/2026 \nFase de Plano de \nProjeto \nSubmissão dos Planos de Projetos 17/08/2026 25/09/2026 \nAvaliação dos planos de Projeto e \nseleção 28/09/2026 07/10/2026 \nDivulgação dos projetos selecionados 09/10/2026 09/10/2026 \nContratação",
-              "requires_review": true
-            },
-            {
-              "date": "2026-09-28",
-              "possible_roles": [
-                "inscricao",
-                "resultado"
-              ],
-              "context": "Projeto \nSubmissão dos Planos de Projetos 17/08/2026 25/09/2026 \nAvaliação dos planos de Projeto e \nseleção 28/09/2026 07/10/2026 \nDivulgação dos projetos selecionados 09/10/2026 09/10/2026 \nContratação Contratação dos projetos 12/10/2026 13/11/2026 \nExecuçã",
-              "requires_review": true
-            },
-            {
-              "date": "2026-10-07",
-              "possible_roles": [
-                "inscricao",
-                "execucao",
-                "resultado"
-              ],
-              "context": "Submissão dos Planos de Projetos 17/08/2026 25/09/2026 \nAvaliação dos planos de Projeto e \nseleção 28/09/2026 07/10/2026 \nDivulgação dos projetos selecionados 09/10/2026 09/10/2026 \nContratação Contratação dos projetos 12/10/2026 13/11/2026 \nExecução Desenvolv",
-              "requires_review": true
-            },
-            {
-              "date": "2026-10-09",
-              "possible_roles": [
-                "execucao",
-                "resultado"
-              ],
-              "context": "/2026 \nAvaliação dos planos de Projeto e \nseleção 28/09/2026 07/10/2026 \nDivulgação dos projetos selecionados 09/10/2026 09/10/2026 \nContratação Contratação dos projetos 12/10/2026 13/11/2026 \nExecução Desenvolvimento dos projetos 16/11/2026 16/05/2028 \nEncerr",
-              "requires_review": true
-            },
-            {
-              "date": "2026-10-09",
-              "possible_roles": [
-                "execucao"
-              ],
-              "context": "iação dos planos de Projeto e \nseleção 28/09/2026 07/10/2026 \nDivulgação dos projetos selecionados 09/10/2026 09/10/2026 \nContratação Contratação dos projetos 12/10/2026 13/11/2026 \nExecução Desenvolvimento dos projetos 16/11/2026 16/05/2028 \nEncerramento \nRel",
-              "requires_review": true
-            },
-            {
-              "date": "2026-10-12",
-              "possible_roles": [
-                "execucao"
-              ],
-              "context": "07/10/2026 \nDivulgação dos projetos selecionados 09/10/2026 09/10/2026 \nContratação Contratação dos projetos 12/10/2026 13/11/2026 \nExecução Desenvolvimento dos projetos 16/11/2026 16/05/2028 \nEncerramento \nRelatório final 17/05/2028 16/06/2028 \nPrestação de",
-              "requires_review": true
-            },
-            {
-              "date": "2026-11-13",
-              "possible_roles": [
-                "execucao"
-              ],
-              "context": "Divulgação dos projetos selecionados 09/10/2026 09/10/2026 \nContratação Contratação dos projetos 12/10/2026 13/11/2026 \nExecução Desenvolvimento dos projetos 16/11/2026 16/05/2028 \nEncerramento \nRelatório final 17/05/2028 16/06/2028 \nPrestação de contas 17/0",
-              "requires_review": true
-            },
-            {
-              "date": "2026-11-16",
-              "possible_roles": [
-                "execucao"
-              ],
-              "context": "09/10/2026 \nContratação Contratação dos projetos 12/10/2026 13/11/2026 \nExecução Desenvolvimento dos projetos 16/11/2026 16/05/2028 \nEncerramento \nRelatório final 17/05/2028 16/06/2028 \nPrestação de contas 17/05/2028 16/06/2028 \n \n8. BENEFÍCIOS \n8.1. Os projet",
-              "requires_review": true
-            },
-            {
-              "date": "2028-05-16",
-              "possible_roles": [
-                "execucao"
-              ],
-              "context": "Contratação Contratação dos projetos 12/10/2026 13/11/2026 \nExecução Desenvolvimento dos projetos 16/11/2026 16/05/2028 \nEncerramento \nRelatório final 17/05/2028 16/06/2028 \nPrestação de contas 17/05/2028 16/06/2028 \n \n8. BENEFÍCIOS \n8.1. Os projetos selecion",
-              "requires_review": true
-            },
-            {
-              "date": "2028-05-17",
-              "possible_roles": [
-                "execucao"
-              ],
-              "context": "0/2026 13/11/2026 \nExecução Desenvolvimento dos projetos 16/11/2026 16/05/2028 \nEncerramento \nRelatório final 17/05/2028 16/06/2028 \nPrestação de contas 17/05/2028 16/06/2028 \n \n8. BENEFÍCIOS \n8.1. Os projetos selecionados receberão os seguintes benefícios par",
-              "requires_review": true
-            },
-            {
-              "date": "2028-06-16",
-              "possible_roles": [
-                "execucao"
-              ],
-              "context": "1/2026 \nExecução Desenvolvimento dos projetos 16/11/2026 16/05/2028 \nEncerramento \nRelatório final 17/05/2028 16/06/2028 \nPrestação de contas 17/05/2028 16/06/2028 \n \n8. BENEFÍCIOS \n8.1. Os projetos selecionados receberão os seguintes benefícios para o \ndesenv",
-              "requires_review": true
-            },
-            {
-              "date": "2028-05-17",
-              "possible_roles": [
-                "nao_identificado"
-              ],
-              "context": "dos projetos 16/11/2026 16/05/2028 \nEncerramento \nRelatório final 17/05/2028 16/06/2028 \nPrestação de contas 17/05/2028 16/06/2028 \n \n8. BENEFÍCIOS \n8.1. Os projetos selecionados receberão os seguintes benefícios para o \ndesenvolvimento: \na) Linha Inovação: D",
-              "requires_review": true
-            },
-            {
-              "date": "2028-06-16",
-              "possible_roles": [
-                "nao_identificado"
-              ],
-              "context": "os 16/11/2026 16/05/2028 \nEncerramento \nRelatório final 17/05/2028 16/06/2028 \nPrestação de contas 17/05/2028 16/06/2028 \n \n8. BENEFÍCIOS \n8.1. Os projetos selecionados receberão os seguintes benefícios para o \ndesenvolvimento: \na) Linha Inovação: Disponibiliz",
-              "requires_review": true
-            }
-          ],
-          "cnpj_contexts": [
-            "empresas industriais mineiras classificadas em qualquer porte, com CNPJ ativo, elegíveis ",
-            "a) Empresas industriais que não possuem CNPJ matriz ou filial no Estado de ",
-            "uma proposta submetida classificada pelo mesmo CNPJ, apenas o projeto com a maior ",
-            "ciclo, para o mesmo CNPJ. Caso haja mais de uma proposta submetida nesta condição, ",
-            "(CNPJ), em PDF. ",
-            "CNPJ  ",
-            "A empresa , CNPJ nº , sediada ",
-            "XXXXXXXXXXXXXXXXX, inscrita no CNPJ XXXXXXXXXXXXXXX, declaro para os ",
-            "536 inscrito no CNPJ nº.03.773.834/0132 -97, representado por seu Superintendente ",
-            "Belo Horizonte, Minas Gerais CEP 30110-028 inscrito no CNPJ nº.03.773.700/0001-07, ",
-            " / , CEP , CNPJ n°. , representada por ",
-            "inscrito no CNPJ nº.   , representado por seu Superintendente Regional  ",
-            "Horizonte, Minas Gerais CEP 30110 -028 inscrito  no CNPJ nº.________________, ",
-            " ,/ , CEP _______,CNPJ °. _________________________, "
-          ],
-          "review_required": true
         }
       ],
       "candidates": [
@@ -3336,15 +3551,15 @@
       "id": "inova6",
       "name": "Bossa Invest / Sebrae e parceiros",
       "url": "https://inovastartups.com.br/",
-      "last_attempt": "2026-11-05T20:04:52-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T20:04:52-03:00",
-      "content_hash": "a5bd3f0805c75221cddd6e4b70cf70f2d3e25bbdbc2e6195d590640c81ee6c92",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "8d73056c297091178e654bcdaa6b2a04dbd57c550cb85096cf4a364d3971f288",
       "documents": [
         {
           "url": "https://inovastartups.com.br/",
           "final_url": "https://inovastartups.com.br/",
-          "hash": "a84b5a49f82c26dab1cec47cb28cad1956ddf39c9922709c205295d6613d18c4",
+          "hash": "4e1fa154a5f53d08c5df0b1975f59e820b55b43489e0c008c30bde89ce123eb8",
           "title": "Inova Startups — Investimento e aceleração para startups",
           "kind": "html",
           "dates": [],
@@ -3415,7 +3630,7 @@
       "id": "nestleconnect",
       "name": "Nestlé / AEVO Connect",
       "url": "https://nestle.aevoinnovate.net/",
-      "last_attempt": "2026-11-05T20:06:32-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "error",
       "last_success": "2026-11-05T20:04:52-03:00",
       "content_hash": "b01b61a28e3cb7f8c39fdf364930e340ab4fd2a36bb947c4b977f9a4a6f561a0",
@@ -3438,16 +3653,16 @@
       "id": "heinekengreen",
       "name": "Heineken / Quintessa",
       "url": "https://cms2.heineken.com/br/pt/campanhas/green-your-city-lab/",
-      "last_attempt": "2026-11-05T20:04:52-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T20:04:52-03:00",
-      "content_hash": "f5061656de9e19a266a32e0c5b2aa1fe51a4a6042865c66650e5de9474fa1cf1",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "f7b702d32626b93fb2217915595a4e15b4fd2f22f1785773f7e8143696717112",
       "documents": [
         {
           "url": "https://cms2.heineken.com/br/pt/campanhas/green-your-city-lab/",
           "final_url": "https://cms2.heineken.com/br/pt/campanhas/green-your-city-lab/",
-          "hash": "dbc8f530bfb50b2d0a2396d2a3c43c348cff73fbf39081054956b4cbf029a34e",
-          "title": "",
+          "hash": "cf0c4bd75c1dedff894a9cd0cd8df62415bcb3313b16672caf8f6309e82a5d5c",
+          "title": "Green Your City Lab | Soluções Sustentáveis Heineken",
           "kind": "html",
           "dates": [],
           "cnpj_contexts": [
@@ -3464,15 +3679,15 @@
       "id": "cybersec2026",
       "name": "CyberSec Games",
       "url": "https://cybersecgames.com/pages/2026-cybersec-game-challenge",
-      "last_attempt": "2026-11-05T20:04:52-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-05T20:04:52-03:00",
-      "content_hash": "1367cf88f624cad65a1bf7bb0c3ddca9cd5b8a0190de3c7550394dd3cdb64b58",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "4e5e068cbe1cc0ba1742bffb7159884a2017a2edcea2120e19c0dd94ca3419da",
       "documents": [
         {
           "url": "https://cybersecgames.com/pages/2026-cybersec-game-challenge",
           "final_url": "https://cybersecgames.com/pages/2026-cybersec-game-challenge",
-          "hash": "352570b906c56521147ce51d3a4b0e41ab12acd8ae24bf4e5627ea6e6a716cbe",
+          "hash": "b9a79bfccb79f7c8e417d78d983ce40c27aca7525b29a4c5f859f86649349c8a",
           "title": "2026 CyberSec Game Challenge – CyberSec Games American Express Apple Pay Bancontact Diners Club Discover Google Pay iDEAL Wero Maestro Mastercard PayPal Satispay Shop Pay Union Pay Visa",
           "kind": "html",
           "dates": [],
@@ -3480,16 +3695,41 @@
           "review_required": true
         }
       ],
-      "candidates": [],
+      "candidates": [
+        {
+          "url": "https://cybersecgames.com/pages/the-cybersec-game-challenge-winners-announced",
+          "label": "Meet the 2025 winners!",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://cybersecgames.com/pages/game-competition-registration",
+          "label": "Enter the challenge",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://cybersecgames.com/blogs/news/why-we-should-play-to-stay-safe-the-power-of-physical-games-in-cybersecurity",
+          "label": "Hands-on Security  Addressing security through physical games",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
+          "url": "https://cybersecgames.com/pages/custom-game-production",
+          "label": "Fully Custom Games  For your unique cybersecurity challenges",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        }
+      ],
       "error": null
     },
     "cobstartups2": {
       "id": "cobstartups2",
       "name": "Comitê Olímpico do Brasil / Arena Hub",
       "url": "https://desafiocobdestartups.com.br",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
-      "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
+      "status": "unchanged",
+      "last_success": "2026-11-06T11:21:11-03:00",
       "content_hash": "17711b847feb7755d881e36c251d1e8427ed84f2cb479dfb23387ee55f10e192",
       "documents": [
         {
@@ -3510,8 +3750,8 @@
       "id": "epicaimegajam",
       "name": "Epic Games",
       "url": "https://itch.io/jam/2026-epic-ai-megajam",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
-      "status": "ok",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
+      "status": "error",
       "last_success": "2026-11-06T10:33:23-03:00",
       "content_hash": "45c69b2153713832ff3e36c95d404f50d37a244e6f4580a4359360485b860575",
       "documents": [
@@ -3581,15 +3821,15 @@
           "kind": "candidate_or_listing"
         }
       ],
-      "error": null
+      "error": "HTTP Error 429: Too Many Requests"
     },
     "bigfestival2027": {
       "id": "bigfestival2027",
       "name": "gamescom latam / BIG Festival",
       "url": "https://latam.gamescom.global/en/big-festival-en/",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
-      "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
+      "status": "unchanged",
+      "last_success": "2026-11-06T11:21:11-03:00",
       "content_hash": "ec2588eebc9578a958f21df609d939a181ca61073b5480004163e3148bb382ec",
       "documents": [
         {
@@ -3610,15 +3850,15 @@
       "id": "kowloonkepler",
       "name": "Kepler Interactive",
       "url": "https://kepler-interactive.com/kowloon",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
-      "content_hash": "5b81e4be44f5caf49b305230580016fbcb3859206fbb4294a0f5b3a805634cd4",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "7726a7414f98ad84bfeeec6b1344d1dbec8a2034799a355ca1db2f18b7260e52",
       "documents": [
         {
           "url": "https://kepler-interactive.com/kowloon",
           "final_url": "https://kepler-interactive.com/form",
-          "hash": "598f39e2e238c91b096f206579e41c11fa81eb24a96f58038ab9dbd1a94c9b62",
+          "hash": "7d4ad100876d497da3ea98d9840bcbbdadfba25508873b3ff368d35319566d2b",
           "title": "Inbound Form - Kepler Interactive",
           "kind": "html",
           "dates": [],
@@ -3633,7 +3873,7 @@
       "id": "epicmegagrants",
       "name": "Epic Games",
       "url": "https://www.unrealengine.com/megagrants",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "error",
       "error": "robots.txt indisponível ou acesso recusado"
     },
@@ -3641,15 +3881,15 @@
       "id": "googleplaylatam",
       "name": "Google Play",
       "url": "https://google.play/business/programs/indiegames/",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
-      "content_hash": "31c341135e8025f6f04e60ace81819e97bb2cf09c85f90450baaf39e0b06e26e",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "52f1e14baf374813a43559eb4c2515efad1b668c980c03e6f63d598588e8dd7f",
       "documents": [
         {
           "url": "https://google.play/business/programs/indiegames/",
           "final_url": "https://google.play/business/programs/indiegames/",
-          "hash": "24d3805a5f16c7b8032f0b4289d62a17cbdf7d74eec1b11ded1e624c4723d8bb",
+          "hash": "666f056352788e076ba38bfaab33dc98e27fd6bad2fa46e6f404d0cd566c9e17",
           "title": "Indie Games | Google Play Console",
           "kind": "html",
           "dates": [],
@@ -3664,15 +3904,15 @@
       "id": "outersloth",
       "name": "Innersloth",
       "url": "https://www.innersloth.com/outersloth",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
-      "content_hash": "14707f40494609e6fa43ae9cf015963ef63cb068d85ba08a5a75daa9c9177c33",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "050ca5fc1f95776a1d1badf9750fc57ef552ea6d6167806db39ca9787cf17220",
       "documents": [
         {
           "url": "https://www.innersloth.com/outersloth",
           "final_url": "https://www.innersloth.com/outersloth/",
-          "hash": "2e840d0b2adf49a283c4c3e484ed5b56db06b8a33abd40a47f2364aca12b3164",
+          "hash": "2c94939995fd88c160d55f5e1db2c7d83d1dd355d9e10f522b5ce7178355d3a5",
           "title": "Outersloth | Innersloth - Creators of Among Us and The Henry Stickmin Collection!",
           "kind": "html",
           "dates": [],
@@ -3687,9 +3927,9 @@
       "id": "gamedevtvfund",
       "name": "GameDev.tv",
       "url": "https://gamedev.tv/p/indie-game-dev-fund",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
-      "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
+      "status": "unchanged",
+      "last_success": "2026-11-06T11:21:11-03:00",
       "content_hash": "840ecff5eeb2ec25c180b010ae51b080f6cda3e23db25b8f87675bbd5fac21b0",
       "documents": [
         {
@@ -3717,15 +3957,15 @@
       "id": "unityhumanity",
       "name": "Unity",
       "url": "https://unity.com/unity-humanity",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
-      "content_hash": "cd179edcfcbb8a0402567e98e94425b58c9436ea416d2d3b0c0c56a5c3d3bc05",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "26570116781ee1c20b05c7c9267b87a1c32d681d7bcf598f195e224c8831ebe0",
       "documents": [
         {
           "url": "https://unity.com/unity-humanity",
           "final_url": "https://unity.com/humanity",
-          "hash": "9af595b0e826e25076d7405e88242cb72e6fe465c7eec0260f87931431c2619e",
+          "hash": "ff99731e0ff75e5f5ac2dbe4b181a53ddc131fee12f7638798316ed1d17609b6",
           "title": "Unity for Humanity: Grant Application & Program FAQs | Unity",
           "kind": "html",
           "dates": [],
@@ -3742,15 +3982,15 @@
       "id": "galacompetition",
       "name": "Serious Games Society",
       "url": "https://conf.seriousgamessociety.org/competition/",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
-      "content_hash": "d28aa0158aae891527468ddbfc7c155a95f2fabf11e89e573cc2bc87dae3999d",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "5ea9a6ebac66b6af76d4131a28ac52bb4ee9a3cf64b8f4229e925434a7dca8e2",
       "documents": [
         {
           "url": "https://conf.seriousgamessociety.org/competition/",
           "final_url": "https://conf.seriousgamessociety.org/competition/",
-          "hash": "67bde94ec769ae4dc1fedff267fd01507e89d82ddf6b674a5b752817f03a00cb",
+          "hash": "86dcef456169ba89048db4b8a3953366e56be08988a071208d9ab556f5b81aa2",
           "title": "2025 Serious Games Competition – GALA Conf 2026",
           "kind": "html",
           "dates": [],
@@ -3765,7 +4005,7 @@
       "id": "brasiltapragame",
       "name": "Embratur / Abragames",
       "url": "https://embraturlab.com.br/brasiltapragame/",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "error",
       "error": "Página sem conteúdo suficiente; pode exigir JavaScript ou revisão manual"
     },
@@ -3773,15 +4013,15 @@
       "id": "spcine012026",
       "name": "Spcine",
       "url": "https://spcine.com.br/editais-spcine/",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
-      "content_hash": "b892f41d52278287adc3ede0b5a03d371684d1f1d07f46a9852f5faae1e5b5c1",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "64a7c56970edb7e7399fd21290ae9f57b329a1e4fc81ac497e3b42e3cf0bf6ef",
       "documents": [
         {
           "url": "https://spcine.com.br/editais-spcine/",
           "final_url": "https://spcine.com.br/editais-spcine/",
-          "hash": "4a22fa86690aee5e35186443bd71317b8833ff495fe3bcf346ac1d11c4b5d3bb",
+          "hash": "197c171b77e9913ddb97216de2a5d7b710a06b409e93177f03cfdf21a3ae55e1",
           "title": "Editais Spcine - Spcine",
           "kind": "html",
           "dates": [
@@ -3810,6 +4050,16 @@
               "requires_review": true
             }
           ],
+          "cnpj_contexts": [],
+          "review_required": true
+        },
+        {
+          "url": "https://spcine.com.br/wp-content/uploads/2026/10/01_SPCINE_Apoio-a-Producao-de-Games_Resultado-Preliminar_Classificacao_Final.pdf",
+          "final_url": "https://spcine.com.br/wp-content/uploads/2026/10/01_SPCINE_Apoio-a-Producao-de-Games_Resultado-Preliminar_Classificacao_Final.pdf",
+          "hash": "0d174a2adfb6de0b7d9eb3c650bc609170e401c8e394e24dd65e982b9323fa70",
+          "title": "01_SPCINE_Apoio-a-Producao-de-Games_Resultado-Preliminar_Classificacao_Final.pdf",
+          "kind": "pdf",
+          "dates": [],
           "cnpj_contexts": [],
           "review_required": true
         }
@@ -4182,15 +4432,15 @@
       "id": "sebraegames2026",
       "name": "Sebrae",
       "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/seu-jogo-esta-pronto-para-ganhar-o-mundo-sebrae-lanca-edital-que-leva-estudios-a-gamescom-2026/",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
-      "content_hash": "7502fea3c1a1e63f1ca011894ecb8b34b746503b69bdd2196c030d4d61043aad",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "df492cee7dd8544b9d1de5d936b3d029b66462f610b7042a49fbc53793298693",
       "documents": [
         {
           "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/seu-jogo-esta-pronto-para-ganhar-o-mundo-sebrae-lanca-edital-que-leva-estudios-a-gamescom-2026/",
           "final_url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/seu-jogo-esta-pronto-para-ganhar-o-mundo-sebrae-lanca-edital-que-leva-estudios-a-gamescom-2026/",
-          "hash": "d8a184a92bb64fd95fc1168c1b153acdde968a94507f4347aa41383bbf6cc586",
+          "hash": "29345322d2b12e635abe2161c63b499d1494c1eda40ebccd87c6133da1bf9147",
           "title": "Seu jogo está pronto para ganhar o mundo? Sebrae lança edital que leva estúdios à Gamescom 2026 | ASN Nacional - Agência Sebrae de Notícias",
           "kind": "html",
           "dates": [
@@ -4271,15 +4521,15 @@
       "id": "sampagames5",
       "name": "ADE Sampa / Prefeitura de São Paulo",
       "url": "https://prefeitura.sp.gov.br/web/desenvolvimento/w/prefeitura-de-sp-prorroga-inscri%C3%A7%C3%B5es-para-programa-que-investe-r-52-mil-em-at%C3%A9-25-est%C3%BAdios-de-games",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
-      "content_hash": "597c39b8427a915d88a894f1262ebc8757dc35603e1cf66fb12980e519be2951",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "e1115937a50d6f31318a9ba67f85bcb4dcb9ad6d01e30fd01fc86cf935e5e23f",
       "documents": [
         {
           "url": "https://prefeitura.sp.gov.br/web/desenvolvimento/w/prefeitura-de-sp-prorroga-inscri%C3%A7%C3%B5es-para-programa-que-investe-r-52-mil-em-at%C3%A9-25-est%C3%BAdios-de-games",
           "final_url": "https://prefeitura.sp.gov.br/web/desenvolvimento/w/prefeitura-de-sp-prorroga-inscri%C3%A7%C3%B5es-para-programa-que-investe-r-52-mil-em-at%C3%A9-25-est%C3%BAdios-de-games",
-          "hash": "4181dde3acafc5f87d32153aad4ce773238c3dc94ed16d9c0c16c903b5b3cc49",
+          "hash": "9e3d8e02c115445ab59a49d78d962b048a7c293d9520c5852f07d251b8fef1f9",
           "title": "Prefeitura de SP prorroga inscrições para programa que investe R$ 52 mil em até 25 estúdios de games - Secretaria Municipal de Desenvolvimento Econômico e Trabalho - Prefeitura",
           "kind": "html",
           "dates": [],
@@ -4307,7 +4557,7 @@
       "id": "facdf2026",
       "name": "Secretaria de Cultura do DF",
       "url": "https://sufic.cultura.df.gov.br/edital-fac-ii/2026",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "error",
       "error": "Acesso não permitido pelo robots.txt"
     },
@@ -4315,15 +4565,15 @@
       "id": "igf2027",
       "name": "Game Developers Conference",
       "url": "https://igf.com/submission-info/",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
-      "content_hash": "0341d033c2331281b1d01ee9600f6d977ec5f2288eb310f0fc6ee5401105f579",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "9cdade728b4afe90f905e684d57dbd82ea3199de555607ab8c5cfb8ce223898d",
       "documents": [
         {
           "url": "https://igf.com/submission-info/",
           "final_url": "https://igf.com/submission-info/",
-          "hash": "02c159546a89931b2bc190cdec6473e2aded47f413bbe3e3345a0a3b576430f3",
+          "hash": "b84c18287f27ac5b3fcce0890c35f93013b257f9429294a5218a46c93fac1640",
           "title": "Game Submission Info | Independent Games Festival",
           "kind": "html",
           "dates": [],
@@ -4338,15 +4588,15 @@
       "id": "riofilme5",
       "name": "RioFilme",
       "url": "https://riofilme.com.br/editais/edital-no-5-desenvolvimento-producao-e-distribuicao-de-jogos-eletronicos/",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
-      "content_hash": "7f930c83a0a74c7a2be4bf4e65958938b46fb1407a503a55a77a2325b37a4aae",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "fbe4e65e2b5d33471e660c12591942597789b5ae0e1b31a7859dbebea003db97",
       "documents": [
         {
           "url": "https://riofilme.com.br/editais/edital-no-5-desenvolvimento-producao-e-distribuicao-de-jogos-eletronicos/",
           "final_url": "https://riofilme.com.br/editais/edital-no-5-desenvolvimento-producao-e-distribuicao-de-jogos-eletronicos/",
-          "hash": "894f557523ba08d90f5fa7b825749cec7fbd5c7834ece3072904de4dd28cd0c4",
+          "hash": "8dd7d44642a3c0eb370611f45b4584bb61092c3a508e1fa0fc12ce5825889d6c",
           "title": "EDITAL Nº 5 - DESENVOLVIMENTO, PRODUÇÃO E DISTRIBUIÇÃO DE JOGOS ELETRÔNICOS - RioFilme",
           "kind": "html",
           "dates": [
@@ -4364,6 +4614,25 @@
                 "resultado"
               ],
               "context": "onteúdo\nSem resultados\nEDITAL Nº 5 – DESENVOLVIMENTO, PRODUÇÃO E DISTRIBUIÇÃO DE JOGOS ELETRÔNICOS\n06/07/2026\n02/08/2026\nEste edital destina-se à seleção, em regime de concurso, de propostas de desenvolvimento de protótipos jogáveis, produção ou distribuição d",
+              "requires_review": true
+            }
+          ],
+          "cnpj_contexts": [],
+          "review_required": true
+        },
+        {
+          "url": "https://riofilme.com.br/wp-content/uploads/2026/07/SELECAO-EDITAL-No-5-JOGOS-1.pdf",
+          "final_url": "https://riofilme.com.br/wp-content/uploads/2026/07/SELECAO-EDITAL-No-5-JOGOS-1.pdf",
+          "hash": "9a918b0b8c411a69ae6bb48ee81104e58817d515e0bfba63a05ab86c545a5dcc",
+          "title": "SELECAO-EDITAL-No-5-JOGOS-1.pdf",
+          "kind": "pdf",
+          "dates": [
+            {
+              "date": "2026-10-19",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "2026  EDITAL  Nº  5  -  DESENVOLVIMENTO,  PRODUÇÃO  E  DISTRIBUIÇÃO  DE  JOGOS  ELETRÔNICOS  EXPEDIE NTE  DE  19/10/2026   A  Riofilme,  no  uso  de  suas  atribuições,  juntamente  com  a   Comissão  Julgadora,  formada  por  Maurício  \nHirata\n \nFilho\n \n(pres",
               "requires_review": true
             }
           ],
@@ -4457,15 +4726,15 @@
       "id": "brdelabs2026",
       "name": "BRDE Labs",
       "url": "https://www.brdelabs.com.br/desafios-2026/",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
-      "content_hash": "c81ec0a76329e646e5935bb9e0b16434bb544df35605947762fcfb22e2e4735f",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "189f61462217441bccd490eaa2381407afe2f65266785ecbc0fa095b3a6d7db2",
       "documents": [
         {
           "url": "https://www.brdelabs.com.br/desafios-2026/",
           "final_url": "https://www.brdelabs.com.br/desafios-2026/",
-          "hash": "14ee7a1bdc6375673b29fff42b2bff38824a411c33bfd2c736451e5d1cf0210f",
+          "hash": "f9b0f9b63a13ab18f73ffc6889e0e2ebffa86a47382e4e42e4436b7aa22b0fd4",
           "title": "Desafios 2026 - BRDE Labs",
           "kind": "html",
           "dates": [
@@ -4481,6 +4750,262 @@
           "cnpj_contexts": [
             "Não tenho CNPJ, posso me inscrever?",
             "Não pode, é necessário ter CNPJ de no mínimo 6 meses"
+          ],
+          "review_required": true
+        },
+        {
+          "url": "https://www.brdelabs.com.br/wp-content/uploads/2026/07/REGULAMENTO-BRDE-LABS-2026-EDITAL-STARTUPS.pdf",
+          "final_url": "https://www.brdelabs.com.br/wp-content/uploads/2026/07/REGULAMENTO-BRDE-LABS-2026-EDITAL-STARTUPS.pdf",
+          "hash": "418837e0a3cfcb9c3ac862a6747f81289d267238ee1e1457118737090f980d2c",
+          "title": "REGULAMENTO-BRDE-LABS-2026-EDITAL-STARTUPS.pdf",
+          "kind": "pdf",
+          "dates": [
+            {
+              "date": "2026-05-01",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "eresse. \n \n2.2 SOBRE A EDIÇÃO 2026: \n2.2.1 A edição de 202 6, 7ª edição do programa , compreende o período de 01/05/2026 a \n31/05/2027.   \n2.2.2 Nove empresas do estado do Paraná atuam como parceiras para edição de 2026, que \ntem como temática principal “Empre",
+              "requires_review": true
+            },
+            {
+              "date": "2027-05-31",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "SOBRE A EDIÇÃO 2026: \n2.2.1 A edição de 202 6, 7ª edição do programa , compreende o período de 01/05/2026 a \n31/05/2027.   \n2.2.2 Nove empresas do estado do Paraná atuam como parceiras para edição de 2026, que \ntem como temática principal “Empresas do Futuro:",
+              "requires_review": true
+            },
+            {
+              "date": "2026-07-29",
+              "possible_roles": [
+                "inscricao"
+              ],
+              "context": ".1.1 As in scrições deverão ser feitas no site do programa  \nhttps://www.brdelabs.com.br/pr/ das 10h00 do dia 29/07/2026 às 23h59 do dia 31/08/2026. \n4.1.2 As startups deverão preencher o formulário de inscrição com: \na) Todas as informações textuais solicitad",
+              "requires_review": true
+            },
+            {
+              "date": "2026-08-31",
+              "possible_roles": [
+                "inscricao"
+              ],
+              "context": "ser feitas no site do programa  \nhttps://www.brdelabs.com.br/pr/ das 10h00 do dia 29/07/2026 às 23h59 do dia 31/08/2026. \n4.1.2 As startups deverão preencher o formulário de inscrição com: \na) Todas as informações textuais solicitadas; \nb) Link de vídeo case",
+              "requires_review": true
+            },
+            {
+              "date": "2026-10-07",
+              "possible_roles": [
+                "resultado"
+              ],
+              "context": "2 O resultado com as startups selecionadas para etapa de pitchs será divulgado no site \ndo Programa até o dia 07/10/2026, ficando as startups responsáveis por acompanhar a  \ndivulgação de resultados e eventual participação nas próximas fases. \n4.2.3 Nessa etap",
+              "requires_review": true
+            },
+            {
+              "date": "2026-10-19",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "o de até 5 \nminutos, acrescidos de 5 minutos para perguntas. \n4.3.3 A Rodada de Pitches se dará entre os dias 19/10/2026 e 23/10/2026, de acordo com \nagenda disponível por parte das empresas parceiras; \n4.3.4 A Comissão avaliará as equipes de acordo com os seg",
+              "requires_review": true
+            },
+            {
+              "date": "2026-10-23",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "inutos, acrescidos de 5 minutos para perguntas. \n4.3.3 A Rodada de Pitches se dará entre os dias 19/10/2026 e 23/10/2026, de acordo com \nagenda disponível por parte das empresas parceiras; \n4.3.4 A Comissão avaliará as equipes de acordo com os seguintes critér",
+              "requires_review": true
+            },
+            {
+              "date": "2026-11-10",
+              "possible_roles": [
+                "resultado"
+              ],
+              "context": "aliação final a \nstartup selecionada. \n4.3.8 A divulgação do resultado ocorrerá no site do Programa até o dia 10/11/2026, ficando \nas startups responsáveis por acompanhá-la. \n \n4.4 ETAPA 4 – IMERSÃO \n4.4.1 As startups escolhidas participarão de um processo de",
+              "requires_review": true
+            },
+            {
+              "date": "2026-11-23",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "o rmações necessárias para a startup se \naprofundar no desafio.   \n4.4.3 A Etapa de Imersão será realizada de 23/11/2026 a 04/12/2026. \n4.4.4 Após as reuniões de imersão, cada startup deverá apresentar uma proposta de POC \npara análise de viabilidade por parte",
+              "requires_review": true
+            },
+            {
+              "date": "2026-12-04",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "essárias para a startup se \naprofundar no desafio.   \n4.4.3 A Etapa de Imersão será realizada de 23/11/2026 a 04/12/2026. \n4.4.4 Após as reuniões de imersão, cada startup deverá apresentar uma proposta de POC \npara análise de viabilidade por parte da empresa;",
+              "requires_review": true
+            },
+            {
+              "date": "2027-01-29",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "os decorrentes entre startups e empresas parceiras. \n4.4.6 As startups serão notificadas da seleção até o dia 29/01/2027 e a selecionada poderá \nparticipar do Evento de Encerramento a ser realizado no dia 25/02/2027. \n \n4.5 PÓS PROGRAMA \n4.5.1 Para acompanhame",
+              "requires_review": true
+            },
+            {
+              "date": "2027-02-25",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "eção até o dia 29/01/2027 e a selecionada poderá \nparticipar do Evento de Encerramento a ser realizado no dia 25/02/2027. \n \n4.5 PÓS PROGRAMA \n4.5.1 Para acompanhamento das  POCs escolhidas , as empresas  contarão com apoio \nconsultivo de 4 meses (fevereiro, m",
+              "requires_review": true
+            },
+            {
+              "date": "2026-07-29",
+              "possible_roles": [
+                "inscricao"
+              ],
+              "context": "startup de cada projeto. \n \n \n5. CRONOGRAMA BRDE LABS PARANÁ 2026 \n \nPUBLICAÇÃO DO REGULAMENTO DO \nPROGRAMA \n29/07/2026 \n \nINSCRIÇÃO DAS STARTUPS 29/07/2026 até 31/08/2026 \nDIVULGAÇÃO APROVADAS PARA O PITCH AO \nVIVO  07/10/2026 \n6 \n \nRODADAS DE PITCH  19/10/2",
+              "requires_review": true
+            },
+            {
+              "date": "2026-07-29",
+              "possible_roles": [
+                "inscricao"
+              ],
+              "context": "NOGRAMA BRDE LABS PARANÁ 2026 \n \nPUBLICAÇÃO DO REGULAMENTO DO \nPROGRAMA \n29/07/2026 \n \nINSCRIÇÃO DAS STARTUPS 29/07/2026 até 31/08/2026 \nDIVULGAÇÃO APROVADAS PARA O PITCH AO \nVIVO  07/10/2026 \n6 \n \nRODADAS DE PITCH  19/10/2026 até 23/10/2026 \nDIVULGAÇÃO APROVA",
+              "requires_review": true
+            },
+            {
+              "date": "2026-08-31",
+              "possible_roles": [
+                "inscricao"
+              ],
+              "context": "BS PARANÁ 2026 \n \nPUBLICAÇÃO DO REGULAMENTO DO \nPROGRAMA \n29/07/2026 \n \nINSCRIÇÃO DAS STARTUPS 29/07/2026 até 31/08/2026 \nDIVULGAÇÃO APROVADAS PARA O PITCH AO \nVIVO  07/10/2026 \n6 \n \nRODADAS DE PITCH  19/10/2026 até 23/10/2026 \nDIVULGAÇÃO APROVADAS PARA IMERSÃ",
+              "requires_review": true
+            },
+            {
+              "date": "2026-10-07",
+              "possible_roles": [
+                "inscricao"
+              ],
+              "context": "29/07/2026 \n \nINSCRIÇÃO DAS STARTUPS 29/07/2026 até 31/08/2026 \nDIVULGAÇÃO APROVADAS PARA O PITCH AO \nVIVO  07/10/2026 \n6 \n \nRODADAS DE PITCH  19/10/2026 até 23/10/2026 \nDIVULGAÇÃO APROVADAS PARA IMERSÃO  10/11/2026 \nPERÍODO DE ASSINATURA DO ACORDO DE \nCONFI",
+              "requires_review": true
+            },
+            {
+              "date": "2026-10-19",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "UPS 29/07/2026 até 31/08/2026 \nDIVULGAÇÃO APROVADAS PARA O PITCH AO \nVIVO  07/10/2026 \n6 \n \nRODADAS DE PITCH  19/10/2026 até 23/10/2026 \nDIVULGAÇÃO APROVADAS PARA IMERSÃO  10/11/2026 \nPERÍODO DE ASSINATURA DO ACORDO DE \nCONFIDENCIALIDADE 13/11/2026 até 18/11/2",
+              "requires_review": true
+            },
+            {
+              "date": "2026-10-23",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "até 31/08/2026 \nDIVULGAÇÃO APROVADAS PARA O PITCH AO \nVIVO  07/10/2026 \n6 \n \nRODADAS DE PITCH  19/10/2026 até 23/10/2026 \nDIVULGAÇÃO APROVADAS PARA IMERSÃO  10/11/2026 \nPERÍODO DE ASSINATURA DO ACORDO DE \nCONFIDENCIALIDADE 13/11/2026 até 18/11/2026 \nIMERSÃO DA",
+              "requires_review": true
+            },
+            {
+              "date": "2026-11-10",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "CH AO \nVIVO  07/10/2026 \n6 \n \nRODADAS DE PITCH  19/10/2026 até 23/10/2026 \nDIVULGAÇÃO APROVADAS PARA IMERSÃO  10/11/2026 \nPERÍODO DE ASSINATURA DO ACORDO DE \nCONFIDENCIALIDADE 13/11/2026 até 18/11/2026 \nIMERSÃO DAS STARTUPS NAS EMPRESAS  23/11/2026 a 04/12/202",
+              "requires_review": true
+            },
+            {
+              "date": "2026-11-13",
+              "possible_roles": [
+                "inscricao"
+              ],
+              "context": "10/2026 \nDIVULGAÇÃO APROVADAS PARA IMERSÃO  10/11/2026 \nPERÍODO DE ASSINATURA DO ACORDO DE \nCONFIDENCIALIDADE 13/11/2026 até 18/11/2026 \nIMERSÃO DAS STARTUPS NAS EMPRESAS  23/11/2026 a 04/12/2026 \nSUBMISSÃO DAS PROPOSTAS DE POC  10/12/2026 \nRETORNO DAS EMPRESA",
+              "requires_review": true
+            },
+            {
+              "date": "2026-11-18",
+              "possible_roles": [
+                "inscricao"
+              ],
+              "context": "AÇÃO APROVADAS PARA IMERSÃO  10/11/2026 \nPERÍODO DE ASSINATURA DO ACORDO DE \nCONFIDENCIALIDADE 13/11/2026 até 18/11/2026 \nIMERSÃO DAS STARTUPS NAS EMPRESAS  23/11/2026 a 04/12/2026 \nSUBMISSÃO DAS PROPOSTAS DE POC  10/12/2026 \nRETORNO DAS EMPRESAS SOBRE AS \nPRO",
+              "requires_review": true
+            },
+            {
+              "date": "2026-11-23",
+              "possible_roles": [
+                "inscricao"
+              ],
+              "context": "O DE ASSINATURA DO ACORDO DE \nCONFIDENCIALIDADE 13/11/2026 até 18/11/2026 \nIMERSÃO DAS STARTUPS NAS EMPRESAS  23/11/2026 a 04/12/2026 \nSUBMISSÃO DAS PROPOSTAS DE POC  10/12/2026 \nRETORNO DAS EMPRESAS SOBRE AS \nPROPOSTAS DE POC  29/01/2027 \nEVENTO DE ENCERRAMEN",
+              "requires_review": true
+            },
+            {
+              "date": "2026-12-04",
+              "possible_roles": [
+                "inscricao"
+              ],
+              "context": "RA DO ACORDO DE \nCONFIDENCIALIDADE 13/11/2026 até 18/11/2026 \nIMERSÃO DAS STARTUPS NAS EMPRESAS  23/11/2026 a 04/12/2026 \nSUBMISSÃO DAS PROPOSTAS DE POC  10/12/2026 \nRETORNO DAS EMPRESAS SOBRE AS \nPROPOSTAS DE POC  29/01/2027 \nEVENTO DE ENCERRAMENTO DO PROGRAM",
+              "requires_review": true
+            },
+            {
+              "date": "2026-12-10",
+              "possible_roles": [
+                "inscricao"
+              ],
+              "context": "6 até 18/11/2026 \nIMERSÃO DAS STARTUPS NAS EMPRESAS  23/11/2026 a 04/12/2026 \nSUBMISSÃO DAS PROPOSTAS DE POC  10/12/2026 \nRETORNO DAS EMPRESAS SOBRE AS \nPROPOSTAS DE POC  29/01/2027 \nEVENTO DE ENCERRAMENTO DO PROGRAMA EM \nCURITIBA/PR  25/02/2027 \nPÓS PROGRAMA",
+              "requires_review": true
+            },
+            {
+              "date": "2027-01-29",
+              "possible_roles": [
+                "inscricao"
+              ],
+              "context": "26 a 04/12/2026 \nSUBMISSÃO DAS PROPOSTAS DE POC  10/12/2026 \nRETORNO DAS EMPRESAS SOBRE AS \nPROPOSTAS DE POC  29/01/2027 \nEVENTO DE ENCERRAMENTO DO PROGRAMA EM \nCURITIBA/PR  25/02/2027 \nPÓS PROGRAMA CONSULTIVO COM A HOTMILK \nPUCPR 01/02/2027 até 31/05/2027",
+              "requires_review": true
+            },
+            {
+              "date": "2027-02-25",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "ORNO DAS EMPRESAS SOBRE AS \nPROPOSTAS DE POC  29/01/2027 \nEVENTO DE ENCERRAMENTO DO PROGRAMA EM \nCURITIBA/PR  25/02/2027 \nPÓS PROGRAMA CONSULTIVO COM A HOTMILK \nPUCPR 01/02/2027 até 31/05/2027 \n \n6. ACORDO DE CONFIDENCIALIDADE \n6.1 As startups selecionadas par",
+              "requires_review": true
+            },
+            {
+              "date": "2027-02-01",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "EVENTO DE ENCERRAMENTO DO PROGRAMA EM \nCURITIBA/PR  25/02/2027 \nPÓS PROGRAMA CONSULTIVO COM A HOTMILK \nPUCPR 01/02/2027 até 31/05/2027 \n \n6. ACORDO DE CONFIDENCIALIDADE \n6.1 As startups selecionadas para etapa de imersão e as empresas parceiras do Programa \nd",
+              "requires_review": true
+            },
+            {
+              "date": "2027-05-31",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "RRAMENTO DO PROGRAMA EM \nCURITIBA/PR  25/02/2027 \nPÓS PROGRAMA CONSULTIVO COM A HOTMILK \nPUCPR 01/02/2027 até 31/05/2027 \n \n6. ACORDO DE CONFIDENCIALIDADE \n6.1 As startups selecionadas para etapa de imersão e as empresas parceiras do Programa \ndeverão assinar",
+              "requires_review": true
+            },
+            {
+              "date": "2026-11-13",
+              "possible_roles": [
+                "inscricao"
+              ],
+              "context": "ialidade as startups selecionadas deverão \napresentar para as empresas parceiras, impreterivelmente até o dia 13/11/2026 os \ndocumentos e informações abaixo listados: \na) Contrato Social atualizado; \nb) Comprovante de Inscrição e de Situação Cadastral perante",
+              "requires_review": true
+            },
+            {
+              "date": "2026-11-18",
+              "possible_roles": [
+                "nao_identificado"
+              ],
+              "context": "s acordos \nde sigilo e confidencialidade para assinatura e deverão devolvê-lo devidamente assinado até \no dia 18/11/2026. Serão consideradas desistentes as startups que não enviarem os \ndocumentos e informações indicados acima  ou que não assinarem o acordo de",
+              "requires_review": true
+            }
+          ],
+          "cnpj_contexts": [
+            "financeira pública de fomento da região sul, cadastrada no CNPJ/MF sob n.º ",
+            "a) Empresas Nascentes ou Spin-Offs – startups - com no mínimo 06 (seis) meses de CNPJ, ",
+            "b) Comprovante de Inscrição e de Situação Cadastral perante o CNPJ; ",
+            "social, data de nascimento, número de cadastro de pessoa física (CPF), número do registro "
           ],
           "review_required": true
         }
@@ -4541,15 +5066,15 @@
       "id": "finep",
       "name": "Finep — Chamadas públicas",
       "url": "http://www.finep.gov.br/chamadas-publicas",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
-      "content_hash": "7a1f9ad56c195e1112e74775da35294f34219b3aff60016130960e41930e7d38",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "0e98fede6aee0fb417efec24eda967057eacc346e250b6a61bc8c41fa7bb60ee",
       "documents": [
         {
           "url": "http://www.finep.gov.br/chamadas-publicas",
           "final_url": "https://www.finep.gov.br/oportunidades",
-          "hash": "a52a0ccd8507d2b474bb3922829c882aedace96c0a08266140a430f904b98ff9",
+          "hash": "b9d808a22381b316034bbbd26dcac865fcb096b71afb5f8fdc684789638c57da",
           "title": "Oportunidades - Finep Home Site Finep Ir para o Twitter / X Ir para o Youtube Ir para o Facebook Ir para o Instagram Ir para o Linkedin",
           "kind": "html",
           "dates": [],
@@ -4564,15 +5089,15 @@
       "id": "sebraegamesportal",
       "name": "Agência Sebrae — Games",
       "url": "https://agenciasebrae.com.br/tag/sebrae-games/",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
-      "content_hash": "766bf7d8ce83f7aad04dbfa5ff4ff2952cab2418c6a73125f0df4f36f95bafcb",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "dd5935845bcb1f67706c06b3611690b9d17ac381f438b1470cb6d0188a2abee9",
       "documents": [
         {
           "url": "https://agenciasebrae.com.br/tag/sebrae-games/",
           "final_url": "https://agenciasebrae.com.br/tag/sebrae-games/",
-          "hash": "a10422cba0fde5efb8bc856876e5afe08831164787f84631c8de4144de8189e0",
+          "hash": "3be6dc8729929bb97fd384c822f4f29e47928840323e9971e5957cf90f7f466b",
           "title": "Sebrae Games | ASN Nacional - Agência Sebrae de Notícias",
           "kind": "html",
           "dates": [],
@@ -4612,15 +5137,15 @@
       "id": "adesampa",
       "name": "ADE Sampa / Hub Sampa Games",
       "url": "https://adesampa.com.br/hubsampagames/",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
-      "content_hash": "136c92e1f7e582ea6e9fd27aa664645f79ce716252604108a8ac0767460c13be",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "066c7935ea36a18b903c3dd457469714da35e597c4fb96d4ad73c08a56d974a2",
       "documents": [
         {
           "url": "https://adesampa.com.br/hubsampagames/",
           "final_url": "https://adesampa.com.br/hubsampagames/",
-          "hash": "b9bf3dcd78026e4fe2f1bc9190c93037c25d86a684342b2e0831d4bc38a7477a",
+          "hash": "4eb6ba010ef9dba32bcc5cfa19701ccbe7c23be7313e71da19ae7cf425e391a9",
           "title": "Hub Sampa Games",
           "kind": "html",
           "dates": [],
@@ -4648,15 +5173,15 @@
       "id": "gamefchange",
       "name": "Games for Change — Oportunidades",
       "url": "https://www.gamesforchange.org/",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
-      "content_hash": "2ca5afd10db7c30c8e4236aa6e405094e88c693788f0cff20442bc73164bfa7d",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "6d619dba6c6f5015957bf9884a4cc757c94c630a3ba9b086e6810fb1ed4000a0",
       "documents": [
         {
           "url": "https://www.gamesforchange.org/",
           "final_url": "https://www.gamesforchange.org/",
-          "hash": "3f7621ca0de0d37200d9541e9f97b6eb27083bf19176f5d197da303329caa4fe",
+          "hash": "03522f1af39f455782ab0621b34bdf9912fa087d2ab902db96e5c08fcf16b431",
           "title": "Home - Games for Change",
           "kind": "html",
           "dates": [
@@ -4725,15 +5250,15 @@
       "id": "itchjams",
       "name": "itch.io — Próximos game jams",
       "url": "https://itch.io/jams/upcoming",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
-      "content_hash": "423bdd3c58e471d6b5ee48468553ee2f9727dff413a966d7437be94ba4059719",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "36fe826b062b31311eecce6dffcb4d0ac8dfc5815cf5b416de704cae8e43d52b",
       "documents": [
         {
           "url": "https://itch.io/jams/upcoming",
           "final_url": "https://itch.io/jams/upcoming",
-          "hash": "76a7482739d50e9eeb5f75ec99954222c3c2f1e062dbaf5d89579de4439a1f1c",
+          "hash": "612775b5e344b78a1260c7d9ab1b4ee147d31afd4fa58d1efe7192f24705e9d4",
           "title": "Upcoming Game Jams - itch.io",
           "kind": "html",
           "dates": [],
@@ -4983,14 +5508,14 @@
           "kind": "candidate_or_listing"
         },
         {
-          "url": "https://itch.io/jam/grassroots-game-jam-2026",
-          "label": "Grassroots Game Jam 2026",
+          "url": "https://itch.io/jam/finishyourgamejam2026",
+          "label": "/jam/finishyourgamejam2026",
           "requires_review": true,
           "kind": "candidate_or_listing"
         },
         {
-          "url": "https://itch.io/jam/finishyourgamejam2026",
-          "label": "/jam/finishyourgamejam2026",
+          "url": "https://itch.io/jam/grassroots-game-jam-2026",
+          "label": "Grassroots Game Jam 2026",
           "requires_review": true,
           "kind": "candidate_or_listing"
         },
@@ -5061,6 +5586,12 @@
           "kind": "candidate_or_listing"
         },
         {
+          "url": "https://itch.io/jam/super-free-ai-game-jam-2",
+          "label": "/jam/super-free-ai-game-jam-2",
+          "requires_review": true,
+          "kind": "candidate_or_listing"
+        },
+        {
           "url": "https://itch.io/jam/z4597annualgamejam2026",
           "label": "🎮⚡ Z4597 ANNUAL GAME JAM 2027⚡🎮",
           "requires_review": true,
@@ -5069,12 +5600,6 @@
         {
           "url": "https://itch.io/jam/z4597annualgamejam2026/results",
           "label": "View results",
-          "requires_review": true,
-          "kind": "candidate_or_listing"
-        },
-        {
-          "url": "https://itch.io/jam/super-free-ai-game-jam-2",
-          "label": "/jam/super-free-ai-game-jam-2",
           "requires_review": true,
           "kind": "candidate_or_listing"
         },
@@ -5109,15 +5634,15 @@
       "id": "medialearning",
       "name": "Media & Learning — Concursos",
       "url": "https://media-and-learning.eu/type/competitions/serious-game-award-competition",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
       "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
-      "content_hash": "85d488811ffd788fd0ea150926f6ff64fa42ab07cf01cc905d19f9ee726db682",
+      "last_success": "2026-11-06T11:21:11-03:00",
+      "content_hash": "5e928e1f98a18d81427a80126b478fbe4e1cd645b7f438a33c03dfbfeff7d855",
       "documents": [
         {
           "url": "https://media-and-learning.eu/type/competitions/serious-game-award-competition",
           "final_url": "https://media-and-learning.eu/serious-game-award-competition/",
-          "hash": "50a4dc03d75e480eb3fc14f8d73ffd0014e0372ee091d5c02ef98863c6bec42f",
+          "hash": "86b3b07cb8c2e9030543f53cf82587d7eb1d467526622a57d44c63bec31f86ee",
           "title": "Serious Game Award Competition | Media & Learning Association",
           "kind": "html",
           "dates": [],
@@ -5132,9 +5657,9 @@
       "id": "fapesc",
       "name": "FAPESC",
       "url": "https://fapesc.sc.gov.br/",
-      "last_attempt": "2026-11-06T10:33:23-03:00",
-      "status": "ok",
-      "last_success": "2026-11-06T10:33:23-03:00",
+      "last_attempt": "2026-11-06T11:21:11-03:00",
+      "status": "unchanged",
+      "last_success": "2026-11-06T11:21:11-03:00",
       "content_hash": "4f6da3ba99b6db42b100340820ed27cb54c6a6a66b7a4a3e48c85f4a2b41f4ae",
       "documents": [
         {
@@ -5206,9 +5731,9 @@
       "error": null
     }
   },
-  "last_run": "2026-11-06T10:33:23-03:00",
+  "last_run": "2026-11-06T11:21:11-03:00",
   "discoveries": {
-    "lastRun": "2026-11-06T10:38:32-03:00",
+    "lastRun": "2026-11-06T11:22:42-03:00",
     "since": "2026-09-07",
     "terms": [
       "\"jogos digitais\"",
@@ -5307,6 +5832,18 @@
         "requires_review": true
       },
       {
+        "url": "https://data.queridodiario.ok.org.br/4114005/2026-09-29/0ae8257a81fe6b4a40675162f753b84b165487ac.pdf",
+        "source": "Querido Diário",
+        "title": "Diário oficial de Mamborê",
+        "excerpt": "Licitação 317/2026, de 29/09/2026 AVISO DE LICITAÇÃO PREGÃO ELETRÔNICO N° 101/2026 AVISO DE LICITAÇÃO PROCESSO ADMINISTRATIVO Nº 249/2026 PREGÃO ELETRÔNICO N° 101/2026 CONTRATANTE: Município de Mamborê/Pr OBJETO: AQUISIÇÃO DE JOGOS EDUCATIVOS DESTINADO À SECRETARIA MUNICIPAL DE EDUCAÇÃO DE MAMBORÊ PARA EQUIPE MULTIPROF",
+        "org": "Mamborê",
+        "uf": "PR",
+        "date": "2026-09-29",
+        "dateLabel": "Publicado em",
+        "term": "\"jogos educativos\"",
+        "requires_review": true
+      },
+      {
         "url": "https://data.queridodiario.ok.org.br/3522505/2026-09-25/ba58e9b2952d6b9ae01c02f6b059ae5e26bad3da.pdf",
         "source": "Querido Diário",
         "title": "Diário oficial de Itapevi",
@@ -5343,11 +5880,6 @@
         "requires_review": true
       }
     ],
-    "errors": [
-      "PNCP \"jogo educativo\": [WinError 10054] An existing connection was forcibly closed by the remote host",
-      "Querido Diário \"jogos educativos\": HTTP Error 503: Service Unavailable",
-      "Querido Diário \"serious game\": HTTP Error 503: Service Unavailable",
-      "Querido Diário \"jogos sérios\": HTTP Error 503: Service Unavailable"
-    ]
+    "errors": []
   }
 }

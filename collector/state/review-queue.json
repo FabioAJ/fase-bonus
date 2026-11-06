@@ -1,5 +1,185 @@
 [
   {
+    "candidate_id": "6e51ebd0169f188a",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/en-us/games/",
+    "label": "Game Dev",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "2c938eca0b20031d",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/en-us/games/solutions/distribution/",
+    "label": "Distribution",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "70fe5c9ee928d239",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/games/publish",
+    "label": "ID@XBOX Publishing",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "fbb4de8024038e60",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/en-us/games/products/project-xcloud/",
+    "label": "XBOX Cloud Gaming",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "05a2367ff394ea5e",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/en-us/games/products/",
+    "label": "Products",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "ca59d5cdc85cdaf5",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/en-us/games/resources/",
+    "label": "Resources",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "e8e6e3c8b55ae376",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/en-us/games/events/gdc/2026/",
+    "label": "GDC 2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "a64917c742917edf",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/en-us/games/events/gdc/2025/",
+    "label": "GDC 2025",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "c9ff0327ebd09a43",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/en-us/games/events/devdays/en-dev-days-2024/",
+    "label": "Xbox Dev Days 2024 (US)",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "df2ee37e2c6acfa3",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/en-us/games/events/devdays/jp-dev-days-2024/",
+    "label": "Xbox Dev Days 2024 (JP)",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "c1e450e32c658b61",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/en-us/games/events/gdc/2024",
+    "label": "GDC 2024",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "b1c34ec268386c13",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/en-us/games/events/gdc/2023",
+    "label": "GDC 2023",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "1253b85495b12fc7",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/en-us/games/events/xfestforeveryone/",
+    "label": "Xfest for Everyone 2022",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "cf43f0e7abbaab89",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/en-us/games/articles/",
+    "label": "Articles",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "facd495ed5bb4d64",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/en-us/games/community/",
+    "label": "Community",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "cecd07c5bb0c2b14",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/games/articles/2023/08/accelerate-your-game-with-the-id-at-xbox-developer-acceleration-program/",
+    "label": "original announcement blog",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "66fcd691dc019fe0",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/games/publish/",
+    "label": "ID@Xbox main page",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "c61376f69344764a",
+    "source_ids": [
+      "xboxdap"
+    ],
+    "url": "https://developer.microsoft.com/en-us/games/locale",
+    "label": "English (United States)",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
     "candidate_id": "f3248938c29ac7f9",
     "source_ids": [
       "bndes"
@@ -100,21 +280,61 @@
     "kind": "candidate_or_listing"
   },
   {
-    "candidate_id": "b80ece87ab7dad9c",
+    "candidate_id": "40c6c5f39f493e35",
     "source_ids": [
       "bhtec"
     ],
-    "url": "https://bhtec.org.br/2024/09/04/transicao-energetica-reforca-vanguarda-brasileira-e-oportunidades-revolucao-na-propria-economia/",
-    "label": "Transição energética reforça vanguarda brasileira e oportunidades: ‘Revolução na própria economia’",
+    "url": "https://bhtec.org.br/2023/11/09/primeiro-programa-de-pos-aceleracao-de-minas-conexoes-bh-tec-chega-ao-fim-de-olho-no-futuro/",
+    "label": "Lançado em 2023",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
   {
-    "candidate_id": "45094ecae2792ded",
+    "candidate_id": "d3735a13d3f74d0b",
+    "source_ids": [
+      "bhtec"
+    ],
+    "url": "https://bhtec.org.br/2026/09/16/auditoria-independente-reforca-excelencia-do-bh-tec-em-aceleracao-de-negocios-e-inovacao/",
+    "label": "auditoria independente",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "523a85342f19a5dc",
+    "source_ids": [
+      "bhtec"
+    ],
+    "url": "https://bhtec.org.br/2024/10/31/tcc-lab-amplia-horizontes-e-cria-oportunidades-para-estudantes-em-reta-final-de-curso/",
+    "label": "TCC Lab amplia horizontes e cria oportunidades para estudantes em reta final de curso",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "49b267a23d09c417",
+    "source_ids": [
+      "aevo"
+    ],
+    "url": "https://aevo.com.br/consultoria-cultura-e-engajamento/",
+    "label": "Cultura e Engajamento",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "59d2f2bb785b7feb",
+    "source_ids": [
+      "aevo"
+    ],
+    "url": "https://aevo.com.br/premio-de-intraempreendedorismo/",
+    "label": "Prêmio",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "de3bf6398f4d89e9",
     "source_ids": [
       "jornada"
     ],
-    "url": "https://sementenegocios.com.br/sebraeinovacaoaberta/wp-content/uploads/2026/11/LISTA-DE-SELECIONADAS-Sebrae-Conexoes-Corporativas-Jornada-de-Inovacao-Aberta-.pdf",
+    "url": "https://sementenegocios.com.br/sebraeinovacaoaberta/wp-content/uploads/2026/11/LISTA-DE-SELECIONADAS-Sebrae-Conexoes-Corporativas-Jornada-de-Inovacao-Aberta.pdf",
     "label": "As inscrições foram encerradas. Confira a lista de soluções aprovadas.",
     "requires_review": true,
     "kind": "document"
@@ -130,12 +350,222 @@
     "kind": "document"
   },
   {
+    "candidate_id": "91ac63551011ddb0",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/innovativecities",
+    "label": "/br-pt/challenges/innovativecities",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "5b9d55b99ba93f95",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/informationsociety",
+    "label": "/br-pt/challenges/informationsociety",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "53db60fdc6356d88",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/healthcareandwellbeing",
+    "label": "/br-pt/challenges/healthcareandwellbeing",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "464539a98f28c3dc",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/futureeducation",
+    "label": "/br-pt/challenges/futureeducation",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "8bf62e59fa94a9a6",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/industryofthefuture",
+    "label": "/br-pt/challenges/industryofthefuture",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "79fe3119f4e09f32",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/energy",
+    "label": "/br-pt/challenges/energy",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "ed76f8895e8ecc62",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/electricenergy",
+    "label": "/br-pt/challenges/electricenergy",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "17c9784dcc6fbe97",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/pharmaceuticals",
+    "label": "/br-pt/challenges/pharmaceuticals",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "1ff303417fee4243",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/agribusiness",
+    "label": "/br-pt/challenges/agribusiness",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "69954ae2b26d3b42",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/wearables",
+    "label": "/br-pt/challenges/wearables",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "4ce3434e6b501f60",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/publicservice",
+    "label": "/br-pt/challenges/publicservice",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "2f84978f5a4500a5",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/smallbusiness",
+    "label": "/br-pt/challenges/smallbusiness",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "31e14cb4d7297194",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/retail",
+    "label": "/br-pt/challenges/retail",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
     "candidate_id": "6fc25e6e2faec155",
     "source_ids": [
       "open100"
     ],
     "url": "https://www.openstartups.net/br-pt/challenges/financial",
     "label": "/br-pt/challenges/financial",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "2893400220180c50",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/construction",
+    "label": "/br-pt/challenges/construction",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "398931707610e7bc",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/food",
+    "label": "/br-pt/challenges/food",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "d3146d9ae2196f0a",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/sport",
+    "label": "/br-pt/challenges/sport",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "5080c4012b1ec8cf",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/tourism",
+    "label": "/br-pt/challenges/tourism",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "cc42e65d7f6aea4c",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/fashion",
+    "label": "/br-pt/challenges/fashion",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "938cc2e7dd9ff19c",
+    "source_ids": [
+      "open100"
+    ],
+    "url": "https://www.openstartups.net/br-pt/challenges/platforms",
+    "label": "/br-pt/challenges/platforms",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "5f51f3bf7e299d08",
+    "source_ids": [
+      "petrobras"
+    ],
+    "url": "https://petrobras.com.br/quem-somos/concursos",
+    "label": "Concursos",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "749bf39b31b789a5",
+    "source_ids": [
+      "secultgo"
+    ],
+    "url": "https://goias.gov.br/cultura/termos-de-fomento/",
+    "label": "Termos de Fomento",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -180,12 +610,32 @@
     "kind": "candidate_or_listing"
   },
   {
+    "candidate_id": "73f41b9e362b3ff9",
+    "source_ids": [
+      "secultmg"
+    ],
+    "url": "https://www.secult.mg.gov.br/documentos/premios",
+    "label": "Prêmios",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
     "candidate_id": "0a514dec50d88548",
     "source_ids": [
       "secultmg"
     ],
     "url": "https://www.secult.mg.gov.br/documentos/plataforma-de-inscricoes-lab",
     "label": "Plataforma de Inscrições da LAB",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "e96d60db7afd35a8",
+    "source_ids": [
+      "secultmg"
+    ],
+    "url": "https://www.secult.mg.gov.br/documentos/plataformas/plataforma-digital-fomento-e-incentivo-a-cultura",
+    "label": "Plataforma Digital Fomento e Incentivo à Cultura",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -216,6 +666,16 @@
     ],
     "url": "https://www.secult.mg.gov.br/turismo/edital-reviva-turismo",
     "label": "Reviva Turismo",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "d6d63aaa16d349db",
+    "source_ids": [
+      "secultmg"
+    ],
+    "url": "https://www.secult.mg.gov.br/documentos-administrativos/termos-de-fomento",
+    "label": "Termos de Fomento",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -256,6 +716,106 @@
     ],
     "url": "https://www.secult.mg.gov.br/noticias-artigos/8872-dia-das-criancas-reune-programacao-especial-em-espacos-culturais-e-parques-de-minas",
     "label": "Notícias    Dia das Crianças reúne programação especial em espaços culturais e parques de Minas     10 Outubro 2026   Equipamentos culturais e parques estaduais oferecem diversas a",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "163032dbf06113af",
+    "source_ids": [
+      "senai"
+    ],
+    "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/smart-factory-finep-senai/",
+    "label": "Smart Factory- FINEP (SENAI) 2026   Resultado - Chamada | Smart Factory- FINEP (SENAI) - 1ª Edição - 2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "e064558dca76971e",
+    "source_ids": [
+      "senai"
+    ],
+    "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/rota-2030-hands-aprendendo-fazendo/",
+    "label": "MOVER Hands-on: Aprendendo Fazendo (SENAI) 2026   Hands-On | Resultado chamada 09 - Final (3º Resultado)",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "bf0fec4942bb297e",
+    "source_ids": [
+      "senai"
+    ],
+    "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/chamada-regional-senai/",
+    "label": "Chamada Regional (SENAI)   [SENAI/RJ] CONCURSO DE INOVAÇÃO PARA SOLUÇÕES EM EFICIÊNCIA ENERGÉTICA - (SENAI RJ/ENBPAR) - CHAMADA 3",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "9018cf586a53e041",
+    "source_ids": [
+      "senai"
+    ],
+    "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/agendatech/",
+    "label": "Agenda.Tech (SENAI)   CHAMADA: AGENDA.TECH MAPEAMENTO DE OPORTUNIDADES E TECNOLOGIAS PARA PARA POWERSHORING NO BRASIL - 2025",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "0ecf7a3ec5088264",
+    "source_ids": [
+      "senai"
+    ],
+    "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/categoria-chamada-tecnica-sesi-senai-evolucao-da-e/",
+    "label": "Categoria   Categoria: Chamada  Técnica SESI SENAI – Evolução da Estação SESI Saúde Conectada.",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "5d79b63406d4be85",
+    "source_ids": [
+      "senai"
+    ],
+    "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/empreendedorismo-industrial-desafio-instituicao/",
+    "label": "Empreendedorismo Industrial - Desafio Instituição Âncora (SENAI)  Desafios de grandes empresas para criação de soluções por startups",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "4728c3085ff03a6f",
+    "source_ids": [
+      "senai"
+    ],
+    "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/saude-conectada-sesi/",
+    "label": "Saúde Conectada (SESI)  Apoiar e financiar o desenvolvimento de soluções inovadoras para operacionalização das linhas de cuidados coordenadas.",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "3e62de064caa0ab4",
+    "source_ids": [
+      "senai"
+    ],
+    "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/estudos-e-pesquisas-em-saude-e-seguranca-na-indust/",
+    "label": "Estudos  e Pesquisas em Saúde e Segurança na Indústria (SESI)  Impulsionar e financiar o desenvolvimento de estudos e pesquisas em Saúde Ocupacional Conectada",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "9080e95e8b91ff7b",
+    "source_ids": [
+      "senai"
+    ],
+    "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/linhas-de-cuidado-na-saude-suplementar-sesi-e-ans-/",
+    "label": "Linhas de Cuidado na Saúde Suplementar SESI e ANS (SESI)  Apoiar e financiar projetos no contexto da operacionalização de linhas de cuidados na saúde suplementar.",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "5bf461b21836c901",
+    "source_ids": [
+      "senai"
+    ],
+    "url": "https://www.portaldaindustria.com.br/canais/plataforma-inovacao-para-industria/categoria/inova-mes/",
+    "label": "INOVA MES (SESI)  Apoiar e financiar projetos que potencialize o atendimento à missão, à proposta de valor, aos objetivos e aos eixos de atuação do MES.",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -530,6 +1090,26 @@
     "kind": "candidate_or_listing"
   },
   {
+    "candidate_id": "cee0eb959effa82c",
+    "source_ids": [
+      "globalvoices"
+    ],
+    "url": "https://www.gamesforchange.org/global-voices-challenge-2026_guidelines/",
+    "label": "Challenge Guidelines",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "206a8847486ab771",
+    "source_ids": [
+      "globalvoices"
+    ],
+    "url": "https://www.gamesforchange.org/cdn-cgi/l/email-protection",
+    "label": "challenges @ gamesforchange.org",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
     "candidate_id": "2a0d8458c45898d5",
     "source_ids": [
       "bghresidencia"
@@ -556,6 +1136,16 @@
     ],
     "url": "https://agenciadenoticias.bndes.gov.br/noticia/BNDES-divulga-resultado-da-fase-eliminatoria-do-edital-Restaura-Rio-Doce-iniciativa-de-R$-61875-milhoes/",
     "label": "Socioambiental  BNDES divulga resultado da fase eliminatória do edital Restaura Rio Doce, iniciativa de R$ 618,75 milhões  3 min",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "cb528fbc474e50bd",
+    "source_ids": [
+      "federalgames"
+    ],
+    "url": "https://www.gov.br/cultura/pt-br/assuntos/noticias/presidente-lula-regulamenta-marco-legal-dos-jogos-eletronicos-e-anuncia-medidas-de-apoio-ao-setor",
+    "label": "Compartilhe por LinkedIn",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -730,6 +1320,16 @@
     "kind": "candidate_or_listing"
   },
   {
+    "candidate_id": "9a29d955e081d5ea",
+    "source_ids": [
+      "petrobrascultural"
+    ],
+    "url": "https://petrobras.com.br/pt/quem-somos/concursos",
+    "label": "Concursos",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
     "candidate_id": "fe2d256fe0419606",
     "source_ids": [
       "petrobrascultural"
@@ -796,6 +1396,26 @@
     ],
     "url": "https://fapesp.br/2185/chamadas-de-propostas-2026",
     "label": "Chamadas de Propostas",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "66147a29908e0cfa",
+    "source_ids": [
+      "pipeeducacao"
+    ],
+    "url": "https://fapesp.br/18434/bolsas/tt",
+    "label": "fapesp.br/bolsas/tt",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "8995f8d2bc323e58",
+    "source_ids": [
+      "pipeeducacao"
+    ],
+    "url": "https://fapesp.br/valores/bolsasnopais",
+    "label": "fapesp.br/valores/bolsasnopais;",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -988,6 +1608,46 @@
     "label": "Leia o edital",
     "requires_review": true,
     "kind": "document"
+  },
+  {
+    "candidate_id": "e7b1de64d048ea7b",
+    "source_ids": [
+      "cybersec2026"
+    ],
+    "url": "https://cybersecgames.com/pages/the-cybersec-game-challenge-winners-announced",
+    "label": "Meet the 2025 winners!",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "ccfaa644db462fb6",
+    "source_ids": [
+      "cybersec2026"
+    ],
+    "url": "https://cybersecgames.com/pages/game-competition-registration",
+    "label": "Enter the challenge",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "402c67a616bb0b85",
+    "source_ids": [
+      "cybersec2026"
+    ],
+    "url": "https://cybersecgames.com/blogs/news/why-we-should-play-to-stay-safe-the-power-of-physical-games-in-cybersecurity",
+    "label": "Hands-on Security  Addressing security through physical games",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "4d9df1d39ce6fd0c",
+    "source_ids": [
+      "cybersec2026"
+    ],
+    "url": "https://cybersecgames.com/pages/custom-game-production",
+    "label": "Fully Custom Games  For your unique cybersecurity challenges",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
   },
   {
     "candidate_id": "76f37daa53f1f10a",
@@ -2397,22 +3057,22 @@
     "kind": "candidate_or_listing"
   },
   {
-    "candidate_id": "d3c7af56e7ebf43f",
-    "source_ids": [
-      "itchjams"
-    ],
-    "url": "https://itch.io/jam/grassroots-game-jam-2026",
-    "label": "Grassroots Game Jam 2026",
-    "requires_review": true,
-    "kind": "candidate_or_listing"
-  },
-  {
     "candidate_id": "b19cca10045cc43f",
     "source_ids": [
       "itchjams"
     ],
     "url": "https://itch.io/jam/finishyourgamejam2026",
     "label": "/jam/finishyourgamejam2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "d3c7af56e7ebf43f",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/grassroots-game-jam-2026",
+    "label": "Grassroots Game Jam 2026",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -2527,6 +3187,16 @@
     "kind": "candidate_or_listing"
   },
   {
+    "candidate_id": "37dbcfb85ac9add5",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/super-free-ai-game-jam-2",
+    "label": "/jam/super-free-ai-game-jam-2",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
     "candidate_id": "f95c3d66f5926534",
     "source_ids": [
       "itchjams"
@@ -2543,16 +3213,6 @@
     ],
     "url": "https://itch.io/jam/z4597annualgamejam2026/results",
     "label": "View results",
-    "requires_review": true,
-    "kind": "candidate_or_listing"
-  },
-  {
-    "candidate_id": "37dbcfb85ac9add5",
-    "source_ids": [
-      "itchjams"
-    ],
-    "url": "https://itch.io/jam/super-free-ai-game-jam-2",
-    "label": "/jam/super-free-ai-game-jam-2",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },

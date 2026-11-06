@@ -252,7 +252,7 @@ window.APPLICATIONS = {
       "poc"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T17:18:28-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "opencorp": {
     "category": "watch",
@@ -316,7 +316,7 @@ window.APPLICATIONS = {
       "poc"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T17:18:28-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "arcade": {
     "category": "closed",
@@ -445,8 +445,8 @@ window.APPLICATIONS = {
     "modality": [
       "aceleracao"
     ],
-    "collectionStatus": "unchanged",
-    "lastFetched": "2026-11-05T17:22:53-03:00"
+    "collectionStatus": "ok",
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "explorer": {
     "category": "current",
@@ -510,7 +510,7 @@ window.APPLICATIONS = {
       "formacao"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T17:18:28-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "indiefund": {
     "category": "current",
@@ -575,7 +575,7 @@ window.APPLICATIONS = {
       "receita"
     ],
     "collectionStatus": "unchanged",
-    "lastFetched": "2026-11-05T17:22:53-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "xboxdap": {
     "category": "current",
@@ -640,7 +640,7 @@ window.APPLICATIONS = {
       "financiamento"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T17:18:28-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "wings": {
     "category": "current",
@@ -705,7 +705,7 @@ window.APPLICATIONS = {
       "receita"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T17:18:28-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "gamevestor": {
     "category": "current",
@@ -770,7 +770,7 @@ window.APPLICATIONS = {
       "receita"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T17:18:28-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "bhtec": {
     "category": "current",
@@ -836,7 +836,7 @@ window.APPLICATIONS = {
       "aceleracao"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T17:18:28-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "centelhamg": {
     "category": "watch",
@@ -903,7 +903,7 @@ window.APPLICATIONS = {
       "subvencao"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T17:18:28-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "centelhago": {
     "category": "watch",
@@ -969,8 +969,8 @@ window.APPLICATIONS = {
     "modality": [
       "subvencao"
     ],
-    "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T17:18:28-03:00"
+    "collectionStatus": "unchanged",
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "marica": {
     "category": "watch",
@@ -1037,7 +1037,7 @@ window.APPLICATIONS = {
       "fomento"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T17:18:28-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "globalvoices": {
     "category": "current",
@@ -1102,7 +1102,7 @@ window.APPLICATIONS = {
       "premio"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T18:04:54-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "mincintercambio": {
     "category": "current",
@@ -1166,8 +1166,8 @@ window.APPLICATIONS = {
     "modality": [
       "auxilio"
     ],
-    "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T18:04:54-03:00"
+    "collectionStatus": "unchanged",
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "cepedi": {
     "category": "current",
@@ -1295,8 +1295,8 @@ window.APPLICATIONS = {
     "modality": [
       "estrutura"
     ],
-    "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T18:04:54-03:00"
+    "collectionStatus": "unchanged",
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "centecintercambio": {
     "category": "watch",
@@ -1360,8 +1360,8 @@ window.APPLICATIONS = {
     "modality": [
       "auxilio"
     ],
-    "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T18:04:01-03:00"
+    "collectionStatus": "unchanged",
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "bndesdiversidade": {
     "category": "watch",
@@ -1420,8 +1420,8 @@ window.APPLICATIONS = {
     "modality": [
       "matchfunding"
     ],
-    "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T18:04:01-03:00"
+    "collectionStatus": "unchanged",
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "rioinvest": {
     "category": "watch",
@@ -1483,7 +1483,7 @@ window.APPLICATIONS = {
       "investimento"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T18:04:01-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "federalgames": {
     "category": "watch",
@@ -1543,8 +1543,8 @@ window.APPLICATIONS = {
       "fomento",
       "incentivo"
     ],
-    "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T18:04:01-03:00"
+    "collectionStatus": "unchanged",
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "proacgames": {
     "category": "closed",
@@ -1611,7 +1611,7 @@ window.APPLICATIONS = {
       "fomento"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T18:04:01-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "pnabrn": {
     "category": "closed",
@@ -1673,8 +1673,8 @@ window.APPLICATIONS = {
     "modality": [
       "fomento"
     ],
-    "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T18:04:54-03:00"
+    "collectionStatus": "unchanged",
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "cegames": {
     "category": "closed",
@@ -1735,7 +1735,7 @@ window.APPLICATIONS = {
     "modality": [
       "fomento"
     ],
-    "collectionStatus": "ok",
+    "collectionStatus": "error",
     "lastFetched": "2026-11-05T18:04:01-03:00"
   },
   "gamepnabba": {
@@ -1797,8 +1797,8 @@ window.APPLICATIONS = {
     "modality": [
       "fomento"
     ],
-    "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T18:04:01-03:00"
+    "collectionStatus": "unchanged",
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "petrobrascultural": {
     "category": "closed",
@@ -1859,7 +1859,7 @@ window.APPLICATIONS = {
       "patrocinio"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T18:04:01-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "enelindividual": {
     "category": "current",
@@ -2056,7 +2056,7 @@ window.APPLICATIONS = {
       "pdi"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T20:04:52-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "inova6": {
     "category": "current",
@@ -2120,7 +2120,7 @@ window.APPLICATIONS = {
       "conversivel"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T20:04:52-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "pipeeducacao": {
     "category": "current",
@@ -2191,7 +2191,7 @@ window.APPLICATIONS = {
       "pdi"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T20:04:52-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "nestleconnect": {
     "category": "watch",
@@ -2251,7 +2251,7 @@ window.APPLICATIONS = {
       "parceria"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T17:18:28-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "heinekengreen": {
     "category": "closed",
@@ -2313,7 +2313,7 @@ window.APPLICATIONS = {
       "poc"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T20:04:52-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "cybersec2026": {
     "category": "closed",
@@ -2376,7 +2376,7 @@ window.APPLICATIONS = {
       "royalties"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-05T20:04:52-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "bigfestival2027": {
     "category": "current",
@@ -2439,8 +2439,8 @@ window.APPLICATIONS = {
     "modality": [
       "vitrine"
     ],
-    "collectionStatus": "ok",
-    "lastFetched": "2026-11-06T10:33:23-03:00"
+    "collectionStatus": "unchanged",
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "cobstartups2": {
     "category": "current",
@@ -2503,8 +2503,8 @@ window.APPLICATIONS = {
     "modality": [
       "premio"
     ],
-    "collectionStatus": "ok",
-    "lastFetched": "2026-11-06T10:33:23-03:00"
+    "collectionStatus": "unchanged",
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "epicaimegajam": {
     "category": "current",
@@ -2567,7 +2567,7 @@ window.APPLICATIONS = {
     "modality": [
       "premio"
     ],
-    "collectionStatus": "ok",
+    "collectionStatus": "error",
     "lastFetched": "2026-11-06T10:33:23-03:00"
   },
   "outersloth": {
@@ -2634,7 +2634,7 @@ window.APPLICATIONS = {
       "receita"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-06T10:33:23-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "kowloonkepler": {
     "category": "current",
@@ -2700,7 +2700,7 @@ window.APPLICATIONS = {
       "financiamento"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-06T10:33:23-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "googleplaylatam": {
     "category": "watch",
@@ -2761,7 +2761,7 @@ window.APPLICATIONS = {
       "bolsa"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-06T10:33:23-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "epicmegagrants": {
     "category": "watch",
@@ -2884,7 +2884,7 @@ window.APPLICATIONS = {
       "bolsa"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-06T10:33:23-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "gamedevtvfund": {
     "category": "watch",
@@ -2944,8 +2944,8 @@ window.APPLICATIONS = {
     "modality": [
       "patrocinio"
     ],
-    "collectionStatus": "ok",
-    "lastFetched": "2026-11-06T10:33:23-03:00"
+    "collectionStatus": "unchanged",
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "galacompetition": {
     "category": "watch",
@@ -3006,7 +3006,7 @@ window.APPLICATIONS = {
       "vitrine"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-06T10:33:23-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "brasiltapragame": {
     "category": "closed",
@@ -3133,7 +3133,7 @@ window.APPLICATIONS = {
       "fomento"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-06T10:33:23-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "riofilme5": {
     "category": "closed",
@@ -3196,7 +3196,7 @@ window.APPLICATIONS = {
       "fomento"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-06T10:33:23-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "sampagames5": {
     "category": "closed",
@@ -3260,7 +3260,7 @@ window.APPLICATIONS = {
       "aceleracao"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-06T10:33:23-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "sebraegames2026": {
     "category": "closed",
@@ -3321,7 +3321,7 @@ window.APPLICATIONS = {
       "vitrine"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-06T10:33:23-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "facdf2026": {
     "category": "closed",
@@ -3448,7 +3448,7 @@ window.APPLICATIONS = {
       "aceleracao"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-06T10:33:23-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   },
   "igf2027": {
     "category": "closed",
@@ -3509,6 +3509,6 @@ window.APPLICATIONS = {
       "vitrine"
     ],
     "collectionStatus": "ok",
-    "lastFetched": "2026-11-06T10:33:23-03:00"
+    "lastFetched": "2026-11-06T11:21:11-03:00"
   }
 };
