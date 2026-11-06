@@ -19,3 +19,5 @@ Previa: python -m http.server 8765 --bind 127.0.0.1 --directory dist
 Validacao: python -m unittest discover -s collector -p 'test_*.py' -v e node collector/test_filters.cjs.
 
 Preservar .openai/hosting.json e reutilizar o mesmo projeto Sites.
+
+Exportacao PDF: botao Exportar PDF baixa diretamente as fichas que passam pelos filtros atuais (incluindo favoritos e situacao). Inclui prazo, apoio, abrangencia, CNPJ, documentos, impedimentos, pendencias, fontes clicaveis, data e filtros. Para tudo: Todas + limpar filtros. Geracao local no navegador, sem servico externo. Implementacao em dist/pdf-export.js; jsPDF 4.2.1 MIT em dist/lib/ com licenca preservada. Nao usa captura da tela nem janela de impressao.

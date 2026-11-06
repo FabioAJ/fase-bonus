@@ -34,12 +34,26 @@ function render(){
  const list=opportunities.filter(matches),focused=document.activeElement?.dataset?.favorite;
  $('listHeading').textContent=categories.find(([key])=>key===state.scope)[1];
  $('resultCount').textContent=`${list.length} ${list.length===1?'ficha':'fichas'}`;
+ $('exportPdf').disabled=list.length===0;
  $('scopeButtons').innerHTML=categories.map(([value,label])=>`<button data-scope="${value}" aria-pressed="${state.scope===value}" class="scope-button ${state.scope===value?'active':''}">${label}<span>${value==='all'?opportunities.length:opportunities.filter(o=>categoryOf(o)===value).length}</span></button>`).join('');
  $('favoriteCount').textContent=favorites.size;$('favoriteFilter').setAttribute('aria-pressed',String(state.favorite));$('favoriteFilter').classList.toggle('active',state.favorite);
  $('clearFilters').hidden=!($('search').value||$('region').value||$('uf').value||$('topic').value||$('cnpj').value||state.favorite||state.scope!=='current');
  $('cards').innerHTML=list.length?list.map(cardHTML).join(''):'<div class="empty"><h3>Nenhuma ficha encontrada</h3><p>Tente “Todas” ou remova os filtros.</p><button class="button secondary" data-reset>Limpar filtros</button></div>';
  if(focused)(document.querySelector(`[data-favorite="${CSS.escape(focused)}"]`)||$('favoriteFilter')).focus({preventScroll:true});
 }
+$('exportPdf').addEventListener('click',async()=>{
+ const list=opportunities.filter(matches);
+ if(!list.length)return toast('Nenhuma ficha para exportar. Ajuste os filtros.');
+ const button=$('exportPdf');button.disabled=true;button.textContent='Gerando PDF…';
+ try{
+  const selected=id=>$(id).selectedOptions[0].textContent;
+  const filters=[categories.find(([key])=>key===state.scope)[1],`Território: ${selected('region')}`,`Estado: ${selected('uf')}`,`CNPJ na inscrição: ${selected('cnpj')}`,`Tema: ${selected('topic')}`,state.favorite?'Somente favoritos':'', $('search').value?`Busca: ${$('search').value}`:''].filter(Boolean);
+  const pdf=window.RADAR_PDF.build({opportunities:list,apps,checked:window.RADAR.checked,horizon:window.RADAR.horizon,filters,categoryOf,profileLabel});
+  await pdf.save(`radar-games-${todayISO}-${list.length}-fichas.pdf`,{returnPromise:true});
+  toast(`PDF gerado com ${list.length} ${list.length===1?'ficha':'fichas'}. Confira os downloads.`);
+ }catch(error){console.error('Falha na exportação PDF',error);toast('Não foi possível gerar o PDF. Recarregue a página e tente novamente.');}
+ finally{button.textContent='Exportar PDF';button.disabled=opportunities.filter(matches).length===0;}
+});
 function reset(){state.scope='all';state.favorite=false;state.searching=false;$('search').value='';$('region').value='';$('uf').value='';$('topic').value='';$('cnpj').value='';render();}
 function route(){const hash=location.hash.slice(1),panel=hash==='fontes'?'sources':hash==='plano'?'plan':'opportunities';document.querySelectorAll('.panel').forEach(p=>p.hidden=p.id!==panel);document.querySelectorAll('[data-panel]').forEach(a=>{const active=a.dataset.panel===panel;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});requestAnimationFrame(()=>{document.documentElement.scrollTop=0;document.body.scrollTop=0;});}
 $('scopeButtons').addEventListener('click',e=>{const b=e.target.closest('[data-scope]');if(b){state.scope=b.dataset.scope;render();document.querySelector(`[data-scope="${state.scope}"]`).focus({preventScroll:true});}});
