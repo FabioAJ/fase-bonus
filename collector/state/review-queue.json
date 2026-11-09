@@ -200,6 +200,16 @@
     "kind": "document"
   },
   {
+    "candidate_id": "22405e14e43fa390",
+    "source_ids": [
+      "bndes"
+    ],
+    "url": "http://garagem.bndes.gov.br/formulario",
+    "label": "Painel de Inscrições",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
     "candidate_id": "14494b3ba3877ded",
     "source_ids": [
       "indiefund"
@@ -300,12 +310,32 @@
     "kind": "candidate_or_listing"
   },
   {
-    "candidate_id": "523a85342f19a5dc",
+    "candidate_id": "934f011e67583195",
     "source_ids": [
       "bhtec"
     ],
-    "url": "https://bhtec.org.br/2024/10/31/tcc-lab-amplia-horizontes-e-cria-oportunidades-para-estudantes-em-reta-final-de-curso/",
-    "label": "TCC Lab amplia horizontes e cria oportunidades para estudantes em reta final de curso",
+    "url": "https://bhtec.org.br/2026/08/11/bh-tec-reune-hospitais-para-transformar-desafios-do-sus-em-agenda-de-inovacao/",
+    "label": "/2026/08/11/bh-tec-reune-hospitais-para-transformar-desafios-do-sus-em-agenda-de-inovacao/",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "5f2ea2dcfb0ee242",
+    "source_ids": [
+      "bhtec"
+    ],
+    "url": "https://bhtec.org.br/2026/10/09/ia-na-pratica-empresas-da-comunidade-bh-tec-compartilham-aplicacoes-e-desafios-da-inteligencia-artificial/",
+    "label": "/2026/10/09/ia-na-pratica-empresas-da-comunidade-bh-tec-compartilham-aplicacoes-e-desafios-da-inteligencia-artificial/",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "617561823fe56919",
+    "source_ids": [
+      "bhtec"
+    ],
+    "url": "https://bhtec.org.br/2025/09/07/mercado-net-zero-o-meio-por-onde-o-impacto-acontece-conheca-a-startup-que-transforma-carbono-em-oportunidades/",
+    "label": "Mercado Net Zero: ‘O meio por onde o impacto acontece’, conheça a startup que transforma carbono em oportunidades",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -590,16 +620,6 @@
     "kind": "candidate_or_listing"
   },
   {
-    "candidate_id": "016ddfcfcba17e1a",
-    "source_ids": [
-      "secultgo"
-    ],
-    "url": "https://goias.gov.br/cultura/inscricoes-para-edital-ocupa-goias-mitsp-2027-comecam-nesta-quarta-feira-4-11/",
-    "label": "/cultura/inscricoes-para-edital-ocupa-goias-mitsp-2027-comecam-nesta-quarta-feira-4-11/",
-    "requires_review": true,
-    "kind": "candidate_or_listing"
-  },
-  {
     "candidate_id": "4405ee2652cd32b0",
     "source_ids": [
       "secultmg"
@@ -706,16 +726,6 @@
     ],
     "url": "https://www.secult.mg.gov.br/noticias-artigos/8874-governo-de-minas-destinara-r-8-milhoes-a-edital-inedito-para-o-jequitinhonha",
     "label": "Notícias    Governo de Minas destinará R$ 8 milhões a edital inédito para o Jequitinhonha     21 Outubro 2026   Pela primeira vez, a Secult-MG lançará um edital exclusivo para a re",
-    "requires_review": true,
-    "kind": "candidate_or_listing"
-  },
-  {
-    "candidate_id": "138734006d47cd81",
-    "source_ids": [
-      "secultmg"
-    ],
-    "url": "https://www.secult.mg.gov.br/noticias-artigos/8872-dia-das-criancas-reune-programacao-especial-em-espacos-culturais-e-parques-de-minas",
-    "label": "Notícias    Dia das Crianças reúne programação especial em espaços culturais e parques de Minas     10 Outubro 2026   Equipamentos culturais e parques estaduais oferecem diversas a",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -1610,6 +1620,16 @@
     "kind": "document"
   },
   {
+    "candidate_id": "411ddedcefc5b2ce",
+    "source_ids": [
+      "cybersec2026"
+    ],
+    "url": "https://cybersecgames.com/pages/cybersec-games-night-2026",
+    "label": "Book your place!",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
     "candidate_id": "e7b1de64d048ea7b",
     "source_ids": [
       "cybersec2026"
@@ -2326,16 +2346,6 @@
     "kind": "candidate_or_listing"
   },
   {
-    "candidate_id": "7bc139eca362002d",
-    "source_ids": [
-      "sebraegames2026"
-    ],
-    "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/programas-de-aceleracao-de-startups-incentivam-inovacao-e-desenvolvimento-no-pais/",
-    "label": "Programas de aceleração de startups incentivam inovação e desenvolvimento no país",
-    "requires_review": true,
-    "kind": "candidate_or_listing"
-  },
-  {
     "candidate_id": "57229a477e40824c",
     "source_ids": [
       "sebraegames2026",
@@ -2827,12 +2837,12 @@
     "kind": "candidate_or_listing"
   },
   {
-    "candidate_id": "e7522f7a09c5140e",
+    "candidate_id": "6b6c20f4b5a17a7c",
     "source_ids": [
       "itchjams"
     ],
-    "url": "https://itch.io/jams/upcoming?page=5",
-    "label": "5",
+    "url": "https://itch.io/jams/upcoming?page=6",
+    "label": "6",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -2853,16 +2863,6 @@
     ],
     "url": "https://itch.io/jam/gmtk-2027",
     "label": "/jam/gmtk-2027",
-    "requires_review": true,
-    "kind": "candidate_or_listing"
-  },
-  {
-    "candidate_id": "cbbbf4fc667974a6",
-    "source_ids": [
-      "itchjams"
-    ],
-    "url": "https://itch.io/jam/gdevelop-big-game-jam-10",
-    "label": "/jam/gdevelop-big-game-jam-10",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -2913,16 +2913,6 @@
     ],
     "url": "https://itch.io/jam/godot-wild-jam-99",
     "label": "/jam/godot-wild-jam-99",
-    "requires_review": true,
-    "kind": "candidate_or_listing"
-  },
-  {
-    "candidate_id": "cdbc03ef1d1f57a0",
-    "source_ids": [
-      "itchjams"
-    ],
-    "url": "https://itch.io/jam/shroomjam-2026",
-    "label": "ShroomJam 2026",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -2987,22 +2977,32 @@
     "kind": "candidate_or_listing"
   },
   {
-    "candidate_id": "1e0a1f9a96e40f5b",
+    "candidate_id": "2f96e3b50cc3b8fb",
     "source_ids": [
       "itchjams"
     ],
-    "url": "https://itch.io/jam/pizza-jam-pizza-prize-17",
-    "label": "/jam/pizza-jam-pizza-prize-17",
+    "url": "https://itch.io/jam/hand-crafted-jam",
+    "label": "/jam/hand-crafted-jam",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
   {
-    "candidate_id": "9a27ec202cf94144",
+    "candidate_id": "691ace0971805184",
     "source_ids": [
       "itchjams"
     ],
-    "url": "https://itch.io/jam/spooky-game-jam-26",
-    "label": "/jam/spooky-game-jam-26",
+    "url": "https://itch.io/jam/game-writing-sig-arcjam-2026",
+    "label": "/jam/game-writing-sig-arcjam-2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "b19cca10045cc43f",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/finishyourgamejam2026",
+    "label": "/jam/finishyourgamejam2026",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -3013,16 +3013,6 @@
     ],
     "url": "https://itch.io/jam/3x3x3-jam",
     "label": "/jam/3x3x3-jam",
-    "requires_review": true,
-    "kind": "candidate_or_listing"
-  },
-  {
-    "candidate_id": "2f96e3b50cc3b8fb",
-    "source_ids": [
-      "itchjams"
-    ],
-    "url": "https://itch.io/jam/hand-crafted-jam",
-    "label": "/jam/hand-crafted-jam",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -3057,42 +3047,12 @@
     "kind": "candidate_or_listing"
   },
   {
-    "candidate_id": "b19cca10045cc43f",
-    "source_ids": [
-      "itchjams"
-    ],
-    "url": "https://itch.io/jam/finishyourgamejam2026",
-    "label": "/jam/finishyourgamejam2026",
-    "requires_review": true,
-    "kind": "candidate_or_listing"
-  },
-  {
-    "candidate_id": "d3c7af56e7ebf43f",
-    "source_ids": [
-      "itchjams"
-    ],
-    "url": "https://itch.io/jam/grassroots-game-jam-2026",
-    "label": "Grassroots Game Jam 2026",
-    "requires_review": true,
-    "kind": "candidate_or_listing"
-  },
-  {
     "candidate_id": "d754e1fffdc84852",
     "source_ids": [
       "itchjams"
     ],
     "url": "https://itch.io/jam/touhou-jam-17",
     "label": "/jam/touhou-jam-17",
-    "requires_review": true,
-    "kind": "candidate_or_listing"
-  },
-  {
-    "candidate_id": "eddcf6d3ee455cea",
-    "source_ids": [
-      "itchjams"
-    ],
-    "url": "https://itch.io/jam/comfy-jam-winter-2027",
-    "label": "/jam/comfy-jam-winter-2027",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -3107,12 +3067,22 @@
     "kind": "candidate_or_listing"
   },
   {
-    "candidate_id": "e98d09307031383f",
+    "candidate_id": "d3c7af56e7ebf43f",
     "source_ids": [
       "itchjams"
     ],
-    "url": "https://itch.io/jam/underscore-jam",
-    "label": "/jam/underscore-jam",
+    "url": "https://itch.io/jam/grassroots-game-jam-2026",
+    "label": "Grassroots Game Jam 2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "eddcf6d3ee455cea",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/comfy-jam-winter-2027",
+    "label": "/jam/comfy-jam-winter-2027",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -3123,6 +3093,36 @@
     ],
     "url": "https://itch.io/jam/craftpix-indie-jam-2-2026",
     "label": "/jam/craftpix-indie-jam-2-2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "566477063cf1663c",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/micro-jam-069",
+    "label": "/jam/micro-jam-069",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "0064ac5a74b12ca5",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/procjam",
+    "label": "/jam/procjam",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "e98d09307031383f",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/underscore-jam",
+    "label": "/jam/underscore-jam",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -3147,16 +3147,6 @@
     "kind": "candidate_or_listing"
   },
   {
-    "candidate_id": "0064ac5a74b12ca5",
-    "source_ids": [
-      "itchjams"
-    ],
-    "url": "https://itch.io/jam/procjam",
-    "label": "/jam/procjam",
-    "requires_review": true,
-    "kind": "candidate_or_listing"
-  },
-  {
     "candidate_id": "21f8199f12ae7a25",
     "source_ids": [
       "itchjams"
@@ -3167,32 +3157,72 @@
     "kind": "candidate_or_listing"
   },
   {
+    "candidate_id": "99213d54963ada1c",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/monochrome-jam-by-clyde",
+    "label": "/jam/monochrome-jam-by-clyde",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "151f41297b714572",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/uplifting-game-jam-cash-prizes-10",
+    "label": "/jam/uplifting-game-jam-cash-prizes-10",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "60d06c5c5b078a07",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/gmt-jam-1",
+    "label": "/jam/gmt-jam-1",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "c15f39bb29b19e11",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/rpg-latam-jam-2026",
+    "label": "/jam/rpg-latam-jam-2026",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "95d06bf2ac948e59",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/liberen-el-parana-gamejam",
+    "label": "/jam/liberen-el-parana-gamejam",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
+    "candidate_id": "314e3b653b9f0b0b",
+    "source_ids": [
+      "itchjams"
+    ],
+    "url": "https://itch.io/jam/glam-jam-iii",
+    "label": "/jam/glam-jam-iii",
+    "requires_review": true,
+    "kind": "candidate_or_listing"
+  },
+  {
     "candidate_id": "7354ae4d8ebdf4ec",
     "source_ids": [
       "itchjams"
     ],
     "url": "https://itch.io/jam/raise-2026",
     "label": "/jam/raise-2026",
-    "requires_review": true,
-    "kind": "candidate_or_listing"
-  },
-  {
-    "candidate_id": "566477063cf1663c",
-    "source_ids": [
-      "itchjams"
-    ],
-    "url": "https://itch.io/jam/micro-jam-069",
-    "label": "/jam/micro-jam-069",
-    "requires_review": true,
-    "kind": "candidate_or_listing"
-  },
-  {
-    "candidate_id": "37dbcfb85ac9add5",
-    "source_ids": [
-      "itchjams"
-    ],
-    "url": "https://itch.io/jam/super-free-ai-game-jam-2",
-    "label": "/jam/super-free-ai-game-jam-2",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
@@ -3217,42 +3247,22 @@
     "kind": "candidate_or_listing"
   },
   {
-    "candidate_id": "95d06bf2ac948e59",
+    "candidate_id": "d49d3438ae24ca77",
     "source_ids": [
       "itchjams"
     ],
-    "url": "https://itch.io/jam/liberen-el-parana-gamejam",
-    "label": "/jam/liberen-el-parana-gamejam",
+    "url": "https://itch.io/jam/lovesick-vn26",
+    "label": "/jam/lovesick-vn26",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
   {
-    "candidate_id": "c15f39bb29b19e11",
+    "candidate_id": "ef7e65c762b1070f",
     "source_ids": [
       "itchjams"
     ],
-    "url": "https://itch.io/jam/rpg-latam-jam-2026",
-    "label": "/jam/rpg-latam-jam-2026",
-    "requires_review": true,
-    "kind": "candidate_or_listing"
-  },
-  {
-    "candidate_id": "151f41297b714572",
-    "source_ids": [
-      "itchjams"
-    ],
-    "url": "https://itch.io/jam/uplifting-game-jam-cash-prizes-10",
-    "label": "/jam/uplifting-game-jam-cash-prizes-10",
-    "requires_review": true,
-    "kind": "candidate_or_listing"
-  },
-  {
-    "candidate_id": "314e3b653b9f0b0b",
-    "source_ids": [
-      "itchjams"
-    ],
-    "url": "https://itch.io/jam/glam-jam-iii",
-    "label": "/jam/glam-jam-iii",
+    "url": "https://itch.io/jam/-pixel-deck-jam-1",
+    "label": "/jam/-pixel-deck-jam-1",
     "requires_review": true,
     "kind": "candidate_or_listing"
   },
